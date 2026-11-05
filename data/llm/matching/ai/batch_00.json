@@ -1,0 +1,174 @@
+{
+"P01-C1": {
+"Height": "g",
+"Stem general": "g",
+"Leaf size": "a",
+"Leaf shape": "p",
+"Flower colour": "g"
+},
+"P02-C1": {
+"Life form": "p",
+"Leaf shape": "p",
+"Leaf edge": "g",
+"Leaf surface": "g",
+"Leaf detail 1": "a",
+"Flower colour": "p",
+"Fruit general": "p",
+"Fruit structure": "p",
+"Habitat": "g"
+},
+"P03-C1": {
+"Habitus general": "g",
+"Leaf shape": "g",
+"Leaf detail 1": "g",
+"Fruit general": "g"
+},
+"P04-C1": {
+"Height": "g",
+"Fruit general": "g",
+"Fruit shape": "g",
+"Fruit colour": "g"
+},
+"P04-C2": {
+"Height": "p",
+"Stem general": "a",
+"Stem detail 1": "g",
+"Fruit general": "n",
+"Fruit shape": "a",
+"Fruit colour": "g"
+},
+"P05-C1": {
+"Leaf size": "a",
+"Leaf shape": "p",
+"Leaf surface": "g",
+"Leaf detail 1": "a",
+"Fruit general": "a",
+"Fruit colour": "g"
+},
+"P05-C2": {
+"Leaf size": "a",
+"Leaf shape": "p",
+"Leaf surface": "g",
+"Leaf detail 1": "a",
+"Fruit general": "a",
+"Fruit colour": "g"
+},
+"P06-C1": {
+"Stem general": "a",
+"Stem detail 1": "a",
+"Flower general": "a",
+"Fruit general": "a",
+"Fruit shape": "g",
+"Fruit colour": "g"
+},
+"P06-C2": {
+"Stem general": "a",
+"Stem detail 1": "g",
+"Flower general": "a",
+"Fruit general": "a",
+"Fruit shape": "g",
+"Fruit colour": "g"
+},
+"P06-C3": {
+"Stem general": "a",
+"Stem detail 1": "p",
+"Flower general": "p",
+"Fruit general": "n",
+"Fruit shape": "n",
+"Fruit colour": "a"
+},
+"P07-C1": {
+"Habitus general": "p",
+"Leaf general": "p",
+"Leaf shape": "g",
+"Flower general": "p",
+"Flower colour": "n",
+"Flower detail 01": "g",
+"Root general": "g",
+"Root colour": "a"
+},
+"P07-C2": {
+"Habitus general": "p",
+"Leaf general": "n",
+"Leaf shape": "p",
+"Flower general": "p",
+"Flower colour": "n",
+"Flower detail 01": "g",
+"Root general": "n",
+"Root colour": "a"
+},
+"P07-C3": {
+"Habitus general": "n",
+"Leaf general": "p",
+"Leaf shape": "p",
+"Flower general": "p",
+"Flower colour": "n",
+"Flower detail 01": "g",
+"Root general": "g",
+"Root colour": "a"
+},
+"P08-C1": {
+"Stem general": "p",
+"Stem detail 1": "p",
+"Leaf size": "p",
+"Leaf surface": "p",
+"Leaf detail 1": "p",
+"Flower colour": "g"
+},
+"P09-C1": {
+"Leaf general": "g",
+"Leaf shape": "g",
+"Flower general": "p",
+"Flower colour": "g",
+"Flower detail 01": "g",
+"Ethnobotany": "a",
+"Habitat": "p"
+},
+"P09-C2": {
+"Leaf general": "p",
+"Leaf shape": "g",
+"Flower general": "p",
+"Flower colour": "p",
+"Flower detail 01": "p",
+"Habitat": "p"
+},
+"P09-C3": {
+"Leaf general": "n",
+"Leaf shape": "g",
+"Flower general": "g",
+"Flower colour": "n",
+"Flower detail 01": "g",
+"Habitat": "g"
+},
+"P09-C4": {
+"Leaf general": "g",
+"Leaf shape": "g",
+"Flower general": "p",
+"Flower colour": "g",
+"Flower detail 01": "g",
+"Ethnobotany": "a",
+"Habitat": "p"
+},
+"P09-C5": {
+"Leaf general": "p",
+"Leaf shape": "p",
+"Flower general": "g",
+"Flower colour": "g",
+"Flower detail 01": "g",
+"Habitat": "p"
+},
+"P09-C6": {
+"Leaf general": "p",
+"Leaf shape": "g",
+"Flower general": "p",
+"Flower colour": "n",
+"Flower detail 01": "p",
+"Habitat": "g"
+},
+"P10-C1": {
+"Habitus general": "p",
+"Stem general": "a",
+"Stem detail 1": "a",
+"Leaf general": "g"
+}
+}

@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# The same files as the unpacked .xlsx and .pdf next to it
+data/raw/figshare/lardos2024_research_data.zip

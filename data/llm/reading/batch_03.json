@@ -1,0 +1,163 @@
+[
+ {"key": "melanthion", "chapter": "3.79",
+  "characters": {
+   "Life form": {"en": "small shrub", "greek": "θαμνίσκος ἐστὶ"},
+   "Stem general": {"en": "thin-stalked", "greek": "λεπτόκαρφος"},
+   "Height": {"en": "two spans or more (≈46 cm+)", "greek": "δισπίθαμος ἢ καὶ μείζων"},
+   "Leaf size": {"en": "small", "greek": "φύλλα ἔχων μικρὰ"},
+   "Fruit general": {"en": "a slender small head at the top", "greek": "ἄκρου λεπτόν, μικρόν"},
+   "Fruit shape": {"en": "oblong", "greek": "ἐπίμηκες"},
+   "Fruit structure": {"en": "partitions inside, holding the seed", "greek": "ἔχον κατὰ τὰ ἐντὸς διαφράγματα"},
+   "Seed colour": {"en": "black", "greek": "τὸ σπέρμα μέλαν"},
+   "Taste properties": {"en": "seed pungent", "greek": "μέλαν, δριμύ"},
+   "Smell properties": {"en": "seed fragrant", "greek": "δριμύ, εὐῶδες"},
+   "Ethnobotany": {"en": "seed sprinkled on bread", "greek": "καταπασσόμενον εἰς ἄρτους"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like erigeron's, but much finer", "greek": "ὥσπερ ἠριγέροντος, λεπτότερα δὲ πολλῷ"},
+   "Fruit": {"en": "head like poppy's", "greek": "ὡς μήκωνος"}}},
+
+ {"key": "alyssos", "chapter": "3.91", "seen_expert_reading": true,
+  "characters": {
+   "Life form": {"en": "small undershrub", "greek": "φρυγάνιόν ἐστιν"},
+   "Habitus general": {"en": "somewhat rough", "greek": "ἐστιν ὑπότραχυ"},
+   "Stem general": {"en": "single-stemmed", "greek": "μονόκαυλον"},
+   "Leaf shape": {"en": "round", "greek": "φύλλα ἔχον στρογγύλα"},
+   "Fruit general": {"en": "fruit borne beside the leaves", "greek": "παῤ οἷς ὁ καρπὸς"},
+   "Fruit shape": {"en": "like small double shields", "greek": "ὡς ἀσπιδίσκια διπλᾶ"},
+   "Seed general": {"en": "seed inside, flattish", "greek": "τὸ σπέρμα ὑπόπλατυ"},
+   "Habitat": {"en": "mountainous and rough places", "greek": "φύεται ἐν ὀρεινοῖς καὶ τραχέσι χωρίοις"},
+   "Ethnobotany": {"en": "hung in a house, said to keep people and animals healthy", "greek": "κρεμάμενον δὲ ἐν οἰκίᾳ ὑγιεινὸν λέγεται εἶναι"}},
+  "comparisons": {}},
+
+ {"key": "prasion", "chapter": "3.105",
+  "characters": {
+   "Life form": {"en": "shrub", "greek": "θάμνος ἐστιν"},
+   "Habitus general": {"en": "many branches from one root", "greek": "ἀπὸ μιᾶς ῥίζης πολύκλαδος"},
+   "Habitus detail 1": {"en": "somewhat hairy, white", "greek": "ὑπόδασυς, λευκός"},
+   "Stem general": {"en": "rods square", "greek": "τετράγωνος τοῖς ῥαβδίοις"},
+   "Leaf size": {"en": "as big as the thumb", "greek": "φύλλον δὲ τῷ μεγάλῳ δακτύλῳ ἴσον"},
+   "Leaf shape": {"en": "roundish", "greek": "ὑποστρόγγυλον"},
+   "Leaf surface": {"en": "hairy, wrinkled", "greek": "δασύ, ἔρρυσον"},
+   "Taste properties": {"en": "leaf bitter", "greek": "πικρὸν τῇ γεύσει"},
+   "Flower general": {"en": "flowers at intervals along the stems", "greek": "ἐκ διαστημάτων δὲ ἐπὶ τῶν καυλῶν"},
+   "Flower detail 01": {"en": "in whorls, rough", "greek": "οἱονεὶ σφόνδυλοι, τραχέα"},
+   "Seed general": {"en": "seed set with the flowers in the whorls", "greek": "τὸ σπέρμα καὶ τὰ ἄνθη"},
+   "Habitat": {"en": "around house plots and ruins", "greek": "φύεται περὶ τὰ οἰκόπεδα καὶ ἐρείπια"}},
+  "comparisons": {}},
+
+ {"key": "triphylli", "chapter": "3.109",
+  "characters": {
+   "Life form": {"en": "shrub", "greek": "θάμνος ἐστὶ"},
+   "Height": {"en": "a cubit or more (≈46 cm+)", "greek": "πήχεως ἢ μείζων"},
+   "Stem general": {"en": "rods thin", "greek": "ῥάβδους ἔχων λεπτάς"},
+   "Stem detail 1": {"en": "black", "greek": "λεπτάς, μελαίνας"},
+   "Stem detail 2": {"en": "many side shoots", "greek": "παραφυάδας πολλὰς ἐχούσας"},
+   "Leaf general": {"en": "three leaves at each shoot", "greek": "τρία καθ᾿ ἑκάστην βλάστησιν"},
+   "Smell properties": {"en": "grown leaves smell of bitumen", "greek": "αὐξηθέντων δὲ ἀσφάλτου"},
+   "Flower colour": {"en": "purple", "greek": "ἄνθος δὲ ἀνίησι πορφυροῦν"},
+   "Seed general": {"en": "flattish, somewhat hairy", "greek": "σπέρμα δὲ ὑπόπλατυ, ὑπόδασυ"},
+   "Seed detail 1": {"en": "a horn-like point at one end", "greek": "ἐκ τοῦ ἑτέρου πέρατος ὥσπερ κεραίαν ἔχον"},
+   "Root general": {"en": "thin, long, firm", "greek": "ῥίζα λεπτή, μακρά, στερεά"}},
+  "comparisons": {
+   "Stem": {"en": "rods rush-like", "greek": "σχοινώδεις"},
+   "Leaf": {"en": "leaves like the lotus tree's", "greek": "φύλλα ὅμοια λωτῷ τῷ δένδρῳ"},
+   "Properties": {"en": "young leaves smell of rue", "greek": "ἄρτι μὲν φυομένων πηγάνου"}}},
+
+ {"key": "konyza (greater)", "chapter": "3.121",
+  "characters": {
+   "Life form": {"en": "bush", "greek": "ὁ θάμνος"},
+   "Habitus general": {"en": "bigger bush and leaves than the lesser, broader", "greek": "ὑπερέχουσα τῷ θάμνῳ καὶ τοῖς φύλλοις, πλατυτέρα"},
+   "Smell properties": {"en": "heavy-smelling", "greek": "βαρύοσμος"},
+   "Leaf size": {"en": "leaves larger than the lesser kind's", "greek": "τοῖς φύλλοις, πλατυτέρα"},
+   "Leaf surface": {"en": "hairy and greasy", "greek": "δασέα ταῦτα καὶ λιπαρά"},
+   "Height": {"en": "stem two cubits (≈0.9 m)", "greek": "ἡ μὲν μείζων δύο πήχεων ἔχει"},
+   "Flower general": {"en": "flower crumbly", "greek": "ἄνθος ψαφαρόν"},
+   "Flower colour": {"en": "quince-yellow", "greek": "ψαφαρόν, μήλινον"},
+   "Flower detail 01": {"en": "turns to down (pappus)", "greek": "ἐκπαππούμενον"},
+   "Taste properties": {"en": "flower bitterish", "greek": "μήλινον, ὑπόπικρον"},
+   "Root general": {"en": "roots useless", "greek": "ῥίζαι ἄχρηστοι"},
+   "Ethnobotany": {"en": "strewn or burnt it drives off beasts, gnats; kills fleas", "greek": "ὑποστρωννύμενος καὶ θυμιώμενος θηρία διώκειν"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like olive's", "greek": "ἐοίκασι τοῖς φύλλοις ἐλαίᾳ"}}},
+
+ {"key": "konyza (lesser)", "chapter": "3.121",
+  "characters": {
+   "Life form": {"en": "bush", "greek": "ὁ θάμνος"},
+   "Habitus general": {"en": "called the small one", "greek": "μικρά καλεῖται"},
+   "Smell properties": {"en": "more fragrant", "greek": "εὐωδεστέρα οὔσα"},
+   "Leaf surface": {"en": "hairy and greasy", "greek": "δασέα ταῦτα καὶ λιπαρά"},
+   "Height": {"en": "a foot (≈31 cm)", "greek": "ἡ δὲ ἐλάττων ποδός"},
+   "Flower general": {"en": "flower crumbly", "greek": "ἄνθος ψαφαρόν"},
+   "Flower colour": {"en": "quince-yellow", "greek": "ψαφαρόν, μήλινον"},
+   "Flower detail 01": {"en": "turns to down (pappus)", "greek": "ἐκπαππούμενον"},
+   "Taste properties": {"en": "flower bitterish", "greek": "μήλινον, ὑπόπικρον"},
+   "Root general": {"en": "roots useless", "greek": "ῥίζαι ἄχρηστοι"},
+   "Ethnobotany": {"en": "strewn or burnt it drives off beasts, gnats; kills fleas", "greek": "ὑποστρωννύμενος καὶ θυμιώμενος θηρία διώκειν"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like olive's", "greek": "ἐοίκασι τοῖς φύλλοις ἐλαίᾳ"}}},
+
+ {"key": "asplenos, skolopendrion", "chapter": "3.134",
+  "characters": {
+   "Leaf shape": {"en": "like a centipede (the animal)", "greek": "φύλλα ἔχει σκολοπένδρῳ τῷ θηρίῳ ὅμοια"},
+   "Leaf general": {"en": "several leaves from one root", "greek": "πλείονα ἀπὸ μιᾶς"},
+   "Leaf edge": {"en": "incised", "greek": "ἐντετμημένα"},
+   "Leaf detail 1": {"en": "yellowish beneath, green above", "greek": "κάτωθεν ὑπόξανθα καὶ δασέα, ἄνωθεν δὲ χλωρά"},
+   "Leaf surface": {"en": "hairy beneath", "greek": "ὑπόξανθα καὶ δασέα"},
+   "Stem general": {"en": "stemless", "greek": "ἄκαυλα"},
+   "Flower general": {"en": "flowerless", "greek": "ἀνανθῆ"},
+   "Fruit general": {"en": "fruitless", "greek": "ἄκαρπα"},
+   "Habitat": {"en": "on rocks and shady pebble walls", "greek": "φυόμενα ἐν πέτραις καὶ τοίχοις τοῖς ἀπὸ τῶν κοχλάκων παλισκίοις"},
+   "Ethnobotany": {"en": "lore: amulet with a mule's hoof; dug on a moonless night", "greek": "μετὰ ἡμιόνου ὁπλῆς περιαπτομένη"}},
+  "comparisons": {
+   "Leaf": {"en": "cut like polypody's", "greek": "ὡς τὰ τοῦ πολυποδίου"}}},
+
+ {"key": "khamaimelon, in anthemis", "chapter": "3.137",
+  "characters": {
+   "Habitus general": {"en": "bushy, with many axils", "greek": "θαμνοειδεῖς, μασχάλας ἔχοντες πολλάς"},
+   "Height": {"en": "branches a span (≈23 cm)", "greek": "κλῶνες σπιθαμιαῖοι"},
+   "Leaf size": {"en": "small, thin", "greek": "φυλλάρια μικρά, λεπτά"},
+   "Flower general": {"en": "round heads", "greek": "κεφάλια περιφερῆ"},
+   "Flower colour": {"en": "ray petals white, yellow or purple", "greek": "λευκὰ ἢ μήλινα ἢ πορφυρᾶ φυλλάρια"},
+   "Flower detail 01": {"en": "white-and-golden centre, petals set round it", "greek": "ἔνδοθεν μὲν λευκὸν καὶ χρυσίζον ἀνθύλλιον ἔχοντα"},
+   "Habitat": {"en": "rough places and beside roads", "greek": "φύεται δὲ ἐν τόποις τραχέσι καὶ παρά τὰς ὁδούς"},
+   "Ethnobotany": {"en": "names: 'spring flower' (blooms in spring), 'ground-apple' (smell)", "greek": "ἠράνθεμον, ἐπεὶ ἔαρος ἀνθεῖ, οἱ δὲ χαμαίμηλον διὰ τὴν πρὸς τὰ μῆλα ὁμοιότητα τῆς ὀσμῆς"}},
+  "comparisons": {
+   "Properties": {"en": "smell like apples", "greek": "πρὸς τὰ μῆλα ὁμοιότητα τῆς ὀσμῆς"},
+   "Flower": {"en": "ray petals the size of rue's leaves", "greek": "κατὰ μέγεθος πηγάνου"}}},
+
+ {"key": "khamaipitys", "chapter": "3.158",
+  "characters": {
+   "Life form": {"en": "herb", "greek": "πόα ἕρπουσα"},
+   "Habitus general": {"en": "creeping on the ground, somewhat bent", "greek": "ἕρπουσα ἐπὶ γῆς, ὑπόκυρτος"},
+   "Leaf surface": {"en": "hairy", "greek": "λιπαρώτερα καὶ δασέα"},
+   "Leaf general": {"en": "crowded around the branches", "greek": "πυκνὰ περὶ τούς κλάδους"},
+   "Flower general": {"en": "slender", "greek": "ἄνθη δὲ λεπτά"},
+   "Flower colour": {"en": "quince-yellow", "greek": "λεπτά, μήλινα"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like small houseleek's, but thinner and greasier", "greek": "ὅμσια ἀειζῴῳ τῳ μικρῷ, λεπτότερα δὲ καὶ λιπαρώτερα"},
+   "Properties": {"en": "smell of pine", "greek": "ἔχοντα πίτυος"},
+   "Root": {"en": "root like chicory's", "greek": "ῥίζαν δὲ ὡς κιχόριον"}}},
+
+ {"key": "khamaipitys (other)", "chapter": "3.158",
+  "characters": {
+   "Height": {"en": "branches a cubit (≈46 cm)", "greek": "κλάδους ἔχουσα πηχυαίους"},
+   "Stem general": {"en": "branches anchor-curved, thin-twigged", "greek": "ἀγκυροειδεῖς, λεπτοκάρφους"},
+   "Seed colour": {"en": "black", "greek": "σπέρμα δὲ μέλαν"}},
+  "comparisons": {
+   "Leaf": {"en": "foliage like the first kind's", "greek": "κόμην δὲ ἐοικυῖαν τῇ πρὸ αὐτῆς"},
+   "Flower": {"en": "flower like the first kind's", "greek": "τῇ πρὸ αὐτῆς καὶ ἄνθος"},
+   "Properties": {"en": "smells of pine too", "greek": "ὄζει δὲ καὶ αὕτη πίτυος"}}},
+
+ {"key": "khamaipitys (third)", "chapter": "3.158",
+  "characters": {
+   "Life form": {"en": "small herb", "greek": "ἔστι δὲ βοτάνιον"},
+   "Leaf size": {"en": "small, thin", "greek": "ἔχον φυλλάρια λεπτά"},
+   "Leaf detail 1": {"en": "white", "greek": "φυλλάρια λεπτά, λευκά"},
+   "Leaf surface": {"en": "hairy", "greek": "λευκά, δασέα"},
+   "Stem general": {"en": "rough", "greek": "καυλὸν δὲ τραχύν"},
+   "Stem detail 1": {"en": "white", "greek": "τραχύν, λευκόν"},
+   "Flower colour": {"en": "small flowers quince-yellow", "greek": "ἀνθύλλια μήλινα"},
+   "Seed general": {"en": "small seeds at the axils", "greek": "σπερμάτια ἀὲ παρὰ τὰς μασχάλας"}},
+  "comparisons": {
+   "Properties": {"en": "smells of pine too", "greek": "ὄζει δὲ καὶ τοῦτο πίτυος"}}}
+]

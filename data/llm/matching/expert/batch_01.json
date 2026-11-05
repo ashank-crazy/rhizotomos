@@ -1,0 +1,20 @@
+{
+ "P11-C1": {"Height": "n", "Stem general": "p", "Leaf general": "g", "Leaf surface": "p", "Flower colour": "g", "Seed colour": "p"},
+ "P11-C2": {"Height": "g", "Stem general": "p", "Leaf general": "g", "Leaf surface": "p", "Flower colour": "g", "Seed colour": "g"},
+ "P13-C1": {"Habitus general": "p", "Height": "g", "Stem detail 1": "g", "Leaf shape": "g", "Root general": "n", "Habitat": "g", "Distribution": "g"},
+ "P13-C2": {"Habitus general": "p", "Height": "g", "Stem detail 1": "g", "Leaf shape": "g", "Root general": "p", "Habitat": "g", "Distribution": "g"},
+ "P14-C1": {"Height": "g", "Flower general": "g", "Flower colour": "g", "Smell properties": "g", "Ethnobotany": "g", "Distribution": "g"},
+ "P15-C1": {"Stem detail 1": "p", "Leaf shape": "g", "Leaf surface": "g", "Flower general": "g"},
+ "P15-C2": {"Stem detail 1": "p", "Leaf shape": "p", "Leaf surface": "n", "Flower general": "g", "Flower colour": "n"},
+ "P15-C3": {"Stem detail 1": "p", "Leaf shape": "p", "Leaf surface": "p", "Flower general": "g", "Flower colour": "n"},
+ "P16-C1": {"Stem general": "g", "Flower general": "p", "Fruit general": "g", "Root general": "g"},
+ "P16-C2": {"Stem general": "g", "Flower general": "p", "Fruit general": "g", "Root general": "g"},
+ "P16-C3": {"Stem general": "g", "Flower general": "p", "Fruit general": "g", "Root general": "g"},
+ "P17-C1": {"Habitus general": "g", "Habitus detail 1": "g", "Fruit general": "g", "Fruit colour": "p", "Root general": "g"},
+ "P17-C2": {"Habitus general": "g", "Habitus detail 1": "g", "Fruit general": "g", "Fruit colour": "p", "Root general": "g"},
+ "P18-C1": {"Habitus general": "g", "Height": "g", "Stem general": "g", "Fruit general": "g"},
+ "P19-C1": {"Life form": "g", "Flower general": "g", "Root colour": "g"},
+ "P19-C2": {"Life form": "g", "Stem general": "g", "Flower general": "g"},
+ "P19-C3": {"Life form": "g", "Stem general": "g", "Flower general": "g"},
+ "P20-C1": {"Stem detail 1": "p", "Flower general": "g", "Flower colour": "g", "Flower detail 01": "g", "Root detail 1": "g", "Ethnobotany": "p"}
+}

@@ -1,0 +1,4393 @@
+{
+ "plants": {
+  "all": 61,
+  "unseen": 54
+ },
+ "seen_plants": [
+  "adianton",
+  "akanthe aspre",
+  "aloe",
+  "alyssos",
+  "amaranton",
+  "ampelos agria",
+  "staphis agria"
+ ],
+ "reading": {
+  "all": {
+   "characters": {
+    "ours": 576,
+    "experts": 629,
+    "shared": 422,
+    "precision": 0.7326388888888888,
+    "recall": 0.670906200317965,
+    "f1": 0.7004149377593362,
+    "missed_most": [
+     [
+      "Leaf detail 1",
+      16
+     ],
+     [
+      "Habitus detail 1",
+      13
+     ],
+     [
+      "Habitus general",
+      13
+     ],
+     [
+      "Leaf shape",
+      13
+     ],
+     [
+      "Stem detail 1",
+      13
+     ],
+     [
+      "Fruit general",
+      12
+     ]
+    ],
+    "added_most": [
+     [
+      "Stem general",
+      21
+     ],
+     [
+      "Ethnobotany",
+      20
+     ],
+     [
+      "Root general",
+      9
+     ],
+     [
+      "Habitus general",
+      8
+     ],
+     [
+      "Leaf general",
+      8
+     ],
+     [
+      "Seed general",
+      7
+     ]
+    ]
+   },
+   "categories": {
+    "ours": 399,
+    "experts": 393,
+    "shared": 327,
+    "precision": 0.8195488721804511,
+    "recall": 0.8320610687022901,
+    "f1": 0.8257575757575759,
+    "missed_most": [
+     [
+      "Habit",
+      15
+     ],
+     [
+      "Fruit",
+      10
+     ],
+     [
+      "Height",
+      7
+     ],
+     [
+      "Seed",
+      6
+     ],
+     [
+      "Leaf",
+      5
+     ],
+     [
+      "Lifeform",
+      5
+     ]
+    ],
+    "added_most": [
+     [
+      "Ethnobotany",
+      20
+     ],
+     [
+      "Stem",
+      9
+     ],
+     [
+      "Habit",
+      7
+     ],
+     [
+      "Habitat",
+      6
+     ],
+     [
+      "Seed",
+      6
+     ],
+     [
+      "Distribution",
+      5
+     ]
+    ]
+   }
+  },
+  "unseen": {
+   "characters": {
+    "ours": 510,
+    "experts": 560,
+    "shared": 376,
+    "precision": 0.7372549019607844,
+    "recall": 0.6714285714285714,
+    "f1": 0.7028037383177571,
+    "missed_most": [
+     [
+      "Leaf detail 1",
+      13
+     ],
+     [
+      "Stem detail 1",
+      13
+     ],
+     [
+      "Leaf general",
+      12
+     ],
+     [
+      "Fruit general",
+      11
+     ],
+     [
+      "Habitus detail 1",
+      11
+     ],
+     [
+      "Habitus general",
+      11
+     ]
+    ],
+    "added_most": [
+     [
+      "Stem general",
+      20
+     ],
+     [
+      "Ethnobotany",
+      17
+     ],
+     [
+      "Root general",
+      8
+     ],
+     [
+      "Leaf general",
+      7
+     ],
+     [
+      "Seed general",
+      7
+     ],
+     [
+      "Habitus general",
+      6
+     ]
+    ]
+   },
+   "categories": {
+    "ours": 356,
+    "experts": 351,
+    "shared": 295,
+    "precision": 0.8286516853932584,
+    "recall": 0.8404558404558404,
+    "f1": 0.8345120226308345,
+    "missed_most": [
+     [
+      "Habit",
+      13
+     ],
+     [
+      "Fruit",
+      9
+     ],
+     [
+      "Height",
+      5
+     ],
+     [
+      "Leaf",
+      5
+     ],
+     [
+      "Ethnobotany",
+      4
+     ],
+     [
+      "Flower",
+      4
+     ]
+    ],
+    "added_most": [
+     [
+      "Ethnobotany",
+      17
+     ],
+     [
+      "Stem",
+      8
+     ],
+     [
+      "Habit",
+      6
+     ],
+     [
+      "Seed",
+      6
+     ],
+     [
+      "Lifeform",
+      5
+     ],
+     [
+      "Distribution",
+      4
+     ]
+    ]
+   }
+  }
+ },
+ "matching": {
+  "Claude (pass E)": {
+   "all": {
+    "pairs": 800,
+    "expert_absent": 0,
+    "expert_missing": 2,
+    "compared": 798,
+    "agreement": 0.7092731829573935,
+    "kappa": 0.49054345223844864,
+    "kappa_linear": 0.5558400356218518,
+    "direction_agreement": 0.9235588972431078,
+    "confusion": {
+     "no": {
+      "no": 49,
+      "partial": 29,
+      "good": 3
+     },
+     "partial": {
+      "no": 24,
+      "partial": 180,
+      "good": 81
+     },
+     "good": {
+      "no": 5,
+      "partial": 90,
+      "good": 337
+     },
+     "absent": {
+      "no": 0,
+      "partial": 0,
+      "good": 0
+     }
+    }
+   },
+   "unseen": {
+    "pairs": 672,
+    "expert_absent": 0,
+    "expert_missing": 2,
+    "compared": 670,
+    "agreement": 0.7194029850746269,
+    "kappa": 0.5012512274699863,
+    "kappa_linear": 0.5639484172246749,
+    "direction_agreement": 0.9313432835820895,
+    "confusion": {
+     "no": {
+      "no": 39,
+      "partial": 20,
+      "good": 2
+     },
+     "partial": {
+      "no": 20,
+      "partial": 150,
+      "good": 60
+     },
+     "good": {
+      "no": 4,
+      "partial": 82,
+      "good": 293
+     },
+     "absent": {
+      "no": 0,
+      "partial": 0,
+      "good": 0
+     }
+    }
+   },
+   "ci": {
+    "agreement": [
+     0.666,
+     0.748
+    ],
+    "kappa_linear": [
+     0.485,
+     0.615
+    ]
+   }
+  },
+  "word overlap": {
+   "all": {
+    "pairs": 800,
+    "expert_absent": 0,
+    "expert_missing": 2,
+    "compared": 798,
+    "agreement": 0.23809523809523808,
+    "kappa": 0.05913015149047085,
+    "kappa_linear": 0.09134897026042088,
+    "direction_agreement": 0.3283208020050125,
+    "confusion": {
+     "no": {
+      "no": 77,
+      "partial": 3,
+      "good": 1
+     },
+     "partial": {
+      "no": 243,
+      "partial": 17,
+      "good": 25
+     },
+     "good": {
+      "no": 289,
+      "partial": 47,
+      "good": 96
+     },
+     "absent": {
+      "no": 0,
+      "partial": 0,
+      "good": 0
+     }
+    }
+   },
+   "unseen": {
+    "pairs": 672,
+    "expert_absent": 0,
+    "expert_missing": 2,
+    "compared": 670,
+    "agreement": 0.23134328358208955,
+    "kappa": 0.05325687318224237,
+    "kappa_linear": 0.08340161744273045,
+    "direction_agreement": 0.3283582089552239,
+    "confusion": {
+     "no": {
+      "no": 57,
+      "partial": 3,
+      "good": 1
+     },
+     "partial": {
+      "no": 194,
+      "partial": 16,
+      "good": 20
+     },
+     "good": {
+      "no": 252,
+      "partial": 45,
+      "good": 82
+     },
+     "absent": {
+      "no": 0,
+      "partial": 0,
+      "good": 0
+     }
+    }
+   },
+   "ci": {
+    "agreement": [
+     0.209,
+     0.269
+    ],
+    "kappa_linear": [
+     0.066,
+     0.114
+    ]
+   }
+  },
+  "all good": {
+   "all": {
+    "pairs": 800,
+    "expert_absent": 0,
+    "expert_missing": 2,
+    "compared": 798,
+    "agreement": 0.5413533834586466,
+    "kappa": 0.0,
+    "kappa_linear": 0.0,
+    "direction_agreement": 0.8984962406015038,
+    "confusion": {
+     "no": {
+      "no": 0,
+      "partial": 0,
+      "good": 81
+     },
+     "partial": {
+      "no": 0,
+      "partial": 0,
+      "good": 285
+     },
+     "good": {
+      "no": 0,
+      "partial": 0,
+      "good": 432
+     },
+     "absent": {
+      "no": 0,
+      "partial": 0,
+      "good": 0
+     }
+    }
+   },
+   "unseen": {
+    "pairs": 672,
+    "expert_absent": 0,
+    "expert_missing": 2,
+    "compared": 670,
+    "agreement": 0.5656716417910448,
+    "kappa": 0.0,
+    "kappa_linear": 0.0,
+    "direction_agreement": 0.908955223880597,
+    "confusion": {
+     "no": {
+      "no": 0,
+      "partial": 0,
+      "good": 61
+     },
+     "partial": {
+      "no": 0,
+      "partial": 0,
+      "good": 230
+     },
+     "good": {
+      "no": 0,
+      "partial": 0,
+      "good": 379
+     },
+     "absent": {
+      "no": 0,
+      "partial": 0,
+      "good": 0
+     }
+    }
+   },
+   "ci": {
+    "agreement": [
+     0.489,
+     0.604
+    ],
+    "kappa_linear": [
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "replication": {
+  "agree": 117,
+  "checked": 120
+ },
+ "category_counts": {
+  "experts": {
+   "positive": 4.139344262295082,
+   "negative": 0.4344262295081967
+  },
+  "pass E": {
+   "positive": 4.155737704918033,
+   "negative": 0.36885245901639346
+  },
+  "pass A": {
+   "positive": 3.2540983606557377,
+   "negative": 0.319672131147541
+  }
+ },
+ "verdicts": {
+  "experts' reading + Claude's matching (pass E)": {
+   "all": {
+    "candidates": 122,
+    "agreement": 0.7622950819672131,
+    "kappa_linear": 0.7045264740270587,
+    "spearman": 0.8348628740162214,
+    "top_pick": 0.8763440860215053,
+    "confusion": {
+     "WEAK": {
+      "WEAK": 20,
+      "MODERATE": 14,
+      "STRONG": 0
+     },
+     "MODERATE": {
+      "WEAK": 4,
+      "MODERATE": 39,
+      "STRONG": 8
+     },
+     "STRONG": {
+      "WEAK": 0,
+      "MODERATE": 3,
+      "STRONG": 34
+     }
+    }
+   },
+   "unseen": {
+    "candidates": 105,
+    "agreement": 0.780952380952381,
+    "kappa_linear": 0.7190226876090751,
+    "spearman": 0.8689064014053208,
+    "top_pick": 0.9135802469135802,
+    "confusion": {
+     "WEAK": {
+      "WEAK": 15,
+      "MODERATE": 12,
+      "STRONG": 0
+     },
+     "MODERATE": {
+      "WEAK": 4,
+      "MODERATE": 37,
+      "STRONG": 4
+     },
+     "STRONG": {
+      "WEAK": 0,
+      "MODERATE": 3,
+      "STRONG": 30
+     }
+    }
+   },
+   "ci": {
+    "agreement": [
+     0.677,
+     0.835
+    ],
+    "kappa_linear": [
+     0.59,
+     0.793
+    ],
+    "top_pick": [
+     0.768,
+     0.963
+    ]
+   }
+  },
+  "Claude's reading + Claude's matching (pass A)": {
+   "all": {
+    "candidates": 122,
+    "agreement": 0.5983606557377049,
+    "kappa_linear": 0.503035143769968,
+    "spearman": 0.6805363097052094,
+    "top_pick": 0.7956989247311828,
+    "confusion": {
+     "WEAK": {
+      "WEAK": 30,
+      "MODERATE": 3,
+      "STRONG": 1
+     },
+     "MODERATE": {
+      "WEAK": 20,
+      "MODERATE": 26,
+      "STRONG": 5
+     },
+     "STRONG": {
+      "WEAK": 1,
+      "MODERATE": 19,
+      "STRONG": 17
+     }
+    }
+   },
+   "unseen": {
+    "candidates": 105,
+    "agreement": 0.6095238095238096,
+    "kappa_linear": 0.5124716553287982,
+    "spearman": 0.7070585205532264,
+    "top_pick": 0.8395061728395062,
+    "confusion": {
+     "WEAK": {
+      "WEAK": 23,
+      "MODERATE": 3,
+      "STRONG": 1
+     },
+     "MODERATE": {
+      "WEAK": 18,
+      "MODERATE": 24,
+      "STRONG": 3
+     },
+     "STRONG": {
+      "WEAK": 1,
+      "MODERATE": 15,
+      "STRONG": 17
+     }
+    }
+   },
+   "ci": {
+    "agreement": [
+     0.508,
+     0.688
+    ],
+    "kappa_linear": [
+     0.387,
+     0.615
+    ],
+    "top_pick": [
+     0.672,
+     0.911
+    ]
+   }
+  },
+  "experts' reading + word overlap": {
+   "all": {
+    "candidates": 122,
+    "agreement": 0.2786885245901639,
+    "kappa_linear": 0.004474861805738417,
+    "spearman": -0.07464358990486059,
+    "top_pick": 0.6311827956989247,
+    "confusion": {
+     "WEAK": {
+      "WEAK": 34,
+      "MODERATE": 0,
+      "STRONG": 0
+     },
+     "MODERATE": {
+      "WEAK": 51,
+      "MODERATE": 0,
+      "STRONG": 0
+     },
+     "STRONG": {
+      "WEAK": 36,
+      "MODERATE": 1,
+      "STRONG": 0
+     }
+    }
+   },
+   "unseen": {
+    "candidates": 105,
+    "agreement": 0.2571428571428571,
+    "kappa_linear": 0.004653567735263708,
+    "spearman": -0.03629584384284882,
+    "top_pick": 0.6506172839506171,
+    "confusion": {
+     "WEAK": {
+      "WEAK": 27,
+      "MODERATE": 0,
+      "STRONG": 0
+     },
+     "MODERATE": {
+      "WEAK": 45,
+      "MODERATE": 0,
+      "STRONG": 0
+     },
+     "STRONG": {
+      "WEAK": 32,
+      "MODERATE": 1,
+      "STRONG": 0
+     }
+    }
+   },
+   "ci": {
+    "agreement": [
+     0.197,
+     0.363
+    ],
+    "kappa_linear": [
+     0.0,
+     0.017
+    ],
+    "top_pick": [
+     0.464,
+     0.786
+    ]
+   }
+  },
+  "experts' reading + everything good": {
+   "all": {
+    "candidates": 122,
+    "agreement": 0.6065573770491803,
+    "kappa_linear": 0.4495649371575895,
+    "spearman": 0.6287815473932573,
+    "top_pick": 0.779032258064516,
+    "confusion": {
+     "WEAK": {
+      "WEAK": 9,
+      "MODERATE": 17,
+      "STRONG": 8
+     },
+     "MODERATE": {
+      "WEAK": 0,
+      "MODERATE": 28,
+      "STRONG": 23
+     },
+     "STRONG": {
+      "WEAK": 0,
+      "MODERATE": 0,
+      "STRONG": 37
+     }
+    }
+   },
+   "unseen": {
+    "candidates": 105,
+    "agreement": 0.6476190476190476,
+    "kappa_linear": 0.4893111638954869,
+    "spearman": 0.6729799791758735,
+    "top_pick": 0.7895061728395062,
+    "confusion": {
+     "WEAK": {
+      "WEAK": 7,
+      "MODERATE": 14,
+      "STRONG": 6
+     },
+     "MODERATE": {
+      "WEAK": 0,
+      "MODERATE": 28,
+      "STRONG": 17
+     },
+     "STRONG": {
+      "WEAK": 0,
+      "MODERATE": 0,
+      "STRONG": 33
+     }
+    }
+   },
+   "ci": {
+    "agreement": [
+     0.505,
+     0.707
+    ],
+    "kappa_linear": [
+     0.329,
+     0.588
+    ],
+    "top_pick": [
+     0.655,
+     0.897
+    ]
+   }
+  },
+  "Claude's reading + everything good": {
+   "all": {
+    "candidates": 122,
+    "agreement": 0.5245901639344263,
+    "kappa_linear": 0.32920230406702744,
+    "spearman": 0.4833858535422407,
+    "top_pick": 0.7413978494623656,
+    "confusion": {
+     "WEAK": {
+      "WEAK": 12,
+      "MODERATE": 17,
+      "STRONG": 5
+     },
+     "MODERATE": {
+      "WEAK": 6,
+      "MODERATE": 32,
+      "STRONG": 13
+     },
+     "STRONG": {
+      "WEAK": 0,
+      "MODERATE": 17,
+      "STRONG": 20
+     }
+    }
+   },
+   "unseen": {
+    "candidates": 105,
+    "agreement": 0.5523809523809524,
+    "kappa_linear": 0.36272759728668336,
+    "spearman": 0.5290178218783451,
+    "top_pick": 0.7524691358024691,
+    "confusion": {
+     "WEAK": {
+      "WEAK": 10,
+      "MODERATE": 13,
+      "STRONG": 4
+     },
+     "MODERATE": {
+      "WEAK": 6,
+      "MODERATE": 29,
+      "STRONG": 10
+     },
+     "STRONG": {
+      "WEAK": 0,
+      "MODERATE": 14,
+      "STRONG": 19
+     }
+    }
+   },
+   "ci": {
+    "agreement": [
+     0.425,
+     0.629
+    ],
+    "kappa_linear": [
+     0.181,
+     0.48
+    ],
+    "top_pick": [
+     0.614,
+     0.863
+    ]
+   }
+  }
+ },
+ "baselines": {
+  "all": {
+   "most_cited_top_pick": 0.6849462365591397,
+   "chance_top_pick": 0.5705069124423964,
+   "majority_grade": "MODERATE",
+   "majority_agreement": 0.4180327868852459,
+   "plants_with_choice": 31
+  },
+  "unseen": {
+   "most_cited_top_pick": 0.7160493827160493,
+   "chance_top_pick": 0.580952380952381,
+   "majority_grade": "MODERATE",
+   "majority_agreement": 0.42857142857142855,
+   "plants_with_choice": 27
+  },
+  "ci": {
+   "most_cited_top_pick": [
+    0.528,
+    0.841
+   ]
+  }
+ },
+ "candidates": [
+  {
+   "plant": "adianton",
+   "candidate": "Adiantum capillus-veneris",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + everything good": [
+     1,
+     "WEAK"
+    ]
+   },
+   "cited": 6
+  },
+  {
+   "plant": "akanthe aspre",
+   "candidate": "Onopordum bracteatum",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "akanthe aspre",
+   "candidate": "Piconomon acarna",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "aloe",
+   "candidate": "Aloe vera",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 4
+  },
+  {
+   "plant": "alyssos",
+   "candidate": "Fibigia clypeata (FT, Alyssum clypeatum, Farsetia clypeata)",
+   "expert_score": 7,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -5,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "alyssos",
+   "candidate": "Odontarrhena alpestris (FT, Alyssum alpestre, var. genuinum Boiss, listed under Alyssum condensatum ssp. flexibile (FT, Nyar.) Dudley)",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -7,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 0
+  },
+  {
+   "plant": "alyssos",
+   "candidate": "Scutellaria galericulata",
+   "expert_score": -1,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     1,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -7,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "amaranton",
+   "candidate": "Helichrysum italicum",
+   "expert_score": 7,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "amaranton",
+   "candidate": "Helichrysum orientale",
+   "expert_score": 6,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 0
+  },
+  {
+   "plant": "amaranton",
+   "candidate": "Helichrysum stoechas ssp. barelieri",
+   "expert_score": 7,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "amaranton",
+   "candidate": "Petrosedum ochroleucum (FT, Sedum ochroleucum ssp. ochroleucum)",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -5,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "amaranton",
+   "candidate": "Sedum eriocarpus (FT, S. hispanicum var. hispanicum)",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -6,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "amaranton",
+   "candidate": "Teucrium polium",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "ampelos agria",
+   "candidate": "Clematis vitalba",
+   "expert_score": 1,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     1,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "ampelos agria",
+   "candidate": "Dioscorea communis (FT, Tamus communis)",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "ampelos agria",
+   "candidate": "Vitis sylvestris (FT, V. vinifera ssp. sylvestris)",
+   "expert_score": 1,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 8
+  },
+  {
+   "plant": "ampelos melaina, bryonia",
+   "candidate": "Bryonia alba (FT, B. dioica)",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     1,
+     "WEAK"
+    ]
+   },
+   "cited": 4
+  },
+  {
+   "plant": "ampelos melaina, bryonia",
+   "candidate": "Bryonia cretica",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     1,
+     "WEAK"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "ampelos melaina, bryonia",
+   "candidate": "Dioscorea communis (FT, Tamus communis)",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     2,
+     "WEAK"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "aristolokhia (long, male)",
+   "candidate": "Aristolochia parviflora Sibth.",
+   "expert_score": 6,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 4
+  },
+  {
+   "plant": "aristolokhia (long, male)",
+   "candidate": "Aristolochia sempervirens",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "aristolokhia (round, female)",
+   "candidate": "Aristolochia pallida",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -5,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "aristolokhia (round, female)",
+   "candidate": "Aristolochia rotunda",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -5,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "aristolokhia (round, female)",
+   "candidate": "Aristolochia sempervirens",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "arnoglosson (greater)",
+   "candidate": "Plantago major",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 6
+  },
+  {
+   "plant": "arnoglosson (greater)",
+   "candidate": "Plantago media",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "arnoglosson (lesser)",
+   "candidate": "Plantago lagopus",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     0,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 5
+  },
+  {
+   "plant": "arnoglosson (lesser)",
+   "candidate": "Plantago lanceolata",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "arnoglosson (lesser)",
+   "candidate": "Plantago maritima",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "asar",
+   "candidate": "Asarum europaeum",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 4
+  },
+  {
+   "plant": "asphodelos",
+   "candidate": "Asphodelus aestivus",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "asphodelos",
+   "candidate": "Asphodelus fistulosus",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "asphodelos",
+   "candidate": "Asphodelus ramosus",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "asplenos, skolopendrion",
+   "candidate": "Asplenium ceterach L. (FT, Ceterach officinarum L.)",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     2,
+     "WEAK"
+    ]
+   },
+   "cited": 5
+  },
+  {
+   "plant": "bettonike, in kestron",
+   "candidate": "Sideritis cretica L. (FT, S. syriaca ssp. syriaca / ssp. nusairiensis)",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "drakontia (greater)",
+   "candidate": "Arisarum vulgare",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "drakontia (greater)",
+   "candidate": "Arum dioscoridis",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     6,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "drakontia (greater)",
+   "candidate": "Arum italicum",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "drakontia (greater)",
+   "candidate": "Arum maculatum",
+   "expert_score": 1,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     1,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "drakontia (greater)",
+   "candidate": "Dracunculus vulgaris",
+   "expert_score": 6,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     6,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 0
+  },
+  {
+   "plant": "drakontia (lesser)",
+   "candidate": "Arisarum vulgare",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "drakontia (lesser)",
+   "candidate": "Arum dioscoridis",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "drakontia (lesser)",
+   "candidate": "Arum italicum",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "drakontia (lesser)",
+   "candidate": "Arum maculatum",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "drakontia (lesser)",
+   "candidate": "Dracunculus vulgaris",
+   "expert_score": 1,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -5,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 0
+  },
+  {
+   "plant": "eupatorios",
+   "candidate": "Agrimonia eupatoria L.",
+   "expert_score": 6,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 6
+  },
+  {
+   "plant": "gentiane",
+   "candidate": "Gentiana lutea",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 5
+  },
+  {
+   "plant": "glykyrrhiza",
+   "candidate": "Glycyrrhiza echinata",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "glykyrrhiza",
+   "candidate": "Glycyrrhiza glabra",
+   "expert_score": 8,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     8,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     7,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     8,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     7,
+     "STRONG"
+    ]
+   },
+   "cited": 6
+  },
+  {
+   "plant": "heliotropion greater, skorpiouron",
+   "candidate": "Heliotropium europaeum",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "hyoskyamos (purple flowers)",
+   "candidate": "Hyoscyamus niger",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 4
+  },
+  {
+   "plant": "hyoskyamos (quince-yellwow flowers)",
+   "candidate": "Hyoscyamus aureus",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 5
+  },
+  {
+   "plant": "hyoskyamos (white flowers)",
+   "candidate": "Hyoscyamus albus",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 6
+  },
+  {
+   "plant": "ippouris",
+   "candidate": "Ephedra foemina (FT, E. fragilis ssp. campylopoda)",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "ippouris",
+   "candidate": "Ephedra fragilis",
+   "expert_score": 0,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     0,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     0,
+     "WEAK"
+    ],
+    "Claude's reading + everything good": [
+     0,
+     "WEAK"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "ippouris",
+   "candidate": "Ephedra major",
+   "expert_score": 1,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "ippouris",
+   "candidate": "Equisetum arvense",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "ippouris",
+   "candidate": "Equisetum fluviatile (FT, E. limosum)",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -6,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "ippouris",
+   "candidate": "Equisetum ramosissimum",
+   "expert_score": 6,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "ippouris",
+   "candidate": "Equisetum sylvaticum",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -5,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "ippouris",
+   "candidate": "Equisetum telmateia",
+   "expert_score": 6,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -6,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "iris (Illyrian)",
+   "candidate": "Iris florentina (FT, I. albicans)",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + everything good": [
+     2,
+     "WEAK"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "iris (Illyrian)",
+   "candidate": "Iris x germanica",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + everything good": [
+     2,
+     "WEAK"
+    ]
+   },
+   "cited": 4
+  },
+  {
+   "plant": "kapparis",
+   "candidate": "kapparis",
+   "expert_score": 6,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     6,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     7,
+     "STRONG"
+    ]
+   },
+   "cited": 0
+  },
+  {
+   "plant": "kavkalida",
+   "candidate": "Papaver",
+   "expert_score": 0,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     0,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + everything good": [
+     2,
+     "WEAK"
+    ]
+   },
+   "cited": 0
+  },
+  {
+   "plant": "kavkalida",
+   "candidate": "Pimpinella saxifraga",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "kavkalida",
+   "candidate": "Tordylium aegyptiacum (FT, Hasselquistia aegyptiaca)",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "kentaurion (lesser)",
+   "candidate": "Centaurium erythraea",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "khamaidaphne",
+   "candidate": "Danae racemosa (FT, Ruscus racemosus)",
+   "expert_score": 1,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     1,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "khamaidaphne",
+   "candidate": "Ruscus hypophyllum",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     2,
+     "WEAK"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "khamaimelon, in anthemis",
+   "candidate": "Anthemis chia",
+   "expert_score": 6,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "khamaimelon, in anthemis",
+   "candidate": "Matricaria chamomilla",
+   "expert_score": 7,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -5,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 6
+  },
+  {
+   "plant": "khamaipitys",
+   "candidate": "Ajuga iva (FT, Teucrium iva)",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 5
+  },
+  {
+   "plant": "khamaipitys",
+   "candidate": "Ajuga reptans",
+   "expert_score": 1,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     1,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "khamaipitys (other)",
+   "candidate": "Ajuga iva (FT, Teucrium iva)",
+   "expert_score": 1,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 5
+  },
+  {
+   "plant": "khamaipitys (other)",
+   "candidate": "Thymelaea hirsuta (FT, Passerina hirsuta)",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "khamaipitys (third)",
+   "candidate": "Ajuga chamaepitys (FT, A. chia = A. chamaepitys ssp. chia)",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "khelidonea (greater)",
+   "candidate": "Chelidonium majus",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 5
+  },
+  {
+   "plant": "koneion",
+   "candidate": "Conium maculatum",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 4
+  },
+  {
+   "plant": "konyza (greater)",
+   "candidate": "Dittrichia viscosa (FT, Inula viscosa, Erigeron viscosus)",
+   "expert_score": 7,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 0
+  },
+  {
+   "plant": "konyza (lesser)",
+   "candidate": "Dittrichia graveolens (FT, Inula graveolens, Erigeron graveolens)",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "kyklaminos",
+   "candidate": "Cyclamen cyprium",
+   "expert_score": 0,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     0,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     0,
+     "WEAK"
+    ],
+    "Claude's reading + everything good": [
+     0,
+     "WEAK"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "kyklaminos",
+   "candidate": "Cyclamen graecum",
+   "expert_score": 6,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "kyklaminos",
+   "candidate": "Cyclamen hederifolium",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "kyklaminos",
+   "candidate": "Cyclamen persicum",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "kyperos",
+   "candidate": "Cyperus longus",
+   "expert_score": 7,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 5
+  },
+  {
+   "plant": "kyperos",
+   "candidate": "Cyperus rotundus",
+   "expert_score": 7,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 5
+  },
+  {
+   "plant": "kypros",
+   "candidate": "Lawsonia inermis",
+   "expert_score": 0,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     1,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     1,
+     "WEAK"
+    ],
+    "Claude's reading + everything good": [
+     1,
+     "WEAK"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "mandragoras (female, black)",
+   "candidate": "Mandragora autumnalis (FT, in M. officinarum L. is regarded as a synonym)",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     2,
+     "WEAK"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "mandragoras (female, black)",
+   "candidate": "Mandragora officinarum",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     2,
+     "WEAK"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "mandragoras (male, white)",
+   "candidate": "Mandragora autumnalis (FT, in M. officinarum L. is regarded as a synonym)",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     2,
+     "WEAK"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "mandragoras (male, white)",
+   "candidate": "Mandragora officinarum",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     2,
+     "WEAK"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "melanthion",
+   "candidate": "Nigella damascena",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "melanthion",
+   "candidate": "Nigella sativa",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 5
+  },
+  {
+   "plant": "myrsine agria, leikhene",
+   "candidate": "Ruscus aculeatus",
+   "expert_score": 6,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 7
+  },
+  {
+   "plant": "nerion, rododaphne",
+   "candidate": "Nerium oleander L.",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 6
+  },
+  {
+   "plant": "phlomos (female, white)",
+   "candidate": "Verbascum phlomoides",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "phlomos (female, white)",
+   "candidate": "Verbascum sinuatum",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     6,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 4
+  },
+  {
+   "plant": "phlomos (female, white)",
+   "candidate": "Verbascum thapsus",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 4
+  },
+  {
+   "plant": "polypodion",
+   "candidate": "Polypodium cambricum (FT P. australe)",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "polypodion",
+   "candidate": "Polypodium vulgare",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 4
+  },
+  {
+   "plant": "prasion",
+   "candidate": "Marrubium vulgare",
+   "expert_score": 6,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -6,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 5
+  },
+  {
+   "plant": "psylleon",
+   "candidate": "Plantago afra",
+   "expert_score": 6,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "psylleon",
+   "candidate": "Plantago indicum (FT, P. scabra; P. arenaria)",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     6,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     6,
+     "STRONG"
+    ]
+   },
+   "cited": 0
+  },
+  {
+   "plant": "ramnos (black)",
+   "candidate": "Rhamnus oleoides",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     1,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "ramnos (black)",
+   "candidate": "Rhamnus lycioides",
+   "expert_score": 0,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     0,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     0,
+     "WEAK"
+    ],
+    "Claude's reading + everything good": [
+     0,
+     "WEAK"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "rous",
+   "candidate": "Rhus coriaria",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 7
+  },
+  {
+   "plant": "sideritis",
+   "candidate": "Ajuga reptans",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "sideritis",
+   "candidate": "Sideritis cypria",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "sideritis",
+   "candidate": "Sideritis montana",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "sideritis",
+   "candidate": "Sideritis perfoliata",
+   "expert_score": 7,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     7,
+     "STRONG"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "sideritis",
+   "candidate": "Sideritis romana",
+   "expert_score": 7,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     7,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     7,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     7,
+     "STRONG"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "sideritis",
+   "candidate": "Sideritis sipylea",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + word overlap": [
+     -1,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 1
+  },
+  {
+   "plant": "sideritis",
+   "candidate": "Stachys recta",
+   "expert_score": 3,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     5,
+     "STRONG"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "staphis agria",
+   "candidate": "Delphinium staphisagria",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     0,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     2,
+     "WEAK"
+    ],
+    "Claude's reading + everything good": [
+     2,
+     "WEAK"
+    ]
+   },
+   "cited": 11
+  },
+  {
+   "plant": "stavylinos (wild)",
+   "candidate": "Daucus carota",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 5
+  },
+  {
+   "plant": "strykhnon (garden)",
+   "candidate": "Solanum melongena L.",
+   "expert_score": 2,
+   "expert_grade": "WEAK",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     1,
+     "WEAK"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     3,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "strykhnon (garden)",
+   "candidate": "Solanum nigrum L.",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 7
+  },
+  {
+   "plant": "strykhnon (garden)",
+   "candidate": "Solanum villosum Mill. (FT, S. luteum Mill., S. flavum)",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 2
+  },
+  {
+   "plant": "tragakantha",
+   "candidate": "Astragalus creticus",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + word overlap": [
+     -4,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "tribolos (enydros)",
+   "candidate": "Trapa natans",
+   "expert_score": 4,
+   "expert_grade": "MODERATE",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -2,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     4,
+     "MODERATE"
+    ],
+    "Claude's reading + everything good": [
+     3,
+     "MODERATE"
+    ]
+   },
+   "cited": 3
+  },
+  {
+   "plant": "triphylli",
+   "candidate": "Bituminaria bituminosa (FT Psoralea bituminosa)",
+   "expert_score": 5,
+   "expert_grade": "STRONG",
+   "configs": {
+    "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + Claude's matching (pass A)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + word overlap": [
+     -3,
+     "WEAK"
+    ],
+    "experts' reading + everything good": [
+     5,
+     "STRONG"
+    ],
+    "Claude's reading + everything good": [
+     4,
+     "MODERATE"
+    ]
+   },
+   "cited": 0
+  }
+ ]
+}

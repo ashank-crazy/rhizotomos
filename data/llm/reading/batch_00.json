@@ -1,0 +1,136 @@
+[
+ {"key": "iris (Illyrian)", "chapter": "1.1",
+  "characters": {
+   "Flower general": {"en": "flowers on stems, set side by side", "greek": "ἄνθη ἐπὶ καυλῶν παράλληλα"},
+   "Flower detail 01": {"en": "flowers bent over, variegated", "greek": "ἐπικαμπῆ, ποικίλα"},
+   "Flower colour": {"en": "white, yellowish, purple or bluish", "greek": "λευκὰ ἢ ἢ μήλινα ἢ πορφυρᾶ ἢ κυανίζοντα"},
+   "Stem general": {"en": "flowering stems", "greek": "ἐπὶ καυλῶν"},
+   "Root general": {"en": "roots underneath, knotty", "greek": "ῥίζαι δὲ ὕπεισι γονατώδεις"},
+   "Root detail 1": {"en": "roots firm", "greek": "γονατώδεις, στερεαί"},
+   "Root detail 2": {"en": "best roots compact, stumpy, hard to break", "greek": "πυκνόρριζος καὶ ὑποκόλοβος καὶ δύσθραυστος"},
+   "Root colour": {"en": "tawny; the Libyan kind white", "greek": "τῇ χρόᾳ ὑπόκιρρος"},
+   "Smell properties": {"en": "very fragrant, pure smell; makes one sneeze when pounded", "greek": "σφόδρα εὐώδης"},
+   "Taste properties": {"en": "fiery taste; the Libyan kind bitter", "greek": "τῇ γεύσει πυρω δεστέρα"},
+   "Distribution": {"en": "best from Illyria and Macedonia; also a Libyan kind", "greek": "βελτίων ἡ Ἰλλυρικὴ καὶ Μακεδονική"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like xiphion (sword-lily), but larger, broader and glossier", "greek": "φύλλα φέρει ὅμοια ξιφίῳ, μείζονα δὲ καὶ πλατύτερα καὶ λιπαρώτερα"}}},
+
+ {"key": "kyperos", "chapter": "1.4",
+  "characters": {
+   "Height": {"en": "stem a cubit (≈46 cm) or taller", "greek": "καυλὸν δὲ πηχυαῖον ἢ καὶ μείζονα"},
+   "Stem general": {"en": "stem angular", "greek": "γωνιώδη"},
+   "Leaf detail 1": {"en": "small leaflets sprouting at the top of the stem", "greek": "κατὰ κορυφὴν φυλλαρίων ἐστὶν ἔκφυσις μικρῶν"},
+   "Seed general": {"en": "seed at the top of the stem", "greek": "ἔκφυσις μικρῶν καὶ σπέρματος"},
+   "Root general": {"en": "tubers joined to one another, or round", "greek": "συναφθεῖσαι ἑαυταῖς ἢ καὶ στρογγύλαι"},
+   "Root colour": {"en": "black", "greek": "στρογγύλαι, μέλαιναι"},
+   "Root detail 1": {"en": "best roots heavy, dense, stout, hard to break, rough", "greek": "ἡ βαρυτάτη καὶ πυκνή, ἁδρὰ καὶ δύσθραυστος, τραχεῖα"},
+   "Smell properties": {"en": "fragrant with some pungency", "greek": "εὐώδης μετά τινος δριμύτητος"},
+   "Taste properties": {"en": "somewhat bitter", "greek": "ἔμπικροι"},
+   "Habitat": {"en": "tilled ground and marshy places", "greek": "φύεται δὲ ἐν τόποις ἐργασίμοις καὶ τελματώδεσιν"},
+   "Distribution": {"en": "best from Cilicia, Syria and the Cyclades", "greek": "ἡ Κιλίκιος καὶ ἡ Συριακὴ καὶ ἡ ἀπὸ τῶν Κυκλάδων νήσων"},
+   "Ethnobotany": {"en": "used to thicken perfumes", "greek": "εἰς τὰ στύμματα τῶν μύρων εὐχρηστεῖ"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like leek, but longer and thinner", "greek": "ἔχει φύλλα ὅμοια πράσῳ, μακρότερα δὲ καὶ ἰσχνότερα"},
+   "Stem": {"en": "stem like a rush", "greek": "ὅμοιον σχοίνῳ"},
+   "Root": {"en": "tubers like elongated olives", "greek": "ὥσπερ ἐπιμήκεις ἐλαῖαι"}}},
+
+ {"key": "asar", "chapter": "1.10",
+  "characters": {
+   "Flower general": {"en": "flower near the root, among the leaves", "greek": "ἄνθος τῶν φύλλων πρὸς τῇ ῥίζῃ"},
+   "Flower colour": {"en": "purple", "greek": "πορφυροῦν"},
+   "Root general": {"en": "many roots, knotty, thin, running sideways", "greek": "ῥίζαι δὲ ὕπεισι πολλαί, γονατώδεις, λεπταί, πλάγιαι"},
+   "Smell properties": {"en": "roots fragrant", "greek": "πολλῷ καὶ εὐώδεις"},
+   "Taste properties": {"en": "warming, strongly biting the tongue", "greek": "θερμαίνουσαι καὶ δάκνουσαι λίαν τὴν γλῶσσαν"},
+   "Habitat": {"en": "shady mountains", "greek": "φύεται δὲ ἐν ὑποσκίοις ὄρεσι"},
+   "Distribution": {"en": "most in Pontus, Phrygia, Illyria and among the Vestini of Italy", "greek": "πλεῖστα δὲ ἐν Πόντῳ καὶ ἐν Φρυγίᾳ καὶ Ἰλλυρίδι καὶ ἐν Οὐεστίνοις τῆς Ἰταλίας"},
+   "Ethnobotany": {"en": "added to perfumes", "greek": "μείγνυνται δὲ καὶ μύροις"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like ivy, but much softer and rounder", "greek": "φύλλα ἔχει κισσῷ ὅμοια, μαλακώτερα δὲ πολλῷ καὶ στρογγυλώτερα"},
+   "Flower": {"en": "flower like the calyx of henbane", "greek": "ὑοσκυάμου κυτίνῳ ἐμφερές"},
+   "Seed": {"en": "seed like a grape pip", "greek": "τὸ σπέρμα ἐοικὸς γιγάρτῳ"},
+   "Root": {"en": "roots like dog's-tooth grass, but much thinner", "greek": "ὅμοιαι ἀγρώστει, ἰσχνότεραι μέντοι πολλῷ"}}},
+
+ {"key": "ramnos (black)", "chapter": "1.90",
+  "characters": {
+   "Life form": {"en": "shrub", "greek": "θάμνος ἐστὶ"},
+   "Habitat": {"en": "around hedges", "greek": "περὶ φραγμούς φυόμενος"},
+   "Leaf general": {"en": "leaves darker and broader, slightly reddening", "greek": "μελάντερα ἔχουσα τά φύλλα καὶ πλατύτερα σύν τῳ ἠρέμα ἐρυθραίνεσθαι"},
+   "Stem general": {"en": "long rods, more thorny", "greek": "ῥάβδους μακράς πήχεων ὡς πέντε καὶ μᾶλλον ἀκανθώδεις"},
+   "Stem detail 1": {"en": "thorns less firm and less sharp", "greek": "ἦττον δὲ στερεάς καὶ ἐπάκμους ἔχει τάς ἀκάνθας"},
+   "Stem detail 2": {"en": "upright rods", "greek": "ῥάβδους ἔχων ὀρθὰς"},
+   "Height": {"en": "rods about five cubits (≈2.3 m)", "greek": "πήχεων ὡς πέντε"},
+   "Fruit general": {"en": "fruit broad, thin, like a little bag, like a spindle-whorl", "greek": "καρπὸς δὲ πλατύς, λεπτός, ὡς θυλακώδης, ἐοικώς σφονδύλῳ"},
+   "Fruit shape": {"en": "broad, flat, bladder-like", "greek": "πλατύς, λεπτός, ὡς θυλακώδης"}},
+  "comparisons": {
+   "Stem": {"en": "thorns like oxyakantha", "greek": "ἀκάνθας ὥσπερ ὀξυάκανθα"}}},
+
+ {"key": "kypros", "chapter": "1.95",
+  "characters": {
+   "Life form": {"en": "tree", "greek": "κύπρος δένδρον ἐστὶ"},
+   "Leaf general": {"en": "leaves set along the twigs", "greek": "ξύλλα ἔχον περὶ ταῖς ῥάβδοις"},
+   "Flower colour": {"en": "white", "greek": "ἄνθη λευκά"},
+   "Flower general": {"en": "flowers in grape-like clusters", "greek": "βοτρυώδη"},
+   "Smell properties": {"en": "flowers fragrant", "greek": "βοτρυώδη, εὐώδη"},
+   "Seed colour": {"en": "black", "greek": "σπέρμα μέλαν"},
+   "Distribution": {"en": "best grows at Ascalon and Canopus", "greek": "γεννᾶται δὲ ἀρίστη ἐν τῇ Ασκάλωνι καὶ Κανώπῃ"},
+   "Ethnobotany": {"en": "leaves dye hair yellow; perfumed oil (kyprinon) made from it", "greek": "ξανθίζει δὲ καὶ τρίχας"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like the olive's, but broader, softer and greener", "greek": "ἐλαίᾳ παραπλήσια, πλατύτερα δὲ καὶ μαλαώτερα καὶ χλωρότερα"},
+   "Seed": {"en": "seed like elder's", "greek": "ὅμοιον τῳ τῆς ἀκτῆς"}}},
+
+ {"key": "rous", "chapter": "1.108",
+  "characters": {
+   "Life form": {"en": "small tree", "greek": "ἔστι δὲ δενδρύφιον"},
+   "Habitat": {"en": "on rocks", "greek": "φυόμενον ἐπὶ πέτραις"},
+   "Height": {"en": "about two cubits (≈0.9 m)", "greek": "ὡς δίπηχυ"},
+   "Leaf shape": {"en": "oblong", "greek": "φύλλα ἐπιμήκη"},
+   "Leaf detail 1": {"en": "reddish leaves", "greek": "ὑπέρυθρα"},
+   "Leaf edge": {"en": "edge toothed like a saw", "greek": "τὴν περιφέρειαν ἐντετμημένα πριονοειδῶς"},
+   "Fruit general": {"en": "fruit in small dense clusters", "greek": "καρπὸς δὲ βοτρυδίοις ἐοικώς, πυκνός"},
+   "Fruit shape": {"en": "somewhat flat", "greek": "ὑπόπλατυς"},
+   "Fruit structure": {"en": "husk around the fruit is the useful part", "greek": "οὗ τὸ περικείμενον φλοιῶδές ἐστιν εὔχρηστον"},
+   "Stem detail 1": {"en": "yields a gum", "greek": "φέρει δὲ καὶ κόμμι"},
+   "Ethnobotany": {"en": "tanners use it on hides; fruit used as relish; blackens hair", "greek": "τοὺς βυρσοδέψας αὐτῇ χρῆσθαι εἰς τὴν στύψιν τῶν δερμάτων"}},
+  "comparisons": {
+   "Fruit": {"en": "fruit the size of terebinth's", "greek": "κατὰ μέγεθος τερμίνθου"}}},
+
+ {"key": "arnoglosson (lesser)", "chapter": "2.126",
+  "characters": {
+   "Leaf shape": {"en": "narrower leaves (than the greater)", "greek": "φύλλα στενότερα"},
+   "Leaf size": {"en": "smaller leaves", "greek": "στενότερα καὶ μικρότερα"},
+   "Leaf surface": {"en": "smoother leaves", "greek": "καὶ λειότερα"},
+   "Stem general": {"en": "stem angular", "greek": "καυλὸν γωνιοειδῆ"},
+   "Habitus general": {"en": "stem bending toward the ground", "greek": "κεκλιμένον ὡς ἐπὶ τὴν γῆν"},
+   "Flower colour": {"en": "pale yellow", "greek": "ἄνθη ὠχρά"},
+   "Seed general": {"en": "seed at the tip of the stem", "greek": "ἄκρῳ τῷ καυλῷ"},
+   "Habitat": {"en": "by marshes, hedges and in moist places", "greek": "γεννᾶται δὲ πρὸς τοῖς τέλμασι καὶ φραγμοῖς καὶ ἐν ἐνίκμοις τόποις"}},
+  "comparisons": {}},
+
+ {"key": "arnoglosson (greater)", "chapter": "2.126",
+  "characters": {
+   "Habitus general": {"en": "more luxuriant", "greek": "τὸ δὲ μεῖζον εὐερνέστερον"},
+   "Leaf shape": {"en": "broad-leaved", "greek": "πλατύφυλλον"},
+   "Leaf general": {"en": "leafy like a pot-herb", "greek": "λαχανῶδες"},
+   "Stem general": {"en": "stem angular, reddish", "greek": "καυλὸς δὲ καὶ ἐπὶ τούτῳ γωνιοειδής, ὑπέρυθρος"},
+   "Height": {"en": "a cubit high (≈46 cm)", "greek": "ὕψος πήχεως"},
+   "Seed general": {"en": "fine seed covering the stem from the middle to the top", "greek": "ἐκ μέσου μέχρι κορυφῆς στέρματι περιεχόμενος λεπτῷ"},
+   "Root general": {"en": "roots tender, hairy", "greek": "ῥίζαι δὲ ὕπεισιν ἁπαλαί, δασεῖαι"},
+   "Root colour": {"en": "white", "greek": "δασεῖαι, λευκαί"},
+   "Root detail 1": {"en": "a finger thick", "greek": "πάχος δακτύλου"},
+   "Habitat": {"en": "by marshes, hedges and in moist places", "greek": "γεννᾶται δὲ πρὸς τοῖς τέλμασι καὶ φραγμοῖς καὶ ἐν ἐνίκμοις τόποις"},
+   "Ethnobotany": {"en": "eaten as a boiled vegetable, cooked with lentils instead of beet", "greek": "ἀντὶ σεύτλου συνεψόμενον"}},
+  "comparisons": {}},
+
+ {"key": "kavkalida", "chapter": "2.139",
+  "characters": {
+   "Stem general": {"en": "small stem, somewhat hairy", "greek": "καυλίον ἐστὶ σπιθαμιαῖον, ὑπόδασυ"},
+   "Height": {"en": "a span (≈23 cm)", "greek": "σπιθαμιαῖον"},
+   "Leaf shape": {"en": "finely divided", "greek": "λεπτοσχιδῆ"},
+   "Leaf surface": {"en": "hairy", "greek": "δασέα"},
+   "Flower general": {"en": "an umbel at the top", "greek": "σκιάδιον λευκόν"},
+   "Flower colour": {"en": "white", "greek": "σκιάδιον λευκόν"},
+   "Smell properties": {"en": "umbel fragrant", "greek": "λευκόν, εὐῶδες"},
+   "Ethnobotany": {"en": "eaten as a vegetable, boiled or raw", "greek": "λαχανεύεται δὲ καὶ τοῦτο"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like fennel", "greek": "φύλλα ἔχον μαράθῳ ὅμοια"}}}
+]

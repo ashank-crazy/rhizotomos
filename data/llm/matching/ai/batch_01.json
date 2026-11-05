@@ -1,0 +1,20 @@
+{
+ "P11-C1": {"Height": "n", "Stem general": "p", "Seed colour": "p"},
+ "P11-C2": {"Height": "g", "Stem general": "p", "Seed colour": "g"},
+ "P13-C1": {"Height": "g", "Stem general": "g", "Leaf detail 1": "a", "Root general": "n", "Root colour": "a", "Root detail 1": "p", "Habitat": "g", "Distribution": "g"},
+ "P13-C2": {"Height": "g", "Stem general": "g", "Leaf detail 1": "a", "Root general": "p", "Root colour": "n", "Root detail 1": "n", "Habitat": "g", "Distribution": "g"},
+ "P14-C1": {"Flower general": "g", "Flower colour": "g", "Smell properties": "g", "Distribution": "g"},
+ "P15-C1": {"Stem general": "p", "Leaf size": "a", "Leaf shape": "g", "Leaf surface": "g", "Flower colour": "a"},
+ "P15-C2": {"Stem general": "p", "Leaf size": "a", "Leaf shape": "p", "Leaf surface": "n", "Flower colour": "n"},
+ "P15-C3": {"Stem general": "p", "Leaf size": "a", "Leaf shape": "p", "Leaf surface": "p", "Flower colour": "n"},
+ "P16-C1": {"Stem general": "a", "Flower general": "p", "Root general": "g"},
+ "P16-C2": {"Stem general": "a", "Flower general": "p", "Root general": "g"},
+ "P16-C3": {"Stem general": "a", "Flower general": "p", "Root general": "g"},
+ "P17-C1": {"Fruit general": "g", "Fruit colour": "g", "Fruit detail 1": "a", "Root general": "p", "Root colour": "a", "Root detail 1": "p"},
+ "P17-C2": {"Fruit general": "g", "Fruit colour": "g", "Fruit detail 1": "a", "Root general": "p", "Root colour": "a", "Root detail 1": "p"},
+ "P18-C1": {"Height": "g", "Stem general": "a", "Stem detail 1": "g", "Stem detail 2": "a", "Fruit shape": "g"},
+ "P19-C1": {"Fruit general": "a", "Fruit colour": "p", "Root colour": "g"},
+ "P19-C2": {"Fruit general": "a", "Fruit colour": "n"},
+ "P19-C3": {"Fruit general": "a", "Fruit colour": "g"},
+ "P20-C1": {"Stem general": "p", "Flower general": "g", "Flower colour": "g", "Flower detail 01": "g", "Root general": "g", "Ethnobotany": "a"}
+}

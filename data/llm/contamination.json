@@ -1,0 +1,12 @@
+{
+ "note": "Plants whose expert data was seen before or during the reading and matching, while the pipeline was being built and checked. Results are reported with and without them. No per-candidate expert result was looked at for any other plant until both matching passes were complete.",
+ "plants": {
+  "adianton": ["expert reading (Data file 3)", "modern values and expert calls (Data file 9)", "verdicts (Data file 11)"],
+  "akanthe aspre": ["expert reading (Data file 3)", "modern values and expert calls (Data file 9)", "verdicts (Data file 11)"],
+  "aloe": ["expert reading (Data file 3)", "verdicts (Data file 11)"],
+  "alyssos": ["expert reading (Data file 3)", "verdicts (Data file 11)"],
+  "amaranton": ["expert reading (Data file 3)", "verdicts (Data file 11)"],
+  "staphis agria": ["verdict (Data file 11, under the lemma agriostaphida)"],
+  "ampelos agria": ["a verdict row under the lemma ampelos (Data file 11) that may belong to this plant"]
+ }
+}

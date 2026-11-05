@@ -1,0 +1,146 @@
+[
+ {"key": "kyklaminos", "chapter": "2.164",
+  "characters": {
+   "Leaf surface": {"en": "mottled above and below with whitish spots", "greek": "ποικίλα δὲ κάτωθεν καὶ ἄνωθεν κηλῖσιν ὑπολεύκοις"},
+   "Height": {"en": "stem four fingers (≈8 cm)", "greek": "καυλὸν δὲ τετραδάκτυλον"},
+   "Stem general": {"en": "stem bare (leafless)", "greek": "τετραδάκτυλον, γυμνόν"},
+   "Flower colour": {"en": "purplish", "greek": "πορφυρίζοντα"},
+   "Root colour": {"en": "black", "greek": "ῥίζαν μέλαιναν"},
+   "Root general": {"en": "root somewhat flattened", "greek": "ὑπόπλατυν"},
+   "Ethnobotany": {"en": "lore: a pregnant woman stepping over the root miscarries; worn as an amulet", "greek": "κἂν ὑπερβῇ τὴν ῥίζαν ἐγκύμων γυνή"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like ivy", "greek": "φύλλα ἔχει ὅμοια κισσῷ"},
+   "Flower": {"en": "flowers rose-like", "greek": "ἄνθη ῥοδοειδῆ"},
+   "Root": {"en": "root like a turnip", "greek": "γογγυλίδι παραπλησίαν"}}},
+
+ {"key": "drakontia (greater)", "chapter": "2.166",
+  "characters": {
+   "Leaf size": {"en": "large", "greek": "κισσοειδῆ, μεγάλα"},
+   "Leaf surface": {"en": "with white spots", "greek": "σπίλους ἔχοντα λευκούς"},
+   "Stem general": {"en": "stem upright", "greek": "καυλὸν δὲ ὀρθόν"},
+   "Height": {"en": "two cubits (≈0.9 m)", "greek": "δίπηχυν"},
+   "Stem detail 1": {"en": "mottled like a snake, spotted with purple", "greek": "ποικίλον, ὀφιοειδῆ, διαπόρφυρον τοῖς σπίλοις"},
+   "Stem detail 2": {"en": "as thick as a walking staff", "greek": "βακτηρίας τὸ πάχος"},
+   "Fruit general": {"en": "fruit in a cluster at the top", "greek": "ἄκρου βοτρυοειδής"},
+   "Fruit colour": {"en": "green at first, saffron-yellow when ripe", "greek": "χρώματι τὸ μὲν πρῶτον χλοώδης, πεπανθεὶς δὲ κροκίζων"},
+   "Taste properties": {"en": "fruit bites the tongue", "greek": "ἐπιδάκνων τὴν γεῦσιν"},
+   "Root general": {"en": "root roundish, bulb-like", "greek": "ῥίζα ποσῶς στρογγύλη, βολβοειδής"},
+   "Root detail 1": {"en": "thin skin", "greek": "φλοιὸν ἔχουσα λεπτόν"},
+   "Habitat": {"en": "shady places, around hedges and dry-stone walls", "greek": "φύεται ἐν συσκίοις τόποις περὶ φραγμοὺς καὶ αἱμασιάς"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves ivy-like", "greek": "φύλλα ἔχει κισσοειδῆ"},
+   "Root": {"en": "root like aron's", "greek": "ὁμοία ἄρῳ"}}},
+
+ {"key": "drakontia (lesser)", "chapter": "2.167",
+  "characters": {
+   "Leaf surface": {"en": "unspotted", "greek": "ἀσπίλωτα"},
+   "Height": {"en": "stem a span (≈23 cm)", "greek": "καυλὸν σπιθαμιαῖον"},
+   "Stem general": {"en": "stem purplish, pestle-shaped", "greek": "ὑποπόρφυρον, ὑπεροειδῆ"},
+   "Fruit colour": {"en": "saffron-yellow", "greek": "ὁ καρπὸς κροκίζων"},
+   "Root colour": {"en": "white", "greek": "ῥίζα λευκὴ"},
+   "Taste properties": {"en": "root less pungent", "greek": "ἧττον οὖσα δριμεῖα"},
+   "Ethnobotany": {"en": "root eaten boiled; leaves pickled or dried and eaten", "greek": "ταριχεύεται δὲ τὰ φύλλα εἰς βρῶσιν"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like dracontium's, but smaller", "greek": "ἅμοια τοῖς τοῦ δρακοντίου, μικρότερα"}}},
+
+ {"key": "asphodelos", "chapter": "2.169",
+  "characters": {
+   "Stem general": {"en": "stem smooth", "greek": "καυλὸν δὲ λεῖον"},
+   "Flower general": {"en": "flower at the top, called antherikon", "greek": "ἄκρου ἄνθος, καλούμενον ἀνθερικόν"},
+   "Root general": {"en": "roots oblong, round", "greek": "ῥίζαι δὲ ὕπεισιν ἐπιμήκεις, στρογγύλαι"},
+   "Taste properties": {"en": "pungent", "greek": "δριμεῖαι τὴν γεῦσιν"}},
+  "comparisons": {
+   "Leaf": {"en": "leaf like a large leek", "greek": "φύλλον ἔχον πράσῳ μεγάλῳ ἐοικός"},
+   "Root": {"en": "roots like acorns", "greek": "βαλάνοις ὅμοιαι"}}},
+
+ {"key": "kapparis", "chapter": "2.173",
+  "characters": {
+   "Life form": {"en": "thorny shrub", "greek": "θάμνος ἐστὶν ἀκανθώδης"},
+   "Habitus general": {"en": "spread in a circle on the ground", "greek": "ἐπὶ γῆς γυροειδῶς ἐστρωμένος"},
+   "Stem general": {"en": "hooked thorns", "greek": "ἀκάνθας ἀγκιστροειδεῖς"},
+   "Leaf shape": {"en": "round", "greek": "φύλλα δὲ στρογγύλα"},
+   "Flower general": {"en": "the bud opens into a flower", "greek": "ἀνοιχθεὶς λευκὸν προίεται ἄνθος"},
+   "Flower colour": {"en": "white", "greek": "λευκὸν προίεται ἄνθος"},
+   "Fruit shape": {"en": "oblong body left when the flower falls", "greek": "βάλανος ἐπίμηκες"},
+   "Seed general": {"en": "contains small grains", "greek": "ἔχει κόκκους"},
+   "Seed colour": {"en": "red", "greek": "μικρούς, ἐρυθρούς"},
+   "Root general": {"en": "roots woody, large, very many", "greek": "ῥίζας ξυλώδεις καὶ μεγάλας, πλείστας"},
+   "Habitat": {"en": "rough, thin-soiled places, islands and old building sites", "greek": "φύεται τοὐπίπαν ἐν τραχέσι καὶ λεπτογείοις τόποις καὶ νήσοις καὶ οἰκοπέδοις"},
+   "Distribution": {"en": "kinds from Libya (Marmaridae), Apulia, the Red Sea and Arabia", "greek": "ἡ μέντοι Λιβυκὴ κάππαρις, γεννωμένη δὲ κατὰ τοὺς Μαρμαρίδας λεγομένους"},
+   "Taste properties": {"en": "Red Sea and Arabian kind very pungent, blisters the mouth", "greek": "δριμυτάτη, φλυκταίνουσα τὸ στόμα"},
+   "Ethnobotany": {"en": "fruit and stalk pickled for food", "greek": "ταριχεύεται δὲ ὁ καρπὸς καὶ ὁ καυλὸς εἰς βρῶσιν"}},
+  "comparisons": {
+   "Stem": {"en": "thorns like bramble's", "greek": "ὡς βάτος"},
+   "Leaf": {"en": "leaves like quince's", "greek": "κυδωνίᾳ ὅμοια"},
+   "Fruit": [{"en": "bud like an olive", "greek": "καρπὸν δὲ οἶον ἐλαίας"},
+             {"en": "fruit like an elongated acorn", "greek": "οἷον βάλανος ἐπίμηκες"}],
+   "Seed": {"en": "seeds like pomegranate's", "greek": "ὥσπερ ῥόας"}}},
+
+ {"key": "khelidonea (greater)", "chapter": "2.180",
+  "characters": {
+   "Height": {"en": "a cubit (≈46 cm) or more", "greek": "καυλὸν ἔχει πηχυαῖον ἢ καὶ μείζονα"},
+   "Stem general": {"en": "stem slender", "greek": "μείζονα, ἰσχνόν"},
+   "Stem detail 1": {"en": "side shoots full of leaves", "greek": "ἔχοντα παραφυάδας φύλλων μεστάς"},
+   "Stem detail 2": {"en": "juice saffron-coloured", "greek": "χυλὸς δὲ κροκώδης"},
+   "Leaf detail 1": {"en": "leaves glaucous (blue-grey)", "greek": "ὑπόγλαυκα τὴν χρόαν"},
+   "Flower general": {"en": "a flower beside each leaf", "greek": "ἕκαστον φύλλον ἄνθος"},
+   "Taste properties": {"en": "juice pungent, somewhat biting, bitterish", "greek": "δριμύς, δηκτικὸς ποσῶς καὶ ὑπόπικρος"},
+   "Smell properties": {"en": "juice foul-smelling", "greek": "καὶ δυσώδης"},
+   "Root general": {"en": "root single above, several below", "greek": "ῥίζα ἄνωθεν μέν ἐστι μία, κάτωθεν δὲ πλείονες"},
+   "Fruit shape": {"en": "fruit thin, long like a cone", "greek": "λεπτός, μακρὸς ὡς κῶνος"},
+   "Ethnobotany": {"en": "named for appearing with the swallows and fading when they leave", "greek": "ἅμα ταῖς χελιδόσι φαινομέναις φύεται"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like batrachion's, but more delicate", "greek": "ὁμοίων βατραχίῳ, τρυφερώτερα"},
+   "Flower": {"en": "flower like leukoion's", "greek": "ὥσπερ τοῦ λευκοίου"},
+   "Fruit": {"en": "fruit like horned poppy's", "greek": "ὥσπερ τῆς κερατίτιδος μήκωνος"},
+   "Seed": {"en": "small seeds larger than poppy's", "greek": "σπερμάτια μείζονα μήκωνος"}}},
+
+ {"key": "gentiane", "chapter": "3.3",
+  "characters": {
+   "Leaf detail 1": {"en": "basal leaves reddish", "greek": "ὅμοια, ὑπέρυθρα"},
+   "Leaf edge": {"en": "leaves on the middle and top of the stem slightly divided", "greek": "ἐπεσχισμένα μικρῶς"},
+   "Stem general": {"en": "stem hollow, smooth, a finger thick", "greek": "καυλὸς δὲ κενός, λεῖος, πάχος δακτύλου"},
+   "Height": {"en": "two cubits (≈0.9 m)", "greek": "τὸ δὲ ὕψος δίπηχυς"},
+   "Stem detail 1": {"en": "jointed, leaves at wide intervals", "greek": "γόνασι διειλημμένος, ἐκ διαστημάτων μειζόνων περικείμενος τὰ φύλλα"},
+   "Fruit general": {"en": "fruit in husks", "greek": "καρπὸν δὲ ἔχει ἐν κάλυξι"},
+   "Fruit shape": {"en": "flat, light, chaffy", "greek": "πλατύν, κοῦφον, ἀχυρώδη"},
+   "Root general": {"en": "root long", "greek": "ῥίζαν μακράν"},
+   "Root detail 1": {"en": "root thick", "greek": "μακρᾷ, παχεῖαν"},
+   "Taste properties": {"en": "root bitter", "greek": "παχεῖαν, πικράν"},
+   "Habitat": {"en": "highest mountain ridges, shady and wet places", "greek": "γεννᾶται δὲ ἐν ὑψηλοτάταις ἀκρωρείαις καὶ συσκίοις τόποις καὶ ἐνύδροις"},
+   "Ethnobotany": {"en": "said to have been discovered by Gentius, king of the Illyrians", "greek": "ὑπὸ πρώτου εὑρῆσθαι Γέντιδος, τοῦ Ἰλλυριῶν βασιλέως"}},
+  "comparisons": {
+   "Leaf": {"en": "basal leaves like walnut or plantain", "greek": "καρύᾳ ἢ ἀρνογλώσσῳ ὅμοια"},
+   "Fruit": {"en": "fruit like sphondylion's", "greek": "πρὸς τὸν τοῦ σφονδυλίου"},
+   "Root": {"en": "root like long aristolochia", "greek": "ὁμοίαν ἀριστολοχείᾳ τῇ μακρᾷ"}}},
+
+ {"key": "aristolokhia (round, female)", "chapter": "3.4",
+  "characters": {
+   "Leaf shape": {"en": "roundish", "greek": "ὑποστρόγγυλα"},
+   "Leaf general": {"en": "tender leaves on many shoots from one root", "greek": "ἁπαλὰ περὶ πολλοῖς βλαστοῖς ἐκ μιᾶς ῥίζης"},
+   "Habitus general": {"en": "many shoots from a single root", "greek": "πολλοῖς βλαστοῖς ἐκ μιᾶς ῥίζης"},
+   "Stem general": {"en": "long trailing shoots", "greek": "τὰ δὲ κλήματα ἐπιμήκη"},
+   "Smell properties": {"en": "leaves fragrant with pungency; roots rank", "greek": "εὐώδη μετὰ δριμύτητος"},
+   "Flower colour": {"en": "white", "greek": "ἄνθη λευκά"},
+   "Flower general": {"en": "flowers like little caps", "greek": "οἱονεὶ πιλίσκους"},
+   "Flower detail 01": {"en": "red and foul-smelling inside", "greek": "ἐν αὐτοῖς ἐρυθρόν, δυσῶδες"},
+   "Root general": {"en": "root round", "greek": "τῆς μὲν στρογγύλης περιφερής"},
+   "Root colour": {"en": "boxwood-yellow inside", "greek": "πυξοειδεῖς ἔνδοθεν"},
+   "Taste properties": {"en": "root bitter", "greek": "πικραὶ τὴν γεῦσιν"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves ivy-like", "greek": "φύλλα δὲ ἔχει κισσοειδῆ"},
+   "Root": {"en": "root like a turnip", "greek": "γογγυλίδι ὁμοία"}}},
+
+ {"key": "aristolokhia (long, male)", "chapter": "3.4",
+  "characters": {
+   "Leaf shape": {"en": "leaves longer than the round kind's", "greek": "φύλλα ἐπιμηκέστερα τῆς στρογγύλης"},
+   "Stem general": {"en": "slender twigs", "greek": "τὰ κλωνία λεπτά"},
+   "Height": {"en": "about a span (≈23 cm)", "greek": "ὡς σπιθαμῆς τὸ μέγεθος"},
+   "Flower colour": {"en": "purple", "greek": "ἄνθος πορφυροῦν"},
+   "Smell properties": {"en": "flower foul-smelling; roots rank", "greek": "πορφυροῦν, δυσῶδες"},
+   "Root general": {"en": "a finger thick, a span long or more", "greek": "δακτύλου τὸ πάχος ἔχει, σπιθαμιαία ἢ καὶ μείζων"},
+   "Root colour": {"en": "boxwood-yellow inside", "greek": "πυξοειδεῖς ἔνδοθεν"},
+   "Taste properties": {"en": "root bitter", "greek": "πικραὶ τὴν γεῦσιν"}},
+  "comparisons": {
+   "Fruit": {"en": "after flowering becomes like a pear", "greek": "ἀπίῳ παραπλήσιον γίνεται"}}}
+]

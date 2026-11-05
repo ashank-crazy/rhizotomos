@@ -1,0 +1,68 @@
+[
+ {"key": "staphis agria", "chapter": "4.152",
+  "characters": {
+   "Leaf edge": {"en": "cut", "greek": "ἐπεσχισμένα"},
+   "Stem general": {"en": "small stems upright", "greek": "καυλία ὀρθά"},
+   "Stem detail 1": {"en": "black", "greek": "ὀρθά, μέλανα"},
+   "Fruit general": {"en": "fruit in green pods", "greek": "τὸν δὲ καρπὸν ἐν θυλακίοις χλωροῖς"},
+   "Fruit shape": {"en": "triangular", "greek": "τρίγωνον"},
+   "Fruit detail 1": {"en": "rough", "greek": "τρίγωνον, τραχύν"},
+   "Fruit colour": {"en": "tawny in the black; white inside", "greek": "ὑπόκιρρον ἐν τῳ μέλανι, τὰ δὲ ἔνδον λευκόν"},
+   "Taste properties": {"en": "pungent", "greek": "δριμύν"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves cut like wild vine's", "greek": "ὥσπερ ἀμπέλου ἀγρίας"},
+   "Flower": {"en": "flower like woad's", "greek": "τὸ δὲ ἄνθος φέρει ἰσάτει ὅμοιον"},
+   "Fruit": {"en": "pods like chickpea's", "greek": "ὥσπερ ἐρεβίνθου"}}},
+
+ {"key": "ampelos agria", "chapter": "4.181",
+  "characters": {
+   "Stem general": {"en": "long branches", "greek": "κλήματα ἀνίησι μακρὰ"},
+   "Stem detail 1": {"en": "woody, rough, bark peeling", "greek": "ξυλώδη, τραχέα, φλοιορραγοῦντα"},
+   "Flower general": {"en": "like hairs, moss-like", "greek": "ἄνθος ὡς τρίχας, βρυῶδες"},
+   "Fruit general": {"en": "like small clusters", "greek": "καρπὸν δὲ βοτρυδίοις μικροῖς ὅμοιον"},
+   "Fruit colour": {"en": "red when ripe", "greek": "πεπαινόμενον ἐρυθρόν"},
+   "Fruit shape": {"en": "berries round", "greek": "περιφερὲς δέ ἐστι τὸ σχῆμα τῶν κόκκων"},
+   "Ethnobotany": {"en": "fresh young shoots pickled for food", "greek": "ταριχεύονται δὲ καὶ ταύτης οἱ ἀκρεμόνες ἀρτιξυεῖς εἰς βρῶσιν"}},
+  "comparisons": {
+   "Stem": {"en": "branches long like the wine vine's", "greek": "ὡς ἀμπέλου οἰνοφόρου"},
+   "Leaf": {"en": "leaves like garden nightshade's, but broader and smaller", "greek": "φύλλα δὲ ὅμοια στρύχνῳ κηπαίῳ, πλατύτερα δὲ καὶ μικρότερα"}}},
+
+ {"key": "ampelos melaina, bryonia", "chapter": "4.183",
+  "characters": {
+   "Habitus general": {"en": "climbs trees with tendrils", "greek": "ἐλλαμβάνεται δὲ καὶ αὕτη τῶν δένδρων ταῖς ἔλιξι"},
+   "Fruit general": {"en": "cluster-like", "greek": "καρπὸς δὲ βοτρυώδης"},
+   "Fruit colour": {"en": "green at first, black when ripe", "greek": "χλωρὸς κατʼ ἀρχήν, πεπανθεὶς δὲ μέλας γίνεται"},
+   "Root colour": {"en": "black outside, boxwood-yellow inside", "greek": "ῥίζα μέλαινα ἔξωθεν, ἔνδοδεν δὲ πυξοειδής"},
+   "Ethnobotany": {"en": "stems eaten as a vegetable when first sprouting", "greek": "οἱ καυλοὶ κατὰ τὴν πρώτην ἐκβλάστησιν λαχανεύονται"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like ivy's, rather like smilax's", "greek": "φύλλα ἐστὶ κισσῷ ὅμοια, μᾶλλον δὲ πρὸς τὶ τῆς μίλακος"},
+   "Stem": {"en": "stems likewise, but larger", "greek": "καὶ οἱ καυλοὶ δέ· μείζονα δὲ ταῦτα"}}},
+
+ {"key": "polypodion", "chapter": "4.186",
+  "characters": {
+   "Habitat": {"en": "on mossy rocks and old tree stumps", "greek": "φύεται ἐν πέτραις βρύα ἐχούσαις καὶ ἐν τοῖς γερανδρύοις πρέμνοις"},
+   "Height": {"en": "a span high (≈23 cm)", "greek": "σπιθαμῆς ἔχον ὕψος"},
+   "Leaf surface": {"en": "somewhat hairy", "greek": "ὐπόδασυ"},
+   "Leaf edge": {"en": "incised", "greek": "ἐντετμημένον"},
+   "Root general": {"en": "hairy", "greek": "ὕπεστι δασεῖα"},
+   "Root detail 1": {"en": "with tentacles like an octopus", "greek": "πλεκτάνας ὥσπερ πολύπους ἔχουσα"},
+   "Root detail 2": {"en": "as thick as a little finger", "greek": "πάχος μικροῦ δακτύλου"},
+   "Root colour": {"en": "green inside when scraped", "greek": "ξυσθεῖσα δὲ ἔνδοθεν χλωρά"},
+   "Taste properties": {"en": "astringent and sweetish", "greek": "στρυφνὴ κατὰ τὴν γεῦσιν καὶ ὑπόγλυκυς"}},
+  "comparisons": {
+   "Habit": [{"en": "like a fern", "greek": "ὅμοιον πτέριδι"},
+             {"en": "but not so finely divided", "greek": "οὐ μὴν οὕτως γε λεπτοσχιδῶς"}]}},
+
+ {"key": "heliotropion greater, skorpiouron", "chapter": "4.190",
+  "characters": {
+   "Ethnobotany": {"en": "named 'scorpion-tail' from the flower's shape", "greek": "σκορπίουρον ἀπὸ τοῦ περὶ τὸ ἄνθος σχήματος ἐκάλεσαν"},
+   "Leaf detail 2": {"en": "leaves turn with the sun", "greek": "συμπεριτρέπεσθαι τὰ φύλλα τῇ τοῦ ἡλίου κλίσει"},
+   "Habitus general": {"en": "three or four branches from the root, many axils", "greek": "κλωνία ἀπὸ τῆς ῥίζης τρία ἢ τέσσαρα καὶ ἐκ τούτων μασχάλας πλείους"},
+   "Flower general": {"en": "at the tips", "greek": "ἄκρων δὲ ἄνθος"},
+   "Flower colour": {"en": "white, purplish", "greek": "ἄνθος λευκόν, ὑποπόρφυρον"},
+   "Flower detail 01": {"en": "curved like a scorpion's tail", "greek": "ἐπικαμπὲς καθάπερ σκορπίου οὐρά"},
+   "Root general": {"en": "thin, useless", "greek": "ῥίζα δὲ λεπτή, ἄχρηστος"},
+   "Habitat": {"en": "rough places", "greek": "φύεται δὲ ἐν τραχέσι τόποις"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like basil's, but hairier and blacker", "greek": "ἔχει τὰ φύλλα ὠκίμῳ παραπλήσια, δασύτερα δὲ καὶ μελάντερα"}}}
+]

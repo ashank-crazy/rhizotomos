@@ -1,0 +1,135 @@
+[
+ {"key": "strykhnon (garden)", "chapter": "4.70",
+  "characters": {
+   "Habitat": {"en": "the garden kind", "greek": "στρύχνον κηπαῖον"},
+   "Ethnobotany": {"en": "edible", "greek": "ἐδώδιμόν ἐστι"},
+   "Life form": {"en": "small shrub, not large", "greek": "θαμνίσκος οὐ μέγας"},
+   "Habitus general": {"en": "many axils", "greek": "μασχάλας ἔχων πολλάς"},
+   "Leaf detail 1": {"en": "black (dark)", "greek": "φύλλα μέλανα"},
+   "Fruit shape": {"en": "round", "greek": "καρπὸς περιφερής"},
+   "Fruit colour": {"en": "green or black", "greek": "χλωρὸς ἢ μέλας"},
+   "Fruit detail 1": {"en": "turns tawny when ripe", "greek": "ἔγκιρρος δὲ γίνεται μετὰ τὸ πεπανθῆναι"},
+   "Taste properties": {"en": "harmless to taste", "greek": "ἀβλαβὴς δὲ ἡ βοτάνη πρὸς γεῦσιν"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves larger and broader than basil's", "greek": "ὠκίμου μείζονα καὶ πλατύτερα"}}},
+
+ {"key": "mandragoras (female, black)", "chapter": "4.75",
+  "characters": {
+   "Ethnobotany": {"en": "root thought to make love potions", "greek": "δοκεῖ ἡ ῥίζα φίλτρων εἶναι ποιητική"},
+   "Smell properties": {"en": "leaves rank and heavy-smelling", "greek": "βρωμώδη καὶ βαρέα κατὰ τὴν ὀσμήν"},
+   "Leaf general": {"en": "spread on the ground", "greek": "κεχυμένα δὲ ἐπὶ γῆς"},
+   "Fruit general": {"en": "'apples' beside the leaves", "greek": "παῤ αὐτὰ μῆλα"},
+   "Fruit colour": {"en": "pale yellow", "greek": "ὠχρά"},
+   "Fruit detail 1": {"en": "apples fragrant", "greek": "ὠχρά, εὐώδη"},
+   "Root general": {"en": "large, two or three, intertwined", "greek": "ῥίζαι εὐμεγέθεις, δύο ἢ τρεῖς, ἀντεμπεπλεγμέναι ἀλλήλαις"},
+   "Root colour": {"en": "black outside, white inside", "greek": "μέλαιναι κατὰ τὴν ἐπιφάνειαν, ἔνδοθεν δὲ λευκαὶ"},
+   "Root detail 1": {"en": "thick-barked", "greek": "λευκαὶ καὶ παχύφλοιοι"},
+   "Stem general": {"en": "stemless", "greek": "καυλὸν δὲ οὐ φέρει"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves narrower and smaller than lettuce's", "greek": "στενότερα καὶ μικρότερα θρίδακος"},
+   "Fruit": {"en": "apples like sorbs", "greek": "μῆλα οὔοις ἐμφερῆ"},
+   "Seed": {"en": "seed inside like pear's", "greek": "ἐν οἷς καρπὸς ὥσπερ ἀπίου"}}},
+
+ {"key": "mandragoras (male, white)", "chapter": "4.75",
+  "characters": {
+   "Leaf detail 1": {"en": "white", "greek": "φύλλα ἐστὶ λευκά"},
+   "Leaf size": {"en": "large", "greek": "λευκά, μεγάλα"},
+   "Leaf shape": {"en": "broad", "greek": "μεγάλα, πλατέα"},
+   "Leaf surface": {"en": "smooth", "greek": "πλατέα, λεῖα"},
+   "Fruit general": {"en": "apples twice the size", "greek": "τὰ δὲ μῆλα διπλάσια"},
+   "Fruit colour": {"en": "saffron-coloured", "greek": "κροκίζοντα τὴν χρόαν"},
+   "Smell properties": {"en": "fragrant with some heaviness", "greek": "εὐώδη μετὰ βάρους τινός"},
+   "Ethnobotany": {"en": "shepherds eat the apples and become drowsy", "greek": "ἃ καὶ ἐσθίουσιν οἱ ποιμένες"},
+   "Stem general": {"en": "stemless too", "greek": "ἄκαυλος δὲ καὶ οὗτος"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like beet's", "greek": "καθάπερ τεύτλου"},
+   "Root": {"en": "root like the female's, but larger and whiter", "greek": "ῥίζα δὲ ὁμοία τῇ πρὸ αὐτῆς, μείζων δὲ καὶ λευκοτέρα"}}},
+
+ {"key": "koneion", "chapter": "4.78",
+  "characters": {
+   "Stem general": {"en": "jointed", "greek": "καυλὸν ἀνίησι γονατώδη"},
+   "Stem detail 1": {"en": "large", "greek": "μέγαν"},
+   "Smell properties": {"en": "leaves heavy-smelling", "greek": "καὶ βαρύοσμα"},
+   "Flower general": {"en": "offshoots and umbels at the top", "greek": "δὲ ἀποφύσεις καὶ σκιάδια ἀνθῶν"},
+   "Flower colour": {"en": "whitish", "greek": "ἀνθῶν ὑπολεύκων"},
+   "Root general": {"en": "hollow, not deep", "greek": "ῥίζα κοίλη καὶ οὐ βαθεῖα"},
+   "Distribution": {"en": "most potent: Crete, Megara, Attica, Chios, Cilicia", "greek": "τὸ Κρητικὸν καὶ Μεγαρικὸν καὶ Ἀττικὸν"}},
+  "comparisons": {
+   "Stem": {"en": "stem jointed like fennel's", "greek": "ὡς μάραθον"},
+   "Leaf": {"en": "leaves like giant fennel's, but narrower", "greek": "φύλλα δὲ νάρθηκι ἐμφερῆ, στενότερα δὲ"},
+   "Seed": {"en": "seed like anise's, but whiter", "greek": "σπέρμα ἐμφερὲς ἀνήσσῳ, λευκότερον δέ"}}},
+
+ {"key": "nerion, rododaphne", "chapter": "4.81",
+  "characters": {
+   "Life form": {"en": "well-known shrub", "greek": "γνώριμος θάμνος"},
+   "Fruit shape": {"en": "like a horn", "greek": "καρπὸν ὡς κέρας"},
+   "Fruit structure": {"en": "opens, full of woolly matter", "greek": "ἀνεῳγμένον πλήρη ἐριώδους φύσεως"},
+   "Root general": {"en": "pointed and long", "greek": "ῥίζα δὲ ἄποξυς καὶ μακρά"},
+   "Taste properties": {"en": "root salty", "greek": "γευσαμένῳ ἁλμυρά"},
+   "Habitat": {"en": "parks and coastal places", "greek": "φύεται ἐν παραδείσοις καὶ παραθαλασσίοις τόποις"},
+   "Ethnobotany": {"en": "flowers, leaves deadly to dogs, donkeys, mules, most quadrupeds", "greek": "κυνῶν μὲν καὶ ὄνων καὶ ἡμιόνων"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves longer and thicker than almond's", "greek": "ἀμυγδαλῆς μακρότερα καὶ παχύτερα τὰ φύλλα ἔχων"},
+   "Flower": {"en": "flower rose-like", "greek": "τὸ δὲ ἄνθος ῥοδοειδές"},
+   "Fruit": {"en": "wool like thistle down", "greek": "ὁμοίας τοῖς ἀκανθίνοις πάπποις"}}},
+
+ {"key": "phlomos (female, white)", "chapter": "4.103",
+  "characters": {
+   "Leaf detail 1": {"en": "white", "greek": "πλατύτερα καὶ λευκά"},
+   "Height": {"en": "stem a cubit or more (≈46 cm+)", "greek": "καυλὸς πήχεως ἢ καὶ μείζων"},
+   "Stem general": {"en": "white, somewhat hairy", "greek": "λευκός, ὑπόδασυς"},
+   "Flower colour": {"en": "white, pale yellowish", "greek": "ἄνθη λευκά, ὕπωχρα"},
+   "Seed colour": {"en": "black", "greek": "σπέρμα μέλαν"},
+   "Root general": {"en": "long", "greek": "ῥίζα δὲ μακρά"},
+   "Root detail 1": {"en": "a finger thick", "greek": "πάχος ἔχουσα δακτύλου"},
+   "Taste properties": {"en": "root astringent", "greek": "μακρά, στρυφνή"},
+   "Habitat": {"en": "plains", "greek": "φύεται δὲ ἐν πεδίοις"},
+   "Ethnobotany": {"en": "leaves stored with dried figs keep them from rotting", "greek": "μετὰ σύκων ξηρῶν συντιθέμενα ἄσηπτα αὐτὰ διαφυλάσσειν"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like cabbage's, but much hairier and broader", "greek": "τὰ φύλλα παραπλήσιά ἐστι κράμβῃ, δασύτερα δὲ πολλῷ καὶ πλατύτερα"}}},
+
+ {"key": "adianton", "chapter": "4.134", "seen_expert_reading": true,
+  "characters": {
+   "Leaf size": {"en": "small leaflets", "greek": "φυλλάρια ἔχει"},
+   "Leaf edge": {"en": "cut at the tip", "greek": "ἐπεσχισμένα"},
+   "Stem general": {"en": "small rods bearing the leaflets", "greek": "τὰ δὲ ῥαβδία"},
+   "Stem detail 1": {"en": "intensely black, thin", "greek": "μέλανα ἰσχυρῶς, λεπτά"},
+   "Height": {"en": "a span (≈23 cm)", "greek": "λεπτά, σπιθαμιαῖα"},
+   "Habitus general": {"en": "no stalk, no flower, no fruit", "greek": "οὔτε δὲ καυλίον οὔτε ἄνθος οὔτε καρπὸν φέρει"},
+   "Flower general": {"en": "no flower", "greek": "οὔτε ἄνθος"},
+   "Fruit general": {"en": "no fruit", "greek": "οὔτε καρπὸν φέρει"},
+   "Root general": {"en": "useless", "greek": "ῥίζα ἄχρηστος"},
+   "Ethnobotany": {"en": "in feed makes cocks and quails combative; planted in sheepfolds", "greek": "τούς ἀλεκτρυόνας καὶ τούς ὄρτυγας μαχίμους εἶναι"},
+   "Habitat": {"en": "shady places, damp walls, around springs", "greek": "φύεται δὲ ἐν παλισκίοις τόποις καὶ τοίχοις ἐνίκμοις καὶ περὶ τάς κρήνας"}},
+  "comparisons": {
+   "Leaf": {"en": "leaflets like coriander's", "greek": "φυλλάρια ἔχει ὅμοια κοριάνδρῳ"}}},
+
+ {"key": "myrsine agria, leikhene", "chapter": "4.144",
+  "characters": {
+   "Leaf shape": {"en": "lance-shaped, pointed at the tip", "greek": "λογχοειδές, ὀξὺ"},
+   "Fruit shape": {"en": "round", "greek": "τὸν δὲ καρπὸν στρογγύλον"},
+   "Fruit general": {"en": "attached to the middle of the leaf", "greek": "μέσῳ τῷ πετάλῳ προσφυῆ"},
+   "Fruit colour": {"en": "red when ripening", "greek": "ἐρυθρὸν ἐν τῳ πεπαίνεσθαι"},
+   "Fruit structure": {"en": "bony inside", "greek": "ἔχοντα τὸ ἐντὸς ὀστῶδεσ"},
+   "Stem general": {"en": "many twigs from one root, hard to break", "greek": "πολλὰ ἐκ τῆς αὐτῆς ῥίζης, δύσθραυστα"},
+   "Height": {"en": "about a cubit (≈46 cm)", "greek": "ὅσον πήχεως"},
+   "Stem detail 1": {"en": "full of leaves", "greek": "φύλλων μεστά"},
+   "Taste properties": {"en": "root astringent, bitterish", "greek": "γευομένῳ στρυφνήν, ὑπόπικρον"},
+   "Habitat": {"en": "rough and precipitous places", "greek": "φύεται ἐν τραχέσι καὶ κρημνώδεσι τόποις"},
+   "Ethnobotany": {"en": "young stalks eaten as a vegetable instead of asparagus", "greek": "οἱ καυλοὶ νεοθαλεῖς λαχανευόμενοι ἐσθίονται"}},
+  "comparisons": {
+   "Leaf": {"en": "leaf like myrtle's, but broader", "greek": "τὸ μὲν φύλλον μυρρίνῃ ὅμοιον ἔχει, πλατύτερον δέ"},
+   "Stem": {"en": "twigs withy-like", "greek": "κλωνία λυγοειδῆ"},
+   "Root": {"en": "root like dog's-tooth grass's", "greek": "ῥίζαν παραπλησίαν ἀγρώστει"}}},
+
+ {"key": "khamaidaphne", "chapter": "4.147",
+  "characters": {
+   "Height": {"en": "rods a cubit (≈46 cm)", "greek": "ῥάβδους ἀνίησι πηχυαίας"},
+   "Stem general": {"en": "unbranched", "greek": "μονοκλώνους"},
+   "Stem detail 1": {"en": "thin and smooth", "greek": "λεπτάς καὶ λείας"},
+   "Fruit shape": {"en": "round", "greek": "καρπὸν δὲ περιφερῆ"},
+   "Fruit colour": {"en": "red", "greek": "περιφερῆ, ἐρυθρόν"},
+   "Fruit general": {"en": "growing on the leaves", "greek": "τοῖς φύλλοις ἐπιπεφυκότα"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like bay's, but much thinner and greener", "greek": "τὰ φύλλα ὅμοια δάφνῃ, λεπτότερα δὲ πολλῷ καὶ χλωρότερα"}}}
+]

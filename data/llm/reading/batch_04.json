@@ -1,0 +1,163 @@
+[
+ {"key": "bettonike, in kestron", "chapter": "4.1",
+  "characters": {
+   "Habitat": {"en": "found in the coldest places", "greek": "ἐν τοῖς ψυχροτάτοις εὑρίσκεται τόποις"},
+   "Ethnobotany": {"en": "named 'cold-reared' after where it grows", "greek": "τὸ καλούμενον ψυχρότροφον"},
+   "Life form": {"en": "herb", "greek": "πόα ἐστὶ"},
+   "Stem general": {"en": "stem thin", "greek": "καυλὸν ἔχουσα λεπτόν"},
+   "Height": {"en": "a cubit or more (≈46 cm+)", "greek": "πήχεως τὸ ὕψος ἢ καὶ μείζονα"},
+   "Stem detail 1": {"en": "square", "greek": "μείζονα, τετράγωνον"},
+   "Leaf shape": {"en": "long", "greek": "φύλλα μακρά"},
+   "Leaf surface": {"en": "soft", "greek": "μακρά, ]αλακά"},
+   "Leaf edge": {"en": "edges cut", "greek": "τὴν περιφέρειαν ἐσχισμένα"},
+   "Smell properties": {"en": "leaves fragrant", "greek": "ἐσχισμένα, εὐώδη"},
+   "Leaf size": {"en": "larger near the root", "greek": "μείζονα δὲ τὰ πρὸς τῇ δίζῃ"},
+   "Seed general": {"en": "seed at the stem tip, in a spike", "greek": "ἔνεστι τὸ σπέρμα ἐσταχυωμένον"},
+   "Root general": {"en": "roots thin", "greek": "ῥίζαι δὲ ὕπεισι λεπταὶ"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like oak's", "greek": "ὅμοια δρυΐ"},
+   "Seed": {"en": "spike like savory's", "greek": "ὥσπερ θύμβρας"},
+   "Root": {"en": "roots like hellebore's", "greek": "ὡς ἐλλεβόρου"}}},
+
+ {"key": "tribolos (enydros)", "chapter": "4.15",
+  "characters": {
+   "Habitat": {"en": "grows in rivers", "greek": "ἔνυδρος ἐν ποταμοῖς φυόμενος"},
+   "Habitus general": {"en": "foliage rises above the water, the thorn hidden", "greek": "ὑπερέχων τὴν κόμην, τὴν δὲ ἄκανθαν κρύπτων"},
+   "Leaf shape": {"en": "broad", "greek": "φύλλα πλατέα"},
+   "Leaf detail 1": {"en": "with a long stalk", "greek": "μόσχον ἔχοντα μακρόν"},
+   "Stem general": {"en": "thicker at the top than in the depth", "greek": "καυλὸς δὲ ἐξ ἄκρου παχύτερος, μᾶλλον τοῦ ἐν βάθει"},
+   "Stem detail 1": {"en": "hair-like, spike-shaped growths attached", "greek": "τριχώδη τινὰ ἀποπεφυκότα, σταχυοειδῆ"},
+   "Fruit general": {"en": "fruit hard", "greek": "καρπὸς σκληρὸς"},
+   "Taste properties": {"en": "fruit sweet and nourishing", "greek": "ὄντα γλυκὺν καὶ τρόφιμον"},
+   "Ethnobotany": {"en": "Thracians feed horses on it; fruit used instead of bread", "greek": "τῇ μὲν πόᾳ χλωρᾷ ἱπποτροφοῦσι"},
+   "Distribution": {"en": "Thrace, around the river Strymon", "greek": "περὶ τὸν Στρυμόνα ποταμὸν Θρᾷκες"}},
+  "comparisons": {
+   "Fruit": {"en": "fruit hard like the land kind's", "greek": "ὡς καὶ θἀτέρου"}}},
+
+ {"key": "sideritis", "chapter": "4.33",
+  "characters": {
+   "Life form": {"en": "herb", "greek": "πόα ἐστὶ"},
+   "Leaf surface": {"en": "rough", "greek": "μικρότερα μέντοι καὶ τραχέα"},
+   "Stem general": {"en": "stems square", "greek": "καυλούς δὲ ἀνίησι τετραγώνους"},
+   "Height": {"en": "a span or more (≈23 cm+)", "greek": "σπιθαμιαίους ἢ καὶ μείζονας"},
+   "Taste properties": {"en": "stems not unpleasant to taste, slightly astringent", "greek": "οὐκ ἀηδεῖς ἐν τῇ γεύσει καὶ ποσῶς ὑποστύφοντας"},
+   "Flower general": {"en": "round whorls at intervals on the stems", "greek": "ἐκ διαστημάτων σφόνδυλοι περιφερεῖς"},
+   "Seed colour": {"en": "black seed in the whorls", "greek": "ἐν αὐτοῖς σπέρμα μέλαν"},
+   "Habitat": {"en": "somewhat rocky places", "greek": "φύεται ἐν ὑποπέτροις χωρίοις"}},
+  "comparisons": {
+   "Leaf": {"en": "like horehound's, longer like sage's or oak's, but smaller", "greek": "ὅμοια πρασίῳ, ἐπιμηκέστερα δὲ πρὸς τὰ τοῦ ἐλελισφάκου ἢ δρυός, μικρότερα μέντοι"},
+   "Flower": {"en": "whorls like horehound's", "greek": "ὥσπερ πρασίου"}}},
+
+ {"key": "eupatorios", "chapter": "4.41",
+  "characters": {
+   "Life form": {"en": "undershrubby herb", "greek": "πόα ἐστὶ φρυγανώδης"},
+   "Stem general": {"en": "a single rod", "greek": "ῥάβδον ἀναφέρουσα μίαν"},
+   "Stem detail 1": {"en": "upright, woody, thin", "greek": "ἀρθήν, ξυλώδη, λεπτήν"},
+   "Stem detail 2": {"en": "black, hairy", "greek": "μέλαιναν, ἔνδασυν"},
+   "Height": {"en": "a cubit or more (≈46 cm+)", "greek": "πήχεως ἢ καὶ μείζονα"},
+   "Leaf general": {"en": "leaves at intervals", "greek": "φύλλα δὲ ἐκ διαστήματος"},
+   "Leaf shape": {"en": "divided into five or more parts", "greek": "ἐσχισμένα μάλιστά που εἰς πέντε μοίρας ἢ καὶ πλείους"},
+   "Leaf detail 1": {"en": "blackish", "greek": "καὶ αὐτὰ δὲ ὑπομέλανα"},
+   "Leaf edge": {"en": "saw-toothed at the tips", "greek": "πριονοειδῶς ἐξ ἄκρων ἐντετμημένα"},
+   "Seed general": {"en": "seed set round the stem from the middle up", "greek": "σπέρμα δὲ περιπέφυκεν ἀπὸ μέσου"},
+   "Seed detail 1": {"en": "somewhat hairy, bent down; dry, it sticks to clothes", "greek": "ὑπόδασυ, κάτω νενευκός, ὡς καὶ τοῖς ἱματίοις προσέχεσθαι ξηρανθέν"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like cinquefoil's or hemp's", "greek": "τοῖς τῆς πεντεφύλλου ἢ καννάβεως μᾶλλον ἐοικότα"}}},
+
+ {"key": "ippouris", "chapter": "4.46",
+  "characters": {
+   "Habitat": {"en": "watery places and ditches", "greek": "φύεται ἐν τόποις ἐφύδροις καὶ ἐν τάφροις"},
+   "Stem general": {"en": "small stems hollow", "greek": "καυλία κενά"},
+   "Stem detail 1": {"en": "reddish, roughish, firm", "greek": "ὑπέρυθρα, ὑποτραχέα, στερεά"},
+   "Stem detail 2": {"en": "jointed, the joints fitting into one another", "greek": "γόνασι διειλημμένα ἐμπεφυκόσιν εἰς ἄλληλα"},
+   "Leaf general": {"en": "leaves thin, crowded round the stems", "greek": "λεπτά, πυκνά"},
+   "Habitus general": {"en": "climbs high on neighbouring stems", "greek": "εἰς ὕψος ἀναβαίνουσα ἐπὶ τὰ παρακείμενα στελέχη"},
+   "Habitus detail 1": {"en": "hangs down with many black hairs, like a horse's tail", "greek": "κατακρέμαται περικεχυμένη κόμαις πολλαῖς μελαίναις καθάπερ ἵππου οὐρά"},
+   "Root general": {"en": "woody, hard", "greek": "ῥίζα ξυλώδης, σκληρά"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves rush-like", "greek": "φύλλα σχοινώδη"}}},
+
+ {"key": "amaranton", "chapter": "4.57", "seen_expert_reading": true,
+  "characters": {
+   "Ethnobotany": {"en": "used to crown images; kept with clothes against moths", "greek": "ᾧ καὶ τὰ εἴδωλα στεφανοῦσι"},
+   "Stem general": {"en": "a small upright rod", "greek": "ῥαβδίον ὀρθόν"},
+   "Stem detail 1": {"en": "white", "greek": "ὀρθόν, λευκόν"},
+   "Leaf shape": {"en": "narrow", "greek": "φύλλα στενὰ"},
+   "Leaf general": {"en": "at intervals", "greek": "στενὰ ἐκ διαστημάτων ἔχον"},
+   "Flower general": {"en": "a circular head", "greek": "κόμην κυκλοτερῆ"},
+   "Flower colour": {"en": "umbels golden-shining", "greek": "σκιάδια χρυσοφανῆ"},
+   "Flower detail 01": {"en": "round, like dry clusters", "greek": "περιφερῆ ὥσπερ κορύμβους ξηρούς"},
+   "Root general": {"en": "thin", "greek": "ῥίζαν λεπτήν"},
+   "Habitat": {"en": "rough places and ravines", "greek": "δὲ ἐν τραχέσι καὶ χαραδρώδεσι τόποις"}},
+  "comparisons": {
+   "Leaf": {"en": "leaves like southernwood's", "greek": "πρὸς τὰ τοῦ ἁβροτόνου"}}},
+
+ {"key": "hyoskyamos (purple flowers)", "chapter": "4.68",
+  "characters": {
+   "Life form": {"en": "shrub", "greek": "θάμνος ἐστὶ"},
+   "Stem general": {"en": "stems thick", "greek": "καυλοὺς ἀνιεὶς παχεῖς"},
+   "Leaf shape": {"en": "broad, oblong", "greek": "φύλλα πλατέα, ἐπιμήκη"},
+   "Leaf edge": {"en": "divided", "greek": "ἐπιμήκη, ἐσχισμένα"},
+   "Leaf detail 1": {"en": "black (dark)", "greek": "ἐσχισμένα, μέλανα"},
+   "Leaf surface": {"en": "hairy", "greek": "μέλανα, δασέα"},
+   "Fruit general": {"en": "cups in a row along the stem", "greek": "παρὰ δὲ τὸν καυλὸν ἐφεξῆς πεφύκασιν"},
+   "Fruit structure": {"en": "closed by a little shield, full of seed", "greek": "πεφραγμένοι ἀσπιδίσκῃ, μεστοὶ σπέρματος"},
+   "Fruit detail 1": {"en": "cups hard and prickly", "greek": "τούς κυτίνους σκληροὺς καὶ ἀκανθώδεις"},
+   "Flower colour": {"en": "purplish", "greek": "ἄνθη ὑποπόρφυρα φέρει"},
+   "Seed colour": {"en": "black", "greek": "σπέρμα μέλαν"}},
+  "comparisons": {
+   "Fruit": {"en": "cups like pomegranate flower-cups", "greek": "ὥσπερ ῥοᾶς κύτινοι"},
+   "Seed": {"en": "seed like poppy's", "greek": "σπέρματος ὥσπερ μήκωνος"},
+   "Leaf": {"en": "leaves like smilax's", "greek": "φύλλα μίλακι ὅμοια"}}},
+
+ {"key": "hyoskyamos (quince-yellwow flowers)", "chapter": "4.68",
+  "characters": {
+   "Life form": {"en": "shrub", "greek": "θάμνος ἐστὶ"},
+   "Stem general": {"en": "stems thick", "greek": "καυλοὺς ἀνιεὶς παχεῖς"},
+   "Leaf shape": {"en": "broad, oblong", "greek": "φύλλα πλατέα, ἐπιμήκη"},
+   "Leaf edge": {"en": "divided", "greek": "ἐπιμήκη, ἐσχισμένα"},
+   "Leaf detail 1": {"en": "black (dark)", "greek": "ἐσχισμένα, μέλανα"},
+   "Leaf surface": {"en": "hairy", "greek": "μέλανα, δασέα"},
+   "Leaf detail 2": {"en": "leaves softer than the purple kind's", "greek": "φύλλα καὶ λοβοὺς ἁπαλώτερα"},
+   "Fruit general": {"en": "cups in a row along the stem", "greek": "παρὰ δὲ τὸν καυλὸν ἐφεξῆς πεφύκασιν"},
+   "Fruit structure": {"en": "closed by a little shield, full of seed", "greek": "πεφραγμένοι ἀσπιδίσκῃ, μεστοὶ σπέρματος"},
+   "Fruit detail 1": {"en": "pods softer", "greek": "φύλλα καὶ λοβοὺς ἁπαλώτερα"},
+   "Flower colour": {"en": "quince-yellowish", "greek": "ἄνθη μηλινοειδῆ"},
+   "Seed colour": {"en": "yellowish", "greek": "σπέρμα δὲ ὑπόξανθον"}},
+  "comparisons": {
+   "Fruit": {"en": "cups like pomegranate flower-cups", "greek": "ὥσπερ ῥοᾶς κύτινοι"},
+   "Seed": [{"en": "seed like poppy's", "greek": "σπέρματος ὥσπερ μήκωνος"},
+            {"en": "yellowish seed like erysimon's", "greek": "ὥσπερ ἐρύσιμον"}]}},
+
+ {"key": "hyoskyamos (white flowers)", "chapter": "4.68",
+  "characters": {
+   "Life form": {"en": "shrub", "greek": "θάμνος ἐστὶ"},
+   "Habitus general": {"en": "greasy, soft, downy", "greek": "λιπαρὸς καὶ ἁπαλὸς καὶ χνοώδης"},
+   "Stem general": {"en": "stems thick", "greek": "καυλοὺς ἀνιεὶς παχεῖς"},
+   "Leaf shape": {"en": "broad, oblong", "greek": "φύλλα πλατέα, ἐπιμήκη"},
+   "Leaf edge": {"en": "divided", "greek": "ἐπιμήκη, ἐσχισμένα"},
+   "Leaf detail 1": {"en": "black (dark)", "greek": "ἐσχισμένα, μέλανα"},
+   "Leaf surface": {"en": "hairy", "greek": "μέλανα, δασέα"},
+   "Fruit general": {"en": "cups in a row along the stem", "greek": "παρὰ δὲ τὸν καυλὸν ἐφεξῆς πεφύκασιν"},
+   "Fruit structure": {"en": "closed by a little shield, full of seed", "greek": "πεφραγμένοι ἀσπιδίσκῃ, μεστοὶ σπέρματος"},
+   "Flower colour": {"en": "white", "greek": "ἄνθη λευκὰ ἔχων"},
+   "Seed colour": {"en": "white", "greek": "καὶ τὸ σπέρμα λευκόν"},
+   "Habitat": {"en": "by the sea and in ruins", "greek": "φύεται παρά θαλάττῃ καὶ ἐν ἐρειπίοις"}},
+  "comparisons": {
+   "Fruit": {"en": "cups like pomegranate flower-cups", "greek": "ὥσπερ ῥοᾶς κύτινοι"},
+   "Seed": {"en": "seed like poppy's", "greek": "σπέρματος ὥσπερ μήκωνος"}}},
+
+ {"key": "psylleon", "chapter": "4.69",
+  "characters": {
+   "Leaf surface": {"en": "hairy", "greek": "ὅμοιον, δασύ"},
+   "Height": {"en": "branches a span (≈23 cm)", "greek": "κλῶνας δὲ σπιθαμιαίους"},
+   "Life form": {"en": "small grassy herb", "greek": "βοτάνιον χορτῶδες"},
+   "Habitus general": {"en": "foliage starts from the middle of the stem", "greek": "ἄρχεται δὲ αὐτοῦ ἡ κόμη ἀπὸ μέσου τοῦ καυλοῦ"},
+   "Flower general": {"en": "two or three heads clustered at the top", "greek": "κεφάλια δύο ἢ τρία"},
+   "Seed general": {"en": "seed like fleas", "greek": "σπέρμα ψύλλοις ἐοικός"},
+   "Seed colour": {"en": "black", "greek": "ἐοικός, μέλαν"},
+   "Seed detail 1": {"en": "hard", "greek": "μέλαν, σκληρόν"},
+   "Habitat": {"en": "ploughed fields", "greek": "φύεται ἐν ἀρούραις"}},
+  "comparisons": {
+   "Leaf": {"en": "leaf like crow's-foot's", "greek": "φύλλον ἔχει κορωνόποδι ὅμοιον"}}}
+]

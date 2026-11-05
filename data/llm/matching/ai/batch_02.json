@@ -1,0 +1,16 @@
+{
+ "P21-C1": {"Habitus general": "g", "Leaf detail 2": "a", "Flower general": "a", "Flower colour": "p", "Flower detail 01": "a", "Habitat": "p"},
+ "P22-C1": {"Flower general": "a", "Flower colour": "g", "Habitat": "g", "Distribution": "g"},
+ "P23-C1": {"Life form": "p", "Height": "g", "Stem general": "a", "Stem detail 1": "g", "Stem detail 2": "g", "Leaf general": "a", "Leaf shape": "g", "Leaf edge": "g", "Leaf detail 1": "a"},
+ "P24-C1": {"Life form": "p", "Habitus general": "p", "Stem general": "p", "Leaf shape": "p", "Fruit general": "a", "Fruit shape": "n", "Habitat": "g"},
+ "P24-C2": {"Life form": "g", "Habitus general": "g", "Leaf shape": "n", "Fruit general": "a", "Fruit shape": "p", "Seed general": "p", "Habitat": "g"},
+ "P24-C3": {"Life form": "p", "Stem general": "p", "Leaf shape": "n", "Fruit general": "a", "Fruit shape": "n", "Seed general": "n", "Habitat": "n"},
+ "P25-C1": {"Height": "p", "Leaf size": "a", "Leaf shape": "p", "Leaf edge": "p", "Leaf surface": "g", "Habitat": "p"},
+ "P26-C1": {"Height": "g", "Stem general": "p", "Stem detail 1": "a", "Leaf shape": "g", "Fruit general": "g", "Fruit shape": "p", "Fruit structure": "p", "Fruit colour": "g", "Habitat": "g"},
+ "P27-C1": {"Life form": "p", "Height": "g", "Leaf general": "a", "Leaf surface": "g", "Fruit structure": "g", "Fruit colour": "g", "Fruit detail 1": "a", "Root general": "g", "Root colour": "a", "Taste properties": "g", "Distribution": "g"},
+ "P27-C2": {"Life form": "g", "Height": "p", "Leaf general": "a", "Leaf surface": "g", "Fruit structure": "g", "Fruit colour": "g", "Fruit detail 1": "a", "Distribution": "p"},
+ "P28-C1": {"Life form": "p", "Leaf general": "g", "Flower colour": "g", "Smell properties": "g"},
+ "P29-C1": {"Life form": "g", "Habitus general": "g", "Flower general": "a", "Flower colour": "n"},
+ "P29-C2": {"Life form": "g", "Habitus general": "g", "Leaf general": "a", "Leaf surface": "g", "Flower general": "a", "Flower colour": "g"},
+ "P30-C1": {"Life form": "g", "Height": "g", "Leaf size": "a", "Leaf surface": "g", "Flower general": "a", "Flower colour": "g", "Flower detail 01": "a", "Smell properties": "g", "Taste properties": "a", "Ethnobotany": "a"}
+}

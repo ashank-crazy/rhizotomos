@@ -1,0 +1,16 @@
+{
+ "P21-C1": {"Habitus general": "g", "Leaf surface": "p", "Flower general": "p", "Flower colour": "p", "Habitat": "p"},
+ "P22-C1": {"Leaf shape": "g", "Leaf detail 1": "p", "Flower colour": "g", "Fruit general": "p", "Fruit shape": "p", "Habitat": "g", "Distribution": "g"},
+ "P23-C1": {"Life form": "p", "Habitus detail 2": "p", "Height": "g", "Stem detail 1": "p", "Stem detail 2": "g", "Leaf shape": "g", "Leaf edge": "g", "Fruit general": "g", "Fruit structure": "g"},
+ "P24-C1": {"Life form": "p", "Habitus detail 1": "p", "Height": "g", "Stem general": "p", "Leaf shape": "p", "Fruit shape": "n", "Habitat": "g"},
+ "P24-C2": {"Life form": "g", "Habitus detail 1": "g", "Height": "p", "Leaf shape": "n", "Fruit shape": "p", "Seed general": "p", "Habitat": "g"},
+ "P24-C3": {"Life form": "p", "Height": "p", "Stem general": "p", "Leaf shape": "n", "Fruit shape": "n", "Seed general": "p", "Habitat": "n"},
+ "P25-C1": {"Height": "p", "Leaf general": "p", "Leaf shape": "p", "Leaf edge": "p", "Leaf surface": "g", "Flower general": "p", "Habitat": "p"},
+ "P26-C1": {"Habitus general": "p", "Height": "g", "Stem general": "g", "Stem detail 1": "g", "Leaf general": "g", "Leaf shape": "g", "Fruit general": "p", "Fruit shape": "p", "Fruit structure": "p", "Fruit colour": "g", "Habitat": "g"},
+ "P27-C1": {"Life form": "p", "Height": "g", "Leaf detail 1": "g", "Fruit general": "n", "Fruit shape": "g", "Fruit structure": "g", "Fruit colour": "g", "Root detail 1": "g", "Taste properties": "g", "Ethnobotany": "g", "Distribution": "g"},
+ "P27-C2": {"Life form": "g", "Height": "g", "Leaf detail 1": "g", "Fruit general": "g", "Fruit shape": "g", "Fruit structure": "g", "Fruit colour": "g", "Distribution": "p"},
+ "P28-C1": {"Life form": "p", "Leaf shape": "g", "Flower colour": "g", "Fruit shape": "p", "Fruit structure": "g", "Fruit detail 1": "g", "Smell properties": "g"},
+ "P29-C1": {"Life form": "g", "Habitus general": "g", "Flower colour": "n"},
+ "P29-C2": {"Life form": "g", "Habitus general": "g", "Leaf surface": "p", "Flower colour": "g"},
+ "P30-C1": {"Life form": "g", "Height": "g", "Leaf shape": "g", "Leaf surface": "p", "Flower colour": "g", "Fruit general": "g", "Smell properties": "g", "Ethnobotany": "n"}
+}

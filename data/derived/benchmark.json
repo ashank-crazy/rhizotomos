@@ -1,0 +1,5498 @@
+[
+ {
+  "key": "adianton",
+  "lemma": "JCLP_004",
+  "jc_name": "αδίαντον",
+  "dmm_name": "αδίαντον",
+  "chapter": "4.134",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower general": "no flower",
+   "Leaf detail 1": "quite dark and delicate stems on which the leaves grow (=petiole)",
+   "Leaf edge": "split at the edge",
+   "Leaf shape": "little leaves",
+   "Leaf size": "1 span long (16-22cm)",
+   "Seed general": "no seed",
+   "Stem general": "no stalk"
+  },
+  "comparisons": {
+   "Leaf": "similar to coriander (κόριον ΙΙΙ, 63)"
+  },
+  "candidates": [
+   {
+    "df_name": "Adiantum capillus-veneris",
+    "in_floras": true,
+    "modern": {
+     "Leaf size": "10-40 cm",
+     "Leaf shape": "leaf segments",
+     "Leaf edge": "2-8 broad lobes in the upper part of the leaf segments (G)",
+     "Leaf detail 1": "petiole and rachis dark (G), petiole black shining",
+     "Seed general": "spores (G)"
+    },
+    "expert_calls": {
+     "Stem general": "absent",
+     "Leaf size": "good",
+     "Leaf shape": "partial",
+     "Leaf edge": "good",
+     "Leaf detail 1": "good",
+     "Seed general": "good"
+    },
+    "cp_id": "CP007",
+    "accepted_name": "Adiantum capillus-veneris L.",
+    "family": "Pteridaceae",
+    "uses_score": 3,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "akanthe aspre",
+  "lemma": "JCLP_008",
+  "jc_name": "άκανθη άσπρη",
+  "dmm_name": "άκανθα λευκή",
+  "chapter": "3.12",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "purple",
+   "Flower detail 01": "longish",
+   "Flower general": "prickly head",
+   "Height": "over 2 cubits tall (> 0.92 cm)",
+   "Leaf detail 1": "prickly",
+   "Leaf detail 2": "whitish",
+   "Leaf surface": "somewhat hairy",
+   "Stem detail 1": "hollow",
+   "Stem detail 2": "whitish",
+   "Stem general": "thick as the thumb, or even thicker",
+   "Habitat": "in mountains and wooded areas"
+  },
+  "comparisons": {
+   "Flower": "resembling a sea urchin, but smaller",
+   "Fruit": "seed like the safflower's, but rounder",
+   "Leaf": "resemble pine thistle, but narrower and whiter"
+  },
+  "candidates": [
+   {
+    "df_name": "Cirsium ferox (FT, Cnicus ferox)",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP174",
+    "accepted_name": "Cirsium ferox (L.) DC.",
+    "family": "Asteraceae",
+    "uses_score": 0,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   },
+   {
+    "df_name": "Echinops graecus (FT, E. lanuginosus)",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP080",
+    "accepted_name": "Echinops graecus Mill.",
+    "family": "Asteraceae",
+    "uses_score": 0,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   },
+   {
+    "df_name": "Onopordum bracteatum",
+    "in_floras": true,
+    "modern": {
+     "Height": "50-80 cm",
+     "Stem general": "robust (FC)",
+     "Stem detail 2": "snowy white",
+     "Leaf surface": "arachnoid (KS)",
+     "Leaf detail 1": "spinose",
+     "Leaf detail 2": "whitish (KS)",
+     "Flower general": "capitula having phyllaries with spines less than 10 mm long (KS)",
+     "Flower colour": "lilac to purplish (G)",
+     "Flower detail 01": "involucre 3-4 x 3-6 cm",
+     "Habitat": "open rocky scrub, steppe and roadsides, 150-1500 m"
+    },
+    "expert_calls": {
+     "Height": "partial",
+     "Stem general": "partial",
+     "Stem detail 1": "absent",
+     "Stem detail 2": "good",
+     "Leaf surface": "partial",
+     "Leaf detail 1": "good",
+     "Leaf detail 2": "good",
+     "Flower general": "good",
+     "Flower colour": "good",
+     "Flower detail 01": "partial",
+     "Habitat": "no"
+    },
+    "cp_id": "CP081",
+    "accepted_name": "Onopordum bracteatum Boiss. & Heldr.",
+    "family": "Asteraceae",
+    "uses_score": 1,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Piconomon acarna",
+    "in_floras": true,
+    "modern": {
+     "Height": "12-150 cm",
+     "Stem detail 2": "grey arachnoid",
+     "Leaf surface": "arachnoid-tomentellous (G) (FC)",
+     "Leaf detail 1": "lobes with rigid spines",
+     "Flower general": "capitula having outer phyllaries with spiny appendage (G)",
+     "Flower colour": "pinkish, purple or white",
+     "Flower detail 01": "involucre ovoid to cylindrical (G)",
+     "Habitat": "garigue, gravel screes, dry stream beds, waste lands, 100-1600 m"
+    },
+    "expert_calls": {
+     "Height": "partial",
+     "Stem general": "absent",
+     "Stem detail 1": "absent",
+     "Stem detail 2": "good",
+     "Leaf surface": "partial",
+     "Leaf detail 1": "good",
+     "Leaf detail 2": "absent",
+     "Flower general": "good",
+     "Flower colour": "good",
+     "Flower detail 01": "partial",
+     "Habitat": "no"
+    },
+    "cp_id": "CP082",
+    "accepted_name": "Picnomon acarna (L.) Cass.",
+    "family": "Asteraceae",
+    "uses_score": 1,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "aloe",
+  "lemma": "JCLP_012",
+  "jc_name": "αλόη",
+  "dmm_name": "αλόη",
+  "chapter": "3.22",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "white",
+   "Flower general": "flower called anthericon",
+   "Fruit general": "fruit",
+   "Leaf detail 1": "thick",
+   "Leaf detail 2": "curling backward",
+   "Leaf edge": "slightly protruding and truncated thorns",
+   "Leaf surface": "greasy, flat",
+   "Root general": "single, stake-like",
+   "Stem general": "flowering stem",
+   "Smell properties": "oppressive",
+   "Taste properties": "very bitter"
+  },
+  "comparisons": {
+   "Leaf": "nearly resembling the sea squill (σκίλλα II, 171)"
+  },
+  "candidates": [
+   {
+    "df_name": "Aloe perfoliata",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP009",
+    "accepted_name": "Aloe perfoliata L.",
+    "family": "Asphodelaceae",
+    "uses_score": 2,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   },
+   {
+    "df_name": "Aloe vera",
+    "in_floras": true,
+    "modern": {
+     "Stem general": "pedunculate inflorescence (G)",
+     "Leaf edge": "spinose-dentate (G)",
+     "Leaf surface": "coriaceous (G), glabrous",
+     "Leaf detail 1": "fleshy (G), FC: thick",
+     "Flower general": "inflorescence pedunculate (G), simple or 1-2 lax-branched",
+     "Flower colour": "perianth yellow or with greenish margins",
+     "Fruit general": "loculicidal capsule (G)",
+     "Taste properties": "sap bitter"
+    },
+    "expert_calls": {
+     "Stem general": "good",
+     "Leaf edge": "good",
+     "Leaf surface": "good",
+     "Leaf detail 1": "good",
+     "Leaf detail 2": "absent",
+     "Flower general": "partial",
+     "Flower colour": "no",
+     "Fruit general": "partial",
+     "Root general": "absent",
+     "Smell properties": "absent",
+     "Taste properties": "good",
+     "Habitat": "absent"
+    },
+    "cp_id": "CP010",
+    "accepted_name": "Aloe vera (L.) Burm.f.",
+    "family": "Asphodelaceae",
+    "uses_score": 2,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "alyssos",
+  "lemma": "JCLP_013",
+  "jc_name": "άλυσσος",
+  "dmm_name": "άλλυσσον",
+  "chapter": "3.91",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit general": "adjacent to the leaves",
+   "Fruit shape": "resembling small double shields",
+   "Habitus detail 1": "somewhat rough",
+   "Height": "small",
+   "Leaf shape": "round",
+   "Life form": "undershrub",
+   "Seed general": "somewhat wide",
+   "Stem general": "single stalked",
+   "Habitat": "mountains, rough places"
+  },
+  "comparisons": {},
+  "candidates": [
+   {
+    "df_name": "Fibigia clypeata (FT, Alyssum clypeatum, Farsetia clypeata)",
+    "in_floras": true,
+    "modern": {
+     "Life form": "suffrutescent herb",
+     "Habitus detail 1": "asperous with stellate hairs",
+     "Height": "stems usually more than 30 cm",
+     "Leaf shape": "radical leaves oblong, stem leaves linear",
+     "Fruit shape": "flattened siliculae, oblong-elliptic to ovate-oblong (KS), 6 seeds per loculus",
+     "Seed general": "wing accounting for half or less of the total wide",
+     "Habitat": "rocky slopes, 500-2300m"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus detail 1": "good",
+     "Height": "partial",
+     "Stem general": "absent",
+     "Leaf shape": "partial",
+     "Fruit general": "absent",
+     "Fruit shape": "partial",
+     "Seed general": "partial",
+     "Habitat": "good"
+    },
+    "cp_id": "CP129",
+    "accepted_name": "Fibigia clypeata (L.) Medik.",
+    "family": "Brassicaceae",
+    "uses_score": 0,
+    "expert_score": 7,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Odontarrhena alpestris (FT, Alyssum alpestre, var. genuinum Boiss, listed under Alyssum condensatum ssp. flexibile (FT, Nyar.) Dudley)",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial",
+     "Habitus detail 1": "indumentum of stellate hairs (G)",
+     "Height": "up to 20 cm",
+     "Stem general": "with fertile stems",
+     "Leaf shape": "obovate-spathulate or oblanceolate",
+     "Fruit shape": "siliculae oblong, narrowly to broadly elliptic, inflated, 1 loculate",
+     "Habitat": "screes, slopes, forest, 200-3500 m"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus detail 1": "good",
+     "Height": "good",
+     "Stem general": "no",
+     "Leaf shape": "no",
+     "Fruit general": "absent",
+     "Fruit shape": "good",
+     "Seed general": "absent",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP130",
+    "accepted_name": "Odontarrhena alpestris (L.) Ledeb.",
+    "family": "Brassicaceae",
+    "uses_score": 0,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Scutellaria galericulata",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial herb (G)",
+     "Height": "15-50 cm",
+     "Stem general": "simple or branched",
+     "Leaf shape": "elliptic to lanceolate, cordate, weakly crenate",
+     "Fruit shape": "nutlets depressed-globose to ellipsoid (G)",
+     "Seed general": "nutlets subglobose or ovoid, commonly tuberculate (G) (FC)",
+     "Habitat": "marshy ground, edges of lakes and rivers, 0-2000m"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus detail 1": "absent",
+     "Height": "partial",
+     "Stem general": "partial",
+     "Leaf shape": "no",
+     "Fruit general": "absent",
+     "Fruit shape": "no",
+     "Seed general": "no",
+     "Habitat": "no"
+    },
+    "cp_id": "CP132",
+    "accepted_name": "Scutellaria galericulata L.",
+    "family": "Lamiaceae",
+    "uses_score": 1,
+    "expert_score": -1,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "amaranton",
+  "lemma": "JCLP_078",
+  "jc_name": "αμάραντον",
+  "dmm_name": "αμάραντον",
+  "chapter": "4.57",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "shining like gold",
+   "Flower detail 01": "as if they were dry clusters",
+   "Flower general": "umbels round",
+   "Habitus detail 1": "upright",
+   "Habitus general": "white",
+   "Height": "small",
+   "Leaf detail 1": "leaves at intervals",
+   "Leaf general": "foliage in a circle",
+   "Leaf shape": "narrow leaves",
+   "Life form": "small shoot",
+   "Root general": "thin",
+   "Ethnobotany": "placed between clothes it guards them from being eaten by moth",
+   "Habitat": "rough terrains, places abounding in gullies"
+  },
+  "comparisons": {
+   "Leaf": "tend towards those of wormwood (αψίνθιον ΙΙΙ, 23)"
+  },
+  "candidates": [
+   {
+    "df_name": "Helichrysum italicum",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial (G)",
+     "Habitus general": "white-felted",
+     "Height": "8-42 cm",
+     "Leaf shape": "narrowly linear",
+     "Leaf detail 1": "alternate (G)",
+     "Flower general": "looser but very regular corymbs",
+     "Flower colour": "glossy brassy yellow",
+     "Flower detail 01": "scarious, everlasting (G)",
+     "Ethnobotany": "curry scented",
+     "Habitat": "macchia, pine forests, chalky cliffs tops"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "good",
+     "Habitus detail 1": "absent",
+     "Height": "partial",
+     "Leaf general": "absent",
+     "Leaf shape": "good",
+     "Leaf detail 1": "partial",
+     "Flower general": "partial",
+     "Flower colour": "good",
+     "Flower detail 01": "good",
+     "Root general": "absent",
+     "Ethnobotany": "good",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP012",
+    "accepted_name": "Helichrysum italicum (Roth) G.Don",
+    "family": "Asteraceae",
+    "uses_score": 1,
+    "expert_score": 7,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Helichrysum orientale",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial (G)",
+     "Habitus general": "white to greyish-white (KS), lanate",
+     "Height": "10-60 cm",
+     "Leaf general": "rosettes of young leaves",
+     "Leaf shape": "oblong to oblong-lanceolate",
+     "Leaf detail 1": "alternate (G)",
+     "Flower general": "capitula numerous, hemispherical",
+     "Flower colour": "bright yellow to apricot",
+     "Flower detail 01": "scarious, everlasting (G)",
+     "Habitat": "limestone cliffs, Macchie, pine forest on serpentine"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "good",
+     "Habitus detail 1": "absent",
+     "Height": "partial",
+     "Leaf general": "good",
+     "Leaf shape": "partial",
+     "Leaf detail 1": "partial",
+     "Flower general": "good",
+     "Flower colour": "partial",
+     "Flower detail 01": "good",
+     "Root general": "absent",
+     "Ethnobotany": "absent",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP013",
+    "accepted_name": "Helichrysum orientale (L.) Gaertn.",
+    "family": "Asteraceae",
+    "uses_score": 0,
+    "expert_score": 6,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Helichrysum stoechas",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP011",
+    "accepted_name": "Helichrysum stoechas subsp. barrelieri (Ten.) Nyman",
+    "family": "Asteraceae",
+    "uses_score": 1,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   },
+   {
+    "df_name": "Helichrysum stoechas ssp. barelieri",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial (G)",
+     "Habitus general": "white-felted",
+     "Height": "8-42 cm",
+     "Leaf shape": "narrowly linear",
+     "Leaf detail 1": "alternate (G)",
+     "Flower general": "dense corymbs",
+     "Flower colour": "glossy brassy yellow",
+     "Flower detail 01": "scarious, everlasting (G)",
+     "Ethnobotany": "curry scented",
+     "Habitat": "macchia, pine forests, chalky cliffs tops"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "good",
+     "Habitus detail 1": "absent",
+     "Height": "partial",
+     "Leaf general": "absent",
+     "Leaf shape": "good",
+     "Leaf detail 1": "partial",
+     "Flower general": "partial",
+     "Flower colour": "good",
+     "Flower detail 01": "good",
+     "Root general": "absent",
+     "Ethnobotany": "good",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP011",
+    "accepted_name": "Helichrysum stoechas subsp. barrelieri (Ten.) Nyman",
+    "family": "Asteraceae",
+    "uses_score": 1,
+    "expert_score": 7,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Petrosedum ochroleucum (FT, Sedum ochroleucum ssp. ochroleucum)",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial, woody at base",
+     "Habitus general": "glaucous",
+     "Habitus detail 1": "ascending",
+     "Height": "25-60 cm",
+     "Leaf shape": "oblong to narrowly ellipsoidal, 15-20 mm long, 3-4 mm wide",
+     "Leaf detail 1": "alternate, sometimes crowded (G)",
+     "Flower general": "dense cyme, flat-topped",
+     "Flower colour": "grrenish-white or pale yellow",
+     "Habitat": "limestone cliffs"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "partial",
+     "Habitus detail 1": "partial",
+     "Height": "partial",
+     "Leaf general": "absent",
+     "Leaf shape": "good",
+     "Leaf detail 1": "partial",
+     "Flower general": "no",
+     "Flower colour": "no",
+     "Flower detail 01": "absent",
+     "Root general": "absent",
+     "Ethnobotany": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP015",
+    "accepted_name": "Petrosedum ochroleucum (Chaix) Niederle",
+    "family": "Crassulaceae",
+    "uses_score": 0,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Sedum eriocarpus (FT, S. hispanicum var. hispanicum)",
+    "in_floras": true,
+    "modern": {
+     "Life form": "annual or perennial",
+     "Habitus general": "green or glaucous",
+     "Habitus detail 1": "ascending, simple or branched",
+     "Height": "5-15 cm",
+     "Leaf shape": "linear",
+     "Leaf detail 1": "alternate, sometimes crowded (G)",
+     "Flower general": "dense to lax, branched cyme",
+     "Flower colour": "white with pink vein",
+     "Habitat": "screes, limestone rocks"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "partial",
+     "Habitus detail 1": "partial",
+     "Height": "good",
+     "Leaf general": "absent",
+     "Leaf shape": "good",
+     "Leaf detail 1": "partial",
+     "Flower general": "partial",
+     "Flower colour": "no",
+     "Flower detail 01": "absent",
+     "Root general": "absent",
+     "Ethnobotany": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP016",
+    "accepted_name": "Sedum eriocarpum Sm.",
+    "family": "Crassulaceae",
+    "uses_score": 0,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Tanacetum annuum",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP018",
+    "accepted_name": "Tanacetum annuum L.",
+    "family": "Asteraceae",
+    "uses_score": 0,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   },
+   {
+    "df_name": "Teucrium polium",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial, woody at base",
+     "Habitus general": "white or grey languinose-tomentose",
+     "Habitus detail 1": "dwarf, much-branched subshrub (FC)",
+     "Height": "10-40 cm",
+     "Leaf shape": "oblong to narrowly obovate or linear",
+     "Leaf detail 1": "usually crowded (FC)",
+     "Flower general": "globous heads",
+     "Flower colour": "whitish",
+     "Habitat": "dry places, Quercus scrub, rocky slopes, steppe, dunes"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "good",
+     "Habitus detail 1": "no",
+     "Height": "partial",
+     "Leaf general": "absent",
+     "Leaf shape": "partial",
+     "Leaf detail 1": "no",
+     "Flower general": "good",
+     "Flower colour": "no",
+     "Flower detail 01": "absent",
+     "Root general": "absent",
+     "Ethnobotany": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP019",
+    "accepted_name": "Teucrium polium L.",
+    "family": "Lamiaceae",
+    "uses_score": 3,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "ampelos agria",
+  "lemma": "JCLP_016",
+  "jc_name": "άμπελος",
+  "dmm_name": "άμπελος αγρία",
+  "chapter": "4.181",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower general": "hair-like and catkin-like",
+   "Fruit colour": "red when ripe",
+   "Fruit general": "small grape clusters",
+   "Fruit shape": "grape",
+   "Habitus general": "send out long vine twigs",
+   "Seed detail 1": "round",
+   "Stem detail 1": "rough",
+   "Stem detail 2": "with bark that cracks",
+   "Stem general": "woody",
+   "Ethnobotany": "young boughs are cured for eating"
+  },
+  "comparisons": {
+   "Habitus": "like cultivated vine (άμπελος οινοφόρος V, 1)",
+   "Leaf": "like hound's berry (στρύχνον κηπαίον IV, 70), but wider and smaller"
+  },
+  "candidates": [
+   {
+    "df_name": "Clematis vitalba",
+    "in_floras": true,
+    "modern": {
+     "Stem general": "woody (G)",
+     "Stem detail 1": "ridged",
+     "Stem detail 2": "furrowed",
+     "Flower general": "axillary panicle, axis densly hairy",
+     "Fruit shape": "achenes (G)"
+    },
+    "expert_calls": {
+     "Habitus general": "absent",
+     "Stem general": "good",
+     "Stem detail 1": "good",
+     "Stem detail 2": "partial",
+     "Flower general": "partial",
+     "Fruit general": "absent",
+     "Fruit shape": "no",
+     "Fruit colour": "absent",
+     "Seed detail 1": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP031",
+    "accepted_name": "Clematis vitalba L.",
+    "family": "Ranunculaceae",
+    "uses_score": 1,
+    "expert_score": 1,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Dioscorea communis (FT, Tamus communis)",
+    "in_floras": true,
+    "modern": {
+     "Stem general": "slender",
+     "Stem detail 1": "glabrous",
+     "Flower general": "in axilary racemes",
+     "Fruit shape": "fruit a berry (G)",
+     "Fruit colour": "red when ripe (FC)",
+     "Seed detail 1": "globose (FT), ovoid or spherical (G) (FC)"
+    },
+    "expert_calls": {
+     "Habitus general": "absent",
+     "Stem general": "no",
+     "Stem detail 1": "no",
+     "Stem detail 2": "absent",
+     "Flower general": "partial",
+     "Fruit general": "absent",
+     "Fruit shape": "good",
+     "Fruit colour": "good",
+     "Seed detail 1": "good",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP033",
+    "accepted_name": "Dioscorea communis (L.) Caddick & Wilkin",
+    "family": "Dioscoreaceae",
+    "uses_score": 3,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Vitis sylvestris (FT, V. vinifera ssp. sylvestris)",
+    "in_floras": true,
+    "modern": {
+     "Stem general": "woody",
+     "Stem detail 2": "bark peeling off in long narrow strips (FC)",
+     "Flower general": "paniculate (G)",
+     "Fruit shape": "fruit a fleshy berry",
+     "Fruit colour": "violet-purple, reddish, yellowish or greenish (FC)",
+     "Seed detail 1": "subglobose, contracted into a beak half the length of the seed (G), pyriform (FC)"
+    },
+    "expert_calls": {
+     "Habitus general": "absent",
+     "Stem general": "good",
+     "Stem detail 1": "absent",
+     "Stem detail 2": "partial",
+     "Flower general": "partial",
+     "Fruit general": "absent",
+     "Fruit shape": "good",
+     "Fruit colour": "no",
+     "Seed detail 1": "no",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP034",
+    "accepted_name": "Vitis vinifera L.",
+    "family": "Vitaceae",
+    "uses_score": 3,
+    "expert_score": 1,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "ampelos melaina, bryonia",
+  "lemma": "JCLP_037",
+  "jc_name": "βρυωνία",
+  "dmm_name": "άμπελος μέλαινα, βρυωνία (2)",
+  "chapter": "4.183",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "frist pale-green, after ripening black",
+   "Flower general": "in clusters",
+   "Life form": "attaches itself to trees",
+   "Root colour": "outwardly black",
+   "Stem general": "having tendrils",
+   "Ethnobotany": "stems, when first sprouting, are used as vegetables"
+  },
+  "comparisons": {
+   "Leaf": "like ivy (kissos II, 179), tending towards bindweed (periklymenon IV, 14)",
+   "Root": "inside it has the colour of boxwood (pyxos, not listed)",
+   "Stem": "tending towards bindweed (periklymenon IV, 14), but larger"
+  },
+  "candidates": [
+   {
+    "df_name": "Bryonia alba (FT, B. dioica)",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial herb with climbing or trailing stem (G)",
+     "Stem general": "tendrils (G)",
+     "Flower general": "racemes or corymbose inflorescence",
+     "Fruit colour": "black"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Stem general": "good",
+     "Flower general": "partial",
+     "Fruit colour": "good",
+     "Root colour": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP133",
+    "accepted_name": "Bryonia alba L.",
+    "family": "Cucurbitaceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Bryonia cretica",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial herb with climbing or trailing stem (G)",
+     "Stem general": "tendrils (G)",
+     "Flower general": "racemes (male), lax to congested inflorescence (female)",
+     "Fruit colour": "red"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Stem general": "good",
+     "Flower general": "partial",
+     "Fruit colour": "no",
+     "Root colour": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP134",
+    "accepted_name": "Bryonia cretica L.",
+    "family": "Cucurbitaceae",
+    "uses_score": 3,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Dioscorea communis (FT, Tamus communis)",
+    "in_floras": true,
+    "modern": {
+     "Life form": "herbaceous climber (G)",
+     "Flower general": "in axillary racemes (G)",
+     "Fruit colour": "green, ripening red",
+     "Root colour": "tubers blackish"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Stem general": "absent",
+     "Flower general": "partial",
+     "Fruit colour": "partial",
+     "Root colour": "good",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP136",
+    "accepted_name": "Dioscorea communis (L.) Caddick & Wilkin",
+    "family": "Dioscoreaceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "aristolokhia (long, male)",
+  "lemma": "JCLP_022",
+  "jc_name": "αριστολοχία",
+  "dmm_name": "αριστολοχεία",
+  "chapter": "3.4",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "purple",
+   "Flower detail 01": "ill smelling",
+   "Fruit general": "pear shaped",
+   "Height": "little branches about a span in size (16-22 cm)",
+   "Leaf shape": "more elongated than the round type",
+   "Root detail 1": "thick as a finger",
+   "Root general": "a span long or even longer (> 16-22 cm)",
+   "Stem detail 1": "slender",
+   "Smell properties": "foul smelling (root)",
+   "Taste properties": "bitter (root)"
+  },
+  "comparisons": {
+   "Root": "inside like boxwood"
+  },
+  "candidates": [
+   {
+    "df_name": "Aristolochia fontanesii (FT, A. longa)",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP085",
+    "accepted_name": "Aristolochia fontanesii Boiss. & Reut.",
+    "family": "Aristolochiaceae",
+    "uses_score": 0,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   },
+   {
+    "df_name": "Aristolochia parviflora Sibth.",
+    "in_floras": true,
+    "modern": {
+     "Height": "stems 10-40cm long (FC)",
+     "Stem detail 1": "stems herbaceous, filiform (KS)",
+     "Leaf shape": "ovate-oblong",
+     "Flower colour": "brown or dusky purple",
+     "Flower detail 01": "often foetid (KG)",
+     "Fruit general": "capsule globose",
+     "Root detail 1": "thick (FC), oblong or fusiform-cylindrical"
+    },
+    "expert_calls": {
+     "Height": "good",
+     "Stem detail 1": "good",
+     "Leaf shape": "good",
+     "Flower general": "absent",
+     "Flower colour": "good",
+     "Flower detail 01": "good",
+     "Fruit general": "partial",
+     "Root general": "absent",
+     "Root detail 1": "partial",
+     "Smell properties": "absent",
+     "Taste properties": "absent"
+    },
+    "cp_id": "CP087",
+    "accepted_name": "Aristolochia parvifolia Sm.",
+    "family": "Aristolochiaceae",
+    "uses_score": 3,
+    "expert_score": 6,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Aristolochia sempervirens",
+    "in_floras": true,
+    "modern": {
+     "Height": "stems 20-100 cm",
+     "Stem detail 1": "stems lignified",
+     "Leaf shape": "ovate to ovate-lanceolate",
+     "Flower colour": "brownish-purple or yellow",
+     "Flower detail 01": "often foetid (KG)",
+     "Root general": "cylindrical"
+    },
+    "expert_calls": {
+     "Height": "partial",
+     "Stem detail 1": "partial",
+     "Leaf shape": "partial",
+     "Flower general": "absent",
+     "Flower colour": "no",
+     "Flower detail 01": "good",
+     "Fruit general": "absent",
+     "Root general": "no",
+     "Root detail 1": "absent",
+     "Smell properties": "absent",
+     "Taste properties": "absent"
+    },
+    "cp_id": "CP089_a",
+    "accepted_name": "Aristolochia sempervirens L.",
+    "family": "Aristolochiaceae",
+    "uses_score": 3,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "aristolokhia (round, female)",
+  "lemma": "JCLP_022",
+  "jc_name": "αριστολοχία",
+  "dmm_name": "αριστολοχεία",
+  "chapter": "3.4",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "white",
+   "Flower detail 01": "the red part in them is ill smelling",
+   "Flower general": "resembling little caps",
+   "Habitus general": "many shoots rising from one root",
+   "Height": "\"twigs\" are long (in comparison to the long/male type)",
+   "Leaf detail 1": "soft",
+   "Leaf detail 2": "surround many shoots",
+   "Leaf shape": "somewhat round",
+   "Root general": "globular",
+   "Smell properties": "foul smelling (root)",
+   "Taste properties": "pungently aromatic (leaves), bitter (root)"
+  },
+  "comparisons": {
+   "Leaf": "ivy-like",
+   "Root": "like a turnip, inside like boxwood"
+  },
+  "candidates": [
+   {
+    "df_name": "Aristolochia pallida",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "simple or branched",
+     "Height": "stems 10-25 cm",
+     "Leaf shape": "cordate-ovate to cordate-rotund",
+     "Leaf detail 1": "herbaceous (KS)",
+     "Leaf detail 2": "auricles clasping the stem (KS)",
+     "Flower general": "perianth: urticle, tube straight, limb as long or shorter as tube and curved forward",
+     "Flower colour": "greenish-yellow",
+     "Flower detail 01": "often foetid (KG)",
+     "Root general": "globose"
+    },
+    "expert_calls": {
+     "Habitus general": "partial",
+     "Height": "no",
+     "Leaf shape": "good",
+     "Leaf detail 1": "good",
+     "Leaf detail 2": "good",
+     "Flower general": "good",
+     "Flower colour": "partial",
+     "Flower detail 01": "good",
+     "Fruit general": "absent",
+     "Root general": "good",
+     "Root detail 1": "absent",
+     "Smell properties": "absent",
+     "Taste properties": "absent"
+    },
+    "cp_id": "CP086",
+    "accepted_name": "Aristolochia pallida Willd.",
+    "family": "Aristolochiaceae",
+    "uses_score": 0,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Aristolochia rotunda",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "simple, rarely branched",
+     "Height": "stems 15-50 cm",
+     "Leaf shape": "cordate-ovate",
+     "Leaf detail 1": "herbaceous (KS)",
+     "Leaf detail 2": "auricles not clasping the stem (KS)",
+     "Flower general": "perianth: urticle, tube straight, limb as long as tube",
+     "Flower colour": "yellowish or brownish-pink, limb dark-brown",
+     "Flower detail 01": "often foetid (KG)",
+     "Root general": "globose to ovoid"
+    },
+    "expert_calls": {
+     "Habitus general": "no",
+     "Height": "partial",
+     "Leaf shape": "good",
+     "Leaf detail 1": "good",
+     "Leaf detail 2": "partial",
+     "Flower general": "good",
+     "Flower colour": "no",
+     "Flower detail 01": "good",
+     "Fruit general": "absent",
+     "Root general": "good",
+     "Root detail 1": "absent",
+     "Smell properties": "absent",
+     "Taste properties": "absent"
+    },
+    "cp_id": "CP088",
+    "accepted_name": "Aristolochia rotunda L.",
+    "family": "Aristolochiaceae",
+    "uses_score": 3,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Aristolochia sempervirens",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "branched",
+     "Height": "20-100 cm",
+     "Leaf shape": "ovate to ovate-lanceolate",
+     "Leaf detail 1": "sub-coriaceous",
+     "Leaf detail 2": "base deeply cordate with short round auricles",
+     "Flower general": "perianth: urticle, u-shaped tube, limb",
+     "Flower colour": "brownish-purple or yellow",
+     "Flower detail 01": "often foetid (KG)",
+     "Fruit general": "capsule oblong to spherical",
+     "Root detail 1": "cylindrical"
+    },
+    "expert_calls": {
+     "Habitus general": "good",
+     "Height": "no",
+     "Leaf shape": "partial",
+     "Leaf detail 1": "no",
+     "Leaf detail 2": "no",
+     "Flower general": "no",
+     "Flower colour": "good",
+     "Flower detail 01": "good",
+     "Fruit general": "partial",
+     "Root general": "absent",
+     "Root detail 1": "partial",
+     "Smell properties": "absent",
+     "Taste properties": "absent"
+    },
+    "cp_id": "CP089_a",
+    "accepted_name": "Aristolochia sempervirens L.",
+    "family": "Aristolochiaceae",
+    "uses_score": 3,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "arnoglosson (greater)",
+  "lemma": "JCLP_023",
+  "jc_name": "αρνόγλωσσον",
+  "dmm_name": "αρνόγλωσσον",
+  "chapter": "2.126",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower general": "stem surrounded from the middle to the top by delicate seeds",
+   "Habitus detail 1": "sprouts better (than the small type)",
+   "Habitus general": "broad-leaved, like a vegetable",
+   "Height": "stem a cubit tall (ca. 46 cm)",
+   "Leaf shape": "broad",
+   "Root colour": "white",
+   "Root general": "soft, dense, thick as a finger",
+   "Seed general": "delicate seeds",
+   "Stem detail 1": "knobby",
+   "Stem detail 2": "reddish",
+   "Habitat": "marshes, hedges, wetlands"
+  },
+  "comparisons": {},
+  "candidates": [
+   {
+    "df_name": "Plantago asiatica",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP054",
+    "accepted_name": "Plantago asiatica L.",
+    "family": "Plantaginaceae",
+    "uses_score": 3,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   },
+   {
+    "df_name": "Plantago major",
+    "in_floras": true,
+    "modern": {
+     "Height": "10-50 (-70) cm",
+     "Stem detail 1": "scapes sulcate or striate, shortly hairy",
+     "Leaf shape": "elliptic-ovate to rotund-ovate",
+     "Flower general": "spikes, narrowly cylindrical",
+     "Habitat": "stream- and riversides, ditches, marshes, pathsides, arable land, etc."
+    },
+    "expert_calls": {
+     "Habitus general": "absent",
+     "Habitus detail 1": "absent",
+     "Height": "good",
+     "Stem detail 1": "partial",
+     "Leaf shape": "good",
+     "Flower general": "partial",
+     "Seed general": "absent",
+     "Root general": "absent",
+     "Root colour": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP057",
+    "accepted_name": "Plantago major L.",
+    "family": "Plantaginaceae",
+    "uses_score": 3,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Plantago media",
+    "in_floras": true,
+    "modern": {
+     "Stem detail 1": "scapes striate",
+     "Leaf shape": "elliptic-ovate to elliptic",
+     "Flower general": "spikes, narrowly cylindrical",
+     "Habitat": "mountain slopes, dry grassland, steppe"
+    },
+    "expert_calls": {
+     "Habitus general": "absent",
+     "Habitus detail 1": "absent",
+     "Height": "absent",
+     "Stem detail 1": "partial",
+     "Leaf shape": "good",
+     "Flower general": "partial",
+     "Seed general": "absent",
+     "Root general": "absent",
+     "Root colour": "absent",
+     "Habitat": "no"
+    },
+    "cp_id": "CP059",
+    "accepted_name": "Plantago media L.",
+    "family": "Plantaginaceae",
+    "uses_score": 3,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "arnoglosson (lesser)",
+  "lemma": "JCLP_023",
+  "jc_name": "αρνόγλωσσον",
+  "dmm_name": "αρνόγλωσσον",
+  "chapter": "2.126",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "pale green",
+   "Flower general": "at the top of the stem",
+   "Leaf shape": "narrower (than in the large type)",
+   "Leaf surface": "smooth",
+   "Stem detail 1": "knobby",
+   "Stem general": "leaning as if to the ground"
+  },
+  "comparisons": {
+   "Leaf": "smaller than the large type (arnoglosson to mega II, 126)"
+  },
+  "candidates": [
+   {
+    "df_name": "Plantago lagopus",
+    "in_floras": true,
+    "modern": {
+     "Stem detail 1": "scapes sulcate, adpressed hairy",
+     "Leaf shape": "lanceolate-ovate to narrowly lanceolate",
+     "Leaf surface": "sericeous-pillose",
+     "Flower general": "flowers in spikes (G)",
+     "Flower colour": "sepals brown, corolla lobes brownish"
+    },
+    "expert_calls": {
+     "Stem general": "absent",
+     "Stem detail 1": "partial",
+     "Leaf shape": "good",
+     "Leaf surface": "good",
+     "Flower general": "good",
+     "Flower colour": "no"
+    },
+    "cp_id": "CP055",
+    "accepted_name": "Plantago lagopus L.",
+    "family": "Plantaginaceae",
+    "uses_score": 3,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Plantago lanceolata",
+    "in_floras": true,
+    "modern": {
+     "Stem detail 1": "scapes sulcate, adpressed hairy",
+     "Leaf shape": "lanceolate-ovate to narrowly lanceolate",
+     "Leaf surface": "glabrous, pillose or villous",
+     "Flower general": "flowers in spikes (G)",
+     "Flower colour": "sepals brown, corolla lobes brownish"
+    },
+    "expert_calls": {
+     "Stem general": "absent",
+     "Stem detail 1": "partial",
+     "Leaf shape": "good",
+     "Leaf surface": "good",
+     "Flower general": "good",
+     "Flower colour": "no"
+    },
+    "cp_id": "CP056",
+    "accepted_name": "Plantago lanceolata L.",
+    "family": "Plantaginaceae",
+    "uses_score": 3,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Plantago maritima",
+    "in_floras": true,
+    "modern": {
+     "Stem detail 1": "scapes striate, adpressed hairy",
+     "Leaf shape": "linear",
+     "Leaf surface": "glabrous or sub-glabrous",
+     "Flower general": "flowers in spikes (G)"
+    },
+    "expert_calls": {
+     "Stem general": "absent",
+     "Stem detail 1": "partial",
+     "Leaf shape": "no",
+     "Leaf surface": "good",
+     "Flower general": "good",
+     "Flower colour": "absent"
+    },
+    "cp_id": "CP058",
+    "accepted_name": "Plantago maritima L.",
+    "family": "Plantaginaceae",
+    "uses_score": 1,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "asar",
+  "lemma": "JCLP_025",
+  "jc_name": "άσαρ",
+  "dmm_name": "άσαρον",
+  "chapter": "1.10",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "purple at the base",
+   "Flower general": "flower growing between the leaves",
+   "Fruit general": "fruit lying on the calyx",
+   "Fruit shape": "looking like a grape seed",
+   "Leaf detail 1": "soft",
+   "Leaf shape": "round",
+   "Root detail 1": "delicate, oblique",
+   "Root general": "numerous, angular",
+   "Smell properties": "aromatic (root)",
+   "Taste properties": "biting the tongue (root)",
+   "Habitat": "shaded mountains",
+   "Distribution": "abundantly in the Pontic region, Phrygia, Illyria, territory of the Vestiny of Italy [Beck: Central eastern Italy]"
+  },
+  "comparisons": {
+   "Flower": "resembling the calyx of henbane (υοσκύαμος IV, 68)",
+   "Fruit": "looking like a grape seed (σταφυλή V, 3)",
+   "Leaf": "like ivy (κίσσος II, 179), but softer and rounder",
+   "Root": "dogtooth grass (αγρώστις IV, 29) but much more delicate"
+  },
+  "candidates": [
+   {
+    "df_name": "Asarum europaeum",
+    "in_floras": true,
+    "modern": {
+     "Leaf shape": "scale leaves ovate, lamina reniform to cordate",
+     "Leaf detail 1": "glabrous or pubescent",
+     "Flower colour": "purplish, brown inside",
+     "Fruit general": "perianth epigynous, campanulate to urceolate (G)",
+     "Fruit shape": "seeds 3 x 2 mm",
+     "Habitat": "shady banks, mixed forests of Abies and Fagus",
+     "Distribution": "NW and NE Anatolia, e.g. Rize, Zonguldak (= Pontic region), W. Europe to Siberia"
+    },
+    "expert_calls": {
+     "Leaf shape": "partial",
+     "Leaf detail 1": "partial",
+     "Flower general": "absent",
+     "Flower colour": "good",
+     "Fruit general": "good",
+     "Fruit shape": "partial",
+     "Root general": "absent",
+     "Root detail 1": "absent",
+     "Smell properties": "absent",
+     "Taste properties": "absent",
+     "Habitat": "good",
+     "Distribution": "good"
+    },
+    "cp_id": "CP042",
+    "accepted_name": "Asarum europaeum L.",
+    "family": "Aristolochiaceae",
+    "uses_score": 3,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "asphodelos",
+  "lemma": "JCLP_027",
+  "jc_name": "ασφόδελος",
+  "dmm_name": "ασφόδελος",
+  "chapter": "2.169",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower general": "flower called antheriscon",
+   "Fruit general": "fruit",
+   "Leaf general": "foliage",
+   "Root general": "longish round, similar to acorns",
+   "Stem detail 2": "smooth",
+   "Stem general": "stem (bearing the flower called antheriscon)"
+  },
+  "comparisons": {},
+  "candidates": [
+   {
+    "df_name": "Asphodelus aestivus",
+    "in_floras": true,
+    "modern": {
+     "Stem general": "flowering stem",
+     "Flower general": "inflorescence paniculate (G), much branched",
+     "Fruit general": "loculicidal capsule",
+     "Root general": "roots cylindrical or swollen"
+    },
+    "expert_calls": {
+     "Stem general": "good",
+     "Stem detail 2": "absent",
+     "Leaf general": "absent",
+     "Flower general": "partial",
+     "Fruit general": "partial",
+     "Root general": "good"
+    },
+    "cp_id": "CP001",
+    "accepted_name": "Asphodelus aestivus Brot.",
+    "family": "Asphodelaceae",
+    "uses_score": 2,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Asphodelus fistulosus",
+    "in_floras": true,
+    "modern": {
+     "Stem general": "flowering stem",
+     "Flower general": "inflorescence paniculate (G), much branched",
+     "Fruit general": "loculicidal capsule",
+     "Root general": "roots cylindrical or swollen"
+    },
+    "expert_calls": {
+     "Stem general": "good",
+     "Stem detail 2": "absent",
+     "Leaf general": "absent",
+     "Flower general": "partial",
+     "Fruit general": "partial",
+     "Root general": "good"
+    },
+    "cp_id": "CP002",
+    "accepted_name": "Asphodelus fistulosus L.",
+    "family": "Asphodelaceae",
+    "uses_score": 1,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Asphodelus ramosus",
+    "in_floras": true,
+    "modern": {
+     "Stem general": "flowering stem",
+     "Flower general": "inflorescence paniculate (G), much branched",
+     "Fruit general": "loculicidal capsule",
+     "Root general": "roots cylindrical or swollen"
+    },
+    "expert_calls": {
+     "Stem general": "good",
+     "Stem detail 2": "absent",
+     "Leaf general": "absent",
+     "Flower general": "partial",
+     "Fruit general": "partial",
+     "Root general": "good"
+    },
+    "cp_id": "CP003",
+    "accepted_name": "Asphodelus ramosus L.",
+    "family": "Asphodelaceae",
+    "uses_score": 1,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "asplenos, skolopendrion",
+  "lemma": "JCLP_196",
+  "jc_name": "σκολοπένδριον",
+  "dmm_name": "άσπληνος, σκολοπένδριον",
+  "chapter": "3.134",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Habitus general": "stemless, flowerless, fruitless",
+   "Leaf detail 1": "greenish on top",
+   "Leaf detail 2": "yellowish on the underside",
+   "Leaf general": "many, growing from one root",
+   "Leaf edge": "slit",
+   "Leaf surface": "rough on the underside",
+   "Habitat": "growing on rocks and thick-shaded walls made from pebbles"
+  },
+  "comparisons": {
+   "Leaf": "resembling the creature scolopendra, slit like the leaves of polypody (polypodion IV,186)"
+  },
+  "candidates": [
+   {
+    "df_name": "Asplenium ceterach L. (FT, Ceterach officinarum L.)",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "fronds, sori, spores",
+     "Leaf edge": "pinnatifid",
+     "Leaf surface": "densly covered with scales below",
+     "Leaf detail 2": "rust-coloured below",
+     "Habitat": "dry walls, limestone and metamorphic rocks"
+    },
+    "expert_calls": {
+     "Habitus general": "good",
+     "Leaf general": "absent",
+     "Leaf edge": "partial",
+     "Leaf surface": "good",
+     "Leaf detail 1": "absent",
+     "Leaf detail 2": "good",
+     "Habitat": "good"
+    },
+    "cp_id": "CP068",
+    "accepted_name": "Asplenium ceterach L.",
+    "family": "Aspleniaceae",
+    "uses_score": 3,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "bettonike, in kestron",
+  "lemma": "JCLP_035",
+  "jc_name": "βετονίκη",
+  "dmm_name": "βεττονίκη, in κέστρον",
+  "chapter": "4.1",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower general": "spike at the top of the stock",
+   "Habitus general": "plant having slender quadrangular stock",
+   "Height": "a cubit tall or taller (> 0.46 cm)",
+   "Leaf detail 1": "fragrant",
+   "Leaf general": "the ones near the root are larger",
+   "Leaf edge": "slit in the periphery",
+   "Leaf shape": "long",
+   "Leaf surface": "soft",
+   "Root detail 1": "delicate",
+   "Stem detail 1": "quadrangular",
+   "Habitat": "in very cold places"
+  },
+  "comparisons": {
+   "Flower": "resembling savory (thymbra III, 37)",
+   "Leaf": "resembling oak (drys I,106)",
+   "Root": "like hellebore's (helleborus IV, 162)"
+  },
+  "candidates": [
+   {
+    "df_name": "Betonica alopecuros (FT, Stachys alopecuros)",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP063",
+    "accepted_name": "Betonica alopecuros L.",
+    "family": "Lamiaceae",
+    "uses_score": 0,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   },
+   {
+    "df_name": "Sideritis cretica L. (FT, S. syriaca ssp. syriaca / ssp. nusairiensis)",
+    "in_floras": true,
+    "modern": {
+     "Height": "15-40 cm",
+     "Leaf general": "cauline leaves congested below",
+     "Leaf shape": "3-6 cm",
+     "Leaf edge": "finely or indistinctly crenate-denticulate",
+     "Leaf surface": "densly adpressed white tomentose",
+     "Flower general": "verticillastors, 1.5-5 cm distant",
+     "Habitat": "limestone rocks, dry slopes, 1200-2100 m"
+    },
+    "expert_calls": {
+     "Habitus general": "absent",
+     "Height": "partial",
+     "Stem detail 1": "absent",
+     "Leaf general": "no",
+     "Leaf shape": "partial",
+     "Leaf edge": "no",
+     "Leaf surface": "good",
+     "Flower general": "partial",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP064",
+    "accepted_name": "Sideritis cretica L.",
+    "family": "Lamiaceae",
+    "uses_score": 0,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "daukos (Kretikos)",
+  "lemma": "JCLP_048",
+  "jc_name": "δαυκίν",
+  "dmm_name": "δαύκος",
+  "chapter": "3.72",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "white",
+   "Flower general": "umbel",
+   "Height": "one span (16-22 cm)",
+   "Leaf detail 1": "fine",
+   "Leaf size": "small",
+   "Root detail 1": "finger thick",
+   "Root general": "one span (16-22 cm)",
+   "Seed colour": "white",
+   "Seed general": "rough",
+   "Smell properties": "fragrant (fruti \"seed\")",
+   "Taste properties": "pungent (fruit \"seed\")"
+  },
+  "comparisons": {
+   "Flower": "umbel like coriander",
+   "Leaf": "like fennel"
+  },
+  "candidates": [
+   {
+    "df_name": "Athamanta cretensis",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP091",
+    "accepted_name": "Athamanta cretensis L.",
+    "family": "Apiaceae",
+    "uses_score": 0,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   }
+  ]
+ },
+ {
+  "key": "drakontia (greater)",
+  "lemma": "JCLP_051",
+  "jc_name": "δρακοντία",
+  "dmm_name": "δρακοντία μεγάλη",
+  "chapter": "2.166",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit colour": "at first grass-green in colour then, after it has ripened, safron-coloured",
+   "Fruit detail 1": "thin skin",
+   "Fruit general": "like a bunch of grapes",
+   "Height": "two-cubits (ca. 1 m)",
+   "Leaf size": "large",
+   "Leaf surface": "white spots",
+   "Root detail 1": "thin skin",
+   "Root general": "round, bulb-shaped",
+   "Stem detail 1": "pied with purple spots",
+   "Stem detail 2": "thick as a wand",
+   "Stem general": "upright, zigzag (οφιοειδή - snake-like)",
+   "Taste properties": "fruit, root: pungent",
+   "Ethnobotany": "root is cultivated, being eaten",
+   "Habitat": "densely shaded places, around hedges and walls"
+  },
+  "comparisons": {
+   "Leaf": "ivy-like (κισσός ΙΙ, 179)",
+   "Root": "similar to cuckoopint (άρον II, 167)"
+  },
+  "candidates": [
+   {
+    "df_name": "Arisarum vulgare",
+    "in_floras": true,
+    "modern": {
+     "Height": "flowering 10-27 cm / fruiting, 12-28 cm",
+     "Stem detail 1": "scape purple spotted",
+     "Leaf size": "lamina 4-15 x 4-12 cm",
+     "Leaf surface": "glossy green, brownish-green speckled (FC)",
+     "Fruit general": "spadix",
+     "Root general": "tuber ovoid (FT), tuber cylindrical (FC)",
+     "Habitat": "rocky hillsides, limestone and metamorphic rocks, macchie, Cuppressus forest, banks and walls, often in shade"
+    },
+    "expert_calls": {
+     "Height": "no",
+     "Stem general": "absent",
+     "Stem detail 1": "partial",
+     "Stem detail 2": "absent",
+     "Leaf size": "no",
+     "Leaf surface": "no",
+     "Fruit general": "partial",
+     "Fruit colour": "absent",
+     "Root general": "partial",
+     "Root detail 1": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP020_a",
+    "accepted_name": "Arisarum vulgare O.Targ.Tozz.",
+    "family": "Araceae",
+    "uses_score": 2,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Arum dioscoridis",
+    "in_floras": true,
+    "modern": {
+     "Height": "flowering, 17-81 cm / fruiting, 16-80 cm",
+     "Stem detail 2": "stout (FC)",
+     "Leaf size": "lamina 13-33 x 9-25 cm",
+     "Leaf surface": "dark green (FC)",
+     "Fruit general": "spadix",
+     "Fruit colour": "red (G)",
+     "Root general": "vertical, disocoid tubers",
+     "Habitat": "open rocky limestone slopes and crevices, field margins, roadsides"
+    },
+    "expert_calls": {
+     "Height": "good",
+     "Stem general": "absent",
+     "Stem detail 1": "absent",
+     "Stem detail 2": "good",
+     "Leaf size": "partial",
+     "Leaf surface": "no",
+     "Fruit general": "partial",
+     "Fruit colour": "partial",
+     "Root general": "good",
+     "Root detail 1": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP021_a",
+    "accepted_name": "Arum dioscoridis Sm.",
+    "family": "Araceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Arum italicum",
+    "in_floras": true,
+    "modern": {
+     "Height": "flowering, 32-60 cm / fruiting, 18-34 cm",
+     "Stem detail 1": "sometimes tinged purplish (FC)",
+     "Stem detail 2": "stout (FC)",
+     "Leaf size": "lamina 11-30 x 10-23 cm",
+     "Leaf surface": "with or in Turkey usually without whitish veins",
+     "Fruit general": "spadix",
+     "Fruit colour": "red (G)",
+     "Root general": "horizonal, elongate-cylindrical tubers",
+     "Habitat": "amongst shrubs, ravines, disturbed areas"
+    },
+    "expert_calls": {
+     "Height": "partial",
+     "Stem general": "absent",
+     "Stem detail 1": "good",
+     "Stem detail 2": "good",
+     "Leaf size": "partial",
+     "Leaf surface": "partial",
+     "Fruit general": "partial",
+     "Fruit colour": "partial",
+     "Root general": "no",
+     "Root detail 1": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP022_a",
+    "accepted_name": "Arum italicum Mill.",
+    "family": "Araceae",
+    "uses_score": 2,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Arum maculatum",
+    "in_floras": true,
+    "modern": {
+     "Height": "flowering, 17-28 cm / fruiting, 13-29 cm",
+     "Leaf size": "lamina 8-16 x 4-17 cm",
+     "Fruit general": "spadix",
+     "Fruit colour": "red (G)",
+     "Root general": "horizonal, elongate-cylindrical tubers (G)",
+     "Habitat": "deciduous woods, scrubs, open or shady slopes"
+    },
+    "expert_calls": {
+     "Height": "partial",
+     "Stem general": "absent",
+     "Stem detail 1": "absent",
+     "Stem detail 2": "absent",
+     "Leaf size": "no",
+     "Leaf surface": "absent",
+     "Fruit general": "partial",
+     "Fruit colour": "partial",
+     "Root general": "no",
+     "Root detail 1": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP023_a",
+    "accepted_name": "Arum maculatum L.",
+    "family": "Araceae",
+    "uses_score": 2,
+    "expert_score": 1,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Dracunculus vulgaris",
+    "in_floras": true,
+    "modern": {
+     "Height": "1.5 m or more",
+     "Stem general": "long, stout (G)",
+     "Stem detail 1": "sheath purple spotted",
+     "Stem detail 2": "stout (G)",
+     "Leaf size": "lamina 10-15 x 11-25, segments 9-13 cm",
+     "Leaf surface": "with or without whitish veins",
+     "Fruit general": "spadix",
+     "Fruit colour": "orange-red",
+     "Root general": "tuberous (G)",
+     "Habitat": "field margins, ruins, disturbed habitats"
+    },
+    "expert_calls": {
+     "Height": "good",
+     "Stem general": "partial",
+     "Stem detail 1": "good",
+     "Stem detail 2": "good",
+     "Leaf size": "good",
+     "Leaf surface": "partial",
+     "Fruit general": "partial",
+     "Fruit colour": "good",
+     "Root general": "partial",
+     "Root detail 1": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP024_a",
+    "accepted_name": "Dracunculus vulgaris Schott",
+    "family": "Araceae",
+    "uses_score": 2,
+    "expert_score": 6,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "drakontia (lesser)",
+  "lemma": "JCLP_051",
+  "jc_name": "δρακοντία",
+  "dmm_name": "δρακοντία μικρά",
+  "chapter": "2.167",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit colour": "saffron-coloured",
+   "Height": "one span (16-22 cm)",
+   "Leaf size": "smaller (than DMM II, 166)",
+   "Leaf surface": "without white spots",
+   "Root colour": "white",
+   "Root general": "round, bulb-shaped",
+   "Stem detail 1": "purplish",
+   "Stem general": "pestle-shaped",
+   "Taste properties": "root: not very pungent",
+   "Ethnobotany": "root and leaves are cured for food"
+  },
+  "comparisons": {
+   "Leaf": "similar to dragon arum (δρακόντιον II, 166)",
+   "Root": "tending towards dragon arum (δρακόντιον II, 166)"
+  },
+  "candidates": [
+   {
+    "df_name": "Arisarum vulgare",
+    "in_floras": true,
+    "modern": {
+     "Height": "flowering 10-27 cm / fruiting, 12-28 cm",
+     "Stem detail 1": "scape purple spotted",
+     "Leaf size": "lamina 4-15 x 4-12 cm",
+     "Leaf surface": "glossy green, brownish-green speckled (FC)",
+     "Fruit colour": "dull greenish-brown (G)",
+     "Root general": "tuber ovoid (FT), tuber cylindrical (FC)"
+    },
+    "expert_calls": {
+     "Height": "good",
+     "Stem general": "absent",
+     "Stem detail 1": "partial",
+     "Leaf size": "good",
+     "Leaf surface": "partial",
+     "Fruit colour": "no",
+     "Root general": "partial",
+     "Root colour": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP020_a",
+    "accepted_name": "Arisarum vulgare O.Targ.Tozz.",
+    "family": "Araceae",
+    "uses_score": 2,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Arum dioscoridis",
+    "in_floras": true,
+    "modern": {
+     "Height": "flowering, 17-81 cm / fruiting, 16-80 cm",
+     "Leaf size": "lamina 13-33 x 9-25 cm",
+     "Leaf surface": "dark green (FC)",
+     "Fruit colour": "red (G)",
+     "Root general": "vertical, disocoid tubers"
+    },
+    "expert_calls": {
+     "Height": "partial",
+     "Stem general": "absent",
+     "Stem detail 1": "absent",
+     "Leaf size": "partial",
+     "Leaf surface": "good",
+     "Fruit colour": "partial",
+     "Root general": "good",
+     "Root colour": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP021_a",
+    "accepted_name": "Arum dioscoridis Sm.",
+    "family": "Araceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Arum italicum",
+    "in_floras": true,
+    "modern": {
+     "Height": "flowering, 32-60 cm / fruiting, 18-34 cm",
+     "Stem detail 1": "sometimes tinged purplish (FC)",
+     "Leaf size": "lamina 11-30 x 10-23 cm",
+     "Leaf surface": "with or in Turkey usually without whitish veins",
+     "Fruit colour": "red (G)",
+     "Root general": "horizonal, elongate-cylindrical tubers"
+    },
+    "expert_calls": {
+     "Height": "partial",
+     "Stem general": "absent",
+     "Stem detail 1": "good",
+     "Leaf size": "partial",
+     "Leaf surface": "partial",
+     "Fruit colour": "partial",
+     "Root general": "no",
+     "Root colour": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP022_a",
+    "accepted_name": "Arum italicum Mill.",
+    "family": "Araceae",
+    "uses_score": 2,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Arum maculatum",
+    "in_floras": true,
+    "modern": {
+     "Height": "flowering, 17-28 cm / fruiting, 13-29 cm",
+     "Leaf size": "lamina 8-16 x 4-17 cm",
+     "Fruit colour": "red (G)",
+     "Root general": "horizonal, elongate-cylindrical tubers (G)"
+    },
+    "expert_calls": {
+     "Height": "good",
+     "Stem general": "absent",
+     "Stem detail 1": "absent",
+     "Leaf size": "good",
+     "Leaf surface": "absent",
+     "Fruit colour": "partial",
+     "Root general": "no",
+     "Root colour": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP023_a",
+    "accepted_name": "Arum maculatum L.",
+    "family": "Araceae",
+    "uses_score": 2,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Dracunculus vulgaris",
+    "in_floras": true,
+    "modern": {
+     "Height": "1.5 m or more",
+     "Stem detail 1": "sheath purple spotted",
+     "Leaf size": "lamina 10-15 x 11-25, segments 9-13 cm",
+     "Leaf surface": "with or without whitish veins",
+     "Fruit colour": "orange-red",
+     "Root general": "tuberous (G)"
+    },
+    "expert_calls": {
+     "Height": "no",
+     "Stem general": "absent",
+     "Stem detail 1": "good",
+     "Leaf size": "no",
+     "Leaf surface": "partial",
+     "Fruit colour": "good",
+     "Root general": "partial",
+     "Root colour": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP024_a",
+    "accepted_name": "Dracunculus vulgaris Schott",
+    "family": "Araceae",
+    "uses_score": 2,
+    "expert_score": 1,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "eupatorios",
+  "lemma": "JCLP_057",
+  "jc_name": "ευπατώριος",
+  "dmm_name": "ευπατόριος",
+  "chapter": "4.41",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit general": "grows from about the middle of the stem",
+   "Fruit structure": "somewhat hairy, clings to clothing when dry",
+   "Habitus detail 1": "dark",
+   "Habitus detail 2": "woody",
+   "Habitus general": "single shoot",
+   "Height": "a cubit tall or taller (> 0.46 cm)",
+   "Leaf detail 1": "somewhat dark",
+   "Leaf general": "leaves at intervals",
+   "Leaf edge": "serrated like a saw",
+   "Leaf shape": "deeply slit in about five sections or more",
+   "Life form": "herb, belongs to the class of undershrubs",
+   "Stem detail 1": "somewhat rough",
+   "Stem detail 2": "upright",
+   "Stem general": "slender"
+  },
+  "comparisons": {
+   "Leaf": "resembling cinquefoil (pentephyllon IV,42) or rather of hemp (cannabis III,148)"
+  },
+  "candidates": [
+   {
+    "df_name": "Agrimonia eupatoria L.",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial",
+     "Habitus detail 2": "rootstock woody (FC)",
+     "Height": "20-120 cm",
+     "Stem detail 1": "hairy (G)",
+     "Stem detail 2": "erect",
+     "Leaf shape": "pinnate",
+     "Leaf edge": "serrate-crenate",
+     "Fruit general": "lax, many flowered spike-like raceme",
+     "Fruit structure": "hypanthium: inner bristles erect, the outer ascending, patent or slightly deflexed"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "absent",
+     "Habitus detail 1": "absent",
+     "Habitus detail 2": "good",
+     "Height": "good",
+     "Stem general": "absent",
+     "Stem detail 1": "partial",
+     "Stem detail 2": "good",
+     "Leaf shape": "partial",
+     "Leaf edge": "good",
+     "Leaf detail 1": "absent",
+     "Fruit general": "partial",
+     "Fruit structure": "good"
+    },
+    "cp_id": "CP066",
+    "accepted_name": "Agrimonia eupatoria L.",
+    "family": "Rosaceae",
+    "uses_score": 1,
+    "expert_score": 6,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "gentiane",
+  "lemma": "JCLP_039",
+  "jc_name": "γεντιανή",
+  "dmm_name": "γεντιανή",
+  "chapter": "3.3",
+  "chapter_located_by": "relocated from 'DMM'",
+  "expert_reading": {
+   "Fruit general": "\"fruit\" in capsules",
+   "Height": "2 cubits tall (0.92 cm)",
+   "Leaf detail 1": "reddish (leaves near the root)",
+   "Leaf shape": "slightly jagged (leaves in the middle of the stem and those near the top)",
+   "Root detail 1": "long",
+   "Root detail 2": "thick",
+   "Seed detail 1": "broad",
+   "Seed general": "light, chaffy",
+   "Stem detail 1": "hollow",
+   "Stem detail 2": "a finger thick",
+   "Stem general": "divided by joints and surrounded at large intervals by leaves",
+   "Taste properties": "bitter (root)",
+   "Habitat": "on very high mountain ridges, in shady and wet spots"
+  },
+  "comparisons": {
+   "Fruit": "somewhat like the fruit of cow-parsnip (sphondylion III, 76)",
+   "Leaf": "leaves near the root resemble the nut tree or the plantain",
+   "Root": "similar to birthwort (aristolokhia III, 4)"
+  },
+  "candidates": [
+   {
+    "df_name": "Gentiana lutea",
+    "in_floras": true,
+    "modern": {
+     "Height": "to 120 cm",
+     "Stem general": "of 6-10 internodes",
+     "Leaf shape": "lanceolate to broadly ovate with 5-7 prominent veins",
+     "Leaf detail 1": "glaucous (all leaves)",
+     "Fruit general": "capsule",
+     "Root detail 2": "fleshy rootstock",
+     "Habitat": "grassy places on hills, 1400-1700 m"
+    },
+    "expert_calls": {
+     "Height": "good",
+     "Stem general": "partial",
+     "Stem detail 2": "absent",
+     "Leaf shape": "partial",
+     "Leaf detail 1": "no",
+     "Fruit general": "good",
+     "Seed general": "absent",
+     "Seed detail 1": "absent",
+     "Root detail 1": "absent",
+     "Root detail 2": "good",
+     "Taste properties": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP095",
+    "accepted_name": "Gentiana lutea L.",
+    "family": "Gentianaceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "glykyrrhiza",
+  "lemma": "JCLP_043",
+  "jc_name": "γλυκόριζον",
+  "dmm_name": "γλυκύρριζα",
+  "chapter": "3.5",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit colour": "reddish",
+   "Fruit general": "globular catkins with small pods",
+   "Fruit shape": "pod",
+   "Fruit structure": "rough",
+   "Height": "2 cubits long (ca. 1 m)",
+   "Leaf detail 1": "shiny and sticky to the touch",
+   "Life form": "small shrub",
+   "Root detail 1": "long",
+   "Stem detail 1": "surrounded by closely growing leaves",
+   "Taste properties": "astringent and sweet (root)",
+   "Ethnobotany": "juice is extracted from the root",
+   "Distribution": "abundant in Cappadocia and Pontus"
+  },
+  "comparisons": {
+   "Flower": "like a hyacinth (υάκινθος IV, 62)",
+   "Fruit": "as big as globular catkins of plane tree (πλάτανος I, 79), rather rough / pods like the lentil φακός II, 107)",
+   "Leaf": "resemble mastic (σχίνος I, 70)",
+   "Root": "like gentian (γεντιανή III, 3)"
+  },
+  "candidates": [
+   {
+    "df_name": "Glycyrrhiza echinata",
+    "in_floras": true,
+    "modern": {
+     "Life form": "bushy perennial",
+     "Height": "1 (-2) m",
+     "Leaf detail 1": "glandular (G)",
+     "Fruit general": "inflorescence dense, globose",
+     "Fruit shape": "legume",
+     "Fruit structure": "echinate",
+     "Fruit colour": "red-brown",
+     "Distribution": "widespread, less common in the East"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Height": "good",
+     "Stem detail 1": "absent",
+     "Leaf detail 1": "partial",
+     "Fruit general": "good",
+     "Fruit shape": "good",
+     "Fruit structure": "good",
+     "Fruit colour": "good",
+     "Root detail 1": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent",
+     "Distribution": "good"
+    },
+    "cp_id": "CP036",
+    "accepted_name": "Glycyrrhiza echinata L.",
+    "family": "Fabaceae",
+    "uses_score": 3,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Glycyrrhiza glabra",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial",
+     "Height": "30-60 cm (FT), about 1m high (FC)",
+     "Leaf detail 1": "glandular (G)",
+     "Fruit general": "inflorescence lax, elongated",
+     "Fruit shape": "legume",
+     "Fruit structure": "glandular, sometimes bristly",
+     "Fruit colour": "red-brown",
+     "Root detail 1": "long (FC)",
+     "Taste properties": "roots sometimes sweetly flavoured (G)",
+     "Ethnobotany": "liquorice is extracted from the root",
+     "Distribution": "scatered or widespread in Anatolia"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Height": "good",
+     "Stem detail 1": "absent",
+     "Leaf detail 1": "partial",
+     "Fruit general": "no",
+     "Fruit shape": "good",
+     "Fruit structure": "partial",
+     "Fruit colour": "good",
+     "Root detail 1": "good",
+     "Taste properties": "good",
+     "Ethnobotany": "good",
+     "Distribution": "good"
+    },
+    "cp_id": "CP037",
+    "accepted_name": "Glycyrrhiza glabra L.",
+    "family": "Fabaceae",
+    "uses_score": 3,
+    "expert_score": 8,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "heliotropion greater, skorpiouron",
+  "lemma": "JCLP_198",
+  "jc_name": "σκορπίουρον",
+  "dmm_name": "ηλιοτρόπιον το μέγα, σκορπίουρον",
+  "chapter": "4.190",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "white, slightly purple",
+   "Flower general": "at the end (of the twig), curling like a scorpion tail (skorpiouron)",
+   "Habitus general": "two or three small twigs that grow from the root and from them many axils",
+   "Leaf general": "its leaves follow the sun to its setting",
+   "Leaf surface": "rough",
+   "Root detail 1": "thin",
+   "Habitat": "in rough places"
+  },
+  "comparisons": {
+   "Leaf": "nearly resembling basil (okimon II, 141), but rougher and darker"
+  },
+  "candidates": [
+   {
+    "df_name": "Heliotropium europaeum",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "divaricately branched",
+     "Leaf surface": "plant with soft adpressed hairs",
+     "Flower general": "inflorescence (cyme) dense, sometimes rather lax in fruit",
+     "Flower colour": "corolla creamy-white (FC)",
+     "Habitat": "fields, roadsides, sandy places, steppe"
+    },
+    "expert_calls": {
+     "Habitus general": "good",
+     "Leaf general": "absent",
+     "Leaf surface": "partial",
+     "Flower general": "partial",
+     "Flower colour": "partial",
+     "Root detail 1": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP118",
+    "accepted_name": "Heliotropium europaeum L.",
+    "family": "Boraginaceae",
+    "uses_score": 1,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "hyoskyamos (purple flowers)",
+  "lemma": "JCLP_217",
+  "jc_name": "υοσκύαμος",
+  "dmm_name": "υοσκύαμος",
+  "chapter": "4.68",
+  "chapter_located_by": "relocated from 'DMM IV, 64'",
+  "expert_reading": {
+   "Flower colour": "purple",
+   "Flower general": "grow on the stem in a row",
+   "Fruit detail 1": "hard and thorny calyces",
+   "Fruit general": "capsule",
+   "Fruit structure": "fenced in little discs",
+   "Leaf detail 1": "dark",
+   "Leaf shape": "oblong, split",
+   "Leaf surface": "rough",
+   "Life form": "shrub",
+   "Seed colour": "black",
+   "Stem general": "thick stems"
+  },
+  "comparisons": {
+   "Flower": "like pomegranate (ρόα I, 110)",
+   "Fruit": "capsule full of seed like opium poppy (μήκων IV, 64)",
+   "Leaf": "like bindweed (έλξίνη IV, 39)"
+  },
+  "candidates": [
+   {
+    "df_name": "Hyoscyamus niger",
+    "in_floras": true,
+    "modern": {
+     "Life form": "annual or biennial",
+     "Leaf shape": "ovate-oblong, oblong-lanceolate / lobes triangular-lanceolate, acute",
+     "Leaf surface": "glandular-villous",
+     "Flower general": "spikes or racemes (G)",
+     "Flower colour": "lurid yellow, purple reticulate, throat dark purple",
+     "Fruit general": "capsule (G)",
+     "Fruit structure": "capsule shorter than the calyx (G), calyx 10-15 mm, in fruit 20-40 mm",
+     "Fruit detail 1": "calyx: teeth pungent"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Stem general": "absent",
+     "Leaf shape": "partial",
+     "Leaf surface": "partial",
+     "Leaf detail 1": "absent",
+     "Flower general": "good",
+     "Flower colour": "partial",
+     "Fruit general": "good",
+     "Fruit structure": "good",
+     "Fruit detail 1": "good",
+     "Seed colour": "absent"
+    },
+    "cp_id": "CP041",
+    "accepted_name": "Hyoscyamus niger L.",
+    "family": "Solanaceae",
+    "uses_score": 2,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "hyoskyamos (quince-yellwow flowers)",
+  "lemma": "JCLP_217",
+  "jc_name": "υοσκύαμος",
+  "dmm_name": "υοσκύαμος",
+  "chapter": "4.68",
+  "chapter_located_by": "relocated from 'DMM IV, 64'",
+  "expert_reading": {
+   "Flower colour": "quince-yellow",
+   "Flower general": "grow on the stem in a row",
+   "Fruit detail 1": "hard and thorny calyces, but softer than in the black type",
+   "Fruit general": "capsule",
+   "Fruit structure": "fenced in little discs",
+   "Leaf detail 1": "dark",
+   "Leaf shape": "oblong, split",
+   "Leaf surface": "softer than in the black type",
+   "Life form": "shrub",
+   "Seed colour": "yellowish",
+   "Stem general": "thick stems"
+  },
+  "comparisons": {
+   "Flower": "like pomegranate (ρόα I, 110)",
+   "Fruit": "capsule full of seed like opium poppy (μήκων IV, 64)",
+   "Seed": "like hedge mustard (καρδάμον II, 155)"
+  },
+  "candidates": [
+   {
+    "df_name": "Hyoscyamus aureus",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial",
+     "Leaf shape": "orbicular to ovate, lobate, lobes triangular, acutely dentate",
+     "Leaf surface": "glandular-villous",
+     "Flower general": "spikes or racemes (G)",
+     "Flower colour": "golden-yellow, purple at throat",
+     "Fruit general": "capsule (G)",
+     "Fruit structure": "capsule shorter than the calyx (G), calyx 15-20 mm, in fruit 22-30 mm",
+     "Fruit detail 1": "calyx: teeth triangular, acute, pungent"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Stem general": "absent",
+     "Leaf shape": "partial",
+     "Leaf surface": "good",
+     "Leaf detail 1": "absent",
+     "Flower general": "good",
+     "Flower colour": "good",
+     "Fruit general": "good",
+     "Fruit structure": "good",
+     "Fruit detail 1": "partial",
+     "Seed colour": "absent"
+    },
+    "cp_id": "CP040",
+    "accepted_name": "Hyoscyamus aureus L.",
+    "family": "Solanaceae",
+    "uses_score": 2,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "hyoskyamos (white flowers)",
+  "lemma": "JCLP_217",
+  "jc_name": "υοσκύαμος",
+  "dmm_name": "υοσκύαμος",
+  "chapter": "4.68",
+  "chapter_located_by": "relocated from 'DMM IV, 64'",
+  "expert_reading": {
+   "Flower colour": "white",
+   "Flower general": "grow on the stem in a row",
+   "Fruit detail 1": "hard and thorny calyces",
+   "Fruit general": "capsule",
+   "Fruit structure": "fenced in little discs",
+   "Leaf detail 1": "dark",
+   "Leaf shape": "oblong, split",
+   "Leaf surface": "fatty, soft and downy",
+   "Life form": "shrub",
+   "Seed colour": "white",
+   "Stem general": "thick stems",
+   "Habitat": "by the sea and among ruins"
+  },
+  "comparisons": {
+   "Flower": "like pomegranate (ρόα I, 110)",
+   "Fruit": "capsule full of seed like opium poppy (μήκων IV, 64)"
+  },
+  "candidates": [
+   {
+    "df_name": "Hyoscyamus albus",
+    "in_floras": true,
+    "modern": {
+     "Life form": "annual, biennial or perennial",
+     "Leaf shape": "ovate to orbicular, obtusely lobed",
+     "Leaf surface": "glandular-villous",
+     "Flower general": "spikes or racemes (G)",
+     "Flower colour": "greenish or yellowish-white, throat purple or not",
+     "Fruit general": "capsule (G)",
+     "Fruit structure": "capsule shorter than the calyx (G), calyx 10-15 mm, in fruit 20-35 mm",
+     "Fruit detail 1": "calyx: teeth shortly triangular, acute",
+     "Habitat": "foot of rocks and walls, ruins"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Stem general": "absent",
+     "Leaf shape": "partial",
+     "Leaf surface": "good",
+     "Leaf detail 1": "absent",
+     "Flower general": "good",
+     "Flower colour": "partial",
+     "Fruit general": "good",
+     "Fruit structure": "good",
+     "Fruit detail 1": "partial",
+     "Seed colour": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP039",
+    "accepted_name": "Hyoscyamus albus L.",
+    "family": "Solanaceae",
+    "uses_score": 3,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "ippouris",
+  "lemma": "JCLP_069",
+  "jc_name": "ίππουρις",
+  "dmm_name": "ίππουρις",
+  "chapter": "4.46",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Habitus detail 1": "spreading all around",
+   "Habitus detail 2": "with much black hair like a horse's tail",
+   "Habitus general": "climbing on nearby tree trunks and hangs from them",
+   "Height": "grows tall",
+   "Leaf general": "many stringy and thin leaves around the stalks",
+   "Life form": "shrub",
+   "Root general": "woody, tough",
+   "Stem detail 1": "divided by joints that grow into each other (\"stalks\")",
+   "Stem detail 2": "reddish",
+   "Stem detail 3": "somewhat rough",
+   "Stem general": "consisting of hollow, solid, little stalks",
+   "Habitat": "moist places, ditches"
+  },
+  "comparisons": {},
+  "candidates": [
+   {
+    "df_name": "Ephedra foemina (FT, E. fragilis ssp. campylopoda)",
+    "in_floras": true,
+    "modern": {
+     "Life form": "shrubs (G)",
+     "Habitus general": "erect, sprawling or climbing shrub (FC)",
+     "Habitus detail 1": "loosely and irregularly branched, with numberous, crowded branches (G)",
+     "Habitus detail 2": "equisetoid (G)",
+     "Height": "2m high (FC)",
+     "Stem detail 1": "having nodes (branches) (G)",
+     "Stem detail 2": "dull green or greyish-green (FC)",
+     "Stem detail 3": "longitudinally striate (FC)",
+     "Leaf general": "equisetoid shrubs, leaves reduced to sheaths at the nodes (G)"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Habitus general": "good",
+     "Habitus detail 1": "partial",
+     "Habitus detail 2": "partial",
+     "Height": "good",
+     "Stem general": "absent",
+     "Stem detail 1": "good",
+     "Stem detail 2": "no",
+     "Stem detail 3": "partial",
+     "Leaf general": "partial",
+     "Root general": "absent",
+     "Habitat": "absent"
+    },
+    "cp_id": "CP043",
+    "accepted_name": "Ephedra fragilis Desf.",
+    "family": "Ephedraceae",
+    "uses_score": 2,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Ephedra fragilis",
+    "in_floras": true,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP043",
+    "accepted_name": "Ephedra fragilis Desf.",
+    "family": "Ephedraceae",
+    "uses_score": 2,
+    "expert_score": 0,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Ephedra major",
+    "in_floras": true,
+    "modern": {
+     "Life form": "shrub (G)",
+     "Habitus general": "stems erect, not scrambling",
+     "Habitus detail 1": "loosely and irregularly branched, with numberous, crowded branches (G)",
+     "Habitus detail 2": "equisetoid (G)",
+     "Height": "less than 1m high (FC)",
+     "Stem general": "wiry (branches)",
+     "Stem detail 1": "having nodes (branches) (G)",
+     "Stem detail 3": "rigid, striate",
+     "Leaf general": "stems diffusly branched, branches whorled or opposite, green or glaucous",
+     "Habitat": "rocky places"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Habitus general": "no",
+     "Habitus detail 1": "partial",
+     "Habitus detail 2": "partial",
+     "Height": "no",
+     "Stem general": "partial",
+     "Stem detail 1": "good",
+     "Stem detail 2": "absent",
+     "Stem detail 3": "partial",
+     "Leaf general": "partial",
+     "Root general": "absent",
+     "Habitat": "no"
+    },
+    "cp_id": "CP044",
+    "accepted_name": "Ephedra major Host",
+    "family": "Ephedraceae",
+    "uses_score": 2,
+    "expert_score": 1,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Equisetum arvense",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial herbs (G)",
+     "Habitus detail 1": "stems branched",
+     "Height": "20 to 80 cm",
+     "Stem general": "stem hollow",
+     "Stem detail 1": "having internodes (branches)",
+     "Stem detail 2": "green",
+     "Stem detail 3": "slightly rough, with deep grooves",
+     "Leaf general": "branches spreading",
+     "Habitat": "waste places, stream sides"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "absent",
+     "Habitus detail 1": "partial",
+     "Habitus detail 2": "absent",
+     "Height": "no",
+     "Stem general": "good",
+     "Stem detail 1": "good",
+     "Stem detail 2": "no",
+     "Stem detail 3": "partial",
+     "Leaf general": "partial",
+     "Root general": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP045",
+    "accepted_name": "Equisetum arvense L.",
+    "family": "Equisetaceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Equisetum fluviatile (FT, E. limosum)",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial herbs (G)",
+     "Habitus general": "erect",
+     "Habitus detail 1": "stems simple or branched",
+     "Height": "up to 150 cm",
+     "Stem general": "branches hollow",
+     "Stem detail 1": "having internodes (branches)",
+     "Stem detail 2": "green",
+     "Stem detail 3": "grooves shallow",
+     "Leaf general": "whorles of branches",
+     "Habitat": "river banks"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "no",
+     "Habitus detail 1": "partial",
+     "Habitus detail 2": "absent",
+     "Height": "good",
+     "Stem general": "good",
+     "Stem detail 1": "good",
+     "Stem detail 2": "no",
+     "Stem detail 3": "partial",
+     "Leaf general": "partial",
+     "Root general": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP185",
+    "accepted_name": "Equisetum fluviatile L.",
+    "family": "Equisetaceae",
+    "uses_score": 0,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Equisetum ramosissimum",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial herbs (G)",
+     "Habitus detail 1": "stems branched",
+     "Height": "up to 75 cm (FT), 12-130 cm (FC)",
+     "Stem general": "stem hollow",
+     "Stem detail 1": "having internodes (branches)",
+     "Stem detail 2": "glaucous",
+     "Stem detail 3": "grooved (KS)",
+     "Leaf general": "numerous branches",
+     "Habitat": "stream banks, moist meadows, shingle"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "absent",
+     "Habitus detail 1": "partial",
+     "Habitus detail 2": "absent",
+     "Height": "partial",
+     "Stem general": "good",
+     "Stem detail 1": "good",
+     "Stem detail 2": "no",
+     "Stem detail 3": "partial",
+     "Leaf general": "partial",
+     "Root general": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP047",
+    "accepted_name": "Equisetum ramosissimum Desf.",
+    "family": "Equisetaceae",
+    "uses_score": 3,
+    "expert_score": 6,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Equisetum sylvaticum",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial herbs (G)",
+     "Habitus detail 1": "stems branched",
+     "Height": "stems to 80 cm",
+     "Stem general": "stem hollow",
+     "Stem detail 1": "having internodes (branches)",
+     "Stem detail 2": "green",
+     "Stem detail 3": "smooth, with grooves",
+     "Leaf general": "numerous branches, themselves branched"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "absent",
+     "Habitus detail 1": "partial",
+     "Habitus detail 2": "absent",
+     "Height": "no",
+     "Stem general": "good",
+     "Stem detail 1": "good",
+     "Stem detail 2": "no",
+     "Stem detail 3": "partial",
+     "Leaf general": "partial",
+     "Root general": "absent",
+     "Habitat": "absent"
+    },
+    "cp_id": "CP048",
+    "accepted_name": "Equisetum sylvaticum L.",
+    "family": "Equisetaceae",
+    "uses_score": 1,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Equisetum telmateia",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial herbs (G)",
+     "Habitus detail 1": "stems branched",
+     "Height": "stems up to 200 cm",
+     "Stem general": "stem hollow",
+     "Stem detail 1": "having internodes (branches)",
+     "Stem detail 2": "grrenish white",
+     "Stem detail 3": "smooth, with finde grooves",
+     "Leaf general": "numerous branches, spreading",
+     "Habitat": "stream sides, wet banks"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "absent",
+     "Habitus detail 1": "partial",
+     "Habitus detail 2": "absent",
+     "Height": "good",
+     "Stem general": "good",
+     "Stem detail 1": "good",
+     "Stem detail 2": "no",
+     "Stem detail 3": "partial",
+     "Leaf general": "partial",
+     "Root general": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP049",
+    "accepted_name": "Equisetum telmateia Ehrh.",
+    "family": "Equisetaceae",
+    "uses_score": 3,
+    "expert_score": 6,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "iris (Illyrian)",
+  "lemma": "JCLP_070",
+  "jc_name": "ίρις",
+  "dmm_name": "ίρις",
+  "chapter": "1.1",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "in many colours (white, quince-yellow, purple or bluish)",
+   "Flower detail 01": "curling",
+   "Flower general": "parallel on stem",
+   "Root colour": "yellowish (inside)",
+   "Root detail 1": "firm",
+   "Root general": "articulated",
+   "Smell properties": "aromatic (root)",
+   "Taste properties": "spicy (root)"
+  },
+  "comparisons": {
+   "Leaf": "like cornflag (xifion IV, 20), but larger, wider and fatter"
+  },
+  "candidates": [
+   {
+    "df_name": "Iris florentina (FT, I. albicans)",
+    "in_floras": true,
+    "modern": {
+     "Flower general": "in few flowered cymes (G), 2 terminal flowers",
+     "Flower colour": "white, beard yellow, rarely mid-blue",
+     "Flower detail 01": "perianth segements erect, patent or deflexed (G)",
+     "Root general": "rhizome (G, section Iris)",
+     "Root detail 1": "stout (G, section Iris)"
+    },
+    "expert_calls": {
+     "Flower general": "partial",
+     "Flower colour": "good",
+     "Flower detail 01": "partial",
+     "Root general": "partial",
+     "Root detail 1": "good",
+     "Smell properties": "absent",
+     "Taste properties": "absent"
+    },
+    "cp_id": "CP139",
+    "accepted_name": "Iris florentina L.",
+    "family": "Iridaceae",
+    "uses_score": 3,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Iris x germanica",
+    "in_floras": true,
+    "modern": {
+     "Flower general": "in few flowered cymes (G), 4-5 flowers",
+     "Flower colour": "lavender, violet or bluish, occasionally whitish, beard yellow",
+     "Flower detail 01": "perianth segements erect, patent or deflexed (G)",
+     "Root general": "rhizome (G, section Iris)",
+     "Root detail 1": "stout (G, section Iris)"
+    },
+    "expert_calls": {
+     "Flower general": "partial",
+     "Flower colour": "good",
+     "Flower detail 01": "partial",
+     "Root general": "partial",
+     "Root detail 1": "good",
+     "Smell properties": "absent",
+     "Taste properties": "absent"
+    },
+    "cp_id": "CP137",
+    "accepted_name": "Iris × germanica L.",
+    "family": "Iridaceae",
+    "uses_score": 3,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "kapparis",
+  "lemma": "JCLP_076",
+  "jc_name": "κάππαρις",
+  "dmm_name": "κάππαρις",
+  "chapter": "2.173",
+  "chapter_located_by": "relocated from 'DMM III, 173'",
+  "expert_reading": {
+   "Flower colour": "white",
+   "Flower detail 01": "flower bud (\"fruit\") as of the olive",
+   "Fruit general": "like an acorn",
+   "Fruit shape": "longish",
+   "Fruit structure": "contains seeds",
+   "Habitus detail 1": "lying on the ground in a circular fashion",
+   "Habitus general": "thorny, hook-like thorns",
+   "Leaf shape": "round",
+   "Life form": "shrub",
+   "Root general": "large and woody",
+   "Seed colour": "red",
+   "Seed detail 1": "small",
+   "Taste properties": "root: pungent",
+   "Ethnobotany": "fruit and stem are cured for food",
+   "Habitat": "rough ground, poor soil, in building lots"
+  },
+  "comparisons": {
+   "Habitus": "hook-like thorns like the bramble (βάτος IV, 37)",
+   "Leaf": "resembling quince (κυδόνια I, 115.01)",
+   "Seed": "like the pomegranate's (ρόα I, 110) but much smaller"
+  },
+  "candidates": [
+   {
+    "df_name": "kapparis",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "stipular spines present or absent",
+     "Habitus detail 1": "straggling (G)",
+     "Leaf shape": "round or very broadly ovate",
+     "Flower colour": "whitish petals",
+     "Fruit general": "berry-like fleshy capsule",
+     "Fruit structure": "many seeded",
+     "Seed colour": "chocolate brown (FC)",
+     "Seed detail 1": "about 3mm long and 2.5mm wide (FC)",
+     "Ethnobotany": "cultivated for its edible buds (var. spinosa)",
+     "Habitat": "waste ground near cultivation"
+    },
+    "expert_calls": {
+     "Life form": "absent",
+     "Habitus general": "good",
+     "Habitus detail 1": "partial",
+     "Leaf shape": "good",
+     "Flower colour": "good",
+     "Fruit general": "partial",
+     "Fruit shape": "absent",
+     "Fruit structure": "good",
+     "Seed colour": "no",
+     "Seed detail 1": "good",
+     "Root general": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "good",
+     "Habitat": "good"
+    },
+    "expert_score": 6,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "kavkalida",
+  "lemma": "JCLP_081",
+  "jc_name": "καυκαλίδα",
+  "dmm_name": "καυκαλίς",
+  "chapter": "2.139",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "white",
+   "Flower general": "umbel",
+   "Habitus detail 1": "somewhat hairy",
+   "Height": "a span tall (16-22 cm)",
+   "Leaf general": "narrowly incised",
+   "Leaf surface": "downy",
+   "Stem general": "small stem",
+   "Smell properties": "aromatic (flower umbel)",
+   "Ethnobotany": "used as a vegetable, being eaten boiled as well as raw"
+  },
+  "comparisons": {
+   "Leaf": "similar to fennel (marathon III, 70)"
+  },
+  "candidates": [
+   {
+    "df_name": "Papaver",
+    "in_floras": true,
+    "modern": {
+     "Leaf general": "pinnately dissected or lobed (FC)",
+     "Flower general": "solitary or in racemes or panicels"
+    },
+    "expert_calls": {
+     "Habitus detail 1": "absent",
+     "Height": "absent",
+     "Stem general": "absent",
+     "Leaf general": "partial",
+     "Leaf surface": "absent",
+     "Flower general": "no",
+     "Flower colour": "absent",
+     "Smell properties": "absent",
+     "Ethnobotany": "absent"
+    },
+    "expert_score": 0,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Pimpinella saxifraga",
+    "in_floras": true,
+    "modern": {
+     "Habitus detail 1": "puberulent (G)",
+     "Height": "up to 60 cm",
+     "Leaf general": "basal leaves: oblong 1-pinnate, dentate to pinnatifid; cauline leaves much reduced",
+     "Leaf surface": "puberulent (G)",
+     "Flower general": "umbels",
+     "Flower colour": "white"
+    },
+    "expert_calls": {
+     "Habitus detail 1": "good",
+     "Height": "partial",
+     "Stem general": "absent",
+     "Leaf general": "partial",
+     "Leaf surface": "partial",
+     "Flower general": "good",
+     "Flower colour": "good",
+     "Smell properties": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP141",
+    "accepted_name": "Pimpinella saxifraga L.",
+    "family": "Apiaceae",
+    "uses_score": 1,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Tordylium aegyptiacum (FT, Hasselquistia aegyptiaca)",
+    "in_floras": true,
+    "modern": {
+     "Habitus detail 1": "pilose to villous",
+     "Height": "25-60 cm (FT), 7-40 (-60) cm (FC)",
+     "Leaf general": "1-2 or 1-3-pinnate, upper leaves with narrow biparted lobes",
+     "Leaf surface": "pilose to villous",
+     "Flower general": "umbels",
+     "Flower colour": "white"
+    },
+    "expert_calls": {
+     "Habitus detail 1": "good",
+     "Height": "partial",
+     "Stem general": "absent",
+     "Leaf general": "good",
+     "Leaf surface": "partial",
+     "Flower general": "good",
+     "Flower colour": "good",
+     "Smell properties": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP142",
+    "accepted_name": "Tordylium aegyptiacum (L.) Poir.",
+    "family": "Apiaceae",
+    "uses_score": 1,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "kentaurion (greater)",
+  "lemma": "JCLP_084",
+  "jc_name": "κευταύριον",
+  "dmm_name": "κευταύριον το μέγα",
+  "chapter": "3.6",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "dark blue",
+   "Flower detail 01": "heads somewhat long in circumference",
+   "Flower general": "heads",
+   "Fruit general": "\"seeds\" are nestled as if among flowers made of wool",
+   "Habitus general": "having many offshots arising from the root",
+   "Height": "two or three cubits tall (0.92-1.38 cm)",
+   "Leaf detail 1": "pale in colour",
+   "Leaf edge": "serrated like a saw",
+   "Leaf shape": "oblong",
+   "Root colour": "reddish",
+   "Root detail 1": "two cubits long (0.92 cm)",
+   "Root general": "thick, solid, heavy, full of juice",
+   "Taste properties": "sharp, with a degree of astringency and sweetness (juice of the root)",
+   "Habitat": "rich soil, sunny location, thickets and hillocks",
+   "Distribution": "in abundance in Lycia, within Peloponnesos, Elis, Arcadia, Mesene [AL: the last three are regions in Peloponnesos], around Pholoe, Lycaion, Cyllene [Beck: the last three are mountains in Peloponnesos]"
+  },
+  "comparisons": {
+   "Flower": "resembling poppies (mekon IV, 64)",
+   "Fruit": "\"seed\" is similar to that of safflower (knekos IV, 188)",
+   "Leaf": "similar to walnut tree (karyon I, 125), colour like the leaves of cabbage (krambe II, 120)",
+   "Stem": "like monk rhubarb (lapathon II, 114)"
+  },
+  "candidates": [
+   {
+    "df_name": "Rhaponticoides centaurium (FT, Centaurea centaurium)",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP177",
+    "accepted_name": "Rhaponticoides centaurium (L.) M.V.Agab. & Greuter",
+    "family": "Asteraceae",
+    "uses_score": 0,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   }
+  ]
+ },
+ {
+  "key": "kentaurion (lesser)",
+  "lemma": "JCLP_084",
+  "jc_name": "κευταύριον",
+  "dmm_name": "κευταύριον το λεπτόν",
+  "chapter": "3.7",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "faintly purple",
+   "Fruit general": "grains",
+   "Height": "over a span tall (>16-22 cm)",
+   "Leaf shape": "longish",
+   "Leaf size": "small",
+   "Root detail 1": "small, useless",
+   "Stem detail 1": "angular",
+   "Taste properties": "bitter (root)"
+  },
+  "comparisons": {
+   "Flower": "colour like rose campion (lykhnis stephanomatike III, 100)",
+   "Fruit": "like grains wheat (pyroi II, 85)",
+   "Habitus": "resembles St. John's wort (yperikon III, 154) and oregano (origanos III, 27)",
+   "Leaf": "like the rue's (peganon III, 45)"
+  },
+  "candidates": [
+   {
+    "df_name": "Centaurium erythraea",
+    "in_floras": true,
+    "modern": {
+     "Height": "5-50(-80)cm",
+     "Stem detail 1": "sharply angled (FC)",
+     "Leaf shape": "uppermost leaves linear",
+     "Flower colour": "pink to purple rarely white",
+     "Fruit general": "capsule oblong to fusiform (G)"
+    },
+    "expert_calls": {
+     "Height": "good",
+     "Stem detail 1": "good",
+     "Leaf shape": "partial",
+     "Flower colour": "good",
+     "Fruit general": "partial",
+     "Root detail 1": "absent",
+     "Taste properties": "absent"
+    },
+    "cp_id": "CP060",
+    "accepted_name": "Centaurium erythraea Rafn",
+    "family": "Gentianaceae",
+    "uses_score": 2,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "khamaidaphne",
+  "lemma": "JCLP_225",
+  "jc_name": "χαμαίδαφνη",
+  "dmm_name": "χαμαίδαφνη",
+  "chapter": "4.147",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit colour": "red",
+   "Fruit general": "growing on the leaves",
+   "Fruit shape": "round",
+   "Habitus detail 1": "sends up shoots",
+   "Habitus detail 2": "single stemmed",
+   "Height": "a cubit tall (0.46 cm)",
+   "Stem detail 1": "thin",
+   "Stem detail 2": "smooth"
+  },
+  "comparisons": {
+   "Leaf": "like laurel (daphne 1, 78), but a great deal thinner and paler"
+  },
+  "candidates": [
+   {
+    "df_name": "Danae racemosa (FT, Ruscus racemosus)",
+    "in_floras": true,
+    "modern": {
+     "Habitus detail 2": "arching branches",
+     "Height": "50-100 cm",
+     "Stem detail 1": "slender (G)",
+     "Fruit general": "in terminal racemes (flower) (G)",
+     "Fruit colour": "red (G)"
+    },
+    "expert_calls": {
+     "Habitus detail 1": "absent",
+     "Habitus detail 2": "no",
+     "Height": "partial",
+     "Stem detail 1": "good",
+     "Stem detail 2": "absent",
+     "Fruit general": "no",
+     "Fruit shape": "absent",
+     "Fruit colour": "good"
+    },
+    "cp_id": "CP150",
+    "accepted_name": "Danae racemosa (L.) Moench",
+    "family": "Asparagaceae",
+    "uses_score": 1,
+    "expert_score": 1,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Ruscus hypophyllum",
+    "in_floras": true,
+    "modern": {
+     "Habitus detail 1": "erect",
+     "Habitus detail 2": "simple, unbranched",
+     "Height": "30-70 cm",
+     "Fruit general": "on the axial or adaxial surface of cladodes (flower) (G)",
+     "Fruit shape": "spherical berry",
+     "Fruit colour": "red (G)"
+    },
+    "expert_calls": {
+     "Habitus detail 1": "good",
+     "Habitus detail 2": "good",
+     "Height": "good",
+     "Stem detail 1": "absent",
+     "Stem detail 2": "absent",
+     "Fruit general": "good",
+     "Fruit shape": "good",
+     "Fruit colour": "good"
+    },
+    "cp_id": "CP151",
+    "accepted_name": "Ruscus hypophyllum L.",
+    "family": "Asparagaceae",
+    "uses_score": 1,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "khamaimelon, in anthemis",
+  "lemma": "JCLP_227",
+  "jc_name": "χαμαίμιλον",
+  "dmm_name": "χαμαίμηλον, in ανθεμίς",
+  "chapter": "3.137",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "whitish and golden brilliancy in the centre, white petals",
+   "Flower detail 01": "outside disposed in a circle are the little petals",
+   "Flower general": "round flower heads, small",
+   "Height": "sprays are a span tall (16-22 cm)",
+   "Leaf general": "small and delicate",
+   "Life form": "collected in spring",
+   "Stem detail 1": "many axils",
+   "Stem general": "shrubby",
+   "Smell properties": "scent similar to apples",
+   "Habitat": "rough terrains, by the roadside"
+  },
+  "comparisons": {
+   "Flower": "little petals the size of rue (πήγανον III, 45)"
+  },
+  "candidates": [
+   {
+    "df_name": "Anthemis chia",
+    "in_floras": true,
+    "modern": {
+     "Life form": "annual",
+     "Height": "15-30 cm",
+     "Stem general": "small shrubs (G)",
+     "Stem detail 1": "branches from base",
+     "Leaf general": "2 pinnatisect",
+     "Flower general": "capitula radiate, involucre 8-10 mm",
+     "Flower colour": "disc flowers yellow, ray flowers white",
+     "Flower detail 01": "ray flowers 8-13 mm",
+     "Habitat": "roadsides, calcerous soil"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Height": "good",
+     "Stem general": "good",
+     "Stem detail 1": "good",
+     "Leaf general": "partial",
+     "Flower general": "good",
+     "Flower colour": "good",
+     "Flower detail 01": "good",
+     "Smell properties": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP050",
+    "accepted_name": "Anthemis chia L.",
+    "family": "Asteraceae",
+    "uses_score": 0,
+    "expert_score": 6,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Matricaria chamomilla",
+    "in_floras": true,
+    "modern": {
+     "Life form": "annuals (G)",
+     "Height": "10-45 cm",
+     "Stem detail 1": "usually much (FC) branched (G)",
+     "Leaf general": "2-3 pinnatisect, primary segments 10-12 pairs, FC: finely bipinnatisect 1-7 x 0.6-2 cm, ultimate segments narrowly linear or almost filiform, 1-1.5 mm",
+     "Flower general": "capitula, involucre 5 x 8 mm",
+     "Flower colour": "disc flowers yellow, ray flowers white (G)",
+     "Flower detail 01": "ray flowers 12-15 mm",
+     "Smell properties": "sweet smelling (FC)",
+     "Habitat": "roadsides, waste and cultivated grounds"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Height": "good",
+     "Stem general": "absent",
+     "Stem detail 1": "good",
+     "Leaf general": "partial",
+     "Flower general": "good",
+     "Flower colour": "good",
+     "Flower detail 01": "good",
+     "Smell properties": "partial",
+     "Habitat": "good"
+    },
+    "cp_id": "CP051",
+    "accepted_name": "Matricaria chamomilla L.",
+    "family": "Asteraceae",
+    "uses_score": 3,
+    "expert_score": 7,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "khamaipitys",
+  "lemma": "JCLP_228",
+  "jc_name": "χαμαίπιτυς",
+  "dmm_name": "χαμαίπιτυς",
+  "chapter": "3.158",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "qunice-yellow",
+   "Flower detail 01": "delicate",
+   "Habitus detail 1": "humped",
+   "Habitus general": "creeps on the ground",
+   "Leaf general": "closely packed around the branches",
+   "Leaf surface": "rough",
+   "Life form": "herb",
+   "Smell properties": "like pine"
+  },
+  "comparisons": {
+   "Leaf": "similar to house leek (ampeloprason II, 150) but thinner and shinier",
+   "Root": "like chicory (kichorion II, 132)"
+  },
+  "candidates": [
+   {
+    "df_name": "Ajuga iva (FT, Teucrium iva)",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial herb",
+     "Habitus general": "prostrate",
+     "Leaf surface": "very hairy, subadpressed pilose",
+     "Flower colour": "yellow"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Habitus general": "good",
+     "Leaf general": "absent",
+     "Leaf surface": "good",
+     "Flower colour": "good",
+     "Flower detail 01": "absent",
+     "Smell properties": "absent"
+    },
+    "cp_id": "CP153_a",
+    "accepted_name": "Ajuga iva (L.) Schreb.",
+    "family": "Lamiaceae",
+    "uses_score": 1,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Ajuga reptans",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial herb",
+     "Habitus general": "long stolons",
+     "Flower colour": "blue"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Habitus general": "good",
+     "Leaf general": "absent",
+     "Leaf surface": "absent",
+     "Flower colour": "no",
+     "Flower detail 01": "absent",
+     "Smell properties": "absent"
+    },
+    "cp_id": "CP154",
+    "accepted_name": "Ajuga reptans L.",
+    "family": "Lamiaceae",
+    "uses_score": 3,
+    "expert_score": 1,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "khamaipitys (other)",
+  "lemma": "JCLP_228",
+  "jc_name": "χαμαίπιτυς",
+  "dmm_name": "χαμαίπιτυς",
+  "chapter": "3.158",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "qunice-yellow",
+   "Flower detail 01": "delicate",
+   "Height": "branches a cubit long (0.46 cm)",
+   "Leaf general": "closely packed around the branches",
+   "Leaf surface": "rough",
+   "Seed colour": "black",
+   "Stem detail 1": "thin branches",
+   "Stem general": "anchor shaped branches",
+   "Smell properties": "like pine"
+  },
+  "comparisons": {
+   "Leaf": "similar to house leek (ampeloprason II, 150) but thinner and shinier"
+  },
+  "candidates": [
+   {
+    "df_name": "Ajuga iva (FT, Teucrium iva)",
+    "in_floras": true,
+    "modern": {
+     "Height": "5-12 cm",
+     "Stem general": "prostrate",
+     "Leaf general": "usually crowded and overlapping (FC)",
+     "Leaf surface": "very hairy, subadpressed pilose",
+     "Flower colour": "yellow",
+     "Seed colour": "dark fuscous brown (FC)"
+    },
+    "expert_calls": {
+     "Height": "no",
+     "Stem general": "no",
+     "Stem detail 1": "absent",
+     "Leaf general": "good",
+     "Leaf surface": "good",
+     "Flower colour": "good",
+     "Flower detail 01": "absent",
+     "Seed colour": "good",
+     "Smell properties": "absent"
+    },
+    "cp_id": "CP153_a",
+    "accepted_name": "Ajuga iva (L.) Schreb.",
+    "family": "Lamiaceae",
+    "uses_score": 1,
+    "expert_score": 1,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Thymelaea hirsuta (FT, Passerina hirsuta)",
+    "in_floras": true,
+    "modern": {
+     "Height": "20-150 cm",
+     "Stem general": "older branches divergent, becoming pendent",
+     "Leaf general": "leaves numerous, overlapping, sessile (FC)",
+     "Leaf surface": "adaxial surface white tomentose or lanate",
+     "Flower colour": "perianth yellow within",
+     "Seed colour": "blackish (FC)"
+    },
+    "expert_calls": {
+     "Height": "partial",
+     "Stem general": "partial",
+     "Stem detail 1": "absent",
+     "Leaf general": "good",
+     "Leaf surface": "good",
+     "Flower colour": "good",
+     "Flower detail 01": "absent",
+     "Seed colour": "good",
+     "Smell properties": "absent"
+    },
+    "cp_id": "CP156",
+    "accepted_name": "Thymelaea hirsuta (L.) Endl.",
+    "family": "Thymelaeaceae",
+    "uses_score": 3,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "khamaipitys (third)",
+  "lemma": "JCLP_228",
+  "jc_name": "χαμαίπιτυς",
+  "dmm_name": "χαμαίπιτυς",
+  "chapter": "3.158",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "quince coloured",
+   "Flower detail 01": "little",
+   "Height": "tiny",
+   "Leaf detail 1": "white",
+   "Leaf detail 2": "delicate",
+   "Leaf general": "closely packed",
+   "Leaf size": "very small",
+   "Seed detail 1": "small",
+   "Seed general": "near the axils",
+   "Stem detail 1": "rough",
+   "Stem detail 2": "white",
+   "Smell properties": "like pine"
+  },
+  "comparisons": {},
+  "candidates": [
+   {
+    "df_name": "Ajuga chamaepitys (FT, A. chia = A. chamaepitys ssp. chia)",
+    "in_floras": true,
+    "modern": {
+     "Height": "very variable, incl. dwarf alpine plants",
+     "Stem detail 1": "very variable: hairy or glabrous",
+     "Stem detail 2": "very variable: some plants are wooly",
+     "Leaf size": "very variable: some leaves are only 5 mm",
+     "Leaf detail 1": "very variable: some plants are wooly",
+     "Flower colour": "yellow",
+     "Flower detail 01": "calyx 4-6 mm, corolla 8-30mm"
+    },
+    "expert_calls": {
+     "Height": "good",
+     "Stem detail 1": "good",
+     "Stem detail 2": "good",
+     "Leaf general": "absent",
+     "Leaf size": "good",
+     "Leaf detail 1": "good",
+     "Leaf detail 2": "absent",
+     "Flower colour": "good",
+     "Flower detail 01": "partial",
+     "Seed general": "absent",
+     "Seed detail 1": "absent",
+     "Smell properties": "absent"
+    },
+    "cp_id": "CP152",
+    "accepted_name": "Ajuga chamaepitys (L.) Schreb.",
+    "family": "Lamiaceae",
+    "uses_score": 1,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "khelidonea (greater)",
+  "lemma": "JCLP_231",
+  "jc_name": "χελιδόνιον",
+  "dmm_name": "χελιδόνιον μέγα",
+  "chapter": "2.180",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower general": "along each leaf there is a flower",
+   "Fruit detail 1": "delicate",
+   "Fruit general": "long like a cone",
+   "Fruit structure": "containing little seeds",
+   "Habitus general": "the juice (of the plant) is saffron coloured",
+   "Height": "about a cubit tall or even taller (> 0.46 cm)",
+   "Leaf detail 1": "tender",
+   "Leaf detail 2": "somewhat grey",
+   "Root general": "single in the upper part, multiple in the lower part",
+   "Stem detail 1": "thin",
+   "Stem general": "has offshots full of leaves",
+   "Smell properties": "foul smelling (juice)",
+   "Taste properties": "sharp, somewhat biting, bitter (juice)"
+  },
+  "comparisons": {
+   "Flower": "like gillyflower (leukoion III, 123)",
+   "Fruit": "like horned poppy (mekon keratitis IV, 65)",
+   "Leaf": "like ranunculus (batrakhion II, 175)",
+   "Seed": "bigger than the poppy's (mekon IV, 64)"
+  },
+  "candidates": [
+   {
+    "df_name": "Chelidonium majus",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "herb with bright orange sap (G)",
+     "Height": "up to 90 cm",
+     "Stem general": "branched",
+     "Fruit general": "siliquiform capsule (KG)"
+    },
+    "expert_calls": {
+     "Habitus general": "good",
+     "Height": "good",
+     "Stem general": "partial",
+     "Stem detail 1": "absent",
+     "Leaf detail 1": "absent",
+     "Leaf detail 2": "absent",
+     "Flower general": "absent",
+     "Fruit general": "good",
+     "Fruit structure": "absent",
+     "Fruit detail 1": "absent",
+     "Root general": "absent",
+     "Smell properties": "absent",
+     "Taste properties": "absent"
+    },
+    "cp_id": "CP096",
+    "accepted_name": "Chelidonium majus L.",
+    "family": "Papaveraceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "koneion",
+  "lemma": "JCLP_109",
+  "jc_name": "κώνειον",
+  "dmm_name": "κώνειον",
+  "chapter": "4.78",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "whitish",
+   "Flower general": "umbels at the top",
+   "Habitus general": "at the top it has side shoots and umbels",
+   "Height": "large",
+   "Root detail 1": "hollow",
+   "Root general": "not deep",
+   "Stem detail 1": "knotty",
+   "Smell properties": "oppressive (leaves)",
+   "Ethnobotany": "belongs to the plants that are deadly",
+   "Distribution": "most potent are the Cretan, Megarian, Attic and those growing in Chios and Cilicia"
+  },
+  "comparisons": {
+   "Fruit": "like anise (anesson III, 56), but whiter",
+   "Leaf": "resembling giant fennel (narthex III, 77), but narrower",
+   "Stem": "knotty like fennel (marathon III, 70)"
+  },
+  "candidates": [
+   {
+    "df_name": "Conium maculatum",
+    "in_floras": true,
+    "modern": {
+     "Height": "30-200 cm (FC), 1-2.5 m (FC)",
+     "Flower general": "umbels",
+     "Flower colour": "white (G)",
+     "Smell properties": "strong, unpleasant mouse-like odour when crushed (FC)",
+     "Ethnobotany": "all parts of the plant are highly poisonous",
+     "Distribution": "scattered throughout Turkey including Tarsus/Içel (Cilicia), on Lesbos"
+    },
+    "expert_calls": {
+     "Habitus general": "absent",
+     "Height": "good",
+     "Stem detail 1": "absent",
+     "Flower general": "good",
+     "Flower colour": "good",
+     "Root general": "absent",
+     "Root detail 1": "absent",
+     "Smell properties": "good",
+     "Ethnobotany": "good",
+     "Distribution": "good"
+    },
+    "cp_id": "CP098",
+    "accepted_name": "Conium maculatum L.",
+    "family": "Apiaceae",
+    "uses_score": 3,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "konyza (greater)",
+  "lemma": "JCLP_095",
+  "jc_name": "κόνυζα",
+  "dmm_name": "κόνυζα",
+  "chapter": "3.121",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "quince-yellow",
+   "Flower general": "airy",
+   "Fruit general": "plumose",
+   "Height": "two cubits tall (46-92 cm)",
+   "Leaf detail 1": "shiny",
+   "Leaf shape": "broader than in the small \"mikra\" type",
+   "Leaf surface": "rough",
+   "Life form": "bush",
+   "Smell properties": "oppressive",
+   "Taste properties": "somewhat bitter (flower)",
+   "Ethnobotany": "the shrub burned drives away wild animals and mosquitos. It also kills fleas"
+  },
+  "comparisons": {
+   "Leaf": "resemble the leaves of the olive tree (elaia I, 105)"
+  },
+  "candidates": [
+   {
+    "df_name": "Dittrichia viscosa (FT, Inula viscosa, Erigeron viscosus)",
+    "in_floras": true,
+    "modern": {
+     "Life form": "bushy",
+     "Height": "up to 1m (or larger)",
+     "Leaf shape": "lanceolate to oblanceolate (linear lanceolate in D. graveolens)",
+     "Leaf surface": "covered with sparse spreading hairs",
+     "Flower colour": "yellow or orange (G)",
+     "Fruit general": "pappus (G)",
+     "Smell properties": "rank smelling",
+     "Ethnobotany": "viscid"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Height": "good",
+     "Leaf shape": "good",
+     "Leaf surface": "good",
+     "Leaf detail 1": "absent",
+     "Flower colour": "partial",
+     "Fruit general": "good",
+     "Smell properties": "good",
+     "Taste properties": "absent",
+     "Ethnobotany": "partial"
+    },
+    "cp_id": "CP146",
+    "accepted_name": "Dittrichia viscosa (L.) Greuter",
+    "family": "Asteraceae",
+    "uses_score": 3,
+    "expert_score": 7,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "konyza (lesser)",
+  "lemma": "JCLP_095",
+  "jc_name": "κόνυζα",
+  "dmm_name": "κόνυζα",
+  "chapter": "3.121",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "quince-yellow",
+   "Flower general": "airy",
+   "Fruit general": "plumose",
+   "Height": "one foot (30 cm)",
+   "Leaf detail 1": "shiny",
+   "Leaf shape": "broader than in the small \"mikra\" type (AL: = narrower than in the large \"meizon\" type)",
+   "Leaf surface": "rough",
+   "Smell properties": "rather sweet",
+   "Taste properties": "somewhat bitter (flower)",
+   "Ethnobotany": "the shrub burned drives away wild animals and mosquitos. It also kills fleas"
+  },
+  "comparisons": {
+   "Leaf": "resemble the leaves of the olive tree (elaia I, 105)"
+  },
+  "candidates": [
+   {
+    "df_name": "Dittrichia graveolens (FT, Inula graveolens, Erigeron graveolens)",
+    "in_floras": true,
+    "modern": {
+     "Height": "up to 1m",
+     "Leaf shape": "linear lanceolate (lanceolate to oblanceolate in D. viscosa)",
+     "Leaf surface": "covered with minute hairs",
+     "Flower colour": "yellow or orange (G)",
+     "Fruit general": "pappus (G)",
+     "Smell properties": "rank smelling"
+    },
+    "expert_calls": {
+     "Height": "partial",
+     "Leaf shape": "good",
+     "Leaf surface": "good",
+     "Leaf detail 1": "absent",
+     "Flower colour": "partial",
+     "Fruit general": "good",
+     "Smell properties": "no",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP144",
+    "accepted_name": "Dittrichia graveolens (L.) Greuter",
+    "family": "Asteraceae",
+    "uses_score": 1,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "kyklaminos",
+  "lemma": "JCLP_104",
+  "jc_name": "κυκλάμινος",
+  "dmm_name": "κυκλάμινος",
+  "chapter": "2.164",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "purplish",
+   "Height": "four fingers long (stem)",
+   "Leaf general": "on the leaves grow flowers",
+   "Leaf surface": "mottled on top, at the bottom with whitish spots",
+   "Root colour": "black",
+   "Root general": "somewhat flat",
+   "Stem general": "leafless",
+   "Habitat": "thickly shaded places, especially under the trees"
+  },
+  "comparisons": {
+   "Flower": "rose-like flower (ρόδα Ι, 99)",
+   "Leaf": "similar to ivy (κισσός ΙΙ, 179)",
+   "Root": "resembling turnip (γογγύλη ΙΙ, 110)"
+  },
+  "candidates": [
+   {
+    "df_name": "Cyclamen cyprium",
+    "in_floras": true,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP025",
+    "accepted_name": "Cyclamen cyprium Kotschy",
+    "family": "Primulaceae",
+    "uses_score": 3,
+    "expert_score": 0,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Cyclamen graecum",
+    "in_floras": true,
+    "modern": {
+     "Height": "pedicel 7-14cm long (FC)",
+     "Stem general": "pedicel (FC)",
+     "Leaf general": "leaves appearing a little after the flowers",
+     "Leaf surface": "lamina distinctly marbled above (FC)",
+     "Flower colour": "pale pink, rarely white",
+     "Root general": "globose or depressed globose",
+     "Habitat": "pine forests, clefts and limestone rocks, macchie"
+    },
+    "expert_calls": {
+     "Height": "partial",
+     "Stem general": "good",
+     "Leaf general": "partial",
+     "Leaf surface": "partial",
+     "Flower colour": "partial",
+     "Root general": "good",
+     "Root colour": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP026",
+    "accepted_name": "Cyclamen graecum Link",
+    "family": "Primulaceae",
+    "uses_score": 0,
+    "expert_score": 6,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Cyclamen hederifolium",
+    "in_floras": true,
+    "modern": {
+     "Stem general": "pedicel (FC)",
+     "Leaf general": "leaves appearing a little after the flowers",
+     "Leaf surface": "lamina generally marbled above (FC)",
+     "Flower colour": "white or pale pink",
+     "Root general": "globose or depressed globose",
+     "Habitat": "rocky slopes and banks, usually in shade"
+    },
+    "expert_calls": {
+     "Height": "absent",
+     "Stem general": "good",
+     "Leaf general": "partial",
+     "Leaf surface": "partial",
+     "Flower colour": "partial",
+     "Root general": "good",
+     "Root colour": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP027",
+    "accepted_name": "Cyclamen hederifolium Aiton",
+    "family": "Primulaceae",
+    "uses_score": 0,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Cyclamen persicum",
+    "in_floras": true,
+    "modern": {
+     "Stem general": "pedicel (FC)",
+     "Leaf general": "leaves fully developed at flowering time",
+     "Leaf surface": "lamina generally marbled above (FC)",
+     "Flower colour": "pale pink (or white FC) with a darker purplish basal zone",
+     "Root general": "globose or depressed globose",
+     "Habitat": "pine forests, macchie, rocky slopes, on limestone"
+    },
+    "expert_calls": {
+     "Height": "absent",
+     "Stem general": "good",
+     "Leaf general": "good",
+     "Leaf surface": "partial",
+     "Flower colour": "partial",
+     "Root general": "good",
+     "Root colour": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP028",
+    "accepted_name": "Cyclamen persicum Mill.",
+    "family": "Primulaceae",
+    "uses_score": 3,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Cyclamen purpurascens",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP029",
+    "accepted_name": "Cyclamen purpurascens Mill.",
+    "family": "Primulaceae",
+    "uses_score": 0,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   }
+  ]
+ },
+ {
+  "key": "kyperos",
+  "lemma": "JCLP_149",
+  "jc_name": "κύπερος",
+  "dmm_name": "κύπερος",
+  "chapter": "1.4",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Habitus general": "at the top of the stem an outgrowth of small leaflets and of seeds",
+   "Height": "a cubit tall or taller (> 0.46 cm)",
+   "Leaf shape": "long, slender",
+   "Root colour": "black",
+   "Root general": "like elongated olives linked with each other, or even round",
+   "Stem detail 1": "angular",
+   "Taste properties": "aromatic, bitter (root)",
+   "Habitat": "cultivated and marshy areas",
+   "Distribution": "best qualities from Cilicia, Syria, Cylcladic islands"
+  },
+  "comparisons": {
+   "Leaf": "resembling leek (prason II, 150)",
+   "Root": "like elongated olives (elaia I, 105)",
+   "Stem": "like camel hay (skhoinos I, 17)"
+  },
+  "candidates": [
+   {
+    "df_name": "Cyperus longus",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "inflorescence a simple or compound umbel, rays, spikes linear to oblong",
+     "Height": "20-150 cm",
+     "Stem detail 1": "more or less trigonous (G)",
+     "Leaf shape": "shorter than stems (20-150 cm) or equaling them, 2-10 mm broad",
+     "Root general": "rhizomes long, 3-10 mm broad, covered with broad scale leaves, tubers absent",
+     "Habitat": "swamps, streamsides, muddy riverbanks, sea shores, ditches",
+     "Distribution": "widespread in Turkey, Aegean islands"
+    },
+    "expert_calls": {
+     "Habitus general": "partial",
+     "Height": "good",
+     "Stem detail 1": "good",
+     "Leaf shape": "good",
+     "Root general": "good",
+     "Root colour": "absent",
+     "Taste properties": "absent",
+     "Habitat": "partial",
+     "Distribution": "good"
+    },
+    "cp_id": "CP062",
+    "accepted_name": "Cyperus longus L.",
+    "family": "Cyperaceae",
+    "uses_score": 1,
+    "expert_score": 7,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Cyperus rotundus",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "inflorescence a simple or compound umbel, rays, spikes linear to oblong",
+     "Height": "20-150 cm (10-60 cm)",
+     "Stem detail 1": "more or less trigonous (G)",
+     "Leaf shape": "shorter than stems (20-150 cm) or equaling them, 2-10 mm broad",
+     "Root general": "slender rhizomes (1 mm thick) bearing sparse yellow scales and sometimes tubers",
+     "Habitat": "riverbeds, damp fields, cultivated ground, roadsides",
+     "Distribution": "mainly outer Anatolia and Aegean islands"
+    },
+    "expert_calls": {
+     "Habitus general": "partial",
+     "Height": "good",
+     "Stem detail 1": "good",
+     "Leaf shape": "good",
+     "Root general": "good",
+     "Root colour": "absent",
+     "Taste properties": "absent",
+     "Habitat": "good",
+     "Distribution": "good"
+    },
+    "cp_id": "CP175",
+    "accepted_name": "Cyperus rotundus L.",
+    "family": "Cyperaceae",
+    "uses_score": 2,
+    "expert_score": 7,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "kypros",
+  "lemma": "JCLP_107",
+  "jc_name": "κύπρος",
+  "dmm_name": "κύπρος",
+  "chapter": "1.95",
+  "chapter_located_by": "relocated from 'DMM I, 59'",
+  "expert_reading": {
+   "Flower colour": "white",
+   "Fruit general": "clustered like a bunch of grapes",
+   "Leaf detail 1": "pale-green colour",
+   "Leaf detail 2": "tender",
+   "Leaf shape": "broad",
+   "Life form": "tree",
+   "Seed colour": "black",
+   "Smell properties": "aromatic (flower)",
+   "Distribution": "best grow in Ascalon and Canopus (=Palestine, Egypt)"
+  },
+  "comparisons": {
+   "Leaf": "leaves around its young shoots that nearly resemble the of the olive tree (elaia I,105), but broader, tenderer",
+   "Seed": "similar to the seed of the elder tree (akte IV,173)"
+  },
+  "candidates": [
+   {
+    "df_name": "Lawsonia inermis",
+    "in_floras": true,
+    "modern": {
+     "Life form": "shrub or small tree (FC)"
+    },
+    "expert_calls": {},
+    "cp_id": "CP073",
+    "accepted_name": "Lawsonia inermis L.",
+    "family": "Lythraceae",
+    "uses_score": 1,
+    "expert_score": 0,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "mandragoras (female, black)",
+  "lemma": "JCLP_122",
+  "jc_name": "μανδραγόρας",
+  "dmm_name": "μανδραγόρας",
+  "chapter": "4.75",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit colour": "pale-green colour",
+   "Fruit general": "fruit among leaves streaming on the ground",
+   "Habitus detail 1": "leaves streaming on the ground",
+   "Habitus general": "no stem",
+   "Root colour": "black on the surface, white inside",
+   "Root detail 1": "two or three entwined with each other",
+   "Root detail 2": "thick skin",
+   "Root general": "sizable",
+   "Smell properties": "fetid and heavy in scent (leaf), sweet (fruit)"
+  },
+  "comparisons": {
+   "Fruit": "resembling sorb apples (ouon I,120)",
+   "Leaf": "lettuce-like (thrydax II,66) but narrower and smalller",
+   "Seed": "like the pear's (apion I,116)"
+  },
+  "candidates": [
+   {
+    "df_name": "Mandragora autumnalis (FT, in M. officinarum L. is regarded as a synonym)",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "stem very short",
+     "Habitus detail 1": "leaves in a basal rosette (G)",
+     "Fruit general": "acaulescent, leaves in a basal rosette, fruit a berry (G)",
+     "Fruit colour": "yellow to orange",
+     "Root general": "1 to 2.5 cm thick (FT), long fleshy rootstock (FC)"
+    },
+    "expert_calls": {
+     "Habitus general": "good",
+     "Habitus detail 1": "good",
+     "Fruit general": "good",
+     "Fruit colour": "no",
+     "Root general": "good",
+     "Root colour": "absent",
+     "Root detail 1": "absent",
+     "Root detail 2": "absent",
+     "Smell properties": "absent"
+    },
+    "cp_id": "CP074_a",
+    "accepted_name": "Mandragora autumnalis Bertol.",
+    "family": "Solanaceae",
+    "uses_score": 3,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Mandragora officinarum",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "acaulescent (G)",
+     "Habitus detail 1": "leaves in a basal rosette (G)",
+     "Fruit general": "acaulescent, leaves in a basal rosette, fruit a berry (G)",
+     "Fruit colour": "yellow or orange when ripe (FC)",
+     "Root general": "thick vertical roots (G) (FT), long fleshy rootstock (FC)"
+    },
+    "expert_calls": {
+     "Habitus general": "good",
+     "Habitus detail 1": "good",
+     "Fruit general": "good",
+     "Fruit colour": "no",
+     "Root general": "good",
+     "Root colour": "absent",
+     "Root detail 1": "absent",
+     "Root detail 2": "absent",
+     "Smell properties": "absent"
+    },
+    "cp_id": "CP075_a",
+    "accepted_name": "Mandragora officinarum L.",
+    "family": "Solanaceae",
+    "uses_score": 3,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "mandragoras (male, white)",
+  "lemma": "JCLP_122",
+  "jc_name": "μανδραγόρας",
+  "dmm_name": "μανδραγόρας",
+  "chapter": "4.75",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit colour": "saffron",
+   "Habitus detail 1": "leaves streaming on the ground",
+   "Habitus general": "no stem",
+   "Leaf detail 1": "white",
+   "Leaf general": "large",
+   "Leaf shape": "broad",
+   "Leaf surface": "smooth",
+   "Root colour": "black on the surface, white inside",
+   "Root detail 1": "two or three entwined with each other",
+   "Root detail 2": "thick skin",
+   "Root general": "big",
+   "Smell properties": "somewhat oppressively fragrant (fruit)",
+   "Ethnobotany": "shepherds eat the fruit and are reduced to a state of stupor"
+  },
+  "comparisons": {
+   "Fruit": "twice as large (as the fruit of the female/black type)",
+   "Leaf": "smooth like beet (seutlon II,123)",
+   "Seed": "like the pear's (apion I,116)"
+  },
+  "candidates": [
+   {
+    "df_name": "Mandragora autumnalis (FT, in M. officinarum L. is regarded as a synonym)",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "stem very short",
+     "Habitus detail 1": "leaves in a basal rosette (G)",
+     "Leaf shape": "ovate-elliptic (FC)",
+     "Leaf surface": "glabrous (FC)",
+     "Fruit colour": "yellow to orange",
+     "Root general": "long fleshy rootstock (FC)"
+    },
+    "expert_calls": {
+     "Habitus general": "good",
+     "Habitus detail 1": "good",
+     "Leaf general": "absent",
+     "Leaf shape": "partial",
+     "Leaf surface": "good",
+     "Leaf detail 1": "absent",
+     "Fruit colour": "good",
+     "Root general": "good",
+     "Root colour": "absent",
+     "Root detail 1": "absent",
+     "Root detail 2": "absent",
+     "Smell properties": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP074_a",
+    "accepted_name": "Mandragora autumnalis Bertol.",
+    "family": "Solanaceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Mandragora officinarum",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "acaulescent (G)",
+     "Habitus detail 1": "leaves in a basal rosette (G)",
+     "Leaf shape": "ovate-elliptic (FC)",
+     "Leaf surface": "glabrous (FC)",
+     "Fruit colour": "yellow or orange when ripe (FC)",
+     "Root general": "long fleshy rootstock (FC)"
+    },
+    "expert_calls": {
+     "Habitus general": "good",
+     "Habitus detail 1": "good",
+     "Leaf general": "absent",
+     "Leaf shape": "partial",
+     "Leaf surface": "good",
+     "Leaf detail 1": "absent",
+     "Fruit colour": "good",
+     "Root general": "good",
+     "Root colour": "absent",
+     "Root detail 1": "absent",
+     "Root detail 2": "absent",
+     "Smell properties": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP075_a",
+    "accepted_name": "Mandragora officinarum L.",
+    "family": "Solanaceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "melanthion",
+  "lemma": "JCLP_126",
+  "jc_name": "μελάνθιον",
+  "dmm_name": "μελάνθιον",
+  "chapter": "3.79",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit general": "delicate head",
+   "Fruit shape": "longish",
+   "Fruit structure": "internal partitions",
+   "Height": "2 span (32-44cm)",
+   "Leaf detail 1": "thin",
+   "Leaf size": "small",
+   "Life form": "small shrub",
+   "Seed colour": "black",
+   "Stem detail 1": "thin",
+   "Taste properties": "seed: sharp and fragrant",
+   "Ethnobotany": "seed sprinkled on bread"
+  },
+  "comparisons": {
+   "Fruit": "small as poppy's (μήκον IV, 64)",
+   "Leaf": "like groundsel (ηριγέρων IV, 96), but a great deal thinner"
+  },
+  "candidates": [
+   {
+    "df_name": "Nigella damascena",
+    "in_floras": true,
+    "modern": {
+     "Life form": "plant simple or laxely branched",
+     "Height": "20-50 cm",
+     "Leaf size": "narrow linear or lanceolate segments (G) (FC)",
+     "Leaf detail 1": "pinnatisect (G), laciniae lanceolate to setaceous, stiff",
+     "Fruit general": "capsule, intricately involucrate",
+     "Fruit shape": "broadly ovoid or subglobose (FC)",
+     "Fruit structure": "carpels united to apex"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Height": "good",
+     "Leaf size": "partial",
+     "Leaf detail 1": "partial",
+     "Fruit general": "no",
+     "Fruit shape": "no",
+     "Fruit structure": "good",
+     "Seed colour": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP005",
+    "accepted_name": "Nigella damascena L.",
+    "family": "Ranunculaceae",
+    "uses_score": 2,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Nigella sativa",
+    "in_floras": true,
+    "modern": {
+     "Life form": "plant branched",
+     "Height": "15-30 cm",
+     "Leaf size": "narrow linear or lanceolate segments (G) (FC)",
+     "Leaf detail 1": "pinnatisect (G), laciniae oblong lanceolate",
+     "Fruit general": "capsule, not involucrate",
+     "Fruit shape": "tuberculate",
+     "Fruit structure": "carpels united to apex",
+     "Ethnobotany": "seeds used to flavour bread"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Height": "good",
+     "Leaf detail 1": "partial",
+     "Fruit general": "good",
+     "Fruit shape": "good",
+     "Fruit structure": "good",
+     "Seed colour": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "good"
+    },
+    "cp_id": "CP006",
+    "accepted_name": "Nigella sativa L.",
+    "family": "Ranunculaceae",
+    "uses_score": 3,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "myrsine agria, leikhene",
+  "lemma": "JCLP_113",
+  "jc_name": "λειχήνη",
+  "dmm_name": "μυρσίνη αγρία, λειχήνη",
+  "chapter": "4.144",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit colour": "red as it ripens",
+   "Fruit general": "growing between the leaves",
+   "Fruit shape": "round",
+   "Fruit structure": "having a bony inner part",
+   "Habitus general": "withy twigs growing from the same root",
+   "Height": "a cubit tall (46 cm)",
+   "Leaf general": "pointed at the tip",
+   "Leaf shape": "lanceolate",
+   "Stem detail 1": "hard to break",
+   "Stem detail 2": "full of leaves",
+   "Stem general": "many twigs",
+   "Taste properties": "harsh, somewhat bitter (root)",
+   "Habitat": "rough and precipitious places"
+  },
+  "comparisons": {
+   "Leaf": "similar to myrtle (myrsine I, 112), but wider",
+   "Root": "nearly resembles dogtooth grass (agrostis IV, 29)"
+  },
+  "candidates": [
+   {
+    "df_name": "Ruscus aculeatus",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "stiff shrub",
+     "Height": "20-50 cm",
+     "Stem general": "branches alternate or the lower 3-whirled",
+     "Stem detail 1": "sclerophyllous",
+     "Leaf general": "spine-tipped",
+     "Leaf shape": "lanceolate-acuminate",
+     "Fruit general": "on the upper surface of cladodes (flower, adaxial)",
+     "Fruit shape": "berry (G)",
+     "Fruit structure": "1-4 seeds (G)",
+     "Fruit colour": "red (G)",
+     "Habitat": "forest, rocky limestone slopes and scree"
+    },
+    "expert_calls": {
+     "Habitus general": "good",
+     "Height": "good",
+     "Stem general": "good",
+     "Stem detail 1": "good",
+     "Stem detail 2": "absent",
+     "Leaf general": "good",
+     "Leaf shape": "good",
+     "Fruit general": "partial",
+     "Fruit shape": "good",
+     "Fruit structure": "partial",
+     "Fruit colour": "good",
+     "Taste properties": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP149",
+    "accepted_name": "Ruscus aculeatus L.",
+    "family": "Asparagaceae",
+    "uses_score": 1,
+    "expert_score": 6,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "nerion, rododaphne",
+  "lemma": "JCLP_180",
+  "jc_name": "ροδάφνη",
+  "dmm_name": "νέριον, ροδοδάφνη",
+  "chapter": "4.81",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit shape": "like a horn",
+   "Fruit structure": "full of a wool-like substance resembling the down of thistles",
+   "Leaf detail 1": "rough, thick",
+   "Leaf shape": "long",
+   "Life form": "shrub",
+   "Root general": "tapering and long",
+   "Taste properties": "salty (root)",
+   "Habitat": "gardens, sea-side, along rivers"
+  },
+  "comparisons": {
+   "Flower": "rose-like (rodon I,99)",
+   "Leaf": "longer, thicker, rougher than almond tree (amygdale I,123)"
+  },
+  "candidates": [
+   {
+    "df_name": "Nerium oleander L.",
+    "in_floras": true,
+    "modern": {
+     "Life form": "shrub",
+     "Leaf shape": "narrowly elliptic, 6-30 cm x 1-3 cm",
+     "Leaf detail 1": "coriaceous",
+     "Fruit shape": "follicles 10-18 cm",
+     "Fruit structure": "fruit a follicle containing numerous hairy seeds (FC)",
+     "Habitat": "banks of streams, seasonally dry beds of water courses, frequently planted as an ornamental shrub"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Leaf shape": "good",
+     "Leaf detail 1": "good",
+     "Fruit shape": "partial",
+     "Fruit structure": "good",
+     "Root general": "absent",
+     "Taste properties": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP067",
+    "accepted_name": "Nerium oleander L.",
+    "family": "Apocynaceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "phlomos (female, white)",
+  "lemma": "JCLP_221",
+  "jc_name": "φλόμος",
+  "dmm_name": "φλόμος",
+  "chapter": "4.103",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "white or pale yellow",
+   "Height": "a cubit tall or even taller (> 0.46 cm)",
+   "Leaf detail 1": "white",
+   "Leaf surface": "downy",
+   "Root general": "long and having the thickness of a finger",
+   "Seed colour": "black",
+   "Stem detail 1": "somewhat downy",
+   "Stem detail 2": "white",
+   "Taste properties": "astringent (root)",
+   "Habitat": "grows in plains"
+  },
+  "comparisons": {
+   "Leaf": "very nearly resemble cabbage (krambe emeros II, 120), but are broader"
+  },
+  "candidates": [
+   {
+    "df_name": "Verbascum phlomoides",
+    "in_floras": true,
+    "modern": {
+     "Height": "30-200 cm",
+     "Stem detail 1": "greyish or yellowish tomentose throughout",
+     "Stem detail 2": "greyish or yellowish tomentose",
+     "Leaf surface": "tomentose throughout",
+     "Leaf detail 1": "greyish or yellowish tomentose",
+     "Flower colour": "corolla yellow, fillaments of stamen with whitish-yellow wool",
+     "Habitat": "waste places, open woodland, roadsides, up to 480 m"
+    },
+    "expert_calls": {
+     "Height": "good",
+     "Stem detail 1": "good",
+     "Stem detail 2": "partial",
+     "Leaf surface": "good",
+     "Leaf detail 1": "partial",
+     "Flower colour": "good",
+     "Seed colour": "absent",
+     "Root general": "absent",
+     "Taste properties": "absent",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP105",
+    "accepted_name": "Verbascum phlomoides L.",
+    "family": "Scrophulariaceae",
+    "uses_score": 3,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Verbascum sinuatum",
+    "in_floras": true,
+    "modern": {
+     "Height": "50-100 cm",
+     "Stem detail 1": "shortly and densly grey or yellow tomentose, sometimes glabrascent",
+     "Stem detail 2": "grey or yellow tomentose",
+     "Leaf surface": "shortly and densly tomentose, sometimes glabrascent",
+     "Leaf detail 1": "grey or yellow tomentose",
+     "Flower colour": "corolla yellow, fillaments of stamen with purple-violet wool",
+     "Seed colour": "dull brown (FC)",
+     "Habitat": "roadsides, fallow fields, steppe, coastal sands, up to 1100 m"
+    },
+    "expert_calls": {
+     "Height": "good",
+     "Stem detail 1": "good",
+     "Stem detail 2": "partial",
+     "Leaf surface": "good",
+     "Leaf detail 1": "partial",
+     "Flower colour": "no",
+     "Seed colour": "good",
+     "Root general": "absent",
+     "Taste properties": "absent",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP106",
+    "accepted_name": "Verbascum sinuatum L.",
+    "family": "Scrophulariaceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Verbascum thapsus",
+    "in_floras": true,
+    "modern": {
+     "Height": "30-200 cm",
+     "Stem detail 1": "densly greyish or whitish tomentose",
+     "Stem detail 2": "greyish or whitish tomentose",
+     "Leaf surface": "densly tomentose",
+     "Leaf detail 1": "greyish or whitish tomentose",
+     "Flower colour": "corolla yellow, fillaments of stamen with whitish-yellow wool",
+     "Habitat": "riversides, forests, Quercus scrub, volcanic tuff, 350-1100 m"
+    },
+    "expert_calls": {
+     "Height": "good",
+     "Stem detail 1": "good",
+     "Stem detail 2": "good",
+     "Leaf surface": "good",
+     "Leaf detail 1": "good",
+     "Flower colour": "good",
+     "Seed colour": "absent",
+     "Root general": "absent",
+     "Taste properties": "absent",
+     "Habitat": "no"
+    },
+    "cp_id": "CP107",
+    "accepted_name": "Verbascum thapsus L.",
+    "family": "Scrophulariaceae",
+    "uses_score": 3,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Verbascum undulatum (FT, V. plicatum)",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP108",
+    "accepted_name": "Verbascum undulatum Lam.",
+    "family": "Scrophulariaceae",
+    "uses_score": 0,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   }
+  ]
+ },
+ {
+  "key": "polypodion",
+  "lemma": "JCLP_165",
+  "jc_name": "πολυπόδιον",
+  "dmm_name": "πολυπόδιον",
+  "chapter": "4.186",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Height": "a span tall (16-22 cm)",
+   "Leaf general": "having sections",
+   "Leaf edge": "shredded",
+   "Leaf surface": "somewhat rough",
+   "Root colour": "pale inside",
+   "Root detail 1": "as thick as the little finger",
+   "Root general": "having tentacles like an octopus",
+   "Taste properties": "astringent and somewhat sweet (root)",
+   "Habitat": "grows on moss covered rocks and on the mosses on stumps of old trees"
+  },
+  "comparisons": {
+   "Habitus": "resembling the male fern (pteris IV,184)",
+   "Leaf": "sections not as fine as in the male fern (pteris IV,184)"
+  },
+  "candidates": [
+   {
+    "df_name": "Phegopteris connectilis (FT, Polypodium connectilis)",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP077",
+    "accepted_name": "Phegopteris connectilis (Michx.) Watt",
+    "family": "Aspleniaceae",
+    "uses_score": 0,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   },
+   {
+    "df_name": "Polypodium cambricum (FT P. australe)",
+    "in_floras": true,
+    "modern": {
+     "Height": "stipe 1-14cm long (FC)",
+     "Leaf general": "pinnae",
+     "Leaf edge": "usually dentate at margin (FT), serrate or crenate (FC)",
+     "Leaf surface": "sori distinct (G)",
+     "Root general": "creeping rhizome",
+     "Habitat": "on shady rocks"
+    },
+    "expert_calls": {
+     "Height": "partial",
+     "Leaf general": "partial",
+     "Leaf edge": "good",
+     "Leaf surface": "partial",
+     "Root general": "partial",
+     "Root colour": "absent",
+     "Root detail 1": "absent",
+     "Taste properties": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP076",
+    "accepted_name": "Polypodium cambricum L.",
+    "family": "Polypodiaceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Polypodium vulgare",
+    "in_floras": true,
+    "modern": {
+     "Leaf general": "deeply pinnatifid",
+     "Leaf surface": "sori distinct (G)",
+     "Root general": "creeping rhizome",
+     "Habitat": "on rocks and epiphytic"
+    },
+    "expert_calls": {
+     "Height": "absent",
+     "Leaf general": "partial",
+     "Leaf edge": "absent",
+     "Leaf surface": "partial",
+     "Root general": "partial",
+     "Root colour": "absent",
+     "Root detail 1": "absent",
+     "Taste properties": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP078",
+    "accepted_name": "Polypodium vulgare L.",
+    "family": "Polypodiaceae",
+    "uses_score": 3,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "prasion",
+  "lemma": "JCLP_241",
+  "jc_name": "πράσιον",
+  "dmm_name": "πράσιον",
+  "chapter": "3.105",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower detail 01": "rough",
+   "Flower general": "spaced on the stem at internvals, as if they were vertebrae",
+   "Habitus detail 1": "somewhat hairy",
+   "Habitus detail 2": "white",
+   "Habitus general": "has many branches growing from a single root",
+   "Leaf detail 1": "thick",
+   "Leaf detail 2": "white",
+   "Leaf general": "somewhat wrinkled",
+   "Leaf shape": "somewhat round",
+   "Leaf size": "as big as the thumb",
+   "Leaf surface": "somewhat hairy",
+   "Life form": "shrub",
+   "Stem detail 1": "quadrangular",
+   "Taste properties": "bitter (leaf)",
+   "Habitat": "around building lots and ruins"
+  },
+  "comparisons": {},
+  "candidates": [
+   {
+    "df_name": "Marrubium vulgare",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial",
+     "Habitus general": "little branched",
+     "Habitus detail 1": "stems densely pillose",
+     "Habitus detail 2": "whitish above greyish below",
+     "Stem detail 1": "tetragonal (FC)",
+     "Leaf general": "often rugose or with prominent nervation (FC)",
+     "Leaf size": "1-4cm long, 1-5cm wide (FC)",
+     "Leaf shape": "ovate to orbicular",
+     "Leaf surface": "covered with stellate hairs on both surfaces",
+     "Leaf detail 2": "whitish or greyish beneath, dark greyish-green above,",
+     "Flower general": "verticillastors serveral flowered",
+     "Flower detail 01": "calyx densely stellate-pillose, with spreading teeth",
+     "Habitat": "roadsides, chalk banks, steppe, eroded hills"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "partial",
+     "Habitus detail 1": "good",
+     "Habitus detail 2": "good",
+     "Stem detail 1": "good",
+     "Leaf general": "good",
+     "Leaf size": "partial",
+     "Leaf shape": "good",
+     "Leaf surface": "good",
+     "Leaf detail 2": "good",
+     "Flower general": "good",
+     "Flower detail 01": "good",
+     "Taste properties": "absent",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP109",
+    "accepted_name": "Marrubium vulgare L.",
+    "family": "Lamiaceae",
+    "uses_score": 3,
+    "expert_score": 6,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ },
+ {
+  "key": "psylleon",
+  "lemma": "JCLP_235",
+  "jc_name": "ψύλλεον",
+  "dmm_name": "ψύλλιον",
+  "chapter": "4.69",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower general": "compact little heads containing the seed",
+   "Habitus detail 1": "foliage starts from the middle of the stem",
+   "Habitus general": "grass like",
+   "Height": "branches a span long (16-22 cm)",
+   "Leaf surface": "rough",
+   "Seed colour": "black",
+   "Seed detail 1": "hard",
+   "Seed general": "like fleas",
+   "Habitat": "grows on tilled lands"
+  },
+  "comparisons": {
+   "Leaf": "similar to hartshorn (κορωνόπους II, 130)"
+  },
+  "candidates": [
+   {
+    "df_name": "Plantago afra",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "leaves linear-lanceolate or linear",
+     "Height": "10-40 cm",
+     "Leaf surface": "glandular-pubescent",
+     "Flower general": "spikes 0.5-2 cm, ovoid, dense",
+     "Seed general": "fruit a membranous capsule (G)",
+     "Seed colour": "shining rusty brown",
+     "Habitat": "wet meadows, damp hillsides, sand dunes, railway banks, fields"
+    },
+    "expert_calls": {
+     "Habitus general": "good",
+     "Habitus detail 1": "absent",
+     "Height": "good",
+     "Leaf surface": "partial",
+     "Flower general": "good",
+     "Seed general": "partial",
+     "Seed colour": "partial",
+     "Seed detail 1": "absent",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP052",
+    "accepted_name": "Plantago afra L.",
+    "family": "Plantaginaceae",
+    "uses_score": 1,
+    "expert_score": 6,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Plantago indicum (FT, P. scabra; P. arenaria)",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "leaves linear-lanceolate or linear",
+     "Height": "10-40 cm",
+     "Leaf surface": "hard, hirsute, glandular-pubescent",
+     "Flower general": "spikes 0.5-1.5 cm, ovoid",
+     "Seed general": "fruit a membranous capsule (G)",
+     "Habitat": "sea and lake shores, sandy places, beaches, path sides, steppe, rocky slopes"
+    },
+    "expert_calls": {
+     "Habitus general": "good",
+     "Habitus detail 1": "absent",
+     "Height": "good",
+     "Leaf surface": "good",
+     "Flower general": "partial",
+     "Seed general": "partial",
+     "Seed colour": "absent",
+     "Seed detail 1": "absent",
+     "Habitat": "no"
+    },
+    "cp_id": "CP053",
+    "accepted_name": "Plantago indica L.",
+    "family": "Plantaginaceae",
+    "uses_score": 1,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "ramnos (black)",
+  "lemma": "JCLP_174",
+  "jc_name": "ράμνος",
+  "dmm_name": "ράμνος",
+  "chapter": "1.90",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Habitus detail 1": "upright twigs",
+   "Habitus general": "has thorns",
+   "Leaf detail 1": "soft",
+   "Leaf shape": "longish",
+   "Life form": "shrub",
+   "Seed general": "the \"fruit\" is broad, thin, like a little sac resembling a vertebra",
+   "Habitat": "grows around hedges"
+  },
+  "comparisons": {
+   "Habitus": "thorns like the fiery thorn",
+   "Leaf": "less shiny than the fiery thorn"
+  },
+  "candidates": [
+   {
+    "df_name": "Frangula purshiana (syn. Rhamnus purshiana)",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP110",
+    "accepted_name": "Frangula purshiana (DC.) A.Gray ex J.G.Cooper",
+    "family": "Rhamnaceae",
+    "uses_score": 0,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   },
+   {
+    "df_name": "Rhamnus oleoides",
+    "in_floras": true,
+    "modern": {
+     "Life form": "shrub",
+     "Habitus general": "thorny (KS)",
+     "Habitus detail 1": "intricate, prostrate or erect",
+     "Leaf shape": "narrowly obovate-elliptic to broadly obovate, 10-23 x 5-12 mm",
+     "Leaf detail 1": "herbaceous",
+     "Seed general": "seed oblong 4-5mm long, about 3mm wide (FC)",
+     "Habitat": "rocky limestone slopes and cliffs"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Habitus general": "good",
+     "Habitus detail 1": "good",
+     "Leaf shape": "partial",
+     "Leaf detail 1": "good",
+     "Seed general": "partial",
+     "Seed detail 1": "absent",
+     "Habitat": "no"
+    },
+    "cp_id": "CP116",
+    "accepted_name": "Rhamnus oleoides L.",
+    "family": "Rhamnaceae",
+    "uses_score": 1,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Rhamnus lycioides",
+    "in_floras": true,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP115",
+    "accepted_name": "Rhamnus lycioides L.",
+    "family": "Rhamnaceae",
+    "uses_score": 0,
+    "expert_score": 0,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "rous",
+  "lemma": "JCLP_242",
+  "jc_name": "ρούδιν",
+  "dmm_name": "ρούς",
+  "chapter": "1.108",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit detail 1": "bark-like membrane surrounding the fruit",
+   "Fruit general": "like close-packed grape clusters",
+   "Fruit shape": "somewhat flat",
+   "Height": "two cubits tall (0.46-0.92 cm)",
+   "Leaf detail 1": "reddish",
+   "Leaf edge": "incised in a saw-like manner",
+   "Leaf shape": "elongated",
+   "Life form": "small tree",
+   "Stem detail 1": "it bears also a gum",
+   "Ethnobotany": "1) sprinkled on prepared foods (husks of fruits, sumac); 2) used by tanners (leaves)",
+   "Habitat": "on rocks"
+  },
+  "comparisons": {
+   "Fruit": "corresponding in size to the fruit of the terebinth (terminthos I, 71)"
+  },
+  "candidates": [
+   {
+    "df_name": "Rhus coriaria",
+    "in_floras": true,
+    "modern": {
+     "Life form": "shrub",
+     "Height": "0.5-3m",
+     "Leaf shape": "leaf with 9-15 broadly lanceolate to elliptic leaflets",
+     "Leaf edge": "serrate to deeply serrate",
+     "Fruit general": "paniculate (G)",
+     "Fruit shape": "fruit compressed, suborbicular (FC)",
+     "Fruit detail 1": "mesocarp separating readily from hard, bony, dark brown endocarp at maturity (FC)"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Height": "good",
+     "Stem detail 1": "absent",
+     "Leaf shape": "good",
+     "Leaf edge": "good",
+     "Leaf detail 1": "absent",
+     "Fruit general": "good",
+     "Fruit shape": "good",
+     "Fruit detail 1": "good",
+     "Ethnobotany": "absent",
+     "Habitat": "absent"
+    },
+    "cp_id": "CP157",
+    "accepted_name": "Rhus coriaria L.",
+    "family": "Anacardiaceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "sideritis",
+  "lemma": "JCLP_191",
+  "jc_name": "σιδερίτις",
+  "dmm_name": "σιδερίτις",
+  "chapter": "4.33",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower detail 01": "vertebrae at intervals",
+   "Flower general": "round vertebrae",
+   "Height": "a span tall (16-22 cm) or even taller",
+   "Leaf shape": "elongated",
+   "Leaf surface": "rough",
+   "Life form": "herb",
+   "Seed colour": "black",
+   "Stem general": "quadrangular",
+   "Taste properties": "not disagreeable, somewhat astringent (herb)",
+   "Habitat": "in rocky places"
+  },
+  "comparisons": {
+   "Flower": "like horehound (prasion III, 105)",
+   "Leaf": "like horehound (prasion III, 105), but more elongated like salvia (eleliphaskon III, 133) or oak (drys I, 106), but smaller"
+  },
+  "candidates": [
+   {
+    "df_name": "Ajuga reptans",
+    "in_floras": true,
+    "modern": {
+     "Life form": "herbs (G)",
+     "Height": "10-30 cm",
+     "Leaf shape": "obovate-elliptic",
+     "Flower general": "verticillastors",
+     "Flower detail 01": "verticillastors approximate below, crowded above",
+     "Habitat": "forests, Quercus scrub, meadows"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Height": "good",
+     "Stem general": "absent",
+     "Leaf shape": "partial",
+     "Leaf surface": "absent",
+     "Flower general": "good",
+     "Flower detail 01": "partial",
+     "Seed colour": "absent",
+     "Taste properties": "absent",
+     "Habitat": "no"
+    },
+    "cp_id": "CP213",
+    "accepted_name": "Ajuga reptans L.",
+    "family": "Lamiaceae",
+    "uses_score": 0,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Sideritis cypria",
+    "in_floras": true,
+    "modern": {
+     "Height": "up to 60 cm high (FC)",
+     "Leaf shape": "oblanceolate or obovate 3-12cm long 1-5cm wide (FC)",
+     "Leaf surface": "cauline leaves densely white tomentose (FC)",
+     "Flower general": "verticillastors (FC)",
+     "Flower detail 01": "dense verticillastors (FC)",
+     "Habitat": "fissures of dry, south facing, limestone cliffs; 1000-3000ft altitude"
+    },
+    "expert_calls": {
+     "Life form": "absent",
+     "Height": "partial",
+     "Stem general": "absent",
+     "Leaf shape": "partial",
+     "Leaf surface": "partial",
+     "Flower general": "good",
+     "Flower detail 01": "partial",
+     "Seed colour": "absent",
+     "Taste properties": "absent",
+     "Habitat": "good"
+    },
+    "cp_id": "CP158",
+    "accepted_name": "Sideritis cypria Post",
+    "family": "Lamiaceae",
+    "uses_score": 1,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Sideritis montana",
+    "in_floras": true,
+    "modern": {
+     "Life form": "annual (herb)",
+     "Height": "10-40 cm",
+     "Leaf shape": "oblong to lanceolate or linear",
+     "Leaf surface": "sparsely or densely villous-lanate",
+     "Flower general": "verticillastors",
+     "Flower detail 01": "verticillastors distant or somewhat congested",
+     "Habitat": "cultivated fields, steppes, dry slopes, Pinus woods, Quercus scrub"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Height": "good",
+     "Stem general": "absent",
+     "Leaf shape": "good",
+     "Leaf surface": "partial",
+     "Flower general": "good",
+     "Flower detail 01": "good",
+     "Seed colour": "absent",
+     "Taste properties": "absent",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP159",
+    "accepted_name": "Sideritis montana L.",
+    "family": "Lamiaceae",
+    "uses_score": 1,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Sideritis perfoliata",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial (shrub or herb)",
+     "Height": "20-60 cm",
+     "Stem general": "sharply tetragonal (FC)",
+     "Leaf shape": "ovate to oblong-lanceolate",
+     "Leaf surface": "puberulent or cobwebby-wooly and glabrescent or sparingly hirsute",
+     "Flower general": "verticillastors",
+     "Flower detail 01": "verticillastors distant",
+     "Seed colour": "pale brown (FC)",
+     "Habitat": "limestone rocks, Pinus forests, Quercetum, macchie"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Height": "partial",
+     "Stem general": "good",
+     "Leaf shape": "good",
+     "Leaf surface": "partial",
+     "Flower general": "good",
+     "Flower detail 01": "good",
+     "Seed colour": "partial",
+     "Taste properties": "absent",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP160",
+    "accepted_name": "Sideritis perfoliata L.",
+    "family": "Lamiaceae",
+    "uses_score": 1,
+    "expert_score": 7,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Sideritis romana",
+    "in_floras": true,
+    "modern": {
+     "Life form": "annual (herb)",
+     "Height": "10-35 cm",
+     "Stem general": "sharply tetragonal (FC)",
+     "Leaf shape": "ovate to oblong",
+     "Leaf surface": "sparsely villous-lanate",
+     "Flower general": "verticillastors",
+     "Flower detail 01": "verticillastors distant",
+     "Seed colour": "brown",
+     "Habitat": "cultivated fields, roadsides, waste places"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Height": "good",
+     "Stem general": "good",
+     "Leaf shape": "good",
+     "Leaf surface": "partial",
+     "Flower general": "good",
+     "Flower detail 01": "good",
+     "Seed colour": "partial",
+     "Taste properties": "absent",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP161",
+    "accepted_name": "Sideritis romana L.",
+    "family": "Lamiaceae",
+    "uses_score": 0,
+    "expert_score": 7,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Sideritis scardica",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP162",
+    "accepted_name": "Sideritis scardica Griseb.",
+    "family": "Lamiaceae",
+    "uses_score": 1,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   },
+   {
+    "df_name": "Sideritis sipylea",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial (shrub or herb)",
+     "Height": "20-60 cm",
+     "Leaf shape": "lanceolate to linear lanceolate",
+     "Leaf surface": "tomentose",
+     "Flower general": "verticillastors",
+     "Flower detail 01": "verticillastors distant",
+     "Habitat": "limestone slopes, Pinus forests, Quercus scrub"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Height": "partial",
+     "Stem general": "absent",
+     "Leaf shape": "good",
+     "Leaf surface": "partial",
+     "Flower general": "good",
+     "Flower detail 01": "good",
+     "Seed colour": "absent",
+     "Taste properties": "absent",
+     "Habitat": "partial"
+    },
+    "cp_id": "CP163",
+    "accepted_name": "Sideritis sipylea Boiss.",
+    "family": "Lamiaceae",
+    "uses_score": 0,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   },
+   {
+    "df_name": "Stachys recta",
+    "in_floras": true,
+    "modern": {
+     "Life form": "suffrutescent perennial",
+     "Height": "10-60 cm",
+     "Leaf shape": "oblong to linear-lanceolate",
+     "Leaf surface": "sparsely adpressed-pubescent",
+     "Flower general": "verticillastors",
+     "Flower detail 01": "verticillastors remote (2-5 cm distant), few and approximate above",
+     "Habitat": "maritime and sand dunes"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Height": "good",
+     "Stem general": "absent",
+     "Leaf shape": "good",
+     "Leaf surface": "partial",
+     "Flower general": "good",
+     "Flower detail 01": "good",
+     "Seed colour": "absent",
+     "Taste properties": "absent",
+     "Habitat": "no"
+    },
+    "cp_id": "CP164",
+    "accepted_name": "Stachys recta L.",
+    "family": "Lamiaceae",
+    "uses_score": 0,
+    "expert_score": 3,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "staphis agria",
+  "lemma": "JCLP_003",
+  "jc_name": "αγριοσταφίδα",
+  "dmm_name": "σταφίς αγρία",
+  "chapter": "4.152",
+  "chapter_located_by": "relocated from 'DMM IV, 162'",
+  "expert_reading": {
+   "Fruit colour": "pale green",
+   "Fruit general": "little capsules",
+   "Leaf shape": "jagged",
+   "Seed colour": "somewhat yellow on black, internally white",
+   "Seed detail 1": "triangular, rough",
+   "Stem detail 1": "black",
+   "Stem general": "upright",
+   "Taste properties": "sharp (seed)"
+  },
+  "comparisons": {
+   "Flower": "like woad (ισάτις II, 184)",
+   "Fruit": "like chick-pea (ερέβινθος II, 104)",
+   "Leaf": "like grape vine (άμπελος αγρία IV, 181)"
+  },
+  "candidates": [
+   {
+    "df_name": "Delphinium staphisagria",
+    "in_floras": true,
+    "modern": {
+     "Stem general": "stout",
+     "Fruit general": "follicles ventricose"
+    },
+    "expert_calls": {
+     "Stem general": "partial",
+     "Stem detail 1": "absent",
+     "Leaf shape": "absent",
+     "Fruit general": "good",
+     "Fruit colour": "absent",
+     "Seed colour": "absent",
+     "Seed detail 1": "absent",
+     "Taste properties": "absent"
+    },
+    "cp_id": "CP030",
+    "accepted_name": "Delphinium staphisagria L.",
+    "family": "Ranunculaceae",
+    "uses_score": 1,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   }
+  ]
+ },
+ {
+  "key": "stavylinos (wild)",
+  "lemma": "JCLP_048",
+  "jc_name": "δαυκίν",
+  "dmm_name": "σταφυλίνος",
+  "chapter": "3.52",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "white",
+   "Flower detail 01": "in the middle of the umbel there is something small and purplish, as if it were nap on woolen cloth",
+   "Flower general": "umbel",
+   "Root detail 1": "thick as a finger",
+   "Root general": "a span long (16-22 cm)",
+   "Stem detail 1": "rough",
+   "Stem general": "upright",
+   "Smell properties": "aromatic (root)",
+   "Taste properties": "somewhat bitter (leaves)",
+   "Ethnobotany": "root is edible when boiled"
+  },
+  "comparisons": {
+   "Flower": "umbel like dill (anethon III, 85)",
+   "Leaf": "like those of the carrot (staphylinos kepaios III, 52), but wider"
+  },
+  "candidates": [
+   {
+    "df_name": "Daucus carota",
+    "in_floras": true,
+    "modern": {
+     "Stem detail 1": "setose, hispid or glabrous",
+     "Flower general": "umbel",
+     "Flower colour": "white, pink or yellowish (G)",
+     "Flower detail 01": "central flowers of umbel often sterile, reduced to purplish or blackish bristles (G)",
+     "Root detail 1": "thickened taproot (FC)",
+     "Ethnobotany": "aromatic taproot (PC)"
+    },
+    "expert_calls": {
+     "Stem general": "absent",
+     "Stem detail 1": "partial",
+     "Flower general": "good",
+     "Flower colour": "partial",
+     "Flower detail 01": "good",
+     "Root general": "absent",
+     "Root detail 1": "good",
+     "Smell properties": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "partial"
+    },
+    "cp_id": "CP092",
+    "accepted_name": "Daucus carota L.",
+    "family": "Apiaceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Daucus guttatus (FT, D. carota ssp. gummifer)",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP092",
+    "accepted_name": "Daucus carota L.",
+    "family": "Apiaceae",
+    "uses_score": 3,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   },
+   {
+    "df_name": "Pastinaca lucida",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP221",
+    "accepted_name": "Pastinaca lucida L.",
+    "family": "Apiaceae",
+    "uses_score": 0,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   }
+  ]
+ },
+ {
+  "key": "strykhnon (garden)",
+  "lemma": "JCLP_204",
+  "jc_name": "στρύχνον",
+  "dmm_name": "στρύχνον κηπαίων",
+  "chapter": "4.70",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit colour": "pale green or black, pale-yellow after it has ripened",
+   "Fruit shape": "round",
+   "Habitus general": "having many branches",
+   "Leaf detail 1": "dark (JC)",
+   "Leaf shape": "wide",
+   "Leaf size": "small (JC)",
+   "Life form": "little shrub",
+   "Taste properties": "inoffensive in taste"
+  },
+  "comparisons": {
+   "Leaf": "larger and wider than those of basil (okimon II,141)"
+  },
+  "candidates": [
+   {
+    "df_name": "Solanum melongena L.",
+    "in_floras": true,
+    "modern": {
+     "Life form": "annual",
+     "Leaf size": "lamina to 10 x 15 cm",
+     "Leaf shape": "ovate",
+     "Fruit shape": "ovoid, pyriform to elongate",
+     "Fruit colour": "blackish-purple"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "absent",
+     "Leaf size": "no",
+     "Leaf shape": "good",
+     "Leaf detail 1": "absent",
+     "Fruit shape": "partial",
+     "Fruit colour": "partial",
+     "Taste properties": "absent"
+    },
+    "cp_id": "CP069",
+    "accepted_name": "Solanum melongena L.",
+    "family": "Solanaceae",
+    "uses_score": 2,
+    "expert_score": 2,
+    "expert_verdict": "WEAK"
+   },
+   {
+    "df_name": "Solanum nigrum L.",
+    "in_floras": true,
+    "modern": {
+     "Life form": "annual or short lived subshrubby perennial (FC)",
+     "Habitus general": "branched, angled",
+     "Leaf size": "lamina to 10 x 7 cm, FC: 2-10 x 1-5 cm",
+     "Leaf shape": "ovate to ovate-rhombic",
+     "Leaf detail 1": "plant blackish on drying, FC: leaves dark green",
+     "Fruit shape": "globose",
+     "Fruit colour": "black"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Habitus general": "good",
+     "Leaf size": "good",
+     "Leaf shape": "good",
+     "Leaf detail 1": "good",
+     "Fruit shape": "good",
+     "Fruit colour": "partial",
+     "Taste properties": "absent"
+    },
+    "cp_id": "CP070",
+    "accepted_name": "Solanum nigrum L.",
+    "family": "Solanaceae",
+    "uses_score": 3,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Solanum villosum Mill. (FT, S. luteum Mill., S. flavum)",
+    "in_floras": true,
+    "modern": {
+     "Life form": "annual",
+     "Habitus general": "branched, angled",
+     "Leaf size": "lamina to 7 x 5 cm, 2-6 x 1-5 cm",
+     "Leaf shape": "ovate to ovate-rhombic",
+     "Leaf detail 1": "plant yellowish when dried, FC: leaves generally paler than in S. nigrum",
+     "Fruit shape": "globose",
+     "Fruit colour": "yellow to orange"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "good",
+     "Leaf size": "good",
+     "Leaf shape": "good",
+     "Leaf detail 1": "no",
+     "Fruit shape": "good",
+     "Fruit colour": "partial",
+     "Taste properties": "absent"
+    },
+    "cp_id": "CP071",
+    "accepted_name": "Solanum villosum Mill.",
+    "family": "Solanaceae",
+    "uses_score": 2,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "tragakantha",
+  "lemma": "JCLP_210",
+  "jc_name": "τετράγκανθον",
+  "dmm_name": "τραγάκανθα",
+  "chapter": "3.20",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Habitus general": "low branches spreading themselves over a large area",
+   "Height": "low",
+   "Leaf detail 1": "strong and upright thorns",
+   "Leaf detail 2": "white (throns)",
+   "Leaf general": "delicate",
+   "Leaf size": "little",
+   "Root detail 1": "flat and woody",
+   "Root detail 2": "contains sap that coagulates",
+   "Root general": "visible even above ground",
+   "Stem detail 1": "having many leaves",
+   "Stem general": "strong branches",
+   "Taste properties": "somewhat sweet (root sap)",
+   "Ethnobotany": "root sap (tragakantha)"
+  },
+  "comparisons": {},
+  "candidates": [
+   {
+    "df_name": "Astragalus creticus",
+    "in_floras": true,
+    "modern": {
+     "Habitus general": "cushion-forming shrub",
+     "Height": "10-20 cm",
+     "Stem detail 1": "paripinnate (GS)",
+     "Leaf size": "leaflets 4-6 mm",
+     "Leaf detail 1": "leaf-rachis spiny, 1-2.5 cm, straight",
+     "Leaf detail 2": "pubescent"
+    },
+    "expert_calls": {
+     "Habitus general": "good",
+     "Height": "good",
+     "Stem general": "absent",
+     "Stem detail 1": "partial",
+     "Leaf general": "absent",
+     "Leaf size": "good",
+     "Leaf detail 1": "good",
+     "Leaf detail 2": "partial",
+     "Root general": "absent",
+     "Root detail 1": "absent",
+     "Root detail 2": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent"
+    },
+    "cp_id": "CP165",
+    "accepted_name": "Astragalus creticus Lam.",
+    "family": "Fabaceae",
+    "uses_score": 0,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   },
+   {
+    "df_name": "Astragalus prusianus",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP218",
+    "accepted_name": "Astragalus prusianus Boiss.",
+    "family": "Fabaceae",
+    "uses_score": 0,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   },
+   {
+    "df_name": "Astragalus sempervirens (FT, A. aristatus)",
+    "in_floras": false,
+    "modern": {},
+    "expert_calls": {},
+    "cp_id": "CP167",
+    "accepted_name": "Astragalus sempervirens Lam.",
+    "family": "Fabaceae",
+    "uses_score": 1,
+    "expert_score": null,
+    "expert_verdict": "NOT_IN_FLORAS"
+   }
+  ]
+ },
+ {
+  "key": "tribolos (enydros)",
+  "lemma": "JCLP_214",
+  "jc_name": "τρίβολον",
+  "dmm_name": "τρίβολος",
+  "chapter": "4.15",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Fruit general": "tough",
+   "Habitus detail 1": "thorn hidden among foliage",
+   "Habitus general": "havings its foliage above ground (of water)",
+   "Leaf detail 1": "long petiole",
+   "Leaf detail 2": "thicker at the top than at the bottom (\"stem\" = petiole)",
+   "Leaf shape": "broad",
+   "Life form": "water plant",
+   "Root general": "has some hairy growth that is like the spike of wheat",
+   "Taste properties": "sweet (fruit)",
+   "Ethnobotany": "fruit is edible, used as food instead of bread (by the Thrakians)",
+   "Habitat": "in rivers"
+  },
+  "comparisons": {},
+  "candidates": [
+   {
+    "df_name": "Trapa natans",
+    "in_floras": true,
+    "modern": {
+     "Life form": "aquatic annual",
+     "Habitus general": "emergent (G), floating leaves",
+     "Habitus detail 1": "sepals (of flowers in the axils of floating leaves) becoming acrescent and forming 2-4 horns (G)",
+     "Leaf shape": "broad (G), rhomboic, 1-4 x 1-6 cm",
+     "Leaf detail 1": "petiole up to 17 cm",
+     "Leaf detail 2": "inflated petiols (G), fusiform",
+     "Fruit general": "coriaceous or woody (G)"
+    },
+    "expert_calls": {
+     "Life form": "good",
+     "Habitus general": "good",
+     "Habitus detail 1": "partial",
+     "Leaf shape": "good",
+     "Leaf detail 1": "good",
+     "Leaf detail 2": "good",
+     "Fruit general": "good",
+     "Root general": "absent",
+     "Taste properties": "absent",
+     "Ethnobotany": "absent",
+     "Habitat": "absent"
+    },
+    "cp_id": "CP169",
+    "accepted_name": "Trapa natans L.",
+    "family": "Lythraceae",
+    "uses_score": 0,
+    "expert_score": 4,
+    "expert_verdict": "MODERATE"
+   }
+  ]
+ },
+ {
+  "key": "triphylli",
+  "lemma": "JCLP_215",
+  "jc_name": "τριφύλλι",
+  "dmm_name": "τρίφυλλον",
+  "chapter": "3.109",
+  "chapter_located_by": "reference",
+  "expert_reading": {
+   "Flower colour": "purple",
+   "Fruit detail 1": "somewhat hairy",
+   "Fruit shape": "somewhat broad",
+   "Fruit structure": "at one end it has a projection",
+   "Habitus general": "shoots that have many offshots",
+   "Height": "a cubit tall or taller (> 0.46 cm)",
+   "Leaf shape": "there are three on each budding",
+   "Life form": "shrub",
+   "Root detail 1": "long",
+   "Root detail 2": "solid",
+   "Stem detail 1": "slender",
+   "Stem detail 2": "stringy",
+   "Stem general": "black",
+   "Smell properties": "after they (the leaves) have grown bigger they smell of asphalt (asphaltos I, 73) (when newly sprouted they (the leaves) smell of rue (peganon III, 45))"
+  },
+  "comparisons": {
+   "Leaf": "resemble those of the nettle tree"
+  },
+  "candidates": [
+   {
+    "df_name": "Bituminaria bituminosa (FT Psoralea bituminosa)",
+    "in_floras": true,
+    "modern": {
+     "Life form": "perennial (G)",
+     "Leaf shape": "trifoliolate (G)",
+     "Flower colour": "blue to violet",
+     "Fruit shape": "6-10 x 5 mm",
+     "Fruit structure": "6-10 mm beak",
+     "Fruit detail 1": "hirsute above",
+     "Smell properties": "smelling of pitch"
+    },
+    "expert_calls": {
+     "Life form": "partial",
+     "Habitus general": "absent",
+     "Height": "absent",
+     "Stem general": "absent",
+     "Stem detail 1": "absent",
+     "Stem detail 2": "absent",
+     "Leaf shape": "good",
+     "Flower colour": "good",
+     "Fruit shape": "good",
+     "Fruit structure": "good",
+     "Fruit detail 1": "good",
+     "Root detail 1": "absent",
+     "Root detail 2": "absent",
+     "Smell properties": "good"
+    },
+    "cp_id": "CP119",
+    "accepted_name": "Bituminaria bituminosa (L.) C.H.Stirt.",
+    "family": "Fabaceae",
+    "uses_score": 0,
+    "expert_score": 5,
+    "expert_verdict": "STRONG"
+   }
+  ]
+ }
+]
