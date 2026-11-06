@@ -1,7 +1,7 @@
 # Submission kit
 
-Copy for the Devpost page, plus the scripts for the pitch video and the live demo. Text in [square brackets] is for
-the team to fill in. Every number matches [RESULTS.md](RESULTS.md); after rerunning the pipeline, check them again.
+Copy for the Devpost page, the pitch video's narration and the live-demo script. Text in [square brackets] is still to
+fill in. Every number matches [RESULTS.md](RESULTS.md); after rerunning the pipeline, check them again.
 
 ## Devpost page
 
@@ -12,9 +12,9 @@ the team to fill in. Every number matches [RESULTS.md](RESULTS.md); after rerunn
 | Challenge track | Track 1: Traditional Knowledge Mining |
 | Try it out | https://ashank-crazy.github.io/rhizotomos/ and https://github.com/ashank-crazy/rhizotomos |
 | Built with | python, pandas, lxml, openpyxl, javascript, html, css, github-pages, tei-xml, claude |
-| Video | [YouTube link] |
-| Slides | the 10-slide PDF |
-| Team | [Name, role, affiliation] and [Name, role, affiliation] |
+| Video | [YouTube link, unlisted] |
+| Slides | the 10-slide PDF, `rhizotomos-deck.pdf` |
+| Team | Sanchay Singh and Ashank Kumar |
 
 ### About the project
 
@@ -85,7 +85,7 @@ Everything the model produced is committed as data, so `make all` rebuilds every
 
 ## AI use and what already existed
 
-- **Claude (Opus 5.5) in Claude Code** wrote the code and the explorer, read the Greek of the 61 chapters and made all 2,333 match calls (pass A, pass E and its repeat run). With no API budget, the readings and calls were made inside Claude Code sessions, following the prompts in the repository, and committed as data. Claude also made the slide deck and the pitch video, whose narration is a synthetic voice.
+- **Claude (Opus 5.5) in Claude Code** wrote the code and the explorer, read the Greek of the 61 chapters and made all 2,333 match calls (pass A, pass E and its repeat run). With no API budget, the readings and calls were made inside Claude Code sessions, following the prompts in the repository, and committed as data. Claude also made the slide deck and the pitch video, whose narration is a synthetic voice (Deepgram Aura-2) reading our script.
 - **Already existing:** the Greek text and its digitisation, the method, the expert data and the scoring rule (Lardos et al. 2024), and the Python libraries.
 - **Built during the hackathon:** ingestion, the benchmark, the reading and matching prompts and their outputs, the repeat run, the scoring and evaluation code, the baselines, the explorer, the CI check and the documentation.
 
@@ -108,109 +108,96 @@ Firmer identifications help every study that starts from a historical remedy, fr
 
 ## Team
 
-[Name, role, affiliation]
-[Name, role, affiliation]
+Sanchay Singh and Ashank Kumar.
 ~~~
 
 ## Pitch video
 
-About 9 minutes at a steady pace (the limit is 10). Record the deck in Present mode with voice-over, and switch to a
-screen recording of the explorer in part 5. The voice-over is the deck's speaker notes. YouTube, unlisted, is fine.
+7 minutes 4 seconds (the limit is 10), 1920 × 1080 with burned-in captions. Upload it to YouTube as unlisted and put
+the link in the table above. The narration is a synthetic voice (Deepgram Aura-2) reading the script below, and the end
+card says so. The pictures are the deck's slides, except part 5, which is real footage of the explorer recorded in a
+browser and timed to the narration.
 
 | Part | Starts | On screen |
 |---|---|---|
 | 1 | 0:00 | Slide 1, title |
-| 2 | 0:30 | Slide 2, the problem |
-| 3 | 1:10 | Slide 3, the line-up |
-| 4 | 2:00 | Slide 4, what Rhizotomos does |
-| 5 | 2:55 | Slide 5, then the explorer |
-| 6 | 5:00 | Slide 6, headline results |
-| 7 | 5:35 | Slide 7, baselines |
-| 8 | 6:15 | Slide 8, what drives the results |
-| 9 | 7:15 | Slide 9, safeguards and limits |
-| 10 | 8:10 | Slide 10, next steps; finish by about 9:00 |
+| 2 | 0:29 | Slide 2, one name, five species |
+| 3 | 1:09 | Slide 3, the line-up |
+| 4 | 1:56 | Slide 4, the three stages and two passes |
+| 5 | 2:50 | The explorer: search, κυκλάμινος, its candidates, the matches, the Greek, Validation |
+| 6 | 4:00 | Slide 6, headline results |
+| 7 | 4:33 | Slide 7, baselines |
+| 8 | 5:04 | Slide 8, six checks |
+| 9 | 5:44 | Slide 9, what this does not show |
+| 10 | 6:21 | Slide 10, next steps and thanks |
+| 11 | 6:55 | End card: links, team, AI use and data credits |
 
-**1. Title.** Hi, we are [team]. Rhizotomos is the ancient Greek word for a root-cutter, a herbalist. Our question is
-one that every ethnopharmacology project quietly depends on: when Dioscorides wrote about a plant two thousand years
-ago, which species did he mean? We built a system in which Claude repeats, step by step, a method that botanists at
-Kew and ZHAW published in 2024, and we score every one of those steps against the experts' own published data.
+**1. Title.** Rhizotomos is the ancient Greek word for a root-cutter: a herbalist. Our question sits under every study
+that starts from an ancient remedy. When Dioscorides described a plant two thousand years ago, which species did he
+mean? We had Claude repeat, step by step, a method botanists published in 2024 for answering exactly that, and we
+scored every step against the experts' own data.
 
-**2. The problem.** Any study that turns a historical remedy into a modern lead first has to decide which species an
-old plant name means. Take cyclamen. Dioscorides describes kyklaminos in the first century, John the Physician uses
-the same name in the thirteenth, and scholars have proposed five different Cyclamen species for it. Whatever comes
-next, the chemistry, the pharmacology, the history, is looked up under one of those names. Dictionaries give a single
-answer, and it is often doubtful. In 2024, botanists at Kew and ZHAW published a systematic way to decide, and
-applied it by hand to 61 plants.
+**2. One name, five species.** Take one chapter. Dioscorides calls this plant kyklaminos: leaves like ivy, mottled
+with whitish spots, a bare stem four fingers long, purplish flowers, and a black, somewhat flat root. Scholars have
+proposed five different species of Cyclamen for it. Whichever one a study picks, everything after it inherits that
+choice, and the usual answers come from dictionaries, many of them doubtful. In 2024, botanists at Kew and ZHAW
+published a systematic way to decide, and applied it by hand to 61 plants.
 
-**3. The line-up.** Their method works like a police line-up. The witness statement is what the ancient text says,
-coded into 36 characters such as height, leaf shape or flower colour. The suspects are the species scholars have
-proposed, each described from the modern floras of Turkey and Cyprus. The evidence is a call for every pair: does
-the flora confirm the statement, partly confirm it, contradict it, or say nothing? The verdict counts the organs that
-agree minus those that contradict, and grades each suspect strong, moderate or weak. The experts solved 61 cases this
-way and published every call, 1,186 of them. That is an answer key, so a model doing the same job can be scored.
+**3. The line-up.** Think of their method as a police line-up. The ancient description is the witness statement,
+coded into 36 characters, from height and leaf shape to flower colour, root and habitat. The suspects are the species
+proposed before, each described from the floras of Turkey and Cyprus. Every statement is checked against every
+suspect: good, partial, no, or absent from the flora. Then a fixed rule turns the evidence into a verdict, strong,
+moderate or weak, by counting the organs that agree minus those that disagree. The experts published every one of
+their 1,186 calls, and every verdict, under an open licence. For us, that is an answer key.
 
-**4. What Rhizotomos does.** Rhizotomos has Claude do the two expert steps and leaves the scoring to the experts' own
-rule. In stage A, Claude reads the Greek and sorts what each chapter says into the same 36 characters, and every
-statement must carry a quote that code then finds in the chapter. In stage B, Claude judges each statement against
-each candidate's flora description. Candidates appear only as anonymous labels in a shuffled order, so Claude can't
-lean on what it knows about a species. Stage C is the experts' rule in code; applied to their own calls, it
-reproduces 117 of their 120 verdicts. We run two passes. Pass E starts from the experts' reading, so it tests
-matching alone. Pass A starts from the Greek, so it tests the whole chain.
+**4. Three stages, two passes.** Rhizotomos hands each of those steps to Claude, and checks every one. In stage A,
+Claude reads Wellmann's Greek and sorts each chapter into the same 36 characters, quoting the text; code confirms that
+all 699 quotes occur in their chapter. In stage B, Claude matches each statement against each candidate's flora
+description, blind: candidates appear only as anonymous labels, in shuffled order. In stage C, the experts' own
+scoring rule, in code, turns the calls into verdicts. On the experts' own calls it reproduces 117 of their 120. We run
+this two ways. Pass E gives Claude the experts' reading, to test the matching alone. Pass A starts from Claude's own
+reading of the Greek.
 
-**5. Demo.** On slide 5, about 25 seconds: Here is one chapter, cyclamen. Underlined are the statements Claude coded
-from the Greek; in italic, the comparisons with other plants: leaves like ivy, flowers like a rose, a root like a
-turnip. Let's open it in the explorer.
+**5. The explorer.** This is the explorer, a static site with a page for each of the 61 plants. Search by a Greek,
+English or Latin name, and open kyklaminos. *(Types "cyclamen", opens κυκλάμινος.)* The experts rate Cyclamen graecum
+first, with a score of 6, then hederifolium and persicum at 5, and cyprium at 0. Given the experts' reading, Claude's
+calls produce exactly the same four scores. From the Greek alone, Claude scores them 5, 4, 4 and 0: two verdicts drop
+a grade, but graecum still comes first. Open a candidate, and every statement is there: the experts' reading, the
+flora text it was matched against, and both calls side by side. Highlighted rows are where Claude disagrees. Below is
+the Greek itself. Every quote Claude used is highlighted, and pointing at one finds its row in the reading. And the
+validation page holds every figure in this film, each beside its baselines and with its interval.
 
-Then the screen recording, about 1 minute 40 seconds:
+**6. Headline results.** Across all 61 plants, here is the result. Matching the experts' reading, Claude gives the
+same verdict for 76% of the 122 candidates, and picks the same best candidate for 88% of the 31 plants with a choice
+to make. From the Greek, end to end, the figures are 60 and 80%. The ranges are bootstrap intervals over plants, and
+on the 54 plants nobody looked at during development, the figures hold.
 
-- *Home page.* The explorer has a page for each of the 61 plants, and the tiles at the top are the headline results.
-  *(Type "cyclamen" in the search box and open κυκλάμινος.)*
-- *Candidate species table.* Five candidates; four are described in the floras. The experts graded three strong and
-  one weak. From the experts' reading, Claude's calls give exactly the same scores, and from the Greek it still ranks
-  Cyclamen graecum first. Notice that the species proposed most often, persicum, is not the experts' best.
-- *Show matches on Cyclamen graecum.* Every match is laid out: what Dioscorides says, what the flora says, Claude's
-  call and the experts' call. Highlighted rows are where they differ, like the leaf: Dioscorides says mottled above
-  and below, the flora only marbled above. The experts called that partial, Claude called it good.
-- *Scroll to "The Greek text and the two readings" and point at a highlight.* Every statement is tied to its words in
-  the Greek, and code checked that all 699 quotes really are in the text.
-- *Open Validation.* And every figure in this talk is here, with its interval and its baselines.
+**7. Baselines.** Those numbers only mean something next to baselines. The strongest is surprisingly simple: call
+every statement good. Because the experts' rule rewards how much a flora says, that alone gets 61% of verdicts.
+Claude's matching adds 15 points over it on the experts' reading, and 8 on its own. Shared words get 28%. For the best
+candidate, the species most often proposed before is right 68% of the time, and a random pick 57.
 
-**6. Headline results.** Across all 61 plants and 122 scored candidates: starting from the experts' reading, Claude
-reaches the experts' verdict for 76 percent of candidates, and picks the same best candidate in 88 percent of the 31
-plants where there is a choice to make. Starting from the Greek itself, end to end, it is 60 percent and 80 percent.
-The ranges are 95 percent bootstrap intervals over plants; they are wide because the benchmark is small, and we
-report them everywhere.
+**8. Six checks.** Six checks sit behind those numbers. Every Greek quote is found in its chapter. The scoring code
+reproduces 117 of 120 verdicts. The matching is blind. Leave out the seven plants seen during development, and pass E
+scores 78 and 91%. We made pass E a second time, in a new session: 88% of calls and 98% of best candidates came out
+the same. And one command rebuilds every number offline, without a model or an API key, which GitHub Actions checks
+on every push.
 
-**7. Baselines.** Are those numbers good? We compared them with every shortcut we could think of, always on the same
-reading. Calling every statement a match is the strongest, because the experts' rule rewards how much a flora says
-about a candidate: 61 percent. Claude's matching adds 15 points on top of that, and 8 points on its own reading.
-Matching by shared words does worse than always answering moderate. For the best candidate, Claude also beats picking
-the species proposed most often in the literature, 68 percent, and a random pick, 57 percent.
+**9. Limits.** What this does not show. Reading the Greek is the harder step: Claude's reading covers 83% of the
+organs the experts coded, and that is where pass A loses ground. The modern side is still the experts' extraction from
+the floras, so Claude extracting its own is untested. Sixty-one plants is a small benchmark, and the intervals are
+wide. This covers the botanical stage only; the experts' final identifications also weigh medicinal uses and review.
+And nothing here is a medical claim: these are hypotheses about historical texts.
 
-**8. What drives the results.** Three things explain these numbers. First, single calls: on the 798 statement pairs
-the experts judged, Claude gives the same call 71 percent of the time, and agrees on whether a statement fits or
-contradicts in 92 percent. Matching by shared words gets 24. Second, coverage: calling everything good already scores
-well, because the experts' rule rewards how much a flora says, and Claude's judgement adds 15 points to that. Third,
-reading the Greek is the harder step. Claude finds 83 percent of the organs the experts coded, but the experts
-extracted flora text only for the characters in their own reading, so whatever else Claude reads has nothing to match
-against. Even with every call set to good, switching to Claude's reading drops agreement from 61 to 52 percent, so
-much of the gap is coverage, not matching.
+**10. Next.** Where it goes next. All 827 chapters of Wellmann's text are already ingested. Scoring every chapter
+would let experts start with the close calls, instead of working through every plant by hand. And the same steps fit
+other Greek herbals, from John the Physician to Galen. Rhizotomos is by Sanchay Singh and Ashank Kumar, built with
+Claude in Claude Code, on data published by Lardos and colleagues and the First1KGreek edition. Thank you.
 
-**9. Safeguards and limits.** We built this to be checked rather than trusted. The calls were blind: candidates were
-anonymous labels in a shuffled order, and no expert call or verdict was opened until both passes were complete. Every
-statement quotes the Greek, and code found all 699 quotes. Our scoring reproduces the experts' own verdicts. Seven
-plants had some expert data looked at while we built the code; without them, the results are as good or better. And
-everything is committed, so one command rebuilds every number without a model or an API key. The limits are real too:
-the modern side is the experts' extraction, one model made every call in one session, the benchmark is small, we
-reproduce only the botanical stage, and none of this is medical advice.
+### Presenting live instead
 
-**10. Next.** What next? The whole of De materia medica is already ingested, 827 chapters with their manuscript
-synonym lists, so the same reading and matching can run on every plant chapter. Scored against the candidates
-scholars have proposed, it becomes a triage tool: it can point specialists to the chapters where the usual
-identification fits the Greek worst. And nothing in the steps is specific to Dioscorides. John the Physician, Galen
-and later Byzantine pharmacy texts can go through them too. The explorer, the code and all the data are public.
-Claude, in Claude Code, wrote the code, read the Greek and made every match call; the text, the method and the expert
-data are other people's work, and they are credited. Thank you.
+If the pitch is given in person, present the deck (its speaker notes hold the same narration) and replace part 5 with
+the live demo below.
 
 ## Live demo
 
@@ -225,5 +212,5 @@ Two to three minutes. Beforehand, open https://ashank-crazy.github.io/rhizotomos
 | 1:00 | Show matches on *C. graecum* | Each line is one statement: the Greek, the flora's words, Claude's call and the experts' call. Highlighted rows are disagreements, for example the leaf: mottled above and below, against marbled above. |
 | 1:35 | Scroll to the Greek, point at πορφυρίζοντα | Every statement is tied to its words in the chapter, here "purplish". Code checked all 699 quotes. |
 | 1:55 | Validation | Every figure with its 95% interval and the baselines. Calling every statement good already gets 61%, because the rule rewards how much a flora says; Claude adds 15 points. |
-| 2:25 | Method, scroll to Limitations | The calls were blind, and the limits are stated: the flora text is the experts' extraction, one run, a small benchmark, and no medical claims. |
+| 2:25 | Method, scroll to Limitations | The calls were blind, and the limits are stated: the flora text is the experts' extraction, the reading of the Greek was made once, the benchmark is small, and there are no medical claims. |
 | 2:45 | Back to the home page | Everything rebuilds offline with one command. Thank you. |
