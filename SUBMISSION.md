@@ -11,43 +11,36 @@ Copy for the Devpost page, the pitch video's narration and the live-demo script.
 | Elevator pitch | Which plant did Dioscorides mean? Claude repeats the Kew/ZHAW plant-identity method on the Greek of *De materia medica*, and every step is scored against the experts' own data. |
 | Challenge track | Track 1: Traditional Knowledge Mining |
 | Try it out | https://ashank-crazy.github.io/rhizotomos/ and https://github.com/ashank-crazy/rhizotomos |
-| Built with | python, pandas, lxml, openpyxl, javascript, html, css, github-pages, tei-xml, claude |
+| Built with | python, pandas, lxml, openpyxl, tei-xml, javascript, html, css, github-pages, github-actions, make, claude, claude-code |
 | Video | https://youtu.be/38F6FljmmDI |
 | Slides | the 10-slide PDF, `rhizotomos-deck.pdf` |
 | Team | Sanchay Singh and Ashank Kumar |
 
 ### About the project
 
-Paste the block below into Devpost's project description (it accepts Markdown).
+Paste the block below into Devpost's "About the project" box (it accepts Markdown). The first seven headings are
+Devpost's own; the last four cover what the rules ask for: limits, data sources, AI use and the team.
 
 ~~~markdown
-## In short
+## Inspiration
 
-**Rhizotomos** (ῥιζοτόμος, "root-cutter", the ancient Greek word for a herbalist) asks which plant species Dioscorides meant in his 1st-century *De materia medica*. An AI model, Claude, repeats step by step the plant-identity method that botanists at Kew and ZHAW applied by hand to 61 plants, and every step is scored against the experts' own published data.
+Every study that turns a historical remedy into a modern lead, whether in natural-product chemistry, pharmacology or the history of medicine, first has to decide which species an old plant name refers to. Take κυκλάμινος (*De materia medica* 2.164). Dioscorides describes leaves like ivy, mottled with whitish spots, a bare stem four fingers long, purplish flowers and a black, somewhat flat root, and scholars have proposed five different *Cyclamen* species for it. Whatever is looked up next is looked up under one of those names, and the usual answers come from dictionaries, many of them doubtful.
 
-## The problem
+In 2024, botanists at Kew and ZHAW (Lardos et al.) published a systematic way to decide, and applied it by hand to 61 plants. It is careful and slow. They also published every match call and verdict under CC BY, which turns their work into an answer key. That gave us a question we could actually test: can an AI model do the same job, and how close does it come?
 
-Every study that turns a historical remedy into a modern lead, whether in natural-product chemistry, pharmacology or the history of medicine, first has to decide which species an old plant name refers to. The usual answers come from dictionaries, and many are doubtful. Take κυκλάμινος (*De materia medica* 2.164): John the Physician uses the same name in the 13th century, and scholars have proposed five different *Cyclamen* species for it. Whatever is looked up next is looked up under one of those names.
+## What it does
 
-Lardos et al. (2024) built a systematic alternative: code what the ancient text says about a plant into botanical characters, code the same characters from modern floras for every candidate species, judge each match, and score each candidate. It is careful and slow, so it was applied to 61 plants. They also published every call and verdict under CC BY, which turns their work into an answer key.
+**Rhizotomos** (ῥιζοτόμος, "root-cutter", the ancient Greek word for a herbalist) has Claude repeat the experts' method step by step on the Greek of Dioscorides' *De materia medica*, and scores every step against the experts' own data. Think of a line-up: the ancient description is the witness statement, the candidate species are the suspects, the match calls are the evidence and the experts' score is the verdict.
 
-## Our approach
+1. **Read (Claude).** Sorts each Greek chapter into the experts' 36 characters across 13 organs. Every statement quotes the Greek, and code checks that all 699 quotes occur in their chapter.
+2. **Match (Claude, blind).** Calls each statement against each candidate's description in the Flora of Turkey or the Flora of Cyprus: good, partial, no or absent, with the paper's definitions.
+3. **Score (code).** The experts' own rule: organs that agree minus organs that disagree. STRONG is 5 or more, MODERATE 3 to 4, WEAK 2 or less. Applied to the experts' own calls, it reproduces 117 of their 120 verdicts.
 
-Think of a line-up. The ancient description is the witness statement, the candidate species are the suspects, the match calls are the evidence and the experts' score is the verdict. The experts have solved 61 cases, so a model doing the same job can be scored.
+Two passes keep the stages apart. **Pass E** matches the experts' reading, which tests the matching step alone. **Pass A** matches Claude's own reading, end to end from the Greek.
 
-| Stage | Done by | What happens | Checked against |
-|---|---|---|---|
-| Read | Claude | Sorts each Greek chapter into the experts' 36 characters (13 organs). Every statement quotes the Greek, and code checks that the quote occurs in the chapter. | The experts' reading (629 characters) |
-| Match | Claude, blind | Calls each statement against each candidate's flora description: good, partial, no or absent, with the paper's definitions. | The experts' 1,186 calls |
-| Score | Code | The experts' own rule: organs that agree minus organs that disagree. STRONG is 5 or more, MODERATE 3–4, WEAK 2 or less. | Their published verdicts: 117 of 120 reproduced |
+The **explorer** has a page for each of the 61 plants: the Greek chapter with every quote highlighted and linked to its statement, Claude's reading next to the experts', and every candidate with its grade from the experts and from both passes. Opening a candidate shows each statement, the flora's words and both calls side by side, with disagreements highlighted. The Validation page has every figure with its interval and baselines.
 
-Two passes keep the stages apart. **Pass E** matches the experts' reading, which tests the matching step alone. **Pass A** matches Claude's own reading, end to end from the Greek. Pass E was then made a second time, in a new session, to measure how much the calls vary from run to run.
-
-**Blind by design.** Candidates appeared only as anonymous labels (P07-C2) in a shuffled order. No expert call or verdict was opened until both passes were complete, and the calling rules were written down before that. Seven plants had some expert data looked at while the code was being built; they are listed in the repository, and every figure is also reported without them.
-
-## Results
-
-The reference is the experts' verdict for each of the 122 candidates described in the floras. Ranges are 95% bootstrap intervals over plants.
+**Results** over the 122 candidates described in the floras. Ranges are 95% bootstrap intervals over plants.
 
 | Reading | Matching | Same verdict | Same best candidate (31 plants) |
 |---|---|---|---|
@@ -60,34 +53,46 @@ The reference is the experts' verdict for each of the 122 candidates described i
 | – | species most often proposed in the literature | – | 68% |
 | – | always MODERATE / random pick | 42% | 57% |
 
-- **Single statements.** On the 798 pairs the experts judged, Claude gives the same good / partial / no call 71% of the time (weighted κ 0.56), and agrees on fit versus contradiction 92% of the time. Shared-word matching agrees on 24%.
-- **Calling everything "good" is a strong baseline**, because the experts' rule rewards how much a flora says. Claude's matching adds 15 points on the experts' reading and 8 on its own.
-- **Reading the Greek is the harder step.** Claude covers 83% of the organs and 67% of the characters the experts coded. The experts extracted flora text only for characters in their own reading, so anything else Claude reads has nothing to match against.
-- **Not flattered by leakage.** On the 54 plants whose expert data was never seen during development, the figures are 78% and 61% for verdicts, and 91% and 84% for the best candidate.
-- **Stable from run to run.** A second, independent run of pass E gives the same call as the first on 88% of the 800 statements (weighted κ 0.82), the same verdict for 89% of candidates and the same best candidate for 98% of plants. Against the experts it scores 79% on verdicts and 86% on the best candidate, so the headline is not one lucky run.
+## How we built it
 
-## The prototype
+- **Data.** Wellmann's edition of *De materia medica* as TEI XML from First1KGreek: 827 chapters, each with its manuscript synonym lists. The experts' figshare files become the benchmark: 61 plants, their reading, the candidate species, the flora descriptions, 1,186 match calls and the verdicts.
+- **Pipeline.** Python with pandas, openpyxl and lxml for ingestion, the benchmark, scoring and evaluation, with bootstrap intervals (2,000 resamples) and five baselines, run end to end by a Makefile.
+- **The model's work.** Claude (Opus 5.5) in Claude Code read the 61 chapters and made all 2,333 match calls (pass A, pass E and a repeat run of pass E), following the prompts in the repository. We had no API budget, so the readings and calls were made inside Claude Code sessions and committed as data. Claude also wrote the code and the explorer.
+- **Blind by design.** Candidates appeared only as anonymous labels (P07-C2) in shuffled order, with no species names, expert calls or verdicts. Pass A was made before pass E, and no expert call or verdict was opened until both passes were complete.
+- **The explorer.** Plain HTML, CSS and JavaScript with no framework and no backend, on GitHub Pages, in light and dark themes.
+- **Reproducible.** `make all` rebuilds every number offline, without a model, an API key or the network, and two runs give byte-identical files. GitHub Actions reruns the whole pipeline on Python 3.11, 3.12 and 3.13 on every push and fails if any committed number changes.
 
-The explorer is a static website with a page for each of the 61 plants: the Greek chapter with every quote highlighted and linked to its statement, Claude's reading next to the experts', the synonyms from the manuscripts, and every candidate with its grade from the experts, from Claude on the experts' reading and from Claude on the Greek. Opening a candidate shows each statement, the flora's words, Claude's call and the experts' call, with disagreements highlighted. The Validation page has every figure with its interval and baselines, the confusion matrices and the reading coverage.
+## Challenges we ran into
 
-## Data sources
+- **Staying blind while building the benchmark.** The code that turns expert data into a benchmark has to look at that data. Seven plants had some expert data seen during development. We listed them in the repository and report every figure without them as well.
+- **Consistent judgement.** Calls like "purplish" against "pale pink", or "rough" against "pubescent", need the same answer every time. We wrote the recurring decisions into the matching prompt as rules while the first batches were being called, before any expert call had been seen, and brought the earlier batches into line with them.
+- **A baseline that is hard to beat.** Calling every statement "good" already gets 61% of verdicts, because the experts' rule rewards how much a flora says. Every claim has to be made against that, not against chance.
+- **The modern side covers only the experts' reading.** The experts extracted flora text only for the characters in their own reading, so anything else Claude reads in the Greek has nothing to be matched against and counts as absent. This is mainly why pass A scores lower.
+- **The same numbers on every machine.** Floats are summed with `math.fsum` and rounded, and everything is sorted before it is written, so Python 3.11, 3.12 and 3.13 give identical files.
 
-- Dioscorides, *De materia medica*, ed. M. Wellmann (1906–1914), TEI XML from First1KGreek (Open Greek and Latin), CC BY-SA 4.0.
-- Lardos A, Patmore K, Allkin R, Lazarou R, Nesbitt M, Scott AC, Zipser B (2024). A systematic methodology to assess the identity of plants in historical texts: a case study based on the Byzantine pharmacy text John the Physician's Therapeutics. *Journal of Ethnopharmacology* 322: 117622, doi:10.1016/j.jep.2023.117622. Article and research data (figshare) CC BY 4.0: the expert reading, the candidate lists, modern descriptions from Flora of Turkey and Flora of Cyprus, the match calls and the verdicts.
+## Accomplishments that we're proud of
 
-## Technologies
+- Matching the experts' reading, Claude gives the same verdict for **76%** of candidates and picks the same best candidate for **88%** of plants: 15 points above calling everything "good" on verdicts.
+- From the Greek alone, end to end, the figures are **60%** and **80%**.
+- The results hold where they could have been flattered. On the 54 plants nobody looked at during development, pass E scores 78% and 91%, and pass A 61% and 84%.
+- A second, independent run of pass E gives the same call as the first on 88% of 800 statements (weighted κ 0.82) and the same best candidate for 98% of plants, so the headline is not one lucky run.
+- All 699 Greek quotes are verified in their chapters, the scoring code reproduces 117 of the experts' 120 verdicts, and one command rebuilds every number offline.
 
-- Python with pandas, openpyxl and lxml for ingestion, the benchmark, scoring and evaluation, run end to end by a Makefile.
-- A static HTML, CSS and JavaScript explorer with no framework and no backend, on GitHub Pages.
-- Claude (Opus 5.5) in Claude Code, for the code, the readings and the match calls.
+## What we learned
 
-Everything the model produced is committed as data, so `make all` rebuilds every number in the README, RESULTS.md and the explorer without a model, an API key or the network, and two runs give identical files. GitHub Actions reruns the whole pipeline on Python 3.11, 3.12 and 3.13 on every push and fails if any committed number changes.
+- **Reading the Greek is the harder step.** Given the experts' reading, Claude's single calls agree with theirs 71% of the time (weighted κ 0.56), and on fit versus contradiction 92% of the time. Claude's own reading covers 83% of the organs and 67% of the characters the experts coded, and that is where pass A loses ground.
+- **Baselines change the story.** Without the "everything good" baseline, 76% would look like more than it is. Anyone using the method, by hand or with a model, should know that its rule favours candidates whose floras say more.
+- **Scoring absorbs noise.** Between two runs, 88% of single calls agree but 98% of best candidates do, so the verdicts are more stable than the calls they are built from.
+- **Open expert data makes AI work checkable.** Because Lardos and colleagues published every call and verdict, each step could be scored on its own, not only the final answer.
 
-## AI use and what already existed
+## What's next for Rhizotomos
 
-- **Claude (Opus 5.5) in Claude Code** wrote the code and the explorer, read the Greek of the 61 chapters and made all 2,333 match calls (pass A, pass E and its repeat run). With no API budget, the readings and calls were made inside Claude Code sessions, following the prompts in the repository, and committed as data. Claude also made the slide deck and the pitch video, whose narration is a synthetic voice (Deepgram Aura-2) reading our script.
-- **Already existing:** the Greek text and its digitisation, the method, the expert data and the scoring rule (Lardos et al. 2024), and the Python libraries.
-- **Built during the hackathon:** ingestion, the benchmark, the reading and matching prompts and their outputs, the repeat run, the scoring and evaluation code, the baselines, the explorer, the CI check and the documentation.
+- **The whole book.** All 827 chapters are already ingested with their manuscript synonym lists. Next, read every plant chapter and score the candidates scholars have proposed for it.
+- **Triage for specialists.** Flag the chapters where the usual identification fits the Greek worst, so scarce expert time goes where the doubt is greatest.
+- **Other herbals.** Nothing in the steps is specific to Dioscorides: John the Physician, Galen and later Byzantine pharmacy texts can go through them too.
+- **A stronger modern side.** Extract flora descriptions for every candidate from open sources, and repeat the reading step to measure its variation too.
+
+Firmer identifications help every study that starts from a historical remedy, from natural-product chemistry to the history of medicine.
 
 ## Limitations
 
@@ -97,14 +102,16 @@ Everything the model produced is committed as data, so `make all` rebuilds every
 - This reproduces the experts' botanical scoring only. Their final identifications also weigh medicinal uses and expert review.
 - Identifications are hypotheses about historical texts. Nothing here is medical advice or a claim that a plant is safe or effective.
 
-## Impact and what's next
+## Data sources
 
-- **The whole book.** All 827 chapters are already ingested with their manuscript synonym lists. Next, read every plant chapter and score the candidates scholars have proposed for it.
-- **Triage for specialists.** Flag the chapters where the usual identification fits the Greek worst, so scarce expert time goes where the doubt is greatest.
-- **Other herbals.** Nothing in the steps is specific to Dioscorides: John the Physician, Galen and later Byzantine pharmacy texts can go through them too.
-- **A stronger modern side.** Extract flora descriptions for every candidate from open sources, and repeat the reading step to measure its variation too.
+- Dioscorides, *De materia medica*, ed. M. Wellmann (1906–1914), TEI XML from First1KGreek (Open Greek and Latin), CC BY-SA 4.0.
+- Lardos A, Patmore K, Allkin R, Lazarou R, Nesbitt M, Scott AC, Zipser B (2024). A systematic methodology to assess the identity of plants in historical texts: a case study based on the Byzantine pharmacy text John the Physician's Therapeutics. *Journal of Ethnopharmacology* 322: 117622, doi:10.1016/j.jep.2023.117622. Article and research data (figshare) CC BY 4.0: the expert reading, the candidate lists, modern descriptions from Flora of Turkey and Flora of Cyprus, the match calls and the verdicts.
 
-Firmer identifications help every study that starts from a historical remedy, from natural-product chemistry to the history of medicine.
+## AI use and what already existed
+
+- **Claude (Opus 5.5) in Claude Code** wrote the code and the explorer, read the Greek of the 61 chapters and made all 2,333 match calls (pass A, pass E and its repeat run). With no API budget, the readings and calls were made inside Claude Code sessions, following the prompts in the repository, and committed as data. Claude also made the slide deck and the pitch video, whose narration is a synthetic voice (Deepgram Aura-2) reading our script.
+- **Already existing:** the Greek text and its digitisation, the method, the expert data and the scoring rule (Lardos et al. 2024), and the Python libraries.
+- **Built during the hackathon:** ingestion, the benchmark, the reading and matching prompts and their outputs, the repeat run, the scoring and evaluation code, the baselines, the explorer, the CI check and the documentation.
 
 ## Team
 
