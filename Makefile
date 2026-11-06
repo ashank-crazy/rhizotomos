@@ -18,6 +18,7 @@ check:       # every Greek quote occurs in its chapter; every pair has exactly o
 	$(PY) -m rhizotomos.reading check
 	$(PY) -m rhizotomos.matching check ai
 	$(PY) -m rhizotomos.matching check expert
+	$(PY) -m rhizotomos.matching check expert_r2
 
 evaluate:    # -> data/derived/results.json and RESULTS.md
 	$(PY) -m rhizotomos.evaluate

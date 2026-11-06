@@ -11,6 +11,7 @@ The experts' Stage 5 rule, applied to the experts' own match calls, gives the ve
 | Reading | Matching | Agreement | Weighted κ | Spearman ρ | Same top pick | Agreement, unseen | Top pick, unseen |
 |---|---|---|---|---|---|---|---|
 | experts' reading | Claude's matching (pass E) | 76% (68%–84%) | 0.70 (0.59–0.79) | 0.83 | 88% (77%–96%) | 78% | 91% |
+| experts' reading | Claude's matching (pass E, repeat run) | 79% (72%–85%) | 0.73 (0.63–0.82) | 0.80 | 86% (74%–96%) | 80% | 91% |
 | Claude's reading | Claude's matching (pass A) | 60% (51%–69%) | 0.50 (0.39–0.61) | 0.68 | 80% (67%–91%) | 61% | 84% |
 | experts' reading | word overlap | 28% (20%–36%) | 0.00 (0.00–0.02) | -0.07 | 63% (46%–79%) | 26% | 65% |
 | experts' reading | everything good | 61% (50%–71%) | 0.45 (0.33–0.59) | 0.63 | 78% (66%–90%) | 65% | 79% |
@@ -46,6 +47,7 @@ Each pair is one ancient statement from the experts' reading against the modern 
 | Matcher | Pairs compared | Agreement | κ | Weighted κ | Same direction | Agreement, unseen | Weighted κ, unseen |
 |---|---|---|---|---|---|---|---|
 | Claude (pass E) | 798 | 71% (67%–75%) | 0.49 | 0.56 (0.48–0.61) | 92% | 72% | 0.56 |
+| Claude (pass E, repeat run) | 798 | 70% (66%–74%) | 0.47 | 0.54 (0.46–0.60) | 92% | 72% | 0.55 |
 | word overlap | 798 | 24% (21%–27%) | 0.06 | 0.09 (0.07–0.11) | 33% | 23% | 0.08 |
 | all good | 798 | 54% (49%–60%) | 0.00 | 0.00 (0.00–0.00) | 90% | 57% | 0.00 |
 
@@ -59,6 +61,22 @@ Confusion, Claude (pass E) (rows: experts, columns: ours):
 | partial | 24 | 180 | 81 |
 | good | 5 | 90 | 337 |
 | absent | 0 | 0 | 0 |
+
+## Run to run: pass E made twice
+
+Pass E was made a second time, in a new session, from the same blind batches and without opening the first run's calls (`data/llm/matching/expert_r2/`). The two runs are compared with each other, and each with the experts. "Unseen" here also leaves out kyklaminos, seen before the repeat run, so it covers 53 plants.
+
+| | All | Unseen |
+|---|---|---|
+| Same call in both runs (800 statement pairs) | 88% (85%–90%) | 88% |
+| Weighted κ between the runs, calls | 0.82 | 0.82 |
+| Same fit-or-contradiction in both runs | 98% | 98% |
+| Same verdict in both runs (122 candidates) | 89% (84%–94%) | 89% |
+| Weighted κ between the runs, verdicts | 0.86 | 0.85 |
+| Same best candidate in both runs | 98% (95%–100%) | 98% |
+| Candidates whose agreement with the experts changed | 13 | 11 |
+
+Against the experts, the first run gives the same call on 71% of statements and the repeat run on 70%; the same verdict on 76% and 79% of candidates; the same best candidate on 88% and 86% of plants.
 
 ## Stage A: reading the Greek
 

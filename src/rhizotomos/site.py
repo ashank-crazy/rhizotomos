@@ -8,7 +8,6 @@ Run `python -m rhizotomos.evaluate` first: the explorer shows data/derived/resul
 import json
 import re
 import unicodedata
-from datetime import date
 from pathlib import Path
 
 from rhizotomos.benchmark import CATEGORIES, CHARACTERS
@@ -120,8 +119,8 @@ def main():
             "expert_comparisons": p.get("comparisons") or {}, "candidates": cands,
         })
 
-    data = {"generated": date.today().isoformat(), "characters": CHARACTERS, "categories": CATEGORIES,
-            "results": results, "plants": plants}
+    # No build date: the file must be byte-identical on every rebuild.
+    data = {"characters": CHARACTERS, "categories": CATEGORIES, "results": results, "plants": plants}
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text("window.RHIZOTOMOS = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n",
                    encoding="utf-8")

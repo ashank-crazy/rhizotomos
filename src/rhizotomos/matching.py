@@ -1,12 +1,16 @@
 """Stage B: the model compares each ancient statement with the modern flora description, blind.
 
     python -m rhizotomos.matching show PASS N   print batch N of pairs to judge (PASS is "ai" or "expert")
-    python -m rhizotomos.matching check PASS    check the call files in data/llm/matching/PASS/
+    python -m rhizotomos.matching check RUN     check the call files in data/llm/matching/RUN/
 
 Pass "ai" uses our reading (data/llm/reading) and pass "expert" the experts' reading (Data file 3). Candidates
 appear only as anonymous labels in a shuffled order, so the person or model making the calls sees neither their
 names nor the experts' calls (Data file 9). The calls follow prompts/matching.md and were made by Claude
 (Opus 5.5) inside a Claude Code session, pass "ai" first.
+
+A run is one directory of calls. "expert_r2" is a second, independent run of pass "expert", made later in a new
+session from the same `show expert N` batches without opening the first run's calls, to measure how much the
+calls vary from run to run.
 """
 
 import hashlib
@@ -24,6 +28,7 @@ MATCH_DIR = ROOT / "data/llm/matching"
 PLANTS_PER_BATCH = 10
 CALLS = {"g": "good", "p": "partial", "n": "no", "a": "absent"}
 CATEGORY_OF = {c: cat for cat, chars in CATEGORIES.items() for c in chars}
+RUNS = {"ai": "ai", "expert": "expert", "expert_r2": "expert"}  # call directory -> the pass it belongs to
 
 
 def load_benchmark():
@@ -105,15 +110,16 @@ def show(pass_name, n):
         print()
 
 
-def load_calls(pass_name):
+def load_calls(run):
     out = {}
-    for f in sorted((MATCH_DIR / pass_name).glob("*.json")):
+    for f in sorted((MATCH_DIR / run).glob("*.json")):
         out.update(json.loads(f.read_text(encoding="utf-8")))
     return out
 
 
-def check(pass_name):
-    calls = load_calls(pass_name)
+def check(run):
+    pass_name = RUNS[run]
+    calls = load_calls(run)
     allowed = set(CALLS) if pass_name == "ai" else {"g", "p", "n"}
     problems, expected, done = [], 0, 0
     for it in items(pass_name):
@@ -123,6 +129,7 @@ def check(pass_name):
             expected += len(cand["judge"])
             got = calls.get(cand["label"])
             if got is None:
+                problems.append(f"{cand['label']}: no calls")
                 continue
             for c in cand["judge"]:
                 if got.get(c) not in allowed:
@@ -130,18 +137,20 @@ def check(pass_name):
                 else:
                     done += 1
             problems += [f"{cand['label']} {c}: not asked" for c in got if c not in cand["judge"]]
-    print(f"pass {pass_name}: {done}/{expected} calls made")
+    labels = {cand["label"] for it in items(pass_name) for cand in it["candidates"] if cand["judge"]}
+    problems += [f"{label}: not a candidate to judge" for label in sorted(set(calls) - labels)]
+    print(f"run {run} (pass {pass_name}): {done}/{expected} calls made")
     for p in problems:
         print("  PROBLEM", p)
     return not problems
 
 
-def calls_by_candidate(pass_name, calls=None):
+def calls_by_candidate(run, calls=None):
     """{(plant key, candidate df_name): {character: good|partial|no|absent}} including automatic absents.
-    `calls` replaces the saved calls of the pass, for the baselines."""
-    calls = load_calls(pass_name) if calls is None else calls
+    `calls` replaces the saved calls of the run, for the baselines."""
+    calls = load_calls(run) if calls is None else calls
     out = {}
-    for it in items(pass_name):
+    for it in items(RUNS[run]):
         for cand in it["candidates"]:
             got = calls.get(cand["label"], {})
             out[(it["plant"]["key"], cand["candidate"]["df_name"])] = {

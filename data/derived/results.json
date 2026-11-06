@@ -1,7 +1,8 @@
 {
  "plants": {
   "all": 61,
-  "unseen": 54
+  "unseen": 54,
+  "unseen_repeat": 53
  },
  "seen_plants": [
   "adianton",
@@ -12,15 +13,18 @@
   "ampelos agria",
   "staphis agria"
  ],
+ "seen_before_repeat": [
+  "kyklaminos"
+ ],
  "reading": {
   "all": {
    "characters": {
     "ours": 576,
     "experts": 629,
     "shared": 422,
-    "precision": 0.7326388888888888,
-    "recall": 0.670906200317965,
-    "f1": 0.7004149377593362,
+    "precision": 0.732639,
+    "recall": 0.670906,
+    "f1": 0.700415,
     "missed_most": [
      [
       "Leaf detail 1",
@@ -78,9 +82,9 @@
     "ours": 399,
     "experts": 393,
     "shared": 327,
-    "precision": 0.8195488721804511,
-    "recall": 0.8320610687022901,
-    "f1": 0.8257575757575759,
+    "precision": 0.819549,
+    "recall": 0.832061,
+    "f1": 0.825758,
     "missed_most": [
      [
       "Habit",
@@ -140,9 +144,9 @@
     "ours": 510,
     "experts": 560,
     "shared": 376,
-    "precision": 0.7372549019607844,
-    "recall": 0.6714285714285714,
-    "f1": 0.7028037383177571,
+    "precision": 0.737255,
+    "recall": 0.671429,
+    "f1": 0.702804,
     "missed_most": [
      [
       "Leaf detail 1",
@@ -200,9 +204,9 @@
     "ours": 356,
     "experts": 351,
     "shared": 295,
-    "precision": 0.8286516853932584,
-    "recall": 0.8404558404558404,
-    "f1": 0.8345120226308345,
+    "precision": 0.828652,
+    "recall": 0.840456,
+    "f1": 0.834512,
     "missed_most": [
      [
       "Habit",
@@ -265,10 +269,10 @@
     "expert_absent": 0,
     "expert_missing": 2,
     "compared": 798,
-    "agreement": 0.7092731829573935,
-    "kappa": 0.49054345223844864,
-    "kappa_linear": 0.5558400356218518,
-    "direction_agreement": 0.9235588972431078,
+    "agreement": 0.709273,
+    "kappa": 0.490543,
+    "kappa_linear": 0.55584,
+    "direction_agreement": 0.923559,
     "confusion": {
      "no": {
       "no": 49,
@@ -297,10 +301,10 @@
     "expert_absent": 0,
     "expert_missing": 2,
     "compared": 670,
-    "agreement": 0.7194029850746269,
-    "kappa": 0.5012512274699863,
-    "kappa_linear": 0.5639484172246749,
-    "direction_agreement": 0.9313432835820895,
+    "agreement": 0.719403,
+    "kappa": 0.501251,
+    "kappa_linear": 0.563948,
+    "direction_agreement": 0.931343,
     "confusion": {
      "no": {
       "no": 39,
@@ -335,16 +339,92 @@
     ]
    }
   },
+  "Claude (pass E, repeat run)": {
+   "all": {
+    "pairs": 800,
+    "expert_absent": 0,
+    "expert_missing": 2,
+    "compared": 798,
+    "agreement": 0.699248,
+    "kappa": 0.466029,
+    "kappa_linear": 0.535135,
+    "direction_agreement": 0.922306,
+    "confusion": {
+     "no": {
+      "no": 47,
+      "partial": 30,
+      "good": 4
+     },
+     "partial": {
+      "no": 23,
+      "partial": 164,
+      "good": 98
+     },
+     "good": {
+      "no": 5,
+      "partial": 80,
+      "good": 347
+     },
+     "absent": {
+      "no": 0,
+      "partial": 0,
+      "good": 0
+     }
+    }
+   },
+   "unseen": {
+    "pairs": 653,
+    "expert_absent": 0,
+    "expert_missing": 2,
+    "compared": 651,
+    "agreement": 0.715822,
+    "kappa": 0.48741,
+    "kappa_linear": 0.552702,
+    "direction_agreement": 0.923195,
+    "confusion": {
+     "no": {
+      "no": 37,
+      "partial": 21,
+      "good": 3
+     },
+     "partial": {
+      "no": 21,
+      "partial": 130,
+      "good": 70
+     },
+     "good": {
+      "no": 5,
+      "partial": 65,
+      "good": 299
+     },
+     "absent": {
+      "no": 0,
+      "partial": 0,
+      "good": 0
+     }
+    }
+   },
+   "ci": {
+    "agreement": [
+     0.655,
+     0.737
+    ],
+    "kappa_linear": [
+     0.46,
+     0.599
+    ]
+   }
+  },
   "word overlap": {
    "all": {
     "pairs": 800,
     "expert_absent": 0,
     "expert_missing": 2,
     "compared": 798,
-    "agreement": 0.23809523809523808,
-    "kappa": 0.05913015149047085,
-    "kappa_linear": 0.09134897026042088,
-    "direction_agreement": 0.3283208020050125,
+    "agreement": 0.238095,
+    "kappa": 0.05913,
+    "kappa_linear": 0.091349,
+    "direction_agreement": 0.328321,
     "confusion": {
      "no": {
       "no": 77,
@@ -373,10 +453,10 @@
     "expert_absent": 0,
     "expert_missing": 2,
     "compared": 670,
-    "agreement": 0.23134328358208955,
-    "kappa": 0.05325687318224237,
-    "kappa_linear": 0.08340161744273045,
-    "direction_agreement": 0.3283582089552239,
+    "agreement": 0.231343,
+    "kappa": 0.053257,
+    "kappa_linear": 0.083402,
+    "direction_agreement": 0.328358,
     "confusion": {
      "no": {
       "no": 57,
@@ -417,10 +497,10 @@
     "expert_absent": 0,
     "expert_missing": 2,
     "compared": 798,
-    "agreement": 0.5413533834586466,
+    "agreement": 0.541353,
     "kappa": 0.0,
     "kappa_linear": 0.0,
-    "direction_agreement": 0.8984962406015038,
+    "direction_agreement": 0.898496,
     "confusion": {
      "no": {
       "no": 0,
@@ -449,10 +529,10 @@
     "expert_absent": 0,
     "expert_missing": 2,
     "compared": 670,
-    "agreement": 0.5656716417910448,
+    "agreement": 0.565672,
     "kappa": 0.0,
     "kappa_linear": 0.0,
-    "direction_agreement": 0.908955223880597,
+    "direction_agreement": 0.908955,
     "confusion": {
      "no": {
       "no": 0,
@@ -494,26 +574,26 @@
  },
  "category_counts": {
   "experts": {
-   "positive": 4.139344262295082,
-   "negative": 0.4344262295081967
+   "positive": 4.139344,
+   "negative": 0.434426
   },
   "pass E": {
-   "positive": 4.155737704918033,
-   "negative": 0.36885245901639346
+   "positive": 4.155738,
+   "negative": 0.368852
   },
   "pass A": {
-   "positive": 3.2540983606557377,
-   "negative": 0.319672131147541
+   "positive": 3.254098,
+   "negative": 0.319672
   }
  },
  "verdicts": {
   "experts' reading + Claude's matching (pass E)": {
    "all": {
     "candidates": 122,
-    "agreement": 0.7622950819672131,
-    "kappa_linear": 0.7045264740270587,
-    "spearman": 0.8348628740162214,
-    "top_pick": 0.8763440860215053,
+    "agreement": 0.762295,
+    "kappa_linear": 0.704526,
+    "spearman": 0.834863,
+    "top_pick": 0.876344,
     "confusion": {
      "WEAK": {
       "WEAK": 20,
@@ -534,10 +614,10 @@
    },
    "unseen": {
     "candidates": 105,
-    "agreement": 0.780952380952381,
-    "kappa_linear": 0.7190226876090751,
-    "spearman": 0.8689064014053208,
-    "top_pick": 0.9135802469135802,
+    "agreement": 0.780952,
+    "kappa_linear": 0.719023,
+    "spearman": 0.868906,
+    "top_pick": 0.91358,
     "confusion": {
      "WEAK": {
       "WEAK": 15,
@@ -571,13 +651,77 @@
     ]
    }
   },
+  "experts' reading + Claude's matching (pass E, repeat run)": {
+   "all": {
+    "candidates": 122,
+    "agreement": 0.786885,
+    "kappa_linear": 0.731732,
+    "spearman": 0.801484,
+    "top_pick": 0.860215,
+    "confusion": {
+     "WEAK": {
+      "WEAK": 22,
+      "MODERATE": 12,
+      "STRONG": 0
+     },
+     "MODERATE": {
+      "WEAK": 1,
+      "MODERATE": 42,
+      "STRONG": 8
+     },
+     "STRONG": {
+      "WEAK": 0,
+      "MODERATE": 5,
+      "STRONG": 32
+     }
+    }
+   },
+   "unseen": {
+    "candidates": 101,
+    "agreement": 0.80198,
+    "kappa_linear": 0.736911,
+    "spearman": 0.817571,
+    "top_pick": 0.910256,
+    "confusion": {
+     "WEAK": {
+      "WEAK": 16,
+      "MODERATE": 10,
+      "STRONG": 0
+     },
+     "MODERATE": {
+      "WEAK": 1,
+      "MODERATE": 40,
+      "STRONG": 4
+     },
+     "STRONG": {
+      "WEAK": 0,
+      "MODERATE": 5,
+      "STRONG": 25
+     }
+    }
+   },
+   "ci": {
+    "agreement": [
+     0.716,
+     0.854
+    ],
+    "kappa_linear": [
+     0.634,
+     0.817
+    ],
+    "top_pick": [
+     0.74,
+     0.956
+    ]
+   }
+  },
   "Claude's reading + Claude's matching (pass A)": {
    "all": {
     "candidates": 122,
-    "agreement": 0.5983606557377049,
-    "kappa_linear": 0.503035143769968,
-    "spearman": 0.6805363097052094,
-    "top_pick": 0.7956989247311828,
+    "agreement": 0.598361,
+    "kappa_linear": 0.503035,
+    "spearman": 0.680536,
+    "top_pick": 0.795699,
     "confusion": {
      "WEAK": {
       "WEAK": 30,
@@ -598,10 +742,10 @@
    },
    "unseen": {
     "candidates": 105,
-    "agreement": 0.6095238095238096,
-    "kappa_linear": 0.5124716553287982,
-    "spearman": 0.7070585205532264,
-    "top_pick": 0.8395061728395062,
+    "agreement": 0.609524,
+    "kappa_linear": 0.512472,
+    "spearman": 0.707059,
+    "top_pick": 0.839506,
     "confusion": {
      "WEAK": {
       "WEAK": 23,
@@ -638,10 +782,10 @@
   "experts' reading + word overlap": {
    "all": {
     "candidates": 122,
-    "agreement": 0.2786885245901639,
-    "kappa_linear": 0.004474861805738417,
-    "spearman": -0.07464358990486059,
-    "top_pick": 0.6311827956989247,
+    "agreement": 0.278689,
+    "kappa_linear": 0.004475,
+    "spearman": -0.074644,
+    "top_pick": 0.631183,
     "confusion": {
      "WEAK": {
       "WEAK": 34,
@@ -662,10 +806,10 @@
    },
    "unseen": {
     "candidates": 105,
-    "agreement": 0.2571428571428571,
-    "kappa_linear": 0.004653567735263708,
-    "spearman": -0.03629584384284882,
-    "top_pick": 0.6506172839506171,
+    "agreement": 0.257143,
+    "kappa_linear": 0.004654,
+    "spearman": -0.036296,
+    "top_pick": 0.650617,
     "confusion": {
      "WEAK": {
       "WEAK": 27,
@@ -702,10 +846,10 @@
   "experts' reading + everything good": {
    "all": {
     "candidates": 122,
-    "agreement": 0.6065573770491803,
-    "kappa_linear": 0.4495649371575895,
-    "spearman": 0.6287815473932573,
-    "top_pick": 0.779032258064516,
+    "agreement": 0.606557,
+    "kappa_linear": 0.449565,
+    "spearman": 0.628782,
+    "top_pick": 0.779032,
     "confusion": {
      "WEAK": {
       "WEAK": 9,
@@ -726,10 +870,10 @@
    },
    "unseen": {
     "candidates": 105,
-    "agreement": 0.6476190476190476,
-    "kappa_linear": 0.4893111638954869,
-    "spearman": 0.6729799791758735,
-    "top_pick": 0.7895061728395062,
+    "agreement": 0.647619,
+    "kappa_linear": 0.489311,
+    "spearman": 0.67298,
+    "top_pick": 0.789506,
     "confusion": {
      "WEAK": {
       "WEAK": 7,
@@ -766,10 +910,10 @@
   "Claude's reading + everything good": {
    "all": {
     "candidates": 122,
-    "agreement": 0.5245901639344263,
-    "kappa_linear": 0.32920230406702744,
-    "spearman": 0.4833858535422407,
-    "top_pick": 0.7413978494623656,
+    "agreement": 0.52459,
+    "kappa_linear": 0.329202,
+    "spearman": 0.483386,
+    "top_pick": 0.741398,
     "confusion": {
      "WEAK": {
       "WEAK": 12,
@@ -790,10 +934,10 @@
    },
    "unseen": {
     "candidates": 105,
-    "agreement": 0.5523809523809524,
-    "kappa_linear": 0.36272759728668336,
-    "spearman": 0.5290178218783451,
-    "top_pick": 0.7524691358024691,
+    "agreement": 0.552381,
+    "kappa_linear": 0.362728,
+    "spearman": 0.529018,
+    "top_pick": 0.752469,
     "confusion": {
      "WEAK": {
       "WEAK": 10,
@@ -828,19 +972,71 @@
    }
   }
  },
+ "stability": {
+  "all": {
+   "calls": 800,
+   "same_call": 0.87625,
+   "kappa_linear": 0.815169,
+   "same_direction": 0.97625,
+   "candidates": 122,
+   "same_grade": 0.893443,
+   "grade_kappa_linear": 0.859322,
+   "same_best": 0.983871,
+   "expert_agreement_changed": 13,
+   "ci": {
+    "same_call": [
+     0.849,
+     0.899
+    ],
+    "same_grade": [
+     0.84,
+     0.94
+    ],
+    "same_best": [
+     0.946,
+     1.0
+    ]
+   }
+  },
+  "unseen": {
+   "calls": 653,
+   "same_call": 0.877489,
+   "kappa_linear": 0.817111,
+   "same_direction": 0.97856,
+   "candidates": 101,
+   "same_grade": 0.891089,
+   "grade_kappa_linear": 0.845372,
+   "same_best": 0.980769,
+   "expert_agreement_changed": 11,
+   "ci": {
+    "same_call": [
+     0.845,
+     0.905
+    ],
+    "same_grade": [
+     0.833,
+     0.947
+    ],
+    "same_best": [
+     0.938,
+     1.0
+    ]
+   }
+  }
+ },
  "baselines": {
   "all": {
-   "most_cited_top_pick": 0.6849462365591397,
-   "chance_top_pick": 0.5705069124423964,
+   "most_cited_top_pick": 0.684946,
+   "chance_top_pick": 0.570507,
    "majority_grade": "MODERATE",
-   "majority_agreement": 0.4180327868852459,
+   "majority_agreement": 0.418033,
    "plants_with_choice": 31
   },
   "unseen": {
-   "most_cited_top_pick": 0.7160493827160493,
-   "chance_top_pick": 0.580952380952381,
+   "most_cited_top_pick": 0.716049,
+   "chance_top_pick": 0.580952,
    "majority_grade": "MODERATE",
-   "majority_agreement": 0.42857142857142855,
+   "majority_agreement": 0.428571,
    "plants_with_choice": 27
   },
   "ci": {
@@ -858,6 +1054,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      2,
      "WEAK"
     ],
@@ -890,6 +1090,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     5,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      5,
      "STRONG"
@@ -916,6 +1120,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      5,
      "STRONG"
     ],
@@ -948,6 +1156,10 @@
      3,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     3,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      1,
      "WEAK"
@@ -974,6 +1186,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      5,
      "STRONG"
     ],
@@ -1006,6 +1222,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     7,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      4,
      "MODERATE"
@@ -1035,6 +1255,10 @@
      1,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     3,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      -2,
      "WEAK"
@@ -1061,6 +1285,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     7,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      7,
      "STRONG"
     ],
@@ -1093,6 +1321,10 @@
      6,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     6,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -1119,6 +1351,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     7,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      7,
      "STRONG"
     ],
@@ -1151,6 +1387,10 @@
      6,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     6,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -1178,6 +1418,10 @@
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
      3,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
      "MODERATE"
     ],
     "Claude's reading + Claude's matching (pass A)": [
@@ -1209,6 +1453,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     2,
+     "WEAK"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -1238,6 +1486,10 @@
      1,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     1,
+     "WEAK"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      1,
      "WEAK"
@@ -1264,6 +1516,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      2,
      "WEAK"
     ],
@@ -1296,6 +1552,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -1322,6 +1582,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      3,
      "MODERATE"
     ],
@@ -1354,6 +1618,10 @@
      3,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     3,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      -1,
      "WEAK"
@@ -1380,6 +1648,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      3,
      "MODERATE"
     ],
@@ -1412,6 +1684,10 @@
      6,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     6,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      5,
      "STRONG"
@@ -1438,6 +1714,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      3,
      "MODERATE"
     ],
@@ -1470,6 +1750,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     5,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      4,
      "MODERATE"
@@ -1499,6 +1783,10 @@
      2,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     3,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -1525,6 +1813,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      3,
      "MODERATE"
     ],
@@ -1557,6 +1849,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     5,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      4,
      "MODERATE"
@@ -1583,6 +1879,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      2,
      "WEAK"
     ],
@@ -1615,6 +1915,10 @@
      0,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     -1,
+     "WEAK"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      -1,
      "WEAK"
@@ -1644,6 +1948,10 @@
      2,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     1,
+     "WEAK"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      1,
      "WEAK"
@@ -1670,6 +1978,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      3,
      "MODERATE"
     ],
@@ -1702,6 +2014,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     5,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -1728,6 +2044,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -1760,6 +2080,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -1786,6 +2110,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -1818,6 +2146,10 @@
      3,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     3,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -1844,6 +2176,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -1876,6 +2212,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      4,
      "MODERATE"
@@ -1904,6 +2244,10 @@
     "experts' reading + Claude's matching (pass E)": [
      5,
      "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     3,
+     "MODERATE"
     ],
     "Claude's reading + Claude's matching (pass A)": [
      6,
@@ -1934,6 +2278,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      4,
      "MODERATE"
@@ -1960,6 +2308,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      1,
      "WEAK"
     ],
@@ -1992,6 +2344,10 @@
      6,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     6,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      6,
      "STRONG"
@@ -2018,6 +2374,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      3,
      "MODERATE"
     ],
@@ -2050,6 +2410,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -2076,6 +2440,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      3,
      "MODERATE"
     ],
@@ -2108,6 +2476,10 @@
      2,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     2,
+     "WEAK"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -2134,6 +2506,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      3,
      "MODERATE"
     ],
@@ -2166,6 +2542,10 @@
      6,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     6,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      4,
      "MODERATE"
@@ -2192,6 +2572,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -2224,6 +2608,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     5,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      5,
      "STRONG"
@@ -2250,6 +2638,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     8,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      8,
      "STRONG"
     ],
@@ -2282,6 +2674,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -2308,6 +2704,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -2340,6 +2740,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -2366,6 +2770,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      5,
      "STRONG"
     ],
@@ -2398,6 +2806,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     3,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      1,
      "WEAK"
@@ -2424,6 +2836,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      0,
      "WEAK"
     ],
@@ -2456,6 +2872,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      1,
      "WEAK"
@@ -2482,6 +2902,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      6,
      "STRONG"
     ],
@@ -2514,6 +2938,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -2540,6 +2968,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      6,
      "STRONG"
     ],
@@ -2572,6 +3004,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -2598,6 +3034,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      5,
      "STRONG"
     ],
@@ -2630,6 +3070,10 @@
      2,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     2,
+     "WEAK"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -2656,6 +3100,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     2,
+     "WEAK"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      2,
      "WEAK"
     ],
@@ -2688,6 +3136,10 @@
      6,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     6,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      6,
      "STRONG"
@@ -2714,6 +3166,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      0,
      "WEAK"
     ],
@@ -2746,6 +3202,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -2772,6 +3232,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -2804,6 +3268,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     3,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      4,
      "MODERATE"
@@ -2830,6 +3298,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      1,
      "WEAK"
     ],
@@ -2862,6 +3334,10 @@
      3,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     3,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -2888,6 +3364,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -2920,6 +3400,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     5,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      4,
      "MODERATE"
@@ -2946,6 +3430,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -2978,6 +3466,10 @@
      1,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     1,
+     "WEAK"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      1,
      "WEAK"
@@ -3004,6 +3496,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      3,
      "MODERATE"
     ],
@@ -3036,6 +3532,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     5,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -3062,6 +3562,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -3094,6 +3598,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -3120,6 +3628,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      5,
      "STRONG"
     ],
@@ -3152,6 +3664,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     5,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      5,
      "STRONG"
@@ -3178,6 +3694,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     3,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      3,
      "MODERATE"
     ],
@@ -3210,6 +3730,10 @@
      0,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     0,
+     "WEAK"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      0,
      "WEAK"
@@ -3236,6 +3760,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      6,
      "STRONG"
     ],
@@ -3268,6 +3796,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     5,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      4,
      "MODERATE"
@@ -3294,6 +3826,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      5,
      "STRONG"
     ],
@@ -3326,6 +3862,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     5,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -3352,6 +3892,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     7,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      7,
      "STRONG"
     ],
@@ -3384,6 +3928,10 @@
      1,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     1,
+     "WEAK"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      1,
      "WEAK"
@@ -3412,6 +3960,10 @@
     "experts' reading + Claude's matching (pass E)": [
      3,
      "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     2,
+     "WEAK"
     ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
@@ -3442,6 +3994,10 @@
      3,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     2,
+     "WEAK"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -3471,6 +4027,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -3497,6 +4057,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -3529,6 +4093,10 @@
      3,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     2,
+     "WEAK"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      4,
      "MODERATE"
@@ -3558,6 +4126,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     3,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      5,
      "STRONG"
@@ -3584,6 +4156,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      6,
      "STRONG"
     ],
@@ -3616,6 +4192,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -3642,6 +4222,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      5,
      "STRONG"
     ],
@@ -3674,6 +4258,10 @@
      6,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     6,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      6,
      "STRONG"
@@ -3703,6 +4291,10 @@
      3,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     5,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      5,
      "STRONG"
@@ -3729,6 +4321,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -3761,6 +4357,10 @@
      3,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     3,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -3787,6 +4387,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     6,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      6,
      "STRONG"
     ],
@@ -3819,6 +4423,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      5,
      "STRONG"
@@ -3848,6 +4456,10 @@
      2,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -3874,6 +4486,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     1,
+     "WEAK"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      1,
      "WEAK"
     ],
@@ -3906,6 +4522,10 @@
      0,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     0,
+     "WEAK"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      0,
      "WEAK"
@@ -3932,6 +4552,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -3964,6 +4588,10 @@
      2,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -3990,6 +4618,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -4022,6 +4654,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     5,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      5,
      "STRONG"
@@ -4048,6 +4684,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      5,
      "STRONG"
     ],
@@ -4080,6 +4720,10 @@
      5,
      "STRONG"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     7,
+     "STRONG"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      7,
      "STRONG"
@@ -4106,6 +4750,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      5,
      "STRONG"
     ],
@@ -4138,6 +4786,10 @@
      3,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     3,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -4164,6 +4816,10 @@
    "expert_grade": "WEAK",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     0,
+     "WEAK"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      0,
      "WEAK"
     ],
@@ -4196,6 +4852,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -4225,6 +4885,10 @@
      1,
      "WEAK"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     3,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -4251,6 +4915,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -4283,6 +4951,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      2,
      "WEAK"
@@ -4309,6 +4981,10 @@
    "expert_grade": "MODERATE",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     4,
+     "MODERATE"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      4,
      "MODERATE"
     ],
@@ -4341,6 +5017,10 @@
      4,
      "MODERATE"
     ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
+     4,
+     "MODERATE"
+    ],
     "Claude's reading + Claude's matching (pass A)": [
      3,
      "MODERATE"
@@ -4367,6 +5047,10 @@
    "expert_grade": "STRONG",
    "configs": {
     "experts' reading + Claude's matching (pass E)": [
+     5,
+     "STRONG"
+    ],
+    "experts' reading + Claude's matching (pass E, repeat run)": [
      5,
      "STRONG"
     ],

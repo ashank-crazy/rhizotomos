@@ -3,6 +3,7 @@
   const D = window.RHIZOTOMOS;
   const R = D.results;
   const PE = "experts' reading + Claude's matching (pass E)";
+  const PR = "experts' reading + Claude's matching (pass E, repeat run)";
   const PA = "Claude's reading + Claude's matching (pass A)";
   const GE = "experts' reading + everything good";
   const GA = "Claude's reading + everything good";
@@ -137,7 +138,9 @@
           `${M.compared} statement pairs · weighted κ ${num(M.kappa_linear)}`),
         tile("End to end, from the Greek", pct(A.agreement),
           `verdict agreement when Claude also reads the Greek · same best candidate ${pct(A.top_pick)}`)),
-      el("p", { class: "kpi-note" }, "Every figure, with intervals and baselines, is on the ",
+      el("p", { class: "kpi-note" }, `A second, independent run of the matching gives the same verdict for ` +
+        `${pct(R.stability.all.same_grade)} of candidates and the same best candidate for ${pct(R.stability.all.same_best)} ` +
+        "of plants. Every figure, with intervals and baselines, is on the ",
         el("a", { href: "#/validation", text: "validation page" }), "."),
       plantIndex());
   }
@@ -426,6 +429,8 @@
     const verdictRows = [
       { label: "Claude matching the experts' reading", value: V[PE].all.agreement, ci: V[PE].ci.agreement, claude: true,
         extra: [num(V[PE].all.kappa_linear), "weighted κ"] },
+      { label: "Claude matching the experts' reading, repeat run", value: V[PR].all.agreement, ci: V[PR].ci.agreement, claude: true,
+        extra: [num(V[PR].all.kappa_linear), "weighted κ"] },
       { label: "Claude end to end, from the Greek", value: V[PA].all.agreement, ci: V[PA].ci.agreement, claude: true,
         extra: [num(V[PA].all.kappa_linear), "weighted κ"] },
       { label: "Everything “good”, experts' reading", value: V[GE].all.agreement, ci: V[GE].ci.agreement },
@@ -435,6 +440,7 @@
     ];
     const topRows = [
       { label: "Claude matching the experts' reading", value: V[PE].all.top_pick, ci: V[PE].ci.top_pick, claude: true },
+      { label: "Claude matching the experts' reading, repeat run", value: V[PR].all.top_pick, ci: V[PR].ci.top_pick, claude: true },
       { label: "Claude end to end, from the Greek", value: V[PA].all.top_pick, ci: V[PA].ci.top_pick, claude: true },
       { label: "Everything “good”, experts' reading", value: V[GE].all.top_pick, ci: V[GE].ci.top_pick },
       { label: "Everything “good”, Claude's reading", value: V[GA].all.top_pick, ci: V[GA].ci.top_pick },
@@ -442,10 +448,14 @@
       { label: "Word overlap, experts' reading", value: V[WO].all.top_pick, ci: V[WO].ci.top_pick },
       { label: "Random pick", value: B.chance_top_pick },
     ];
+    const M_LABEL = { "Claude (pass E)": "Claude", "Claude (pass E, repeat run)": "Claude, repeat run",
+      "all good": "Everything “good”", "word overlap": "Word overlap" };
     const mRows = Object.entries(M).map(([name, m]) => ({
-      label: name === "Claude (pass E)" ? "Claude" : name === "all good" ? "Everything “good”" : "Word overlap",
-      value: m.all.agreement, ci: m.ci.agreement, claude: name === "Claude (pass E)",
+      label: M_LABEL[name] || name, value: m.all.agreement, ci: m.ci.agreement, claude: name.startsWith("Claude"),
       extra: [num(m.all.kappa_linear), "weighted κ"] }));
+    const S = R.stability.all, SU = R.stability.unseen;
+    const sRow = (label, all, ci, unseen) => el("tr", {}, el("td", { text: label }),
+      el("td", { class: "num", text: all + (ci ? ` (${pct(ci[0])}–${pct(ci[1])})` : "") }), el("td", { class: "num", text: unseen }));
     const mE = M["Claude (pass E)"].all;
     app.append(
       el("p", { class: "eyebrow", text: "Validation" }),
@@ -494,6 +504,25 @@
         heat("Calls, Claude against the experts", `Rows: the experts' call. Columns: Claude's. Weighted κ ${num(mE.kappa_linear)}; ` +
           `the two agree on whether a statement fits or contradicts in ${pct(mE.direction_agreement)} of pairs.`,
           mE.confusion, ["no", "partial", "good"], ["no", "partial", "good"], "experts", "Claude")),
+      el("h2", { text: "Run to run" }),
+      el("p", { class: "section-intro", text: "The matching on the experts' reading was made a second time, in a new " +
+        "session, from the same blind batches and without opening the first run's calls. How often do the two runs agree " +
+        `with each other? “Unseen” here also leaves out ${R.seen_before_repeat.join(", ")}, seen before the repeat run ` +
+        `(${R.plants.unseen_repeat} plants).` }),
+      el("div", { class: "table-wrap" }, el("table", {},
+        el("thead", {}, el("tr", {}, ["Both runs give", "All", "Unseen"].map((h, i) =>
+          el("th", { scope: "col", class: i ? "num" : null, text: h })))),
+        el("tbody", {},
+          sRow(`the same call (${S.calls} statement pairs)`, pct(S.same_call), S.ci.same_call, pct(SU.same_call)),
+          sRow("the same call, weighted κ", num(S.kappa_linear), null, num(SU.kappa_linear)),
+          sRow("the same fit or contradiction", pct(S.same_direction), null, pct(SU.same_direction)),
+          sRow(`the same verdict (${S.candidates} candidates)`, pct(S.same_grade), S.ci.same_grade, pct(SU.same_grade)),
+          sRow("the same verdict, weighted κ", num(S.grade_kappa_linear), null, num(SU.grade_kappa_linear)),
+          sRow("the same best candidate", pct(S.same_best), S.ci.same_best, pct(SU.same_best))))),
+      el("p", { class: "section-intro", style: "margin-top:10px", text: `Against the experts, the first run gives the ` +
+        `same verdict for ${pct(V[PE].all.agreement)} of candidates and the repeat run for ${pct(V[PR].all.agreement)}; ` +
+        `the same call for ${pct(M["Claude (pass E)"].all.agreement)} and ${pct(M["Claude (pass E, repeat run)"].all.agreement)} ` +
+        `of statements. The reading of the Greek (and so pass A) was made once.` }),
       el("h2", { text: "Reading the Greek" }),
       el("p", { class: "section-intro", text: "Which of the experts' 36 characters, and of the 13 organs they group into, " +
         "Claude's reading fills, against the experts' reading. This measures coverage, not whether the content agrees; " +
@@ -544,7 +573,8 @@
         el("h2", { text: "Two passes keep the stages apart" }),
         el("p", {}, el("strong", { text: "Pass E" }), " gives Claude the experts' own reading and asks only for the match " +
           "calls, which isolates Stage B. ", el("strong", { text: "Pass A" }), " gives Claude its own reading of the Greek, " +
-          "which tests the whole pipeline. Pass A was done first, so it never saw the experts' reading."),
+          "which tests the whole pipeline. Pass A was done first, so it never saw the experts' reading. Pass E was later " +
+          "made a second time, in a new session, to measure how much the calls vary from run to run."),
         el("h2", { text: "Blind by design" }),
         el("ul", {},
           el("li", { text: "Candidates were shown only as anonymous labels (P07-C2) in a shuffled order. Claude never saw their " +
@@ -558,9 +588,11 @@
           el("li", { text: "The modern side is the experts' extraction from the floras, which covers only the characters in " +
             "their own reading. Claude's reading is penalised for statements outside them, and Stage B is not tested on " +
             "descriptions Claude would extract itself." }),
-          el("li", { text: "All readings and calls were made by one model in one working session, without repeated runs, so " +
-            "run-to-run variation is not measured. The project had no API budget: the calls were made inside a Claude Code " +
-            "session and are committed, so every number can be reproduced without a model." }),
+          el("li", { text: "One model made every reading and call. Pass E was made twice, in separate sessions: the runs give " +
+            `the same call for ${pct(R.stability.all.same_call)} of statements and the same verdict for ` +
+            `${pct(R.stability.all.same_grade)} of candidates. The reading of the Greek and pass A were made once, so their ` +
+            "variation is not measured. The project had no API budget: the calls were made inside Claude Code sessions and " +
+            "are committed, so every number can be reproduced without a model." }),
           el("li", { text: "61 plants and 122 scored candidates is a small benchmark; the intervals are wide." }),
           el("li", { text: "This reproduces the experts' botanical Stage 5 only. Their final identifications also weigh " +
             "medicinal uses and expert review (Stage 6)." }),
@@ -569,7 +601,7 @@
         el("h2", { text: "AI use and what already existed" }),
         el("p", { text: "Claude (Opus 5.5), working in Claude Code, wrote the code, made the readings of the Greek and made " +
           "every match call. Already existing: the Greek text (Wellmann's edition, First1KGreek), the experts' data and " +
-          "method (Lardos et al. 2024), and the Python libraries pandas, openpyxl, lxml and pypdf." }),
+          "method (Lardos et al. 2024), and the Python libraries pandas, openpyxl and lxml." }),
         el("h2", { text: "Sources and licences" }),
         el("ul", {},
           el("li", {}, "Lardos A, Patmore K, Allkin R, Lazarou R, Nesbitt M, Scott AC, Zipser B (2024). A systematic " +

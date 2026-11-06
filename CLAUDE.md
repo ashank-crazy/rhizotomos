@@ -24,7 +24,8 @@ Modules run as `PYTHONPATH=src .venv/bin/python -m rhizotomos.<module>`. `readin
 `matching show ai|expert N` print batch N exactly as the model was given it.
 
 There are no tests besides `make check`. `make all` must run clean, without a model or the network, and two runs
-must give byte-identical files.
+must give byte-identical files on any Python from 3.11 to 3.13 (floats are summed with `math.fsum` and rounded
+before writing). CI (`.github/workflows/reproduce.yml`) enforces this on every push.
 
 ## Layout
 
@@ -38,7 +39,7 @@ must give byte-identical files.
 | `src/rhizotomos/site.py` | Everything the explorer needs → `docs/data.js` |
 | `prompts/` | The reading and matching instructions Claude followed |
 | `data/raw/` | The Greek TEI (First1KGreek) and the Lardos et al. figshare files, unchanged |
-| `data/llm/` | Claude's readings (`reading/`), match calls (`matching/ai/` = pass A, `matching/expert/` = pass E), `contamination.json` |
+| `data/llm/` | Claude's readings (`reading/`), match calls (`matching/ai/` = pass A, `matching/expert/` = pass E, `matching/expert_r2/` = a second, independent run of pass E), `contamination.json` |
 | `docs/` | The static explorer, served by GitHub Pages from `main` `/docs` |
 | `SUBMISSION.md` | Devpost copy, pitch-video script, live-demo script |
 
@@ -52,7 +53,8 @@ must give byte-identical files.
 - Keep the matching blind: candidates appear only as anonymous labels (`P07-C2`) in shuffled order, with no species
   names, expert calls or verdicts shown while calls are made. Pass A is made before pass E.
 - Any plant whose expert reading, calls or verdicts (data files 3, 9, 11) are looked at during development goes into
-  `data/llm/contamination.json`, and every figure is also reported without those plants.
+  `data/llm/contamination.json`, and every figure is also reported without those plants. A new run of calls gets
+  its own list there (`repeat_run_plants` for `expert_r2`), since the explorer shows expert verdicts per plant.
 - Every statement in a reading carries a Greek quote that must occur in its chapter; `make check` enforces this.
 - Report each Claude figure beside its baselines (everything "good", shared words, most cited, always MODERATE, random
   pick) and with 95% bootstrap intervals over plants (2,000 resamples, seed 0).

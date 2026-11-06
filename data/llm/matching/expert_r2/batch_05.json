@@ -1,0 +1,21 @@
+{
+ "P51-C1": {"Life form": "g", "Height": "g", "Leaf shape": "g", "Leaf surface": "p", "Flower general": "g", "Flower detail 01": "g", "Habitat": "p"},
+ "P51-C2": {"Life form": "g", "Height": "g", "Stem general": "g", "Leaf shape": "g", "Leaf surface": "p", "Flower general": "g", "Flower detail 01": "g", "Seed colour": "p", "Habitat": "p"},
+ "P51-C3": {"Life form": "g", "Height": "g", "Leaf shape": "g", "Leaf surface": "p", "Flower general": "g", "Flower detail 01": "g", "Habitat": "p"},
+ "P51-C4": {"Life form": "g", "Height": "g", "Stem general": "g", "Leaf shape": "g", "Leaf surface": "g", "Flower general": "g", "Flower detail 01": "g", "Seed colour": "n", "Habitat": "g"},
+ "P51-C5": {"Life form": "g", "Height": "g", "Leaf shape": "p", "Flower general": "g", "Flower detail 01": "n", "Habitat": "p"},
+ "P51-C6": {"Height": "g", "Leaf shape": "p", "Leaf surface": "p", "Flower general": "g", "Flower detail 01": "p", "Habitat": "g"},
+ "P51-C7": {"Life form": "p", "Height": "g", "Leaf shape": "g", "Leaf surface": "p", "Flower general": "g", "Flower detail 01": "g", "Habitat": "n"},
+ "P52-C1": {"Life form": "g", "Habitus general": "g", "Habitus detail 1": "g", "Leaf shape": "p", "Leaf detail 1": "g", "Seed general": "n", "Habitat": "n"},
+ "P53-C1": {"Height": "g", "Stem detail 1": "g", "Leaf shape": "g", "Flower colour": "g", "Flower detail 01": "g", "Fruit general": "p", "Root detail 1": "g"},
+ "P53-C2": {"Height": "g", "Stem detail 1": "n", "Leaf shape": "g", "Flower colour": "g", "Flower detail 01": "g", "Root general": "p"},
+ "P54-C1": {"Life form": "p", "Leaf shape": "p", "Leaf surface": "p", "Flower general": "g", "Flower colour": "g", "Fruit general": "g", "Fruit structure": "p", "Fruit detail 1": "g"},
+ "P55-C1": {"Life form": "n", "Height": "g", "Leaf size": "p", "Leaf detail 1": "g", "Fruit general": "p", "Fruit shape": "p", "Fruit structure": "g"},
+ "P55-C2": {"Life form": "n", "Height": "p", "Leaf size": "p", "Leaf detail 1": "p", "Fruit general": "p", "Fruit shape": "n", "Fruit structure": "g", "Ethnobotany": "g"},
+ "P56-C1": {"Habitus general": "p", "Height": "g", "Leaf surface": "p", "Flower general": "g", "Seed general": "n", "Seed colour": "p", "Habitat": "g"},
+ "P56-C2": {"Habitus general": "p", "Height": "g", "Leaf surface": "g", "Flower general": "g", "Seed general": "n", "Habitat": "p"},
+ "P58-C1": {"Life form": "p", "Habitus general": "n", "Habitus detail 1": "g", "Habitus detail 2": "g", "Stem detail 1": "g", "Leaf general": "g", "Leaf size": "g", "Leaf shape": "g", "Leaf surface": "g", "Leaf detail 2": "p", "Flower general": "g", "Flower detail 01": "p", "Habitat": "p"},
+ "P59-C1": {"Height": "g", "Stem detail 1": "p", "Leaf shape": "g", "Flower general": "g", "Habitat": "g"},
+ "P59-C2": {"Stem detail 1": "p", "Leaf shape": "p", "Flower general": "g", "Habitat": "n"},
+ "P60-C1": {"Life form": "p", "Height": "g", "Leaf shape": "g", "Leaf edge": "g", "Fruit general": "p", "Fruit shape": "g", "Fruit detail 1": "p"}
+}

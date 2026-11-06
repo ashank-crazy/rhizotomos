@@ -8,5 +8,9 @@
   "amaranton": ["expert reading (Data file 3)", "verdicts (Data file 11)"],
   "staphis agria": ["verdict (Data file 11, under the lemma agriostaphida)"],
   "ampelos agria": ["a verdict row under the lemma ampelos (Data file 11) that may belong to this plant"]
+ },
+ "repeat_run_note": "Seen before the repeat run of pass E (data/llm/matching/expert_r2), in addition to the plants above. That run was made on 6 Nov 2026 in a new Claude Code session from the `show expert N` batches only; the first run's calls were not opened. Before it, that session had read the README, RESULTS.md (aggregate figures only) and SUBMISSION.md, and opened the explorer page of one plant.",
+ "repeat_run_plants": {
+  "kyklaminos": ["the explorer page (expert and pass E verdicts per candidate) and SUBMISSION.md, which describes one leaf call"]
  }
 }

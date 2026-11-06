@@ -12,6 +12,7 @@ calls were made (data/llm/contamination.json), with a 95% bootstrap interval ove
 """
 
 import json
+import math
 import random
 import re
 from collections import Counter, defaultdict
@@ -35,8 +36,21 @@ BOOT = 2000
 
 
 def mean(xs):
+    """math.fsum is correctly rounded, so the result does not depend on the Python version (3.12 changed how
+    the built-in sum adds floats)."""
     xs = list(xs)
-    return sum(xs) / len(xs) if xs else None
+    return math.fsum(xs) / len(xs) if xs else None
+
+
+def rounded(obj, places=6):
+    """Floats rounded for results.json, so the last digit of a float never changes the file."""
+    if isinstance(obj, float):
+        return round(obj, places)
+    if isinstance(obj, dict):
+        return {k: rounded(v, places) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [rounded(v, places) for v in obj]
+    return obj
 
 
 def kappa(pairs, labels, weighted=False):
@@ -49,8 +63,8 @@ def kappa(pairs, labels, weighted=False):
     cols = Counter(idx[b] for _, b in pairs)
     w = (lambda i, j: abs(i - j) / (k - 1)) if weighted else (lambda i, j: float(i != j))
     n = len(pairs)
-    seen = sum(w(i, j) * c for (i, j), c in obs.items()) / n
-    chance = sum(w(i, j) * rows[i] * cols[j] for i in range(k) for j in range(k)) / n / n
+    seen = math.fsum(w(i, j) * c for (i, j), c in obs.items()) / n
+    chance = math.fsum(w(i, j) * rows[i] * cols[j] for i in range(k) for j in range(k)) / n / n
     return 1 - seen / chance if chance else None
 
 
@@ -237,29 +251,68 @@ def subsets(rows, unseen):
     return {"all": rows, "unseen": [r for r in rows if r["plant"] in unseen]}
 
 
+# Run to run: the first and the repeat run of pass E
+
+PASS_E = "experts' reading + Claude's matching (pass E)"
+PASS_A = "Claude's reading + Claude's matching (pass A)"
+REPEAT = "experts' reading + Claude's matching (pass E, repeat run)"
+
+
+def run_pairs(first, repeat):
+    """Rows of matching_rows (or verdict_rows) for two runs on the same items, side by side."""
+    assert [(a["plant"], a.get("character", a.get("candidate"))) for a in first] == \
+           [(b["plant"], b.get("character", b.get("candidate"))) for b in repeat], "runs cover different items"
+    return [dict(a, repeat=b) for a, b in zip(first, repeat)]
+
+
+def stability_metrics(calls, verdicts):
+    same_call = lambda rs: mean(r["ours"] == r["repeat"]["ours"] for r in rs)
+    call_kappa = lambda rs: kappa([(r["ours"], r["repeat"]["ours"]) for r in rs], MATCH, weighted=True)
+    same_grade = lambda rs: mean(r["grade"] == r["repeat"]["grade"] for r in rs)
+    grade_kappa = lambda rs: kappa([(r["grade"], r["repeat"]["grade"]) for r in rs], GRADES, weighted=True)
+    # The first run's best candidates stand in for the experts' in top_pick.
+    same_best = lambda rs: top_pick([dict(r, expert_score=r["score"], score=r["repeat"]["score"]) for r in rs])
+    flips = lambda rs: sum((r["grade"] == r["expert_grade"]) != (r["repeat"]["grade"] == r["expert_grade"]) for r in rs)
+    return {
+        "calls": len(calls), "same_call": same_call(calls), "kappa_linear": call_kappa(calls),
+        "same_direction": mean((r["ours"] == "no") == (r["repeat"]["ours"] == "no") for r in calls),
+        "candidates": len(verdicts), "same_grade": same_grade(verdicts), "grade_kappa_linear": grade_kappa(verdicts),
+        "same_best": same_best(verdicts), "expert_agreement_changed": flips(verdicts),
+        "ci": {"same_call": interval(calls, same_call), "same_grade": interval(verdicts, same_grade),
+               "same_best": interval(verdicts, same_best)},
+    }
+
+
 def main():
     plants = load_benchmark()
-    seen = set(json.loads(CONTAMINATION.read_text(encoding="utf-8"))["plants"])
+    contamination = json.loads(CONTAMINATION.read_text(encoding="utf-8"))
+    seen = set(contamination["plants"])
     unseen = {p["key"] for p in plants} - seen
-    results = {"plants": {"all": len(plants), "unseen": len(unseen)}, "seen_plants": sorted(seen)}
+    # Before the repeat run, a few more plants had been seen (see contamination.json).
+    unseen_repeat = unseen - set(contamination.get("repeat_run_plants", {}))
+    results = {"plants": {"all": len(plants), "unseen": len(unseen), "unseen_repeat": len(unseen_repeat)},
+               "seen_plants": sorted(seen), "seen_before_repeat": sorted(set(contamination.get("repeat_run_plants", {})))}
 
     results["reading"] = {"all": reading_metrics(plants),
                           "unseen": reading_metrics([p for p in plants if p["key"] in unseen])}
 
     match_calls = {"Claude (pass E)": load_calls("expert"),
+                   "Claude (pass E, repeat run)": load_calls("expert_r2"),
                    "word overlap": baseline.calls("word overlap"),
                    "all good": baseline.calls("all good")}
+    unseen_for = lambda name: unseen_repeat if "repeat" in name else unseen
     results["matching"] = {}
     for name, calls in match_calls.items():
         rows = matching_rows(calls)
-        results["matching"][name] = {k: matching_metrics(v) for k, v in subsets(rows, unseen).items()}
+        results["matching"][name] = {k: matching_metrics(v) for k, v in subsets(rows, unseen_for(name)).items()}
         results["matching"][name]["ci"] = {
             "agreement": interval(rows, lambda rs: mean(a == b for a, b in compared(rs))),
             "kappa_linear": interval(rows, lambda rs: kappa(compared(rs), MATCH, weighted=True))}
 
     configs = {
-        "experts' reading + Claude's matching (pass E)": calls_by_candidate("expert"),
-        "Claude's reading + Claude's matching (pass A)": calls_by_candidate("ai"),
+        PASS_E: calls_by_candidate("expert"),
+        REPEAT: calls_by_candidate("expert_r2"),
+        PASS_A: calls_by_candidate("ai"),
         "experts' reading + word overlap": calls_by_candidate("expert", match_calls["word overlap"]),
         "experts' reading + everything good": calls_by_candidate("expert", match_calls["all good"]),
         "Claude's reading + everything good": calls_by_candidate("ai", baseline.calls("all good", "ai")),
@@ -267,17 +320,22 @@ def main():
     results["replication"] = replication()
     experts_calls = {(p["key"], c["df_name"]): c["expert_calls"] for p in plants for c in p["candidates"]}
     results["category_counts"] = {"experts": category_counts(experts_calls),
-                                  "pass E": category_counts(configs["experts' reading + Claude's matching (pass E)"]),
-                                  "pass A": category_counts(configs["Claude's reading + Claude's matching (pass A)"])}
+                                  "pass E": category_counts(configs[PASS_E]),
+                                  "pass A": category_counts(configs[PASS_A])}
     results["verdicts"], table = {}, {}
     for name, by_cand in configs.items():
         rows = verdict_rows(by_cand)
-        results["verdicts"][name] = {k: verdict_metrics(v) for k, v in subsets(rows, unseen).items()}
+        results["verdicts"][name] = {k: verdict_metrics(v) for k, v in subsets(rows, unseen_for(name)).items()}
         results["verdicts"][name]["ci"] = {"agreement": interval(rows, agreement),
                                            "kappa_linear": interval(rows, weighted_kappa),
                                            "top_pick": interval(rows, top_pick)}
         for r in rows:
             table.setdefault((r["plant"], r["candidate"]), dict(r, configs={}))["configs"][name] = [r["score"], r["grade"]]
+
+    call_pairs = run_pairs(matching_rows(match_calls["Claude (pass E)"]), matching_rows(match_calls["Claude (pass E, repeat run)"]))
+    verdict_pairs = run_pairs(verdict_rows(configs[PASS_E]), verdict_rows(configs[REPEAT]))
+    results["stability"] = {k: stability_metrics(c, v) for (k, c), (_, v) in
+                            zip(subsets(call_pairs, unseen_repeat).items(), subsets(verdict_pairs, unseen_repeat).items())}
 
     rows = cited_rows(verdict_rows(configs["experts' reading + everything good"]))
     majority = Counter(r["expert_grade"] for r in rows).most_common(1)[0][0]
@@ -293,6 +351,7 @@ def main():
         table[(r["plant"], r["candidate"])]["cited"] = r["cited"]
     results["candidates"] = [{k: v for k, v in r.items() if k not in ("score", "grade")} for r in table.values()]
 
+    results = rounded(results)  # RESULTS.md and the explorer then show exactly the same numbers
     OUT_JSON.write_text(json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")
     OUT_MD.write_text(report(results), encoding="utf-8")
     print(report(results))
@@ -350,7 +409,7 @@ def report(res):
             f"{cc['pass E']['negative']:.2f}). The modern descriptions were extracted by the experts only for the "
             f"characters in their own reading, so a statement of ours in any other category has nothing to be "
             f"matched against and counts as absent.", ""]
-    for name, v in list(res["verdicts"].items())[:2]:
+    for name, v in ((n, res["verdicts"][n]) for n in (PASS_E, PASS_A)):
         out += [f"Confusion, {name} (rows: experts, columns: ours):", "",
                 "| | " + " | ".join(GRADES) + " |", "|---|" + "---|" * len(GRADES)]
         out += [f"| {e} | " + " | ".join(str(v["all"]["confusion"][e][o]) for o in GRADES) + " |" for e in GRADES]
@@ -374,6 +433,27 @@ def report(res):
             "| | " + " | ".join(MATCH) + " |", "|---|" + "---|" * len(MATCH)]
     out += [f"| {e} | " + " | ".join(str(m["confusion"][e][o]) for o in MATCH) + " |" for e in MATCH + ["absent"]]
     out.append("")
+
+    s, su = res["stability"]["all"], res["stability"]["unseen"]
+    e1, e2 = res["verdicts"][PASS_E]["all"], res["verdicts"][REPEAT]["all"]
+    m1, m2 = res["matching"]["Claude (pass E)"]["all"], res["matching"]["Claude (pass E, repeat run)"]["all"]
+    out += ["## Run to run: pass E made twice", "",
+            "Pass E was made a second time, in a new session, from the same blind batches and without opening the "
+            "first run's calls (`data/llm/matching/expert_r2/`). The two runs are compared with each other, and each "
+            f"with the experts. \"Unseen\" here also leaves out {', '.join(res['seen_before_repeat'])}, seen before the "
+            f"repeat run, so it covers {res['plants']['unseen_repeat']} plants.", "",
+            "| | All | Unseen |", "|---|---|---|",
+            f"| Same call in both runs ({s['calls']} statement pairs) | {pct(s['same_call'])}{ci(s['ci']['same_call'], pct)} | {pct(su['same_call'])} |",
+            f"| Weighted κ between the runs, calls | {num(s['kappa_linear'])} | {num(su['kappa_linear'])} |",
+            f"| Same fit-or-contradiction in both runs | {pct(s['same_direction'])} | {pct(su['same_direction'])} |",
+            f"| Same verdict in both runs ({s['candidates']} candidates) | {pct(s['same_grade'])}{ci(s['ci']['same_grade'], pct)} | {pct(su['same_grade'])} |",
+            f"| Weighted κ between the runs, verdicts | {num(s['grade_kappa_linear'])} | {num(su['grade_kappa_linear'])} |",
+            f"| Same best candidate in both runs | {pct(s['same_best'])}{ci(s['ci']['same_best'], pct)} | {pct(su['same_best'])} |",
+            f"| Candidates whose agreement with the experts changed | {s['expert_agreement_changed']} | {su['expert_agreement_changed']} |",
+            "",
+            f"Against the experts, the first run gives the same call on {pct(m1['agreement'])} of statements and the "
+            f"repeat run on {pct(m2['agreement'])}; the same verdict on {pct(e1['agreement'])} and {pct(e2['agreement'])} "
+            f"of candidates; the same best candidate on {pct(e1['top_pick'])} and {pct(e2['top_pick'])} of plants.", ""]
 
     out += ["## Stage A: reading the Greek", "",
             "Which of the 36 characters (and 13 categories) our reading fills, against the experts' reading "

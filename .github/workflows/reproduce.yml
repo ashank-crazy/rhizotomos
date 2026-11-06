@@ -1,0 +1,23 @@
+# Rebuild every number from the committed data on a clean machine and fail if any committed output changes.
+name: reproduce
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  make-all:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: make setup
+      - run: make all
+      - name: Committed outputs are reproduced byte for byte
+        run: git diff --stat --exit-code
