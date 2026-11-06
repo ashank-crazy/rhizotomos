@@ -10,21 +10,23 @@ Copy for the Devpost page, the pitch video's narration and the live-demo script.
 | Project name | Rhizotomos |
 | Elevator pitch | Which plant did Dioscorides mean? Claude repeats the Kew/ZHAW plant-identity method on the Greek of *De materia medica*, and every step is scored against the experts' own data. |
 | Challenge track | Track 1: Traditional Knowledge Mining |
-| Try it out | https://ashank-crazy.github.io/rhizotomos/ and https://github.com/ashank-crazy/rhizotomos |
+| Try it out | https://github.com/ashank-crazy/rhizotomos, the deck link below, and https://ashank-crazy.github.io/rhizotomos/ once GitHub Pages is on |
 | Built with | python, pandas, lxml, openpyxl, tei-xml, javascript, html, css, github-pages, github-actions, make, claude, claude-code |
 | Video | https://youtu.be/38F6FljmmDI |
-| Slides | the 10-slide PDF, `rhizotomos-deck.pdf` |
+| Slides | https://github.com/ashank-crazy/rhizotomos/blob/main/deck/rhizotomos-deck.pdf (10 slides) |
 | Team | Sanchay Singh and Ashank Kumar |
 
 ### About the project
 
 Paste the block below into Devpost's "About the project" box (it accepts Markdown). The first seven headings are
-Devpost's own; the last four cover what the rules ask for: limits, data sources, AI use and the team.
+Devpost's own; the last four cover what the rules ask for: limits and assumptions, data sources, AI use and the team.
 
 ~~~markdown
+**Code:** [github.com/ashank-crazy/rhizotomos](https://github.com/ashank-crazy/rhizotomos) · **Slides (10, PDF):** [rhizotomos-deck.pdf](https://github.com/ashank-crazy/rhizotomos/blob/main/deck/rhizotomos-deck.pdf) · **Video (7 min):** [youtu.be/38F6FljmmDI](https://youtu.be/38F6FljmmDI)
+
 ## Inspiration
 
-Every study that turns a historical remedy into a modern lead, whether in natural-product chemistry, pharmacology or the history of medicine, first has to decide which species an old plant name refers to. Take κυκλάμινος (*De materia medica* 2.164). Dioscorides describes leaves like ivy, mottled with whitish spots, a bare stem four fingers long, purplish flowers and a black, somewhat flat root, and scholars have proposed five different *Cyclamen* species for it. Whatever is looked up next is looked up under one of those names, and the usual answers come from dictionaries, many of them doubtful.
+**The problem.** Every study that turns a historical remedy into a modern lead, whether in natural-product chemistry, pharmacology or the history of medicine, first has to decide which species an old plant name refers to. Take κυκλάμινος (*De materia medica* 2.164). Dioscorides describes leaves like ivy, mottled with whitish spots, a bare stem four fingers long, purplish flowers and a black, somewhat flat root, and scholars have proposed five different *Cyclamen* species for it. Whatever is looked up next is looked up under one of those names, and the usual answers come from dictionaries, many of them doubtful.
 
 In 2024, botanists at Kew and ZHAW (Lardos et al.) published a systematic way to decide, and applied it by hand to 61 plants. It is careful and slow. They also published every match call and verdict under CC BY, which turns their work into an answer key. That gave us a question we could actually test: can an AI model do the same job, and how close does it come?
 
@@ -94,8 +96,11 @@ The **explorer** has a page for each of the 61 plants: the Greek chapter with ev
 
 Firmer identifications help every study that starts from a historical remedy, from natural-product chemistry to the history of medicine.
 
-## Limitations
+## Limitations and assumptions
 
+- **The experts are the reference.** Every figure measures agreement with Lardos et al., not with the true identity of a plant, which nobody knows for certain. Their scoring rule, re-applied in code to their calls, reproduces 117 of their 120 published verdicts, and these re-derived verdicts are the reference.
+- **Only the experts' candidates are scored.** A species that nobody proposed for a plant cannot come out on top.
+- **One edition of the Greek.** Claude reads Wellmann's critical edition, not the manuscripts themselves.
 - The modern side is the experts' extraction from the floras, which covers only characters in their own reading. Matching against descriptions Claude extracts itself is untested.
 - One model made every reading and call. Pass E was made twice, but the reading of the Greek and pass A were made once, so their run-to-run variation is not measured.
 - 61 plants and 122 scored candidates is a small benchmark, and the intervals are wide.

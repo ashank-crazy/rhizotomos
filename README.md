@@ -9,7 +9,7 @@ every step against the experts' own published data.
 **Explorer:** https://ashank-crazy.github.io/rhizotomos/ · plant pages with the Greek, both readings and every
 candidate species, plus the full validation.
 
-**Pitch video:** https://youtu.be/38F6FljmmDI · 7 minutes, captioned.
+**Pitch video:** https://youtu.be/38F6FljmmDI · 7 minutes, captioned. **Slides:** [deck/rhizotomos-deck.pdf](deck/rhizotomos-deck.pdf) · 10 slides.
 
 Built for [EthnoHack 2026](https://ethnohack2026.devpost.com/), Track 1: Traditional Knowledge Mining.
 
@@ -102,6 +102,7 @@ data/llm/         Claude's readings (61 plants) and match calls (733 in pass A, 
                   contamination.json
 data/derived/     chapters, benchmark.json, results.json
 docs/             the static explorer (GitHub Pages)
+deck/             the 10-slide pitch deck (PDF)
 ```
 
 ## AI use and what already existed
@@ -113,8 +114,13 @@ docs/             the static explorer (GitHub Pages)
 - **Already existing:** the Greek text (Wellmann's edition, digitised by First1KGreek), the method, the expert data
   and the scoring rule (Lardos et al. 2024), and the Python libraries pandas, openpyxl and lxml.
 
-## Limitations
+## Limitations and assumptions
 
+- **The experts are the reference.** Every figure measures agreement with Lardos et al., not with the true identity
+  of a plant, which nobody knows for certain. The reference is their verdicts re-derived from their calls (117 of
+  120 match the published ones).
+- **Only the experts' candidates are scored.** A species that nobody proposed for a plant cannot come out on top.
+- **One edition of the Greek.** Claude reads Wellmann's critical edition, not the manuscripts themselves.
 - The modern side is the experts' extraction from the floras, which covers only characters in their own reading, so
   Claude's own reading is penalised for statements outside it. Matching against descriptions Claude extracts itself
   is untested.
