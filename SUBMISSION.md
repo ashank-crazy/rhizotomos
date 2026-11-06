@@ -1,7 +1,7 @@
 # Submission kit
 
-Copy for the Devpost page, the pitch video's narration and the live-demo script. Text in [square brackets] is still to
-fill in. Every number matches [RESULTS.md](RESULTS.md); after rerunning the pipeline, check them again.
+Copy for the Devpost page, the pitch video's narration and the live-demo script. Every number matches
+[RESULTS.md](RESULTS.md); after rerunning the pipeline, check them again.
 
 ## Devpost page
 
@@ -12,7 +12,7 @@ fill in. Every number matches [RESULTS.md](RESULTS.md); after rerunning the pipe
 | Challenge track | Track 1: Traditional Knowledge Mining |
 | Try it out | https://ashank-crazy.github.io/rhizotomos/ and https://github.com/ashank-crazy/rhizotomos |
 | Built with | python, pandas, lxml, openpyxl, javascript, html, css, github-pages, tei-xml, claude |
-| Video | [YouTube link, unlisted] |
+| Video | https://youtu.be/38F6FljmmDI |
 | Slides | the 10-slide PDF, `rhizotomos-deck.pdf` |
 | Team | Sanchay Singh and Ashank Kumar |
 
@@ -113,10 +113,10 @@ Sanchay Singh and Ashank Kumar.
 
 ## Pitch video
 
-7 minutes 4 seconds (the limit is 10), 1920 × 1080 with burned-in captions. Upload it to YouTube as unlisted and put
-the link in the table above. The narration is a synthetic voice (Deepgram Aura-2) reading the script below, and the end
-card says so. The pictures are the deck's slides, except part 5, which is real footage of the explorer recorded in a
-browser and timed to the narration.
+https://youtu.be/38F6FljmmDI · 7 minutes 4 seconds (the limit is 10), 1920 × 1080 with burned-in captions. The
+narration is a synthetic voice (Deepgram Aura-2) reading the script below, and the end card says so. The pictures are
+the deck's slides, except part 5, which is real footage of the explorer recorded in a browser and timed to the
+narration.
 
 | Part | Starts | On screen |
 |---|---|---|

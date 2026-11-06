@@ -9,6 +9,8 @@ every step against the experts' own published data.
 **Explorer:** https://ashank-crazy.github.io/rhizotomos/ · plant pages with the Greek, both readings and every
 candidate species, plus the full validation.
 
+**Pitch video:** https://youtu.be/38F6FljmmDI · 7 minutes, captioned.
+
 Built for [EthnoHack 2026](https://ethnohack2026.devpost.com/), Track 1: Traditional Knowledge Mining.
 
 ## Why it matters
